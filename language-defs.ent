@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!-- EN-Revision: 298760 Maintainer: conf Status: ready -->
 <!-- $Revision$ -->
+<!-- Reviewed: yes -->
 
 <!-- Part titles used mostly in manual.xml itself -->
 <!ENTITY PHPManual         "Руководство по PHP">
