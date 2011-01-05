@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- EN-Revision: 297557 Maintainer: shein Status: ready -->
 <!-- Reviewed: no -->
-<!-- $Id$ -->
+<!-- $Revision$ -->
 <appendix xml:id="transports" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Список поддерживаемых транспортных протоколов</title>
  <para>
