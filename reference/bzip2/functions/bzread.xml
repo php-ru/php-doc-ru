@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 297028 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 308599 Maintainer: shein Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Id -->
 <refentry xml:id="function.bzread" xmlns="http://docbook.org/ns/docbook">
@@ -40,7 +40,8 @@
      <listitem>
       <para>
        Если не указан, <function>bzread</function> будет считывать 1024
-       (несжатых) байта за один раз.
+       (несжатых) байта за один раз. За один раз может быть считано
+       максимум 8192 байта.
       </para>
      </listitem>
     </varlistentry>
@@ -63,7 +64,7 @@
 <?php
 
 $file = "/tmp/foo.bz2";
-$bz = bzopen($file, "r") or die("Couldn't open $file");
+$bz = bzopen($file, "r") or die("Невозможно открыть $file");
 
 $decompressed_file = '';
 while (!feof($bz)) {
@@ -71,7 +72,7 @@ while (!feof($bz)) {
 }
 bzclose($bz);
 
-echo "The contents of $file are: <br />\n";
+echo "Содержимое $file: <br />\n";
 echo $decompressed_file;
 
 ?>
