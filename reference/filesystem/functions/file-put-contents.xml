@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 306217 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 309200 Maintainer: shein Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
+
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.file-put-contents">
  <refnamediv>
   <refname>file_put_contents</refname>
