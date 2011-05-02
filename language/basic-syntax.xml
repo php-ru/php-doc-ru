@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 297962 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 310698 Maintainer: shein Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
  <chapter xml:id="language.basic-syntax" xmlns="http://docbook.org/ns/docbook">
@@ -195,8 +195,8 @@ if ($expression) {
     <informalexample>
      <programlisting role="php">
 <![CDATA[
-<h1>Это <?php # echo "простой";?> пример.</h1>
-<p>Заголовок вверху выведет 'Это пример'.
+<h1>Это <?php # echo "простой";?> пример</h1>
+<p>Заголовок вверху выведет 'Это пример'.</p>
 ]]>
      </programlisting>
     </informalexample>
