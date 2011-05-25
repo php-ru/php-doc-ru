@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 297028 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 311354 Maintainer: shein Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="function.getdate" xmlns="http://docbook.org/ns/docbook">
@@ -161,6 +161,7 @@ Array
    <simplelist>
     <member><function>date</function></member>
     <member><function>idate</function></member>
+    <member><function>localtime</function></member>
     <member><function>time</function></member>
     <member><function>setlocale</function></member>
    </simplelist>
