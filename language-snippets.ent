@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 310390 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 311626 Maintainer: shein Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <!-- Keep 'em sorted -->
@@ -94,8 +94,9 @@
 <varname>$_POST</varname>, <varname>$_SERVER</varname> и т.д. Дополнительную
 информацию смотрите в разделе руководства &link.superglobals;</para></note>'>
 
-<!ENTITY note.uses-ob '<note xmlns="http://docbook.org/ns/docbook"><para>Эта функция использует внутреннюю буферизацию
-вывода с этим параметром, поэтому она не может быть использована внутри коллбэк-функции <function>ob_start</function>.</para></note>'>
+<!ENTITY note.uses-ob '<note xmlns="http://docbook.org/ns/docbook"><para>При использовании параметра
+<parameter>return</parameter> данная функция использует внутреннюю буферизацию вывода, поэтому она
+не может быть использована внутри callback-функции <function>ob_start</function>.</para></note>'>
 
 <!ENTITY note.filesystem-time-res '<note xmlns="http://docbook.org/ns/docbook"><para>Учтите, что обработка времени может
 отличаться в различных файловых системах.</para></note>'>
