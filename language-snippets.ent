@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 312095 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 312832 Maintainer: shein Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <!-- Keep 'em sorted -->
@@ -104,6 +104,14 @@
 <!ENTITY note.uses-autoload '<note xmlns="http://docbook.org/ns/docbook">
 <para>Вызов этой функции будет использовать все зарегистрированные
 <link linkend="language.oop5.autoload">функции автозагрузки</link>, если класс еще неизвестен.</para></note>'>
+
+<!ENTITY note.network.header.sapi '<note xmlns="http://docbook.org/ns/docbook">
+   <para>
+    Доступ к заголовкам и их вывод будет осуществляться только в
+    случае, если в используемом вами SAPI есть их поддержка.
+   </para>
+  </note>
+'>
 
 <!-- Tips -->
 
