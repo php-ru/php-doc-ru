@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 307739 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 313291 Maintainer: shein Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="function.preg-split" xmlns="http://docbook.org/ns/docbook">
@@ -48,10 +48,10 @@
       <para>
        Если указан, функция возвращает не более, чем
        <parameter>limit</parameter> подстрок, оставшаяся часть строки
-       будет возвращена в последней подстроке. Специальные значения
-       <parameter>limit</parameter>, равное -1, 0 или null
+       будет возвращена в последней подстроке. Специальное значение
+       <parameter>limit</parameter>, равное -1, 0 или &null;
        подразумевает отсутствие ограничения, и, в качестве фактического
-       стандарта в PHP, можно использовать null для пропуска параметра
+       стандарта в PHP, можно использовать &null; для пропуска параметра
        <parameter>flags</parameter>.
       </para>
      </listitem>
