@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 288721 Maintainer: daniil Status: ready -->
+<!-- EN-Revision: 313269 Maintainer: daniil Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
-<!-- Purpose: compression -->
 <!-- Membership: bundled, pecl -->
  
 <book xml:id="book.zip" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">

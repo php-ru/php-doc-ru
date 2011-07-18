@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 288721 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 313269 Maintainer: shein Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
-<!-- Purpose: remote.other -->
 <!-- Membership: bundled, external -->
  
 <book xml:id="book.curl" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
