@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 309965 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 313279 Maintainer: shein Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.sprintf">
@@ -221,6 +221,27 @@ printf($format, $num, $location);
 ?>
 ]]>
         </programlisting>
+       </example>
+       При изменении порядка параметров
+       <emphasis>описатель позиции</emphasis> <literal>n$</literal>
+       должен идти сразу за знаком процента (<literal>%</literal>) прежде
+       всех остальных описателей, как показано в примере ниже.
+       <example>
+        <title>Использование описателя позиции и совместо с другими описателями</title>
+        <programlisting role="php">
+<![CDATA[
+<?php
+$format= 'На %2$s сидят %1$04d обезьян';
+printf($format, $num, $location);
+?>
+]]>
+        </programlisting>
+        &example.outputs;
+        <screen>
+<![CDATA[
+На дереве сидят 0005 обезьян
+]]>
+        </screen>
        </example>
       </para>
      </listitem>
