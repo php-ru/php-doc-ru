@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 312832 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 313306 Maintainer: shein Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <!-- Keep 'em sorted -->
@@ -111,6 +111,17 @@
     случае, если в используемом вами SAPI есть их поддержка.
    </para>
   </note>
+'>
+
+<!ENTITY note.passwordhashing '<note xmlns="http://docbook.org/ns/docbook">
+ <title>Безопасное хэширование паролей</title>
+ <para>
+  В связи с быстрой природой хэширующего алгоритма не рекомендуется
+  использовать эту функцию для обеспечения безопасности паролей.
+  Подробнее об этом можно прочитать
+  <link linkend="faq.passwords.fasthash">здесь</link>.
+ </para>
+</note>
 '>
 
 <!-- Tips -->
