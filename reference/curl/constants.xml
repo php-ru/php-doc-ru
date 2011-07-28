@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- EN-Revision: 312675 Maintainer: irker Status: ready -->
 <!-- Reviewed: no -->
-<!-- $Id -->
+<!-- $Revision$ -->
 <appendix xml:id="curl.constants" xmlns="http://docbook.org/ns/docbook">
  &reftitle.constants;
  &extension.constants;
@@ -1477,7 +1477,7 @@
    </term>
    <listitem>
     <simpara>
-     Доступно начиная с PHP 5.4.0 и cURL 7.15.5
+     Доступна начиная с PHP 5.4.0 и cURL 7.15.5
     </simpara>
    </listitem>
   </varlistentry>
@@ -1490,7 +1490,7 @@
    </term>
    <listitem>
     <simpara>
-     Доступно начиная с PHP 5.4.0 и cURL 7.15.5
+     Доступна начиная с PHP 5.4.0 и cURL 7.15.5
     </simpara>
    </listitem>
   </varlistentry>
