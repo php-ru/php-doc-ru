@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- EN-Revision: 300047 Maintainer: shein Status: ready -->
-<!-- Reviewed: no -->
+<!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="function.curl-setopt-array" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>

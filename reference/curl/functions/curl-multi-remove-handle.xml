@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 314119 Maintainer: shein Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 305713 Maintainer: shein Status: ready -->
+<!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="function.curl-multi-remove-handle" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -39,8 +39,8 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   В случае успеха возвращает 0, или одну из констант
-   <constant>CURLM_XXX</constant>.
+   В случае успеха возвращает дескриптор cURL, в случае неудачи
+   возвращает &false;.
   </para>
  </refsect1>
 
