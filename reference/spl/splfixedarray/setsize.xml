@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- $Revision$ -->
-<!-- EN-Revision: 297078 Maintainer: das Status: ready -->
+<!-- EN-Revision: 315005 Maintainer: das Status: ready -->
 <!-- Reviewed: no -->
+<!-- $Revision$ -->
 <refentry xml:id="splfixedarray.setsize" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>SplFixedArray::setSize</refname>
@@ -26,7 +26,7 @@
     <varlistentry>
      <term><parameter>size</parameter></term>
      <listitem>
-      <para>       
+      <para>
        Новое значение размера массива.
       </para>
      </listitem>

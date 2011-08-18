@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- EN-Revision: 312682 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 315005 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
-<!-- $Id -->
+<!-- $Revision$ -->
 <appendix xml:id="dir.constants" xmlns="http://docbook.org/ns/docbook">
  &reftitle.constants;
  &extension.constants;
