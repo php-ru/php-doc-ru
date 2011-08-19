@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 312846 Maintainer: irker Status: ready -->
+<!-- EN-Revision: 315183 Maintainer: irker Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 
@@ -129,7 +129,7 @@ $ svn checkout http://svn.php.net/repository/pecl/extname/trunk extname
    <title>Где найти расширение?</title>
    <para>
     PHP-расширения обычно имеют имена вида "php_*.dll" (где звездочка обозначает
-    имя расширения) и располагаются в папке "PHP\ext" ("PHP\extensions" в PHP4).
+    имя расширения) и располагаются в папке "PHP\ext" ("PHP\extensions" в PHP 4).
    </para>
    <para>
     PHP поставляет расширения наиболее полезные большинству разработчиков. Такие
