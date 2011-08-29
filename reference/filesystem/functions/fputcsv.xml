@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- EN-Revision: 315005 Maintainer: shein Status: ready -->
-<!-- Reviewed: no -->
+<!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.fputcsv">
  <refnamediv>
@@ -76,7 +76,7 @@
   &reftitle.examples;
   <para>
    <example>
-    <title>Пример использования функции <function>fputcsv</function></title>
+    <title>Пример использования <function>fputcsv</function></title>
     <programlisting role="php">
 <![CDATA[
 <?php

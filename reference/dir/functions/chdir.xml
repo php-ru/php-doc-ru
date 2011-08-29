@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 297028 Maintainer: shein Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 315520 Maintainer: shein Status: ready -->
+<!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <!-- splitted from ./en/functions/dir.xml, last change in rev 1.2 -->
 <refentry xml:id="function.chdir" xmlns="http://docbook.org/ns/docbook">
@@ -41,9 +41,16 @@
   &reftitle.returnvalues;
   <para>
    &return.success;
-  </para>
+  </para> 
  </refsect1>
 
+ <refsect1 role="errors">
+  &reftitle.errors;
+  <para>
+   В случае ошибки создает исключение уровня <constant>E_WARNING</constant>.
+  </para>
+ </refsect1>
+ 
  <refsect1 role="examples">
   &reftitle.examples;
   <para>
