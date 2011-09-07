@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 304621 Maintainer: das Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 314896 Maintainer: das Status: ready -->
+<!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id='domnode.removechild' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
