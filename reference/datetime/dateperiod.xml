@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 299689 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 316532 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 
@@ -66,19 +66,15 @@
 <!-- {{{ DatePeriod constants -->
   <section xml:id="dateperiod.constants">
    &reftitle.constants;
-   <section xml:id="dateperiod.constants.types">
-    <title>Константы класса DatePeriod</title>
-    <variablelist>
+   <variablelist>
+    <varlistentry xml:id="dateperiod.constants.exclude-start-date">
+     <term><constant>DatePeriod::EXCLUDE_START_DATE</constant></term>
+     <listitem>
+      <para>Исключает начальную дату, используется в <function>DatePeriod::__construct</function>.</para>
+     </listitem>
+    </varlistentry>
 
-     <varlistentry xml:id="dateperiod.constants.exclude-start-date">
-      <term><constant>DatePeriod::EXCLUDE_START_DATE</constant></term>
-      <listitem>
-       <para>Исключает начальную дату, используется в <function>DatePeriod::__construct</function>.</para>
-      </listitem>
-     </varlistentry>
-
-    </variablelist>
-   </section>
+   </variablelist>
   </section>
 <!-- }}} -->
 
