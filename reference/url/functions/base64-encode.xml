@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 297028 Maintainer: tony2001 Status: ready -->
+<!-- EN-Revision: 317921 Maintainer: tony2001 Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="function.base64-encode" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -46,7 +46,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Кодированные данные, как строку.
+   Кодированные данные, как строку &return.falseforfailure;.
   </para>
  </refsect1>
 
