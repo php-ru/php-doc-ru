@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 290998 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 318215 Maintainer: aur Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 
@@ -12,7 +12,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>public</modifier> <type>object</type><methodname>ReflectionClass::getMethod</methodname>
+   <modifier>public</modifier> <type>ReflectionMethod</type><methodname>ReflectionClass::getMethod</methodname>
    <methodparam><type>string</type><parameter>name</parameter></methodparam>
   </methodsynopsis>
   <para>
