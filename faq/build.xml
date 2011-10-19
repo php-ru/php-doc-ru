@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 306725 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 317487 Maintainer: shein Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Id -->
 <chapter xml:id="faq.build" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <title>Проблемы Сборки</title>
-  <titleabbrev>Проблемы Сборки</titleabbrev>
+  <title>Проблемы сборки</title>
+  <titleabbrev>Проблемы сборки</titleabbrev>
 
   <para>
    В этом разделе собраны наиболее общие ошибки, возникающие на этапе сборки.
@@ -24,7 +24,7 @@
       конфигурационный скрипт из <filename>configure.in</filename>.
       После получения исходников с SVN сервера просто запустите
       <command>./buildconf</command> в директории верхнего уровня.
-      (Также, если вы запускаете configure без опции
+      (Также, если вы запускаете <command>configure</command> без опции
       <literal>--enable-maintainer-mode</literal>, то конфигурационный 
       скрипт не будет перестроен автоматически при изменении файла
       <filename>configure.in</filename>, поэтому вам необходимо делать это
