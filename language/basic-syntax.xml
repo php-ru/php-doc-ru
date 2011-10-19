@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 310698 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 318140 Maintainer: shein Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
  <chapter xml:id="language.basic-syntax" xmlns="http://docbook.org/ns/docbook">
@@ -121,6 +121,13 @@ if ($expression) {
       В PHP 5.2 и более ранних версиях парсер не позволял файлам содержать только
       один открытый тег <literal>&lt;?php</literal>. Это было разрешено, начиная
       с версии PHP 5.3.
+     </para>
+    </note>
+    <note>
+     <para>
+       Начиная с версии PHP 5.4, короткий тег вывода <literal>&lt;?=</literal>
+       распознается всегда, вне зависимости от значения директивы
+      <link linkend="ini.short-open-tag">short_open_tag</link>.
      </para>
     </note>
    </para>
