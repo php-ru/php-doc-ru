@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 288721 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 318236 Maintainer: mch Status: ready -->
 <!-- $Revision$ -->
 <!-- Reviewed: no -->
 
@@ -17,6 +17,7 @@
  &language.predefined.iteratoraggregate;
  &language.predefined.arrayaccess;
  &language.predefined.serializable;
+ &language.predefined.closure;
 
 </part>
 
