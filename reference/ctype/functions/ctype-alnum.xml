@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 300785 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 318662 Maintainer: shein Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="function.ctype-alnum" xmlns="http://docbook.org/ns/docbook">
@@ -75,6 +75,11 @@ foreach ($strings as $testcase) {
   </para>
  </refsect1>
 
+  <refsect1 role="notes">
+  &reftitle.notes;
+  &note.ctype.parameter.integer;
+ </refsect1>
+ 
  <refsect1 role="seealso">
   &reftitle.seealso;
   <para>
