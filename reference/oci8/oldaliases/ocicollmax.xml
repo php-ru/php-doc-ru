@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 312795 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 318756 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <refentry xml:id="function.ocicollmax" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ocicollmax</refname>
-  <refpurpose>&Alias; <function>oci_collection_max</function></refpurpose>
+  <refpurpose>&Alias; <link linkend="function.oci-collection-max">OCI-Collection->max</link></refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
   &reftitle.description;
-  <simpara>
-   &info.function.alias; <function>oci_collection_max</function>.
-  </simpara>
+  &warn.deprecated.alias-5-4-0;
  </refsect1>
 
 </refentry>
