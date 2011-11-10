@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 297028 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 318986 Maintainer: shein Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <section xml:id="pcre.configuration" xmlns="http://docbook.org/ns/docbook">
@@ -20,7 +20,7 @@
     <tbody>
      <row>
       <entry><link linkend="ini.pcre.backtrack-limit">pcre.backtrack_limit</link></entry>
-      <entry>"100000"</entry>
+      <entry>"1000000"</entry>
       <entry>PHP_INI_ALL</entry>
       <entry>Доступна с PHP 5.2.0.</entry>
      </row>
