@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- EN-Revision: 316017 Maintainer: shein Status: ready -->
-<!-- Reviewed: no -->
+<!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.get-html-translation-table">
  <refnamediv>
