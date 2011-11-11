@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- EN-Revision: 297556 Maintainer: shein Status: ready -->
-<!-- Reviewed: no -->
+<!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.clearstatcache">
  <refnamediv>
@@ -45,7 +45,8 @@
    </para>
   </note>
   <para>
-   Список функций, результаты выполнения которых кешируются: <function>stat</function>,
+   Список функций, результаты выполнения которых кешируются:
+   <function>stat</function>,
    <function>lstat</function>,
    <function>file_exists</function>,
    <function>is_writable</function>,
