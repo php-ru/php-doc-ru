@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 297028 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 319265 Maintainer: mch Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 
-<refentry xml:id='xmlreader.getparserproperty' xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="xmlreader.getparserproperty" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>XMLReader::getParserProperty</refname>
   <refpurpose>
