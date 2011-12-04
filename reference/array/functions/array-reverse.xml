@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 297028 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 320282 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="function.array-reverse" xmlns="http://docbook.org/ns/docbook">
@@ -36,6 +36,7 @@
      <listitem>
       <para>
        Если установлено в &true;, то ключи будут сохранены.
+       Нечисловые ключи не подвержены этой опции и всегда сохраняются.
       </para>
      </listitem>
     </varlistentry>
