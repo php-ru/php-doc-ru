@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 312956 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 320380 Maintainer: mch Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 
@@ -321,6 +321,24 @@
     </varlistentry>
 
     <varlistentry>
+     <term>'<varname>REMOTE_USER</varname>'</term>
+     <listitem>
+      <simpara>
+        Аутентифицированный пользователь.
+      </simpara>
+     </listitem>
+    </varlistentry>
+
+    <varlistentry>
+     <term>'<varname>REDIRECT_REMOTE_USER</varname>'</term>
+     <listitem>
+      <simpara>
+        Аутентифицированный пользователь, если запрос был перенаправлен изнутри.
+      </simpara>
+     </listitem>
+    </varlistentry>
+
+    <varlistentry>
      <term>'<varname>SCRIPT_FILENAME</varname>'</term>
      <listitem>
       <para>
@@ -348,7 +366,7 @@
       </simpara>
      </listitem>
     </varlistentry>
-    
+
     <varlistentry>
      <term>'<varname>SERVER_PORT</varname>'</term>
      <listitem>
