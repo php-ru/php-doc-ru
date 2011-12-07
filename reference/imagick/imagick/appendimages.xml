@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 310561 Maintainer: alien Status: ready -->
+<!-- EN-Revision: 320460 Maintainer: alien Status: ready -->
 <!-- Reviewed: no -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-appendimages">
  <refnamediv>
@@ -41,10 +41,16 @@
   &reftitle.returnvalues;
   <para>
    В случае успеха возвращает экземпляр Imagick.
-   &imagick.imagickexception.throw;
   </para>
  </refsect1>
 
+ <refsect1 role="errors">
+  &reftitle.errors;
+  <para>
+   &imagick.imagick.throws;
+  </para>
+ </refsect1> 
+ 
  <refsect1 role="examples">
   &reftitle.examples;
   <para>

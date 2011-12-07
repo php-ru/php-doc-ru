@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: alien Status: ready -->
+<!-- EN-Revision: 320460 Maintainer: alien Status: ready -->
 <!-- Reviewed: no -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-blurimage">
  <refnamediv>
@@ -16,7 +16,6 @@
    <methodparam><type>float</type><parameter>sigma</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>channel</parameter></methodparam>
   </methodsynopsis>
-  &warn.undocumented.func;
   <para>
    Добавляет фильтр размытия к изображению. Необязательный третий параметр служит для
    размытия определенного канала.
