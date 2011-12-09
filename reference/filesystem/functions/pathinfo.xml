@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 320471 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 320704 Maintainer: shein Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.pathinfo">
@@ -145,7 +145,7 @@ var_dump($path_parts['extension']);
     <screen>
 <![CDATA[
 string(0) ""
-PHP Notice:  Undefined index: extension in test.php on line 6
+Notice:  Undefined index: extension in test.php on line 6
 
 Notice: Undefined index: extension in test.php on line 6
 NULL
