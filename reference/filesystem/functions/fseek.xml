@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 305317 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 320623 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.fseek">
@@ -7,7 +7,7 @@
   <refname>fseek</refname>
   <refpurpose>Устанавливает смещение в файловом указателе</refpurpose>
  </refnamediv>
-
+ 
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
