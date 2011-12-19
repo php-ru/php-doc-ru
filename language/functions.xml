@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 318884 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 321092 Maintainer: shein Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
  <chapter xml:id="language.functions" xmlns="http://docbook.org/ns/docbook">
@@ -172,7 +172,8 @@ function recursion($a)
  
    <simpara>
     Функция может принимать информацию в виде списка аргументов,
-    который является списком разделенных запятыми выражений.
+    который является списком разделенных запятыми выражений. Аргументы
+    вычисляются слева направо.
    </simpara> 
    <para>
     PHP поддерживает передачу аргументов по значению (по умолчанию), <link

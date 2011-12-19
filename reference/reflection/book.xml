@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 313268 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 321133 Maintainer: aur Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <!-- Membership: core -->
@@ -30,6 +30,7 @@
  &reference.reflection.extending;
  &reference.reflection.reflection;
  &reference.reflection.reflectionclass;
+ &reference.reflection.reflectionzendextension;
  &reference.reflection.reflectionextension;
  &reference.reflection.reflectionfunction;
  &reference.reflection.reflectionfunctionabstract;
