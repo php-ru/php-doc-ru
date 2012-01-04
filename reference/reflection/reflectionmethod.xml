@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 301620 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 321705 Maintainer: aur Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 
@@ -128,8 +128,8 @@
 <!-- {{{ ReflectionMethod constants -->
   <section xml:id="reflectionmethod.constants">
    &reftitle.constants;
-   <section xml:id="reflectionmethod.constants.types">
-    <title>Типы узлов ReflectionMethod</title>
+   <section xml:id="reflectionmethod.constants.modifiers">
+    <title>Модификаторы ReflectionMethod</title>
     <variablelist>
 
      <varlistentry xml:id="reflectionmethod.constants.is-static">
