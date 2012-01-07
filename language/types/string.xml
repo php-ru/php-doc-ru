@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 320209 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 321825 Maintainer: shein Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <sect1 xml:id="language.types.string">
@@ -393,12 +393,6 @@ FOOBAR;
     </programlisting>
    </example>
 
-   <note>
-    <para>
-     Поддержка heredoc была добавлена в PHP 4.
-    </para>
-   </note>
-
   </sect3>
   
   <sect3 xml:id="language.types.string.syntax.nowdoc">
@@ -517,8 +511,8 @@ EOT;
    </simpara>
 
    <simpara>
-    Сложный синтаксис был введен в PHP 4 и может быть определен
-    по фигурным скобкам, окружающих выражение.
+    Сложный синтаксис может быть определен
+    по фигурным скобкам, окружающим выражение.
    </simpara>
 
    <sect4 xml:id="language.types.string.parsing.simple">
