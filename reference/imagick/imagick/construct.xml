@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320460 Maintainer: alien Status: ready -->
+<!-- EN-Revision: 321903 Maintainer: alien Status: ready -->
 <!-- Reviewed: no -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-construct">
  <refnamediv>
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>Imagick</type><methodname>Imagick::__construct</methodname>
+   <methodname>Imagick::__construct</methodname>
    <methodparam><type>mixed</type><parameter>files</parameter></methodparam>
   </methodsynopsis>
   <para>
