@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 321705 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 321891 Maintainer: aur Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 
@@ -16,12 +16,6 @@
    <para>
     Класс <classname>ReflectionFunction</classname> сообщает
     информацию о функциях.
-   </para>
-   <para>
-    Такие же методы, за исключением <function>invoke</function>,
-    <function>invokeArgs</function>, <function>export</function> и
-    <function>isDisabled</function>, имеются в родительском классе
-    <classname>ReflectionFunctionAbstract</classname>.
    </para>
   </section>
 <!-- }}} -->
