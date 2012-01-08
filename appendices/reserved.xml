@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 318236 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 321886 Maintainer: mch Status: ready -->
 <!-- $Revision$ -->
 <!-- Reviewed: no -->
 
@@ -316,7 +316,7 @@
       <term><classname>Directory</classname></term>
       <listitem>
        <simpara>
-        Класс, от которого класс <link linkend="class.dir">dir</link> создает экземпляр.
+        Создается функцией <function>dir</function>.
        </simpara>
       </listitem>
      </varlistentry>
