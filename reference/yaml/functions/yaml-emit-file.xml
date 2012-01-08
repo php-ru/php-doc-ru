@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 317663 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 321919 Maintainer: aur Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 
@@ -78,7 +78,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Возвращает <literal>TRUE</literal> в случае успеха.
+   Возвращает &true; в случае успеха.
   </para>
  </refsect1>
 
