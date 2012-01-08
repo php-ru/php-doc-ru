@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: das Status: ready -->
+<!-- EN-Revision: 321499 Maintainer: das Status: ready -->
 <!-- Reviewed: no -->
 <chapter xml:id="mysqlnd.persist" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Persistent Connections</title>
@@ -34,10 +34,12 @@ shell# CFLAGS="-DMYSQLI_NO_CHANGE_USER_ON_PCONNECT" ./configure --with-mysql=/us
   Or alternatively:
  </para>
 <programlisting>
+<![CDATA[
 shell# export CFLAGS="-DMYSQLI_NO_CHANGE_USER_ON_PCONNECT"
 shell# configure --whatever-option
 shell# make clean
 shell# make
+]]>
 </programlisting>
  <para>
   Обратите внимание, что только <literal>mysqli</literal> совместно с <literal>mysqlnd</literal>
