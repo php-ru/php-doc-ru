@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 313115 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 322008 Maintainer: mch Status: ready -->
 <!-- $Revision$ -->
 <!-- Reviewed: yes -->
 <refentry xml:id="mysqli.affected-rows" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>mysqli::affected_rows</refname>
+  <refname>mysqli::$affected_rows</refname>
   <refname>mysqli_affected_rows</refname>
   <refpurpose>Получает число строк, затронутых предыдущей операцией MySQL</refpurpose>
  </refnamediv>
@@ -12,10 +12,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <para>&style.oop;</para>
-  <classsynopsis>
-   <ooclass><classname>mysqli</classname></ooclass>
-   <fieldsynopsis><type>int</type><varname>affected_rows</varname></fieldsynopsis>
-  </classsynopsis>
+  <fieldsynopsis><type>int</type><varname linkend="mysqli.affected-rows">mysqli->affected_rows</varname></fieldsynopsis>
   <para>&style.procedural;</para>
   <methodsynopsis>
    <type>int</type><methodname>mysqli_affected_rows</methodname>
