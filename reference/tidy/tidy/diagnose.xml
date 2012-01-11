@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!-- EN-Revision: 290702 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 322035 Maintainer: mch Status: ready -->
 <!-- $Revision$ -->
 <!-- Reviewed: no -->
-<refentry xml:id="function.tidy-diagnose" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="tidy.diagnose" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>tidy::diagnose</refname>
   <refname>tidy_diagnose</refname>
