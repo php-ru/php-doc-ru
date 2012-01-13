@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: bfl Status: ready -->
+<!-- EN-Revision: 322131 Maintainer: bfl Status: ready -->
 <!-- Reviewed: no -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.realpath_cache_size">
+<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.realpath-cache-size">
  <refnamediv>
   <refname>realpath_cache_size</refname>
   <refpurpose>Получает размер кэша реального пути</refpurpose>

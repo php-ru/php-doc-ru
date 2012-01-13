@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 312729 Maintainer: bfl Status: ready -->
+<!-- EN-Revision: 322061 Maintainer: bfl Status: ready -->
 <!-- Reviewed: no -->
 <section xml:id="network.configuration" xmlns="http://docbook.org/ns/docbook">
  &reftitle.runtime;
@@ -11,10 +11,10 @@
    <tgroup cols="4">
     <thead>
      <row>
-      <entry>Название</entry>
-      <entry>По умолчанию</entry>
-      <entry>Переменная</entry>
-      <entry>История изменений</entry>
+      <entry>&Name;</entry>
+      <entry>&Default;</entry>
+      <entry>&Changeable;</entry>
+      <entry>&Changelog;</entry>
      </row>
     </thead>
     <tbody>
