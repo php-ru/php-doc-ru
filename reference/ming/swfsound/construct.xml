@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 321903 Maintainer: northcat Status: ready -->
+<!-- EN-Revision: 322115 Maintainer: northcat Status: ready -->
 <!-- Reviewed: no -->
-<refentry xml:id="function.swfsound.construct" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="swfsound.construct" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>SWFSound</refname>
   <refpurpose>Возвращает новый объект SWFSound из заданного файла</refpurpose>

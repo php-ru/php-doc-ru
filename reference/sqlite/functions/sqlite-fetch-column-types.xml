@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- EN-Revision: 315005 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 322122 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="function.sqlite-fetch-column-types" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>sqlite_fetch_column_types</refname>
-  <refname>SQLiteDatabase->fetchColumnTypes</refname>
+  <refname>SQLiteDatabase::fetchColumnTypes</refname>
   <refpurpose>
    Возвращает массив, содержащий информацию о типах полей в таблице
   </refpurpose>
@@ -19,7 +19,7 @@
    <methodparam><type>resource</type><parameter>dbhandle</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>result_type</parameter><initializer>SQLITE_ASSOC</initializer></methodparam>
   </methodsynopsis>
-  <para>Объектно-ориентированный стиль (метод):</para>
+  <para>&style.oop; (метод):</para>
   <classsynopsis>
    <ooclass><classname>SQLiteDatabase</classname></ooclass>
    <methodsynopsis>

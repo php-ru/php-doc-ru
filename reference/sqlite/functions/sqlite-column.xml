@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 297028 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 322122 Maintainer: shein Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="function.sqlite-column" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>sqlite_column</refname>
-  <refname>SQLiteResult->column</refname>
-  <refname>SQLiteUnbuffered->column</refname>
+  <refname>SQLiteResult::column</refname>
+  <refname>SQLiteUnbuffered::column</refname>
   <refpurpose>Выбирает столбец из текущей записи результата запроса</refpurpose>
  </refnamediv>
 

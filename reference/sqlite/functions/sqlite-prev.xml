@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 297028 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 322122 Maintainer: shein Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="function.sqlite-prev" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>sqlite_prev</refname>
-  <refname>SQLiteResult->prev</refname>
+  <refname>SQLiteResult::prev</refname>
   <refpurpose>Переходит на предыдущую запись</refpurpose>
  </refnamediv>
 
@@ -15,7 +15,7 @@
    <type>bool</type><methodname>sqlite_prev</methodname>
    <methodparam><type>resource</type><parameter>result</parameter></methodparam>
   </methodsynopsis>
-  <para>Object oriented style (method):</para>
+  <para>&style.oop; (method):</para>
   <classsynopsis>
    <ooclass><classname>SQLiteResult</classname></ooclass>
    <methodsynopsis>
