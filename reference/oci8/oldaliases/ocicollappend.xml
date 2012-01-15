@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 318756 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 322122 Maintainer: shein Status: ready -->
 <!-- Reviewed: no -->
 <refentry xml:id="function.ocicollappend" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ocicollappend</refname>
-  <refpurpose>&Alias; <link linkend="function.oci-collection-append">OCI-Collection->append</link></refpurpose>
+  <refpurpose>&Alias; <function>OCI-Collection::append</function></refpurpose>
  </refnamediv>
  
  <refsect1 role="description">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 305261 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 322237 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="domdocument.loadhtmlfile" xmlns="http://docbook.org/ns/docbook">
@@ -53,6 +53,7 @@
    библиотеки libxml</link>.
   </para>
   &dom.allowstatic;
+  &dom.malformederror;
  </refsect1>
  <refsect1 role="examples">
   &reftitle.examples;

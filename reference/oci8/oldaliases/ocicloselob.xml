@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision$ -->
-<!-- EN-Revision: 318756 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 322122 Maintainer: shein Status: ready -->
 <!-- Reviewed: no -->
+<!-- $Revision$ -->
 <refentry xml:id="function.ocicloselob" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ocicloselob</refname>
-  <refpurpose>&Alias; <link linkend="function.oci-lob-close">OCI-Lob->close</link></refpurpose>
+  <refpurpose>&Alias; <function>OCI-Lob::close</function></refpurpose>
  </refnamediv>
  
  <refsect1 role="description">

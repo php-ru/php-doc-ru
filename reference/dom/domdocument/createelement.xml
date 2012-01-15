@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 300172 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 322122 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="domdocument.createelement" xmlns="http://docbook.org/ns/docbook">
@@ -38,8 +38,8 @@
      <listitem>
       <para>
        Значение элемента. По умолчанию будет создан пустой элемент.
-       Значение может быть установлено позднее с помощью функции
-       <literal>DOMElement->nodeValue</literal>.
+       Значение может быть установлено позднее с помощью функции <link
+       linkend="domnode.props.nodevalue">DOMElement::$nodeValue</link>.
       </para>
      </listitem>
     </varlistentry>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 299688 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 322122 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="domdocument.xinclude" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -55,7 +55,7 @@
   &reftitle.examples;
   <para>
    <example>
-    <title>Пример использования DOMDocument->xinclude()</title>
+    <title>Пример использования DOMDocument::xinclude()</title>
     <programlisting role="php">
 <![CDATA[
 <?php

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 297028 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 322140 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 
@@ -711,7 +711,13 @@ morerows='1'>b1</entry><entry>c1</entry></row>
     </para>
    </section>
   </partintro>
-
+&reference.domxml.entities.DomAttribute;
+&reference.domxml.entities.DomDocument;
+&reference.domxml.entities.DomDocumentType;
+&reference.domxml.entities.DomElement;
+&reference.domxml.entities.DomNode;
+&reference.domxml.entities.DomProcessingInstruction;
+&reference.domxml.entities.DomXsltStylesheet;
 &reference.domxml.entities.functions;
 
  </reference>
