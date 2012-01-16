@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 307740 Maintainer: alien Status: ready -->
+<!-- EN-Revision: 322061 Maintainer: alien Status: ready -->
 <!-- Reviewed: no -->
 <section xml:id="imagick.configuration" xmlns="http://docbook.org/ns/docbook">
  &reftitle.runtime;
@@ -11,21 +11,21 @@
    <tgroup cols="4">
     <thead>
      <row>
-      <entry>Имя</entry>
-      <entry>По умолчанию</entry>
-      <entry>Область применения</entry>
-      <entry>История изменений</entry>
+      <entry>&Name;</entry>
+      <entry>&Default;</entry>
+      <entry>&Changeable;</entry>
+      <entry>&Changelog;</entry>
      </row>
     </thead>
     <tbody>
      <row>
-      <entry>imagick.locale_fix</entry>
+      <entry><link linkend="ini.imagick.locale-fix">imagick.locale_fix</link></entry>
       <entry>&false;</entry>
       <entry>PHP_INI_ALL</entry>
       <entry>Доступно начиная с Imagick 2.1.0</entry>
      </row>
      <row>
-      <entry>imagick.progress_monitor</entry>
+      <entry><link linkend="ini.imagick.progress-monitor">imagick.progress_monitor</link></entry>
       <entry>&false;</entry>
       <entry>PHP_INI_SYSTEM</entry>
       <entry>Доступно начиная с Imagick 2.2.2</entry>

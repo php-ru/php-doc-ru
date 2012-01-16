@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 299350 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 322136 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 
@@ -16,7 +16,7 @@
    <void />
   </methodsynopsis>
   <para>
-   Оработчик <link linkend="language.oop5.magic.sleep">__wakeup</link>.
+   Оработчик <link linkend="object.wakeup">__wakeup()</link>.
   </para>
  </refsect1>
 
