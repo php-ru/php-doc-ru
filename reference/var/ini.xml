@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 298346 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 322061 Maintainer: shein Status: ready -->
 <!-- $Revision$ -->
 <!-- Updated by: mch -->
 
@@ -12,10 +12,10 @@
    <tgroup cols="4">
     <thead>
      <row>
-      <entry>Имя</entry>
-      <entry>Значение по умолчанию</entry>
-      <entry>Область изменения</entry>
-      <entry>Changelog</entry>
+      <entry>&Name;</entry>
+      <entry>&Default;</entry>
+      <entry>&Changeable;</entry>
+      <entry>&Changelog;</entry>
      </row>
     </thead>
     <tbody>
