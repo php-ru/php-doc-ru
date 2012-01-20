@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320460 Maintainer: alien Status: ready -->
+<!-- EN-Revision: 322115 Maintainer: alien Status: ready -->
 <!-- Reviewed: no -->
 
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-getimagecolors">
+<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getimagecolors">
  <refnamediv>
   <refname>Imagick::getImageColors</refname>
   <refpurpose>Возвращает число уникальных цветов в изображении</refpurpose>
