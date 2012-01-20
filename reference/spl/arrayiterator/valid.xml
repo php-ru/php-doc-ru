@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 322381 Maintainer: mch Status: ready -->
 <!-- Reviewed: no -->
 <refentry xml:id="arrayiterator.valid" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>bool</type><methodname>ArrayIterator::valid</methodname>
+<modifier>public</modifier> <type>bool</type><methodname>ArrayIterator::valid</methodname>
    <void/>
   </methodsynopsis>
   <para>
