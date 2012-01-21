@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- EN-Revision: 315005 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 322381 Maintainer: aur Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="arrayobject.getiterator" xmlns="http://docbook.org/ns/docbook">
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>ArrayIterator</type><methodname>ArrayObject::getIterator</methodname>
+   <modifier>public</modifier> <type>ArrayIterator</type><methodname>ArrayObject::getIterator</methodname>
    <void/>
   </methodsynopsis>
   <para>
