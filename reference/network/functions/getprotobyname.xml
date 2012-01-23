@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: bfl Status: ready -->
+<!-- EN-Revision: 322431 Maintainer: bfl Status: ready -->
 <!-- Reviewed: no -->
 <refentry xml:id="function.getprotobyname" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -40,7 +40,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Возвращает номер протокола или -1, если протокол не найден.
+   Возвращает номер протокола &return.falseforfailure;.
   </para>
  </refsect1>
 
@@ -54,7 +54,7 @@
 <?php
 $protocol = 'tcp';
 $get_prot = getprotobyname($protocol);
-if ($get_prot == -1) {
+if ($get_prot === FALSE) {
     echo 'Протокол не найден';
 } else {
     echo 'Протокол #' . $get_prot;
