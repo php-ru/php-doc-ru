@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision$ -->
-<!-- EN-Revision: 322008 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 322383 Maintainer: mch Status: ready -->
 <!-- Reviewed: no -->
+<!-- $Revision$ -->
 <refentry xml:id="mysqli.get-server-version" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysqli::$server_version</refname>
@@ -49,7 +49,7 @@
  <refsect1 role="examples">
   &reftitle.examples;
   <example>
-   <title>Пример использования <varname>mysqli->server_version</varname></title>
+   <title>Пример использования <varname>$mysqli->server_version</varname></title>
    <para>&style.oop;</para>
    <programlisting role="php">
 <![CDATA[

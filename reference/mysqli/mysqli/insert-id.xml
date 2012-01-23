@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 322008 Maintainer: mch Status: ready -->
-<!-- $Revision$ --> 
+<!-- EN-Revision: 322383 Maintainer: mch Status: ready -->
 <!-- Reviewed: no -->
+<!-- $Revision$ -->
 <refentry xml:id="mysqli.insert-id" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysqli::$insert_id</refname>
@@ -61,7 +61,7 @@
  <refsect1 role="examples">
   &reftitle.examples;
   <example>
-   <title>Пример функции <varname>mysqli->insert_id</varname></title>
+   <title>Пример функции <varname>$mysqli->insert_id</varname></title>
    <para>&style.oop;</para>
    <programlisting role="php">
 <![CDATA[

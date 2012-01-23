@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 322008 Maintainer: mch Status: ready -->
-<!-- $Revision$ -->
+<!-- EN-Revision: 322383 Maintainer: mch Status: ready -->
 <!-- Reviewed: yes -->
+<!-- $Revision$ -->
 <refentry xml:id="mysqli.affected-rows" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysqli::$affected_rows</refname>
@@ -59,7 +59,7 @@
  <refsect1 role="examples">
   &reftitle.examples;
   <example>
-   <title>Пример <varname>mysqli->affected_rows</varname></title>
+   <title>Пример <varname>$mysqli->affected_rows</varname></title>
    <para>&style.oop;</para>
    <programlisting role="php">
 <![CDATA[

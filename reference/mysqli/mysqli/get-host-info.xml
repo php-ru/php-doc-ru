@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 322008 Maintainer: mch Status: ready -->
-<!-- $Revision$ -->
+<!-- EN-Revision: 322383 Maintainer: mch Status: ready -->
 <!-- Reviewed: no -->
+<!-- $Revision$ -->
 <refentry xml:id="mysqli.get-host-info" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysqli::$host_info</refname>
@@ -44,7 +44,7 @@
  <refsect1 role="examples">
   &reftitle.examples;
   <example>
-   <title>Пример <varname>mysqli->host_info</varname></title>
+   <title>Пример использования <varname>$mysqli->host_info</varname></title>
    <para>&style.oop;</para>
    <programlisting role="php">
 <![CDATA[
