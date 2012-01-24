@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 307793 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 322115 Maintainer: aur Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
-<refentry xml:id="function.ziparchive-addfile" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="ziparchive.addfile" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ZipArchive::addFile</refname>
   <refpurpose>Добавляет в ZIP-архив файл по указанному пути</refpurpose>
