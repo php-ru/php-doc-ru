@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 313913 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 323290 Maintainer: mch Status: ready -->
 <!-- $Revision$ -->
 <!-- Reviewed: yes -->
 <!-- splitted from ./en/functions/zip.xml, last change in rev 1.11 -->
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>mixed</type><methodname>zip_read</methodname>
+   <type>resource</type><methodname>zip_read</methodname>
    <methodparam><type>resource</type><parameter>zip</parameter></methodparam>
   </methodsynopsis>
   <para>
