@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 322061 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 323638 Maintainer: shein Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <section xml:id="curl.configuration" xmlns="http://docbook.org/ns/docbook">
@@ -21,7 +21,7 @@
      <row>
       <entry><link linkend="ini.curl.cainfo">curl.cainfo</link></entry>
       <entry>NULL</entry>
-      <entry>PHP_INI_SYSTEM</entry>
+      <entry>INI_SYSTEM</entry>
       <entry>Доступна, начиная с версии PHP 5.3.7.</entry>
      </row>
     </tbody>
