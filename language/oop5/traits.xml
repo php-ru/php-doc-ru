@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 319725 Maintainer: mch Status: ready -->
-<!-- $Revision$ -->
+<!-- EN-Revision: 323806 Maintainer: mch Status: ready -->
 <!-- Reviewed: no -->
+<!-- $Revision$ -->
  <sect1 xml:id="language.oop5.traits" xmlns="http://docbook.org/ns/docbook">
   <title>Трейты</title>
   <para>
@@ -149,7 +149,7 @@ trait Hello {
 
 trait World {
     public function sayWorld() {
-        echo ' World';
+        echo 'World';
     }
 }
 
