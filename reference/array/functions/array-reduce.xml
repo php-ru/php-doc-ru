@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 298259 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 323153 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="function.array-reduce" xmlns="http://docbook.org/ns/docbook">
@@ -40,6 +40,11 @@
       <para>
        Callback-функция.
       </para>
+      <methodsynopsis>
+       <type>mixed</type><methodname><replaceable>callback</replaceable></methodname>
+       <methodparam><type>mixed</type><parameter role="reference">result</parameter></methodparam>
+       <methodparam><type>mixed</type><parameter>item</parameter></methodparam>
+      </methodsynopsis>
      </listitem>
     </varlistentry>
     <varlistentry>
