@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 320418 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 323956 Maintainer: shein Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <article xml:id="reference.pcre.pattern.modifiers" xmlns="http://docbook.org/ns/docbook">
@@ -211,7 +211,7 @@
       </listitem>
      </varlistentry>
      <varlistentry>
-      <term><emphasis>u</emphasis> (<literal>PCRE8</literal>)</term>
+      <term><emphasis>u</emphasis> (<literal>PCRE_UTF8</literal>)</term>
       <listitem>
        <simpara>
         Этот модификатор включает дополнительную функциональность PCRE,
