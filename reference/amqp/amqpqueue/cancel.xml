@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 317663 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 323238 Maintainer: mch Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 
@@ -18,9 +18,6 @@
   <para>
     Отменить очередь, которая уже связана с обменником и маршрутизирующим ключом.
   </para>
-
-  &warn.undocumented.func;
-
  </refsect1>
 
  <refsect1 role="parameters">
@@ -36,6 +33,16 @@
      </listitem>
     </varlistentry>
    </variablelist>
+  </para>
+ </refsect1>
+
+ <refsect1 role="errors">
+  &reftitle.errors;
+  <para>
+   Генерирует исключение <classname>AMQPChannelException</classname>, если канал не открыт.
+  </para>
+  <para>
+   Генерирует исключение  <classname>AMQPConnectionException</classname>, если соединение с брокером было потеряно.
   </para>
  </refsect1>
 
