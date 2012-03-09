@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- EN-Revision: 315005 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 323624 Maintainer: mch Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <appendix xml:id="mailparse.constants" xmlns="http://docbook.org/ns/docbook">
  &reftitle.constants;
  &extension.constants;
  <variablelist>
-  <varlistentry>
+  <varlistentry xml:id="constant.mailparse-extract-output">
    <term>
     <constant>MAILPARSE_EXTRACT_OUTPUT</constant>
      (<type>integer</type>)
@@ -16,7 +16,7 @@
     </simpara>
    </listitem>
   </varlistentry>
-  <varlistentry>
+  <varlistentry xml:id="constant.mailparse-extract-stream">
    <term>
     <constant>MAILPARSE_EXTRACT_STREAM</constant>
      (<type>integer</type>)
@@ -26,7 +26,7 @@
     </simpara>
    </listitem>
   </varlistentry>
-  <varlistentry>
+  <varlistentry xml:id="constant.mailparse-extract-return">
    <term>
     <constant>MAILPARSE_EXTRACT_RETURN</constant>
      (<type>integer</type>)
