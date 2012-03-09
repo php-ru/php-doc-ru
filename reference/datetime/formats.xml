@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 320204 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 323519 Maintainer: aur Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <chapter xml:id="datetime.formats" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -603,6 +603,9 @@
    <para>
     Символ "T" в форматах SOAP, XMRPC и WDDX также чувствителен к регистру, допускается использование
     символа "T" только в верхнем регистре.
+   </para>
+   <para>
+    Формат "Unix Timestamp" устанавливает временную зону в UTC.
    </para>
   </note>
  </section>
