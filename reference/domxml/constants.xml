@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 323628 Maintainer: mch Status: ready -->
 <!-- Reviewed: no -->
 <appendix xml:id="domxml.constants" xmlns="http://docbook.org/ns/docbook">
  &reftitle.constants;
@@ -324,15 +324,6 @@ no someone familiar with this extension should do further work.
       <entry></entry>
       <entry></entry>
      </row>
-     <row>
-      <entry>
-       <constant>XPATH_NUMBER</constant>
-       (<type>integer</type>)
-      </entry>
-      <entry></entry>
-      <entry></entry>
-     </row>
-
     </tbody>
    </tgroup>
   </table>
