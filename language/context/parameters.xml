@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 292778 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 324122 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 
@@ -25,11 +25,11 @@
     <varlistentry xml:id="context.params.notification">
      <term>
       <parameter>notification</parameter>
-      <type>callback</type>
+      <type>callable</type>
      </term>
      <listitem>
       <para>
-       <type>callback</type>-функция, вызываемая при наступлении события в потоке.
+       Функция типа <type>callable</type>, вызываемая при наступлении события в потоке.
       </para>
       <para>
        За подробностями обращайтесь к документации функции
