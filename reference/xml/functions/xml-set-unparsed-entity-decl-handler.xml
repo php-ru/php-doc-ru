@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision$ -->
 <!-- EN-Revision: 306351 Maintainer: tmn Status: ready -->
-<!-- Reviewed: no -->
+<!-- Reviewed: yes -->
+<!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook"
  xml:id="function.xml-set-unparsed-entity-decl-handler"
  xmlns:xlink="http://www.w3.org/1999/xlink">

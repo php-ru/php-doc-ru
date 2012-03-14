@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- EN-Revision: 306351 Maintainer: tmn Status: ready -->
-<!-- Reviewed: no -->
+<!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.xml-set-object">
  <refnamediv>
   <refname>xml_set_object</refname>
-  <refpurpose>
-   Использование XML анализатора внутри объекта
-  </refpurpose>
+  <refpurpose>Использование XML анализатора внутри объекта</refpurpose>
  </refnamediv>
  
  <refsect1 role="description">

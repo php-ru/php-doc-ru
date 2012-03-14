@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- EN-Revision: 306351 Maintainer: tmn Status: ready -->
-<!-- Reviewed: no -->
+<!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.xml-set-element-handler">
  <refnamediv>
   <refname>xml_set_element_handler</refname>
-  <refpurpose>
-   Установка обработчика начального и конечного элементов
-  </refpurpose>
+  <refpurpose>Установка обработчика начального и конечного элементов</refpurpose>
  </refnamediv>
  
  <refsect1 role="description">

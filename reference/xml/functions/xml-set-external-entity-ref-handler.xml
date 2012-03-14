@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- EN-Revision: 306351 Maintainer: tmn Status: ready -->
-<!-- Reviewed: no -->
+<!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.xml-set-external-entity-ref-handler">
  <refnamediv>
   <refname>xml_set_external_entity_ref_handler</refname>
-  <refpurpose>
-   Установка обработчика внешних сущностей
-  </refpurpose>
+  <refpurpose>Установка обработчика внешних сущностей</refpurpose>
  </refnamediv>
  
  <refsect1 role="description">
