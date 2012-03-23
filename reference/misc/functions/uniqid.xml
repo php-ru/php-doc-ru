@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: bfl Status: ready -->
+<!-- EN-Revision: 324347 Maintainer: bfl Status: ready -->
 <!-- Reviewed: no -->
 <refentry xml:id="function.uniqid" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -46,8 +46,8 @@
       <para>
        Если равен &true;, то функция <function>uniqid</function> добавит
        дополнительную энтропию (используя комбинированный линейный конгруэнтный
-       генератор) в конце возвращаемого значения, что позволят сделать результат
-       еще более уникальным.
+       генератор) в конце возвращаемого значения, что увеличивает вероятность
+       уникальности результата.
       </para>
      </listitem>
     </varlistentry>
