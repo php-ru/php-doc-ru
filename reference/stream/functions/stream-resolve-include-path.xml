@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 309859 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 324522 Maintainer: mch Status: ready -->
 <!-- $Revision$ -->
 <!-- Reviewed: no -->
 <refentry xml:id="function.stream-resolve-include-path" xmlns="http://docbook.org/ns/docbook">
@@ -19,7 +19,8 @@
   </methodsynopsis>
   <para>
    Составляет полное имя файла из параметра <parameter>filename</parameter>, используя пути включения
-   в соответствии с теми же правилами, что и функции <function>fopen</function>/<function>include</function>.
+   в соответствии с теми же правилами, что и функции 
+   <function>fopen</function>/<link linkend="function.include"><literal>include</literal></link>.
   </para>
  </refsect1>
 

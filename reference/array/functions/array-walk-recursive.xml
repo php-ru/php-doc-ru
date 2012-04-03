@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 324122 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 324714 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="function.array-walk-recursive" xmlns="http://docbook.org/ns/docbook">
@@ -101,7 +101,7 @@ sour holds lemon
 ]]>
     </screen>
     <para>
-     Обратите внимание, что ключ 'sweet' никогда не отображается.
+     Обратите внимание, что ключ '<literal>sweet</literal>' никогда не отображается.
      Любой ключ, содержащий значение типа <type>array</type>,
      не будет передаваться в функцию.
     </para>

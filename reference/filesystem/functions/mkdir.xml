@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 297502 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 324585 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.mkdir">
@@ -60,7 +60,7 @@
      <listitem>
       <para>
        Разрешает создание вложенных директорий, указанных в
-       <parameter>pathname</parameter>. По умолчанию равен &false;.
+       <parameter>pathname</parameter>.
       </para>
      </listitem>
     </varlistentry>
