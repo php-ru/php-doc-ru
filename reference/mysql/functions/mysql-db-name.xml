@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 323449 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 324829 Maintainer: shein Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="function.mysql-db-name" xmlns="http://docbook.org/ns/docbook">
@@ -91,6 +91,15 @@ while ($i < $cnt) {
 
  <refsect1 role="notes">
   &reftitle.notes;
+  <note>
+   &mysql.alternative.note;
+   <para>
+    &mysql.alternative.include;
+    <simplelist>
+     <member>Запрос: <literal>SELECT DATABASE()</literal></member>
+    </simplelist>
+   </para>
+  </note>
   <note>
    <para>
     &info.deprecated.alias;
