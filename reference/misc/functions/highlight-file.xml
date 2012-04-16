@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: bfl Status: ready -->
+<!-- EN-Revision: 324590 Maintainer: bfl Status: ready -->
 <!-- Reviewed: no -->
 <refentry xml:id="function.highlight-file" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -118,6 +118,7 @@ AddType application/x-httpd-php-source .phps
   <para>
    <simplelist>
     <member><function>highlight_string</function></member>
+    <member><link linkend="ini.syntax-highlighting">Подсвечивание INI директив</link></member>
    </simplelist>
   </para>
  </refsect1>
