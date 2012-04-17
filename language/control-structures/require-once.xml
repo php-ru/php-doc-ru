@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 312947 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 325214 Maintainer: mch Status: ready -->
 <!-- $Revision$ -->
 <!-- Reviewed: no -->
 <sect1 xml:id="function.require-once" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
- <title><function>require_once</function></title>
+ <title>require_once</title>
  <?phpdoc print-version-for="require_once"?>
  <para>
-  Выражение <function>require_once</function> идентично
+  Выражение <literal>require_once</literal> идентично
   <function>require</function> за исключением того, что PHP проверит, включался ли 
   уже данный файл, и, если да, не будет включать его еще раз.
  </para>
