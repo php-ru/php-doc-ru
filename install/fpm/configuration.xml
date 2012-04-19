@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- EN-Revision: 325237 Maintainer: das Status: ready -->
 <!-- $Revision$ -->
-<!-- EN-Revision: 324485 Maintainer: das Status: ready -->
 <!-- Reviewed: yes -->
   <sect1 xml:id="install.fpm.configuration" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
    <title>Настройка</title>
@@ -16,9 +16,9 @@
        <type>string</type>
       </term>
       <listitem>
-       <para>
+       <para> 
         Путь к PID файлу. Значение по умолчанию: none.
-       </para> 
+       </para>
       </listitem>
      </varlistentry>
      <varlistentry xml:id="error-log">
