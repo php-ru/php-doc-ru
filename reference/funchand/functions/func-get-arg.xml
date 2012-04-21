@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 324522 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 325214 Maintainer: shein Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="function.func-get-arg" xmlns="http://docbook.org/ns/docbook">
@@ -7,7 +7,7 @@
   <refname>func_get_arg</refname>
   <refpurpose>Возвращает элемент из списка аргументов</refpurpose>
  </refnamediv>
-
+ 
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
