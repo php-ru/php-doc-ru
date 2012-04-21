@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 322850 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 325207 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <sect1 xml:id="language.types.null">
@@ -51,14 +51,15 @@ $var = NULL;
   </informalexample>
 
   <para>
-   Смотрите также функции <function>is_null</function> и <function>unset</function>.
+   Смотрите также функции <function>is_null</function> и
+   <function>unset</function>.
   </para>
 
  </sect2>
-
+ 
  <sect2 xml:id="language.types.null.casting">
   <title>Приведение к <literal>NULL</literal></title>
-  
+
   <para>
    Приведение переменной к <type>null</type> с использованием <literal>(unset) $var</literal>
    <emphasis>не</emphasis> удаляет переменную и ее значение. 
