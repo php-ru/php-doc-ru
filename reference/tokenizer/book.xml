@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 313269 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 326064 Maintainer: aur Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <!-- Membership: core -->
 
 <book xml:id="book.tokenizer" xmlns="http://docbook.org/ns/docbook">
- <title>Tokenizer (Лексер)</title>
+ <?phpdoc extension-membership="core" ?>
+ <title>Лексер (Tokenizer)</title>
 
  <preface xml:id="intro.tokenizer">
   &reftitle.intro;

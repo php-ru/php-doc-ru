@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 313269 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 326064 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <!-- Membership: core -->
 
 <book xml:id="book.var" xmlns="http://docbook.org/ns/docbook">
+ <?phpdoc extension-membership="core" ?>
  <title>&Functions; для работы с переменными</title>
 
  <preface xml:id="intro.var">
