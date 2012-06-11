@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 313269 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 326064 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <!-- Membership: core -->
 
 <book xml:id="book.errorfunc" xmlns="http://docbook.org/ns/docbook">
+ <?phpdoc extension-membership="core" ?>
  <title>Обработка и протоколирование ошибок</title>
  <titleabbrev>Обработка ошибок</titleabbrev>
 
