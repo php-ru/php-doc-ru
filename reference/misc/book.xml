@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 313269 Maintainer: bfl Status: ready -->
+<!-- EN-Revision: 326064 Maintainer: bfl Status: ready -->
 <!-- Reviewed: no -->
 <!-- Membership: core -->
 
 <book xml:id="book.misc" xmlns="http://docbook.org/ns/docbook">
+ <?phpdoc extension-membership="core" ?>
  <title>Разные функции</title>
  <titleabbrev>Misc.</titleabbrev>
 
@@ -20,6 +21,12 @@
  &reference.misc.setup;
  &reference.misc.constants;
  &reference.misc.reference;
+
+ <appendix xmlns="http://docbook.org/ns/docbook" xml:id="changelog.misc">
+ <title>&ChangelogListingTitle;</title>
+ <para>&ChangelogListingDescription;</para>
+ <?phpdoc generate-changelog-for="ref.misc"?>
+</appendix>
  
 </book>
 
