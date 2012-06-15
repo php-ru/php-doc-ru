@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 313269 Maintainer: northcat Status: ready -->
+<!-- EN-Revision: 326064 Maintainer: northcat Status: ready -->
 <!-- Reviewed: no -->
 <!-- Membership: bundled, external -->
  
 <book xml:id="book.pspell" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <?phpdoc extension-membership="bundledexternal" ?>
  <title>Pspell</title>
  
  <!-- {{{ preface -->

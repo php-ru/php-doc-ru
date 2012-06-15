@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 313269 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 326064 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <!-- Membership: core -->
 
 <book xml:id="book.regex" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <?phpdoc extension-membership="core" ?>
  <title>Регулярные выражения (расширенные POSIX)</title>
  <titleabbrev>Регулярные выражения POSIX</titleabbrev>
 
