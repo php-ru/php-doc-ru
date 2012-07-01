@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!-- EN-Revision: 321126 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 326069 Maintainer: shein Status: ready -->
 <!-- $Revision$ -->
 <!-- Reviewed: yes -->
 
@@ -55,6 +55,9 @@
 <!ENTITY FunctionListingDescription   "Список всех функций и методов в руководстве">
 <!ENTITY ExampleListing    "Список примеров">
 <!ENTITY ExampleListingDescription   "Список всех примеров в руководстве">
+<!ENTITY ChangelogListingTitle "Список изменений">
+<!ENTITY ChangelogListingDescription "Следующие изменения были произведены с классами/функциями/методами данного расширения.">
+<!ENTITY ChangelogListingBundledDescription "Следующие изменения были произведены с функциями встроенных раширений.">
 <!ENTITY CHMEdition        "Руководство в формате HTML Help">
 <!ENTITY ReservedConstants "Предопределенные константы">
 <!ENTITY MissingStuff      "Что отсутствует в этом руководстве">

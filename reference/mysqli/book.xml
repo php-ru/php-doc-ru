@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 323734 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 326064 Maintainer: shein Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <!-- Membership: bundled, external -->
 <book xml:id="book.mysqli" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <?phpdoc extension-membership="bundledexternal" ?>
  
  <title>Улучшенный модуль MySQL (Improved)</title>
  
@@ -64,6 +65,12 @@
  &reference.mysqli.mysqli-warning;
  &reference.mysqli.mysqli-sql-exception;
  &reference.mysqli.reference;
+
+<appendix xmlns="http://docbook.org/ns/docbook" xml:id="changelog.mysqli">
+ <title>&ChangelogListingTitle;</title>
+ <para>&ChangelogListingDescription;</para>
+ <?phpdoc generate-changelog-for="ref.mysqli class.mysqli class.mysqli-stmt class.mysqli-result class.mysqli-driver class.mysqli-warning class.mysqli-sql-exception"?>
+</appendix>
  
 </book>
 

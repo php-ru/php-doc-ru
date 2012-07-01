@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 313269 Maintainer: irker Status: ready -->
+<!-- EN-Revision: 326064 Maintainer: irker Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <!-- Membership: core -->
 
 <book xml:id="book.info" xmlns="http://docbook.org/ns/docbook">
+ <?phpdoc extension-membership="core" ?>
  <title>PHP Опции и Информация</title>
  <titleabbrev>PHP Опции/Информация</titleabbrev>
  
