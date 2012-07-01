@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 297028 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 325917 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
-<!-- $Revision: $ -->
+<!-- $Revision$ -->
 <refentry xml:id="function.imagecolortransparent" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>imagecolortransparent</refname>
@@ -42,6 +42,9 @@
   &reftitle.returnvalues;
   <para>
    Возвращает идентификатор нового (или текущего, если ничего не изменилось) цвета.
+   Если аргумент <parameter>color</parameter> не
+   задан и в изображении нет прозрачных цветов,
+   фунция вернет -1.
   </para>
  </refsect1>
  <refsect1 role="examples">
