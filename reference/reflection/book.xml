@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 321133 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 326064 Maintainer: aur Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <!-- Membership: core -->
 
 <book xml:id="book.reflection" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <?phpdoc extension-membership="core" ?>
  <title>Reflection</title>
  <titleabbrev>Reflection</titleabbrev>
 
@@ -12,7 +13,7 @@
   &reftitle.intro;
   <para>
    PHP 5 включает в себя полноценный Reflection API, который предоставляет возможность
-   проводить реверс-инжиниринг <literal>реверс-инжиниринг</literal> классов, интерфейсов, функций,
+   проводить <literal>реверс-инжиниринг</literal> классов, интерфейсов, функций,
    методов и модулей. Кроме того, Reflection API позволяет получать doc-блоки комментариев
    функций, классов и методов.
   </para>
