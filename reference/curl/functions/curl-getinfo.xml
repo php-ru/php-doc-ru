@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 315058 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 326231 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id='function.curl-getinfo' xmlns="http://docbook.org/ns/docbook">
@@ -78,6 +78,11 @@
           <constant>CURLINFO_STARTTRANSFER_TIME</constant> - Время, прошедшее
           от начала операции до момента передачи первого байта данных, в
           секундах
+         </simpara>
+        </listitem>
+        <listitem>
+         <simpara>
+          <constant>CURLINFO_REDIRECT_COUNT</constant> - Число перенаправлений
          </simpara>
         </listitem>
         <listitem>
