@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 324661 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 325967 Maintainer: mch Status: ready -->
 <!-- Based on UPGRADING version 322438. Work in progess !-->
 <!-- $Revision$ -->
 <!-- Reviewed: no -->
@@ -94,7 +94,8 @@
      теперь не принимают аргументов в виде переменной. Например, выражение
      <literal>break 1 + foo() * $bar;</literal> невозможно.
      Вы по-прежнему можете использовать явный аргумент в 
-     виде статической константы. Например, <literal>break 2;</literal>.
+     виде статической константы. Например, <literal>break 2;</literal>. Побочным эффектом этого изменения является то, что
+     конструкции <literal>break 0;</literal> и <literal>continue 0;</literal> более недопустимы.
     </simpara>
    </listitem>
    <listitem>
