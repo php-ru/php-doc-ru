@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 317663 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 326995 Maintainer: aur Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 
@@ -28,6 +28,7 @@
  &reference.gearman.gearmanjob;
  &reference.gearman.gearmantask;
  &reference.gearman.gearmanworker;
+ &reference.gearman.gearmanexception;
 
 </book>
 
