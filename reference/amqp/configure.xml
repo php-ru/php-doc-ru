@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 323238 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 327191 Maintainer: mch Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 
@@ -15,11 +15,11 @@
  <programlisting role="shell">
   <![CDATA[
   # Загрузка библиотеки rabbitmq-c версии 0-9-1
-  hg clone http://hg.rabbitmq.com/rabbitmq-c/rev/b01825ecc112 rabbitmq-c
+  git clone git://github.com/alanxz/rabbitmq-c.git
   cd rabbitmq-c
-  # Добавить требование codegen. Чтобы получить полный список, откройте эту страницу: http://hg.rabbitmq.com/rabbitmq-codegen/tags
-  # и скопируйте URL соответствующей версии брокера.
-  hg clone http://hg.rabbitmq.com/rabbitmq-codegen/rev/16bbcb711380 codegen
+  # Включите и обновите модуль codegen для git
+  git submodule init
+  git submodule update
   # Конфигурирование, сборка и установка
   autoreconf -i && ./configure && make && sudo make install
   ]]>
