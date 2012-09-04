@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 312779 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 327173 Maintainer: shein Status: ready -->
 <!-- $Revision$ -->
 <!-- Reviewed: no -->
   <chapter xml:id="install.unix" xmlns="http://docbook.org/ns/docbook">
@@ -55,7 +55,7 @@
    </para>
 
    <para>
-    При сборке непосредственно из исходников SVN или после ручных
+    При сборке непосредственно из исходников Git или после ручных
     изменений вам может также понадобиться:
     <itemizedlist>
      <listitem>
