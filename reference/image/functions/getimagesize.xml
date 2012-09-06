@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 309908 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 327438 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
-<!-- $Revision: $ -->
+<!-- $Revision$ -->
 <refentry xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://docbook.org/ns/docbook" xml:id="function.getimagesize">
  <refnamediv>
   <refname>getimagesize</refname>
@@ -144,8 +144,8 @@ if ($size && $fp) {
  <refsect1 role="errors">
   &reftitle.errors;
   <para>
-   Если доступ к файлу <parameter>filename</parameter> невозможен, или файл
-   содержит недопустимое изображение, <function>getimagesize</function>
+   Если доступ к файлу <parameter>filename</parameter> невозможен,
+   <function>getimagesize</function>
    сгенерирует ошибку уровня <constant>E_WARNING</constant>. В случае ошибки
    чтения файла <function>getimagesize</function> сгенерирует ошибку уровня
    <constant>E_NOTICE</constant>.

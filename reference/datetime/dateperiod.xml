@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 316532 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 326735 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 
@@ -14,7 +14,11 @@
   <section xml:id="dateperiod.intro">
    &reftitle.intro;
    <para>
-    Представление периода даты.
+    Представляет временной период.
+   </para>
+   <para>
+    Позволяет перемещаться в заданном временном интервале
+    на равные промежутки времени.
    </para>
   </section>
 <!-- }}} -->
