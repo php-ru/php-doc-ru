@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 297556 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 327263 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.clearstatcache">
@@ -83,7 +83,7 @@
      <term><parameter>filename</parameter></term>
      <listitem>
       <para>
-       Очистить кэш realpath для определенного файла, используется
+       Очистить кэш realpath и stat только для определенного файла, используется
        только если параметр <parameter>clear_realpath_cache</parameter>
        установлен в &true;.
       </para>
