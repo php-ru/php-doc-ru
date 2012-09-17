@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 297890 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 327254 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
-<!-- $Revision: $ -->
+<!-- $Revision$ -->
 <refentry xml:id="function.phpcredits" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>phpcredits</refname>
@@ -154,7 +154,17 @@ phpcredits(CREDITS_ALL - CREDITS_FULLPAGE);
    </example>
   </para>
  </refsect1>
-
+ 
+ <refsect1 role="notes">
+  &reftitle.notes;
+  <note>
+   <para>
+    В режиме работы из командной строки (CLI) <function>phpcredits</function> выводит обычный текст
+    вместо HTML.
+   </para>
+  </note>
+ </refsect1>
+ 
  <refsect1 role="seealso">
   &reftitle.seealso;
   <para>
