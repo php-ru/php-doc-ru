@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!-- EN-Revision: 322104 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 328095 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
-<!-- $Revision: $ -->
+<!-- $Revision$ -->
 <refentry xml:id="pdostatement.bindparam" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>PDOStatement::bindParam</refname>
