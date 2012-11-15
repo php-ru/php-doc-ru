@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 325047 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 328365 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
-<!-- $Revision: $ -->
+<!-- $Revision$ -->
 <refentry xml:id="mysqli.poll" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>mysqli::poll</refname>
@@ -114,9 +114,10 @@ do {
     foreach ($links as $link) {
         if ($result = $link->reap_async_query()) {
             print_r($result->fetch_row());
-            mysqli_free_result($result);
-            $processed++;
-        }
+            if (is_object($result))
+                mysqli_free_result($result);   
+        } else die(sprintf("Ошибка MySQLi: %s", mysqli_error($link)));
+        $processed++;
     }
 } while ($processed < count($all_links));
 ?>
