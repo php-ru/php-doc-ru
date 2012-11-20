@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 326736 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 328424 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 
@@ -154,7 +154,8 @@
      <term><varname>invert</varname></term>
      <listitem>
       <para>
-       Принимает <literal>1</literal> если интервал инвертируется и
+       Принимает <literal>1</literal>, если интервал представляет
+       отрицательный период времени и
        <literal>0</literal> в противном случае. См.
        <methodname>DateInterval::format</methodname>.
       </para>
