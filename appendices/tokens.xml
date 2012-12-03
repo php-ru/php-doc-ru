@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 326263 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 327705 Maintainer: aur Status: ready -->
 <!-- Reviewed: yes Maintainer: Alex Cooper -->
 <!-- $Revision$ -->
 
@@ -96,6 +96,11 @@
      <entry><constant>T_BREAK</constant></entry>
      <entry>break</entry>
      <entry><link linkend="control-structures.break">break</link></entry>
+    </row>
+    <row>
+     <entry><constant>T_CALLABLE</constant></entry>
+     <entry>callable</entry>
+     <entry><link linkend="language.types.callable">callable</link></entry>
     </row>
     <row>
      <entry><constant>T_CASE</constant></entry>
