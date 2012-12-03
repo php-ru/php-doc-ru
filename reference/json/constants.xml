@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 323624 Maintainer: irker Status: ready -->
-<!-- $Revision$ -->
+<!-- EN-Revision: 328443 Maintainer: irker Status: ready -->
 <!-- Reviewed: yes -->
+<!-- $Revision$ -->
 
 <appendix xml:id="json.constants" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.constants;
@@ -78,8 +78,8 @@
    </term>
    <listitem>
     <simpara>
-     Поврежденный символы UTF-8, вероятно из-за неверного кодирования.
-     Эта константа доступна начиная с PHP 5.3.1.
+     Поврежденные символы UTF-8, вероятно, из-за неверного кодирования.
+     Эта константа стала доступна начиная с PHP 5.3.3.
     </simpara>
    </listitem>
   </varlistentry>
