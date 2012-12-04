@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 323194 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 328365 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="function.gmmktime" xmlns="http://docbook.org/ns/docbook">
@@ -162,7 +162,7 @@
     <programlisting role="php">
 <![CDATA[
 <?php
-// Выводит: July 1, 2000 is on a Friday
+// Выводит: July 1, 2000 is on a Saturday
 echo "July 1, 2000 is on a " . date("l", gmmktime(0, 0, 0, 7, 1, 2000));
 ?>
 ]]>
