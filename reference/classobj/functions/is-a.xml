@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 324663 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 328707 Maintainer: shein Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="function.is-a" xmlns="http://docbook.org/ns/docbook">
@@ -45,7 +45,7 @@
      <term><parameter>allow_string</parameter></term>
      <listitem>
       <para>
-       Если параметр установлен в false, то не допускается имя класса в виде строки
+       Если параметр установлен в &false;, то не допускается имя класса в виде строки
        в качестве параметра <parameter>object</parameter>. Это также предотвращает вызов
        автозагрузчика, если класс не существует.
       </para>
