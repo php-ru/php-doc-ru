@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 324593 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 328430 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
  <sect1 xml:id="language.oop5.iterations" xmlns="http://docbook.org/ns/docbook">
@@ -243,6 +243,14 @@ foreach ($coll as $key => $val) {
    <para>
     Больше примеров итераторов можно найти в
     <link linkend="spl.iterators">расширении SPL</link>.
+   </para>
+  </note>
+
+  <note>
+   <para>
+    Пользователи PHP 5.5 и более поздних версий также могут изучить
+    <link linkend="language.generators">генераторы</link>, представляющие собой
+    альтернативный способ определения итераторов.
    </para>
   </note> 
 
