@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!-- EN-Revision: 315005 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
-<!-- $Revision: $ -->
+<!-- $Revision$ -->
 <refentry xml:id="recursivearrayiterator.haschildren" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>RecursiveArrayIterator::hasChildren</refname>

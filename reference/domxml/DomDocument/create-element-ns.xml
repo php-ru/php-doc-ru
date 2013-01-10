@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- EN-Revision: 322140 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
-<!-- $Revision: $ -->
+<!-- $Revision$ -->
 <!-- splitted from ./en/functions/domxml.xml, last change in rev 1.38 -->
   <refentry xml:id="function.domdocument-create-element-ns" xmlns="http://docbook.org/ns/docbook">
    <refnamediv>

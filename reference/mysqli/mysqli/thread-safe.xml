@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- EN-Revision: 299158 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
-<!-- $Revision: $ -->
+<!-- $Revision$ -->
 <refentry xml:id="mysqli.thread-safe" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysqli::thread_safe</refname>

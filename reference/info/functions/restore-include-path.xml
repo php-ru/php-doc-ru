@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- EN-Revision: 325214 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
-<!-- $Revision: $ -->
+<!-- $Revision$ -->
 <refentry xml:id="function.restore-include-path" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>restore_include_path</refname>

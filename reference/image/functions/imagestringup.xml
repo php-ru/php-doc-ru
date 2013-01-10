@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- EN-Revision: 299441 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
-<!-- $Revision: $ -->
+<!-- $Revision$ -->
 <refentry xml:id="function.imagestringup" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>imagestringup</refname>
