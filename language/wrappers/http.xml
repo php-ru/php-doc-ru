@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 321825 Maintainer: mch Status: ready -->
-<!-- $Revision$ -->
+<!-- EN-Revision: 330316 Maintainer: mch Status: ready -->
 <!-- Reviewed: no -->
+<!-- $Revision$ -->
 
 <refentry xml:id="wrappers.http" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" role="noversion">
  <refnamediv>
@@ -40,7 +40,7 @@
  </refsect1><!-- }}} -->
 
  <refsect1 role="usage"> <!-- {{{ -->
-  &reftitle.options;
+  &reftitle.usage;
   <itemizedlist>
    <listitem><simpara><filename>http://example.com</filename></simpara></listitem>
    <listitem><simpara><filename>http://example.com/file.php?var1=val1&amp;var2=val2</filename></simpara></listitem>

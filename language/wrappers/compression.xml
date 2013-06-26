@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 317663 Maintainer: das Status: ready -->
+<!-- EN-Revision: 330318 Maintainer: das Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 
@@ -37,11 +37,11 @@
  </refsect1><!-- }}} -->
 
  <refsect1 role="usage"> <!-- {{{ -->
-  &reftitle.options;
+  &reftitle.usage;
   <itemizedlist>
-   <listitem><simpara><filename>zlib:</filename></simpara></listitem>
-   <listitem><simpara><filename>compress.zlib://</filename></simpara></listitem>
-   <listitem><simpara><filename>compress.bzip2://</filename></simpara></listitem>
+   <listitem><simpara><filename>compress.zlib://file.gz</filename></simpara></listitem>
+   <listitem><simpara><filename>compress.bzip2://file.bz2</filename></simpara></listitem>
+   <listitem><simpara><filename>zip://archive.zip#dir/file.txt</filename></simpara></listitem>
   </itemizedlist>
  </refsect1> <!-- }}} -->
 
