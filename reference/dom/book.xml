@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 326480 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 330340 Maintainer: aur Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
-<!-- Membership: bundled, external -->
 
 <book xml:id="book.dom" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <?phpdoc extension-membership="bundledexternal" ?>
@@ -15,13 +14,13 @@
    Расширение DOM позволяет вам работать с XML-документами через DOM API с PHP 5.
   </para>
   <para>
-   Учтите, что для PHP 4 использовалось устаревшее domxml расширение.
+   Учтите, что для PHP 4 использовалось устаревшее <literal>domxml</literal> расширение.
   </para>
   <note>
    <para>
-    Расширение DOM использует кодировку UTF-8. Используйте функции <function>utf8_encode ()</function>
-    и <function>utf8_decode ()</function> для работы с текстами в кодировке ISO-8859-1
-    или функцию <link linkend="ref.iconv">Iconv</link> для других кодировок.
+    Расширение DOM использует кодировку UTF-8. Используйте функции <function>utf8_encode</function>
+    и <function>utf8_decode</function> для работы с текстами в кодировке ISO-8859-1
+    или <link linkend="ref.iconv">Iconv</link> для других кодировок.
    </para>
   </note>
  </preface>
