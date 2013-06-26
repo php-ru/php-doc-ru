@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 322866 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 329894 Maintainer: mch Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 
@@ -387,6 +387,16 @@
        используя SLL, например, это значение будет таким, какое сконфигурировано
        для соединений безопасного HTTP.
       </simpara>
+      <note>
+       <simpara>
+        Чтобы получить физический (реальный) порт в Apache 2, необходимо
+        установить <literal>UseCanonicalName = On</literal> и
+        <literal>UseCanonicalPhysicalPort = On</literal>, иначе это значение
+        может быть подменено и не вернуть реальной значение физического порта.
+        Полагаться на это значение небезопасно в контексте приложений, требующих
+        усиленной безопасности.
+       </simpara>
+      </note>
      </listitem>
     </varlistentry>
 
