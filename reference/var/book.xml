@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 326064 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 330340 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
-<!-- Membership: core -->
 
 <book xml:id="book.var" xmlns="http://docbook.org/ns/docbook">
  <?phpdoc extension-membership="core" ?>

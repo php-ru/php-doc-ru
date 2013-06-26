@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 313269 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 330340 Maintainer: mch Status: ready -->
 <!-- Reviewed: no -->
 <!-- Author: Uwe Steinmann <steinm@php.net> -->
-<!-- Membership: pecl, external -->
 <!-- State: experimental -->
  
 <book xml:id="book.ps" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">

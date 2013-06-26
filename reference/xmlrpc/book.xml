@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 326064 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 330340 Maintainer: mch Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
-<!-- Membership: bundled -->
 <!-- State: experimental -->
  
 <book xml:id="book.xmlrpc" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
