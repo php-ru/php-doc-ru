@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 322062 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 330267 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <!--
@@ -38,6 +38,9 @@ Remove me once you perform substitutions
       <classname>DOMNamedNodeMap</classname>
      </ooclass>
  
+     <oointerface>
+      <interfacename>Traversable</interfacename>
+     </oointerface>
     </classsynopsisinfo>
 <!-- }}} -->
  
