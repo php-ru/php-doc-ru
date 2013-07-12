@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 297028 Maintainer: mch Status: ready -->
-<!-- $Revision$ -->
+<!-- EN-Revision: 330543 Maintainer: mch Status: ready -->
 <!-- Reviewed: no -->
+<!-- $Revision$ -->
 <refentry xml:id='domelement.getattribute' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>DOMElement::getAttribute</refname>
@@ -10,7 +10,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>string</type><methodname>DOMElement::getAttribute</methodname>
+   <modifier>public</modifier> <type>string</type><methodname>DOMElement::getAttribute</methodname>
    <methodparam><type>string</type><parameter>name</parameter></methodparam>
   </methodsynopsis>
   <para>
