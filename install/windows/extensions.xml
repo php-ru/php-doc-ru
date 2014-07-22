@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 326480 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 334305 Maintainer: mch Status: ready -->
 <!-- $Revision$ -->
 <!-- Reviewed: no -->
    <sect1 xml:id="install.windows.extensions" xmlns="http://docbook.org/ns/docbook">
@@ -364,11 +364,6 @@ extension=php_bz2.dll
   <row>
    <entry>php_pgsql.dll</entry>
    <entry>Функции <link linkend="book.pgsql">PostgreSQL</link></entry>
-   <entry>—</entry>
-  </row>
-  <row>
-   <entry>php_printer.dll</entry>
-   <entry>Функции для работы с <link linkend="book.printer">принтером</link></entry>
    <entry>—</entry>
   </row>
   <row>
