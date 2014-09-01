@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 320207 Maintainer: tmn Status: ready -->
-<!-- Reviewed: yes -->
+<!-- EN-Revision: 333741 Maintainer: tmn Status: ready -->
+<!-- Reviewed: no Maintainer: -->
 <!-- $Revision$ -->
 
 <refentry xml:id="datetime.createfromformat" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -143,9 +143,14 @@
          <row>
           <entry><literal>y</literal></entry>
           <entry>
-           2 цифры в представлении года
+           2 цифры в представлении года (в диапазоне 1970-2069 включительно)
           </entry>
-          <entry>Примеры: <literal>99</literal> или <literal>03</literal></entry>
+          <entry>
+           Примеры:
+           <literal>99</literal> или <literal>03</literal>
+           (будет расшифровано как <literal>1999</literal> и
+           <literal>2003</literal> соответственно)
+           </entry>
          </row>
          <row>
           <entry align="center"><emphasis>Время</emphasis></entry>
