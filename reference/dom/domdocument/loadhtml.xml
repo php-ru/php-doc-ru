@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 330543 Maintainer: tmn Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 331129 Maintainer: tmn Status: ready -->
+<!-- Reviewed: no Maintainer: tmn -->
 <!-- $Revision$ -->
 <refentry xml:id="domdocument.loadhtml" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -41,7 +41,7 @@
      <term><parameter>options</parameter></term>
      <listitem>
       <para>
-       Начиная с версии PHP 5.1.0 и Libxml 2.6.0, можно также использовать
+       Начиная с версии PHP 5.4.0 и Libxml 2.6.0, можно также использовать
        параметр <parameter>options</parameter> для передачи <link
        linkend="libxml.constants">дополнительных параметров Libxml</link>.
       </para>
@@ -99,7 +99,7 @@ echo $doc->saveHTML();
      </thead>
      <tbody>
       <row>
-       <entry>5.1.0</entry>
+       <entry>5.4.0</entry>
        <entry>
         Добавлен параметр <parameter>options</parameter>.
        </entry>
