@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 297028 Maintainer: tmn Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 332260 Maintainer: tmn Status: ready -->
+<!-- Reviewed: no Maintainer: tmn -->
 <!-- $Revision$ -->
 <refentry xml:id="function.restore-error-handler" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -64,16 +64,6 @@ restore_error_handler();
     </screen>
    </example>
   </para>
- </refsect1>
-
- <refsect1 role="notes">
-  &reftitle.notes;
-  <note>
-   <para>
-    Вызов <function>restore_error_handler</function> из обработчика
-    <literal>error_handler</literal> игнорируется.
-   </para>
-  </note>
  </refsect1>
 
  <refsect1 role="seealso">
