@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- EN-Revision: 325783 Maintainer: tmn Status: ready -->
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EN-Revision: 334762 Maintainer: tmn Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="function.spl-autoload-register" xmlns="http://docbook.org/ns/docbook">
