@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 324459 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 331259 Maintainer: aur Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="ziparchive.getnameindex" xmlns="http://docbook.org/ns/docbook">
@@ -34,7 +34,7 @@
      <term><parameter>flags</parameter></term>
      <listitem>
       <para>
-       Если флаг установлен в <constant>ZIPARCHIVE::FL_UNCHANGED</constant>, 
+       Если флаг установлен в <constant>ZipArchive::FL_UNCHANGED</constant>, 
        возвращается оригинальное неизмененное имя.
       </para>
      </listitem>
@@ -52,7 +52,7 @@
   &reftitle.examples;
   <para>
    <example>
-    <title>Пример использования <function>getnameindex</function></title>
+    <title>Пример использования <function>ZipArchive::getnameindex</function></title>
     <programlisting role="php">
 <![CDATA[
 <?php
