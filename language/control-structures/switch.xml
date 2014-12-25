@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 316587 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 333299 Maintainer: mch Status: ready -->
 <!-- $Revision$ -->
 <!-- Reviewed: no -->
 
@@ -26,7 +26,7 @@
  <note>
   <para>
    Заметьте, что конструкция swich/case использует
-   <link linkend="types.comparisions-loose">неточные сравнения (==)</link>.
+   <link linkend="types.comparisions-loose">неточное сравнение (==)</link>.
   </para>
  </note>
  <para>
