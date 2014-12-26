@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 322136 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 331965 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <!-- splitted from ./en/functions/var.xml, last change in rev 1.6 -->
@@ -219,7 +219,14 @@ object(A)#2 (2) {
     Если необходимо производить какие-то действия с полным представлением массива
     или объекта, используйте функцию <function>serialize</function>.
    </para>
-  </note>
+  </note>  
+  <warning>
+   <para>
+    При экспорте объектов функцией <function>var_export</function>, 
+    лидирующий слэш не добавляется в имя класса с указанным 
+    пространством имен для наилучшей обратной совместимости.
+   </para>
+  </warning>
  </refsect1>
 
  <refsect1 role="seealso">

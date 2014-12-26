@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 297028 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 331805 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <!-- splitted from ./en/functions/var.xml, last change in rev 1.75 -->
@@ -64,7 +64,7 @@
 $c = mysql_connect();
 echo get_resource_type($c) . "\n";
 
-// выводит: file
+// выводит: stream
 $fp = fopen("foo", "w");
 echo get_resource_type($fp) . "\n";
 
