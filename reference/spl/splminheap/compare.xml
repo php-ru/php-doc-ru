@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- EN-Revision: 321072 Maintainer: tmn Status: ready -->
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EN-Revision: 334762 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="splminheap.compare" xmlns="http://docbook.org/ns/docbook">
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>int</type><methodname>SplMinHeap::compare</methodname>
+   <modifier>protected</modifier><type>int</type><methodname>SplMinHeap::compare</methodname>
    <methodparam><type>mixed</type><parameter>value1</parameter></methodparam>
    <methodparam><type>mixed</type><parameter>value2</parameter></methodparam>
   </methodsynopsis>
