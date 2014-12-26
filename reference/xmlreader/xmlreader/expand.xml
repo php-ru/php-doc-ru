@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 308253 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 330543 Maintainer: mch Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="xmlreader.expand" xmlns="http://docbook.org/ns/docbook">
@@ -10,6 +10,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
+   <modifier>public</modifier>
    <type>DOMNode</type>
    <methodname>XMLReader::expand</methodname>
    <methodparam choice="opt"><type>DOMNode</type><parameter>basenode</parameter></methodparam>
