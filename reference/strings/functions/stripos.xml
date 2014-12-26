@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 321865 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 333561 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.stripos">
@@ -118,6 +118,7 @@ if ($pos2 !== false) {
   &reftitle.seealso;
   <para>
    <simplelist>
+    <member><function>mb_stripos</function></member>
     <member><function>strpos</function></member>
     <member><function>strrpos</function></member>
     <member><function>strripos</function></member>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 288721 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 330030 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 
@@ -13,7 +13,7 @@
   &reftitle.description;
   <methodsynopsis>
    <modifier>public</modifier> <type>bool</type><methodname>streamWrapper::stream_lock</methodname>
-   <methodparam><type>mode</type><parameter>operation</parameter></methodparam>
+   <methodparam><type>int</type><parameter>operation</parameter></methodparam>
   </methodsynopsis>
   <para>
    Этот метод вызывается в следующих случаях: при вызове функции
