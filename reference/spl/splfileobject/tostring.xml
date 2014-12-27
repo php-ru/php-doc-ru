@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: northcat Status: ready -->
+<!-- EN-Revision: 329366 Maintainer: northcat Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="splfileobject.tostring" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -11,6 +11,10 @@
 
  <refsect1 role="description">
   &reftitle.description;
+  <methodsynopsis>
+   <modifier>public</modifier> <type>void</type><methodname>SplFileObject::__toString</methodname>
+   <void />
+  </methodsynopsis>
   <simpara>
    Этот метод является псевдонимом <methodname>SplFileObject::current</methodname>.
   </simpara>

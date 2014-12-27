@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- EN-Revision: 324459 Maintainer: tmn Status: ready -->
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EN-Revision: 334762 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="splheap.next" xmlns="http://docbook.org/ns/docbook">
@@ -13,11 +13,11 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>void</type><methodname>SplHeap::next</methodname>
+   <modifier>public</modifier> <type>void</type><methodname>SplHeap::next</methodname>
    <void/>
   </methodsynopsis>
   <para>
-   Переход к следующему узлу.
+   Переход к следующему узлу. Также удалит узел на вершине кучи.
   </para>
  </refsect1>
  
