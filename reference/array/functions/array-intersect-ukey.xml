@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 324122 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 331477 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.array-intersect-ukey">
@@ -44,7 +44,7 @@
      </listitem>
     </varlistentry>
     <varlistentry>
-     <term><parameter>array</parameter></term>
+     <term><parameter>...</parameter></term>
      <listitem>
       <para>
        Дополнительные массивы, с которыми осуществляется сравнение ключей.
