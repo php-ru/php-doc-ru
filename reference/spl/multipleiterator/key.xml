@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision$ -->
-<!-- EN-Revision: 312851 Maintainer: northcat Status: ready -->
+<!-- EN-Revision: 328297 Maintainer: northcat Status: ready -->
 <!-- Reviewed: no -->
-
+<!-- $Revision$ -->
 <refentry xml:id="multipleiterator.key" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>MultipleIterator::key</refname>
@@ -12,11 +11,11 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>public</modifier> <type>void</type><methodname>MultipleIterator::key</methodname>
-   <void />
+   <modifier>public</modifier> <type>array</type><methodname>MultipleIterator::key</methodname>
+   <void/>
   </methodsynopsis>
   <para>
-   Получает зарегистрированные итераторы.
+   Получает результат выполнения key() зарегистрированных итераторов.
   </para>
 
   &warn.undocumented.func;
@@ -41,6 +40,10 @@
   <para>
    <classname>LogicException</classname>, если установлен режим <constant>MIT_NEED_ALL</constant>,
    и хотя бы один присоединенный итератор недействителен.
+  </para>
+  <para>
+   Вызов этого метода из <xref linkend="control-structures.foreach"/>
+   вызовет предупреждение "Возвращен неверный тип" ("Illegal type returned").
   </para>
  </refsect1>
 
