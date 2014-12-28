@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision$ -->
-<!-- EN-Revision: 326112 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 329238 Maintainer: mch Status: ready -->
 <!-- Reviewed: no -->
-
+<!-- $Revision$ -->
 <refentry xml:id="arrayiterator.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>ArrayIterator::__construct</refname>
@@ -40,8 +39,8 @@
      <term><parameter>flags</parameter></term>
      <listitem>
       <para>
-       Флаги для управления поведением объекта <classname>ArrayObject</classname>.
-       См. <methodname>ArrayObject::setFlags</methodname>.
+       Флаги для управления поведением объекта <classname>ArrayIterator</classname>.
+       См. <methodname>ArrayIterator::setFlags</methodname>.
       </para>
      </listitem>
     </varlistentry>
