@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: northcat Status: ready -->
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EN-Revision: 334762 Maintainer: northcat Status: ready -->
 <!-- Reviewed: no -->
-
+<!-- $Revision$ -->
 <refentry xml:id="filteriterator.next" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>FilterIterator::next</refname>
@@ -12,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>void</type><methodname>FilterIterator::next</methodname>
+   <modifier>public</modifier> <type>void</type><methodname>FilterIterator::next</methodname>
    <void/>
   </methodsynopsis>
 
