@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 308472 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 335436 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.fread">
@@ -148,7 +148,12 @@ fclose($handle);
 <![CDATA[
 <?php
 $handle = fopen("http://www.example.com/", "rb");
+if (FALSE === $handle) {
+  exit("Не удалось открыть поток по url адресу");
+}
+
 $contents = '';
+
 while (!feof($handle)) {
   $contents .= fread($handle, 8192);
 }
