@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: countzero Status: ready -->
+<!-- EN-Revision: 329843 Maintainer: countzero Status: ready -->
 <!-- Reviewed: no -->
+<!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.socket-write">
  <refnamediv>
   <refname>socket_write</refname>
