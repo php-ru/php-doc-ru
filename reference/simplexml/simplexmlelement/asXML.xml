@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 311775 Maintainer: mch Status: ready -->
-<!-- $Revision$ -->
+<!-- EN-Revision: 332131 Maintainer: mch Status: ready -->
 <!-- Reviewed: no -->
+<!-- $Revision$ -->
 <refentry xml:id="simplexmlelement.asxml" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>SimpleXMLElement::asXML</refname>
@@ -124,6 +124,7 @@ while(list( , $node) = each($result)) {
   &reftitle.seealso;
   <para>
    <simplelist>
+    <member><methodname>SimpleXMLElement::__toString</methodname></member>
     <member><xref linkend="simplexml.examples-basic"/></member>
    </simplelist>
   </para>
