@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 290998 Maintainer: tmn Status: ready -->
-<!-- Reviewed: no -->
-<!-- $Revision$ -->
-
+<!-- EN-Revision: 331803 Maintainer: tmn Status: ready -->
+<!-- Reviewed: no --><!-- $Revision$ -->
 <refentry xml:id="reflectionparameter.getdeclaringfunction" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>ReflectionParameter::getDeclaringFunction</refname>
@@ -12,8 +10,8 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>public</modifier> <type>ReflectionFunction</type><methodname>ReflectionParameter::getDeclaringFunction</methodname>
-   <void />
+   <modifier>public</modifier> <type>ReflectionFunctionAbstract</type><methodname>ReflectionParameter::getDeclaringFunction</methodname>
+   <void/>
   </methodsynopsis>
   <para>
    Получает функцию, в которой аргумент объявлен.

@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 317663 Maintainer: tmn Status: ready -->
-<!-- Reviewed: no -->
-<!-- $Revision$ -->
-
+<!-- EN-Revision: 331655 Maintainer: tmn Status: ready -->
+<!-- Reviewed: no --><!-- $Revision$ -->
 <refentry xml:id="reflectionmethod.getclosure" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>ReflectionMethod::getClosure</refname>
@@ -13,7 +11,7 @@
   &reftitle.description;
   <methodsynopsis>
    <modifier>public</modifier> <type>Closure</type><methodname>ReflectionMethod::getClosure</methodname>
-   <methodparam><type>string</type><parameter>object</parameter></methodparam>
+   <methodparam><type>object</type><parameter>object</parameter></methodparam>
   </methodsynopsis>
   <para>
 

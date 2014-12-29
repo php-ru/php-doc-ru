@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 317502 Maintainer: tmn Status: ready -->
-<!-- Reviewed: no -->
-<!-- $Revision$ -->
-
+<!-- EN-Revision: 330543 Maintainer: tmn Status: ready -->
+<!-- Reviewed: no --><!-- $Revision$ -->
 <refentry xml:id="reflectionproperty.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>ReflectionProperty::__construct</refname>
@@ -12,7 +10,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <methodname>ReflectionProperty::__construct</methodname>
+   <modifier>public</modifier> <methodname>ReflectionProperty::__construct</methodname>
    <methodparam><type>mixed</type><parameter>class</parameter></methodparam>
    <methodparam><type>string</type><parameter>name</parameter></methodparam>
   </methodsynopsis>

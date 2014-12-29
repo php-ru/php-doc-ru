@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 290998 Maintainer: tmn Status: ready -->
-<!-- Reviewed: no -->
-<!-- $Revision$ -->
-
+<!-- EN-Revision: 334176 Maintainer: tmn Status: ready -->
+<!-- Reviewed: no --><!-- $Revision$ -->
 <refentry xml:id="reflectionproperty.isstatic" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>ReflectionProperty::isStatic</refname>
@@ -13,7 +11,7 @@
   &reftitle.description;
   <methodsynopsis>
    <modifier>public</modifier> <type>bool</type><methodname>ReflectionProperty::isStatic</methodname>
-   <void />
+   <void/>
   </methodsynopsis>
   <para>
    Проверяет, является ли свойство статическим.
@@ -36,6 +34,8 @@
   &reftitle.seealso;
   <para>
    <simplelist>
+    <member><methodname>ReflectionProperty::isPublic</methodname></member>
+    <member><methodname>ReflectionProperty::isProtected</methodname></member>
     <member><methodname>ReflectionProperty::isPrivate</methodname></member>
    </simplelist>
   </para>

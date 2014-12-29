@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 322136 Maintainer: tmn Status: ready -->
-<!-- Reviewed: no -->
-<!-- $Revision$ -->
-
+<!-- EN-Revision: 334550 Maintainer: tmn Status: ready -->
+<!-- Reviewed: no --><!-- $Revision$ -->
 <refentry xml:id="reflector.tostring" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>Reflector::__toString</refname>
@@ -12,8 +10,8 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>abstract</modifier> <modifier>public</modifier> <type>string</type><methodname>Reflector::__toString</methodname>
-   <void />
+   <modifier>public</modifier> <type>string</type><methodname>Reflector::__toString</methodname>
+   <void/>
   </methodsynopsis>
   <para>
    Представление в виде строки.

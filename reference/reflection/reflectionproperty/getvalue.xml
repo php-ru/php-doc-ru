@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 313064 Maintainer: tmn Status: ready -->
-<!-- Reviewed: no -->
-<!-- $Revision$ -->
-
+<!-- EN-Revision: 331666 Maintainer: tmn Status: ready -->
+<!-- Reviewed: no --><!-- $Revision$ -->
 <refentry xml:id="reflectionproperty.getvalue" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>ReflectionProperty::getValue</refname>
@@ -13,11 +11,7 @@
   &reftitle.description;
   <methodsynopsis>
    <modifier>public</modifier> <type>mixed</type><methodname>ReflectionProperty::getValue</methodname>
-   <methodparam><type>object</type><parameter>object</parameter></methodparam>
-  </methodsynopsis>
-  <methodsynopsis>
-   <modifier>public</modifier> <type>mixed</type><methodname>ReflectionProperty::getValue</methodname>
-   <void />
+   <methodparam choice="opt"><type>object</type><parameter>object</parameter></methodparam>
   </methodsynopsis>
   <para>
    Получает значение свойства.

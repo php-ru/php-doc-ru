@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 290998 Maintainer: tmn Status: ready -->
-<!-- Reviewed: no -->
-<!-- $Revision$ -->
-
+<!-- EN-Revision: 334550 Maintainer: tmn Status: ready -->
+<!-- Reviewed: no --><!-- $Revision$ -->
 <refentry xml:id="reflector.export" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>Reflector::export</refname>
@@ -12,8 +10,8 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>abstract</modifier> <modifier>public</modifier> <modifier>static</modifier> <type>string</type><methodname>Reflector::export</methodname>
-   <void />
+   <modifier>public</modifier> <modifier>static</modifier> <type>string</type><methodname>Reflector::export</methodname>
+   <void/>
   </methodsynopsis>
   <para>
    Экспорт.

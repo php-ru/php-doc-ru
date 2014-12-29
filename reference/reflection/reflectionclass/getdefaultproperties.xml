@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 313064 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 329237 Maintainer: aur Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
-
 <refentry xml:id="reflectionclass.getdefaultproperties" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>ReflectionClass::getDefaultProperties</refname>
@@ -13,11 +12,17 @@
   &reftitle.description;
   <methodsynopsis>
    <modifier>public</modifier> <type>array</type><methodname>ReflectionClass::getDefaultProperties</methodname>
-   <void />
+   <void/>
   </methodsynopsis>
   <para>
    Возвращает свойства класса по умолчанию (включая наследованные свойства).
   </para>
+  <note>
+   <para>
+    Этот метод работает только для статических свойств при использовании с внутренними классами.
+    Значение по умолчанию статического свойства нельзя отслеживать в классах, определенных пользователем.
+   </para>
+  </note>
  </refsect1>
 
  <refsect1 role="parameters">
