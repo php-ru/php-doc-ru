@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision$ -->
-<!-- EN-Revision: 322205 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 331733 Maintainer: aur Status: ready -->
 <!-- Reviewed: no -->
-
+<!-- $Revision$ -->
 <refentry xml:id="oci-collection.max" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>OCI-Collection::max</refname>
@@ -11,9 +10,9 @@
  
  <refsect1 role="description">
   &reftitle.description;
-  <methodsynopsis>
+  <methodsynopsis role="oop">
    <type>int</type><methodname>OCI-Collection::max</methodname>
-   <void />
+   <void/>
   </methodsynopsis>
   <para>
    Возвращает максимальное количество элементов в коллекции.
@@ -34,7 +33,7 @@
   &reftitle.seealso;
   <para>
    <simplelist>
-    <member><xref linkend="oci-collection.size" /></member>
+    <member><xref linkend="oci-collection.size"/></member>
    </simplelist>
   </para>
  </refsect1>
