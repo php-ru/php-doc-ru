@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- EN-Revision: 322104 Maintainer: tmn Status: ready -->
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EN-Revision: 334762 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="pdostatement.bindcolumn" xmlns="http://docbook.org/ns/docbook">
@@ -12,7 +12,7 @@
  <refsect1 role="description">
   &reftitle.description;
    <methodsynopsis>
-    <type>bool</type><methodname>PDOStatement::bindColumn</methodname>
+    <modifier>public</modifier> <type>bool</type><methodname>PDOStatement::bindColumn</methodname>
     <methodparam><type>mixed</type><parameter>column</parameter></methodparam>
     <methodparam><type>mixed</type><parameter role="reference">param</parameter></methodparam>
     <methodparam choice="opt"><type>int</type><parameter>type</parameter></methodparam>
@@ -70,7 +70,7 @@
      <term><parameter>type</parameter></term>
      <listitem>
       <para>
-       Тип данных параметра, заданный одной из констант PDO::PARAM_*.
+       Тип данных параметра, заданный одной из констант <link linkend="pdo.constants"><literal>PDO::PARAM_*</literal>.
       </para>
      </listitem>
     </varlistentry>

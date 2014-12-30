@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- EN-Revision: 326723 Maintainer: mch Status: ready -->
-<!-- $Revision$ -->
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EN-Revision: 334762 Maintainer: mch Status: ready -->
 <!-- Reviewed: no -->
+<!-- $Revision$ -->
 <refentry xml:id="pdo.commit" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>PDO::commit</refname>
@@ -13,7 +13,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>bool</type><methodname>PDO::commit</methodname>
+   <modifier>public</modifier> <type>bool</type><methodname>PDO::commit</methodname>
    <void/>
   </methodsynopsis>
   <para>

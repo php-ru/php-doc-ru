@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 320330 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 330543 Maintainer: mch Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="pdo.intransaction" xmlns="http://docbook.org/ns/docbook">
@@ -13,7 +13,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>bool</type><methodname>PDO::inTransaction</methodname>
+   <modifier>public</modifier> <type>bool</type><methodname>PDO::inTransaction</methodname>
    <void/>
   </methodsynopsis>
   <para>

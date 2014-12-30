@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- EN-Revision: 322104 Maintainer: tmn Status: ready -->
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EN-Revision: 334762 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="pdostatement.rowcount" xmlns="http://docbook.org/ns/docbook">
@@ -12,7 +12,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>int</type><methodname>PDOStatement::rowCount</methodname>
+   <modifier>public</modifier> <type>int</type><methodname>PDOStatement::rowCount</methodname>
    <void/>
   </methodsynopsis>
 
