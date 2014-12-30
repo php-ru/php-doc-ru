@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 330340 Maintainer: mch Status: ready -->
-<!-- $Revision$ -->
+<!-- EN-Revision: 335457 Maintainer: mch Status: ready -->
 <!-- Reviewed: no -->
-
+<!-- $Revision$ -->
 <book xml:id="book.outcontrol" xmlns="http://docbook.org/ns/docbook">
  <?phpdoc extension-membership="core" ?>
  <title>Управление буфером вывода</title>
@@ -58,3 +57,4 @@ vim600: syn=xml fen fdm=syntax fdl=2 si
 vim: et tw=78 syn=sgml
 vi: ts=1 sw=1
 -->
+

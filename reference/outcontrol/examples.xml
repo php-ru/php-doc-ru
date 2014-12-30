@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 325214 Maintainer: mch Status: ready -->
-<!-- $Revision$ -->
+<!-- EN-Revision: 333204 Maintainer: mch Status: ready -->
 <!-- Reviewed: no -->
+<!-- $Revision$ -->
 <appendix xml:id="outcontrol.examples" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
   &reftitle.examples;
   <section xml:id="outcontrol.examples.basic">
@@ -30,8 +30,8 @@ ob_end_flush();
    будет храниться в буфере вывода до вызова
    <function>ob_end_flush</function>. В то же время
    вызов <function>setcookie</function> успешно сохранится в
-   cookie браузера, не вызывая ошибки (вы не можете отправлять
-   заголовки в браузер после того, как данные уже были отправлены).
+   cookie браузера, не вызывая ошибки (заголовки не могут нормально отправляться
+   в браузер после того, как данные уже были отправлены).
   </para>
  </section>
 </appendix>
