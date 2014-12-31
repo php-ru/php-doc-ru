@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: bfl Status: ready -->
+<!-- EN-Revision: 330583 Maintainer: bfl Status: ready -->
 <!-- Reviewed: no -->
+<!-- $Revision$ -->
 <refentry xml:id="function.setrawcookie" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>setrawcookie</refname>
@@ -54,6 +54,13 @@
       </row>
      </thead>
      <tbody>
+      <row>
+       <entry>5.5.0</entry>
+       <entry>
+        Аттрибут Max-Age теперь добавляется в заголовок Set-Cookie,
+        отправляемый клиенту.
+       </entry>
+      </row>
       <row>
        <entry>5.2.0</entry>
        <entry>
