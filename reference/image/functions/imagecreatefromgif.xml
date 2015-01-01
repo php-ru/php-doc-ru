@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 309972 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 329882 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="function.imagecreatefromgif" xmlns="http://docbook.org/ns/docbook">
@@ -94,6 +94,12 @@ imagedestroy($img);
     Поддержка GIF была убрана из GD библиотеки в версии 1.6,
     и добавлена обратно в версии 2.0.28. Эта функция недоступна в промежуточных
     версиях.
+   </para>
+  </note>
+  <note>
+   <para>
+    При чтении анимированных файлов GIF в память, возвращается указатель 
+    на ресурс изображения только для первого фрейма.
    </para>
   </note>
   &warn.no-win32-fopen-wrapper;

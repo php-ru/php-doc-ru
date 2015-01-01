@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 309972 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 331628 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="function.imagecreate" xmlns="http://docbook.org/ns/docbook">
@@ -19,7 +19,12 @@
    представляющего из себя пустое изображение заданного размера.
   </para>
   <para>
-   Мы рекомендуем использовать функцию <function>imagecreatetruecolor</function>.
+   Мы рекомендуем использовать функцию <function>imagecreatetruecolor</function> вместо
+   <function>imagecreate</function>, так как она она обрабатывает 
+   изображения с максимально возможным качеством. Если необходимо 
+   вывести палитру изображения, то <function>imagetruecolortopalette</function>
+   необходимо вызвать непосредственно перед сохранением изображения с помощью 
+   <function>imagepng</function> или <function>imagegif</function>.
   </para>
  </refsect1>
  <refsect1 role="parameters">

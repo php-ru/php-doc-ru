@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- EN-Revision: 325929 Maintainer: tmn Status: ready -->
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EN-Revision: 334762 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="function.imagefilter" xmlns="http://docbook.org/ns/docbook">
@@ -415,7 +415,6 @@ imagedestroy($output);
  </refsect1>
  <refsect1 role="notes">
   &reftitle.notes;
-  &note.bundled.gd;
  </refsect1>
  <refsect1 role="seealso">
   &reftitle.seealso;
