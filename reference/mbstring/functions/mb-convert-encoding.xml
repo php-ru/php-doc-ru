@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 308187 Maintainer: mch Status: ready -->
-<!-- $Revision$ -->
+<!-- EN-Revision: 331340 Maintainer: mch Status: ready -->
 <!-- Reviewed: no -->
+<!-- $Revision$ -->
 <refentry xml:id="function.mb-convert-encoding" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>mb_convert_encoding</refname>
@@ -14,7 +14,7 @@
    <type>string</type><methodname>mb_convert_encoding</methodname>
    <methodparam><type>string</type><parameter>str</parameter></methodparam>
    <methodparam><type>string</type><parameter>to_encoding</parameter></methodparam>
-   <methodparam choice="opt"><type>mixed</type><parameter>from_encoding</parameter></methodparam>
+   <methodparam choice="opt"><type>mixed</type><parameter>from_encoding</parameter><initializer>mb_internal_encoding()</initializer></methodparam>
   </methodsynopsis>
   <para>
    Преобразует символы строки <type>string</type> <parameter>str</parameter>
