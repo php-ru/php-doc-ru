@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 330340 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 332091 Maintainer: aur Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 
@@ -27,6 +27,7 @@
  
  &reference.dom.setup;
  &reference.dom.constants;
+ &reference.dom.examples;
 
  &reference.dom.domattr;
  &reference.dom.domcdatasection;
