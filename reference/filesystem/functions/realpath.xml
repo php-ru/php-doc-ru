@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 330184 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 334621 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.realpath">
@@ -86,14 +86,6 @@
         последнего компонента пути <parameter>path</parameter>.
         Теперь <function>realpath</function> не срабатывает также
         и в этом случае.
-       </entry>
-      </row>
-      <row>
-       <entry>5.0.0</entry>
-       <entry>
-        До этой версии при передаче пустой строки или &null; в <parameter>path</parameter>
-        <function>realpath</function> возвращала имя директории, вызываемого
-        скрипта.
        </entry>
       </row>
      </tbody>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 325525 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 334234 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.readfile">
@@ -38,8 +38,8 @@
      <listitem>
       <para>
        Вы можете установить в &true; необязательный второй аргумент,
-       если вы также хотите попытаться найти файл в <link
-       linkend="ini.include-path">include_path</link>.
+       если вы также хотите попытаться найти файл в 
+       <link linkend="ini.include-path">include_path</link>.
       </para>
      </listitem>
     </varlistentry>
@@ -78,13 +78,10 @@ if (file_exists($file)) {
     header('Content-Description: File Transfer');
     header('Content-Type: application/octet-stream');
     header('Content-Disposition: attachment; filename='.basename($file));
-    header('Content-Transfer-Encoding: binary');
     header('Expires: 0');
     header('Cache-Control: must-revalidate');
     header('Pragma: public');
     header('Content-Length: ' . filesize($file));
-    ob_clean();
-    flush();
     readfile($file);
     exit;
 }
