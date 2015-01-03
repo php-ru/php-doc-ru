@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 324232 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 335248 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ --> 
 
@@ -42,6 +42,14 @@
   &reftitle.returnvalues;
   <para>
    Возвращает &true;, если еще есть доступные результирующие наборы, &false; в противном случае.
+  </para>
+ </refsect1>
+
+ <refsect1 role="mysqlnd">
+   &reftitle.mysqlnd;
+
+  <para>
+   &mysqli.available.mysqlnd;
   </para>
  </refsect1>
 

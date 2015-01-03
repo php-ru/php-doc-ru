@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 324232 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 335248 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ --> 
 
@@ -52,6 +52,14 @@
    результирующего набора. Следует проверять наличие доступных наборов функцией
    <methodname>mysqli_stmt::more_results</methodname> непосредственно перед
    вызовом <methodname>mysqli_stmt::next_result</methodname>.
+  </para>
+ </refsect1>
+
+ <refsect1 role="mysqlnd">
+   &reftitle.mysqlnd;
+
+  <para>
+   &mysqli.available.mysqlnd;
   </para>
  </refsect1>
 
