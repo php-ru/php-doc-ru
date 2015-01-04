@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision$ -->
-<!-- EN-Revision: 322115 Maintainer: alien Status: ready -->
+<!-- EN-Revision: 331919 Maintainer: alien Status: ready -->
 <!-- Reviewed: no -->
+<!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getresourcelimit">
  <refnamediv>
   <refname>Imagick::getResourceLimit</refname>
@@ -15,7 +15,7 @@
    <methodparam><type>int</type><parameter>type</parameter></methodparam>
   </methodsynopsis>
   <para>
-   Возвращает заданный лимит ресурсов в мегабайтах.
+   Возвращает заданный лимит ресурсов.
   </para>
  </refsect1>
 

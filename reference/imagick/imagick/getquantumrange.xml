@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision$ -->
-<!-- EN-Revision: 322115 Maintainer: alien Status: ready -->
+<!-- EN-Revision: 333206 Maintainer: alien Status: ready -->
 <!-- Reviewed: no -->
-
+<!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getquantumrange">
  <refnamediv>
   <refname>Imagick::getQuantumRange</refname>
-  <refpurpose>Возвращает величину диапазона объекта Imagick</refpurpose>
+  <refpurpose>Возвращает величину размера спектра Imagick</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
@@ -16,14 +15,16 @@
    <void/>
   </methodsynopsis>
   <para>
-   Возвращает величину диапазона объекта Imagick в виде строки.
+   Возвращает величину размера спектра для объекта Imagick.
   </para>
  </refsect1>
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Возвращает величину диапазона объекта Imagick в виде строки.
+   Возвращает ассоциативный массив, содержащий размер спектра как целое
+   <type>integer</type> (<literal>"quantumRangeLong"</literal>) и как строку
+   <type>string</type> (<literal>"quantumRangeString"</literal>).
   </para>
  </refsect1>
 

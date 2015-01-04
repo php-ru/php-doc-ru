@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision$ -->
-<!-- EN-Revision: 322115 Maintainer: alien Status: ready -->
+<!-- EN-Revision: 331919 Maintainer: alien Status: ready -->
 <!-- Reviewed: no -->
+<!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.destroy">
  <refnamediv>
   <refname>Imagick::destroy</refname>
@@ -16,6 +16,7 @@
   </methodsynopsis>
   <para>
    Удаляет объект Imagick и освобождает все ресурсы связанные с ним.
+   Этот метод устарел и следует использовать <link linkend="imagick.clear">Imagick::clear</link>.
   </para>
  </refsect1>
 

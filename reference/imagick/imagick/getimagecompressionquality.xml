@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision$ -->
-<!-- EN-Revision: 322115 Maintainer: alien Status: ready -->
+<!-- EN-Revision: 333211 Maintainer: alien Status: ready -->
 <!-- Reviewed: no -->
-
+<!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getimagecompressionquality">
  <refnamediv>
   <refname>Imagick::getImageCompressionQuality</refname>
@@ -12,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>int</type><methodname>Imagick::getCompressionQuality</methodname>
+   <type>int</type><methodname>Imagick::getImageCompressionQuality</methodname>
    <void/>
   </methodsynopsis>
 
