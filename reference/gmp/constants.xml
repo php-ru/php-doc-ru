@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 323624 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 335011 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <appendix xml:id="gmp.constants" xmlns="http://docbook.org/ns/docbook">
@@ -31,6 +31,61 @@
   <varlistentry xml:id="constant.gmp-round-minusinf">
    <term>
     <constant>GMP_ROUND_MINUSINF</constant> 
+    (<type>integer</type>)
+   </term>
+   <listitem>
+    <simpara>
+     
+    </simpara>
+   </listitem>
+  </varlistentry>
+  <varlistentry xml:id="constant.gmp-msw-first">
+   <term>
+    <constant>GMP_MSW_FIRST</constant> 
+    (<type>integer</type>)
+   </term>
+   <listitem>
+    <simpara>
+     
+    </simpara>
+   </listitem>
+  </varlistentry>
+  <varlistentry xml:id="constant.gmp-lsw-first">
+   <term>
+    <constant>GMP_LSW_FIRST</constant> 
+    (<type>integer</type>)
+   </term>
+   <listitem>
+    <simpara>
+     
+    </simpara>
+   </listitem>
+  </varlistentry>
+  <varlistentry xml:id="constant.gmp-little-endian">
+   <term>
+    <constant>GMP_LITTLE_ENDIAN</constant> 
+    (<type>integer</type>)
+   </term>
+   <listitem>
+    <simpara>
+     
+    </simpara>
+   </listitem>
+  </varlistentry>
+  <varlistentry xml:id="constant.gmp-big-endian">
+   <term>
+    <constant>GMP_BIG_ENDIAN</constant> 
+    (<type>integer</type>)
+   </term>
+   <listitem>
+    <simpara>
+     
+    </simpara>
+   </listitem>
+  </varlistentry>
+  <varlistentry xml:id="constant.gmp-native-endian">
+   <term>
+    <constant>GMP_NATIVE_ENDIAN</constant> 
     (<type>integer</type>)
    </term>
    <listitem>
