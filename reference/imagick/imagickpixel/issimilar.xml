@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision$ -->
-<!-- EN-Revision: 322115 Maintainer: alien Status: ready -->
+<!-- EN-Revision: 331921 Maintainer: alien Status: ready -->
 <!-- Reviewed: no -->
+<!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickpixel.issimilar">
  <refnamediv>
   <refname>ImagickPixel::isSimilar</refname>
@@ -21,6 +21,7 @@
    и цвета в переданном объекте, путем построения их RGB значений в
    цветовом кубе. Если разница между ними меньше чем переданное fuzz-значение,
    то цвета считаются одинаковыми.
+   Устарел в пользу <link linkend="imagickpixel.ispixelsimilar">ImagickPixel::isPixelSimilar()</link>.
   </para>
  </refsect1>
 
@@ -79,3 +80,4 @@ vim600: syn=xml fen fdm=syntax fdl=2 si
 vim: et tw=78 syn=sgml
 vi: ts=1 sw=1
 -->
+
