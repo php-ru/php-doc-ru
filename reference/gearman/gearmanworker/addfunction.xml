@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 324122 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 333267 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 
@@ -95,12 +95,12 @@ $worker->addServer();
 $count= 0; 
 
 # добавляем функцию "reverse" 
-$worker->addFunction("reverse", "reverse_cb", &$count);
+$worker->addFunction("reverse", "reverse_cb", $count);
 
 # запускаем обработчик
 while ($worker->work());
 
-function reverse_cb($job, $count) 
+function reverse_cb($job, &$count) 
 { 
   $count++; 
   return "$count: " . strrev($job->workload()); 
