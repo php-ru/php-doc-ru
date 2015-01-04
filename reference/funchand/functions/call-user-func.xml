@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 324122 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 335189 Maintainer: shein Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="function.call-user-func" xmlns="http://docbook.org/ns/docbook">
@@ -59,7 +59,8 @@ $a = 0;
 call_user_func('increment', $a);
 echo $a."\n";
 
-call_user_func_array('increment', array(&$a)); // Вместо этого можно использовать этот способ до PHP 5.3
+// Вместо этого можно использовать этот способ
+call_user_func_array('increment', array(&$a));
 echo $a."\n";
 ?>
 ]]>
