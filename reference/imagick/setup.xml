@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision$ -->
-<!-- EN-Revision: 307740 Maintainer: alien Status: ready -->
+<!-- EN-Revision: 333351 Maintainer: alien Status: ready -->
 <!-- Reviewed: no -->
+<!-- $Revision$ -->
 
 <chapter xml:id="imagick.setup" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.setup;
@@ -44,7 +44,7 @@
    <simpara>Официальное название этого расширения - <emphasis>imagick</emphasis>.</simpara>
   </note>
   <para>
-   &pecl.windows.download;
+   Пользователи Windows могут загрузить готовый DLL файл со страницы <link xlink:href="&url.pecl.windows.releases;imagick">PECL</link>.
   </para>
  </section>
  <!-- }}} -->
