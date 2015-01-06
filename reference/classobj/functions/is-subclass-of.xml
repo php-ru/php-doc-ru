@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 328790 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 334468 Maintainer: shein Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="function.is-subclass-of" xmlns="http://docbook.org/ns/docbook">
@@ -28,7 +28,7 @@
      <term><parameter>object</parameter></term>
      <listitem>
       <para>
-       Имя класса или экземпляр объекта
+       Имя класса или экземпляр объекта. Если класс не существует, то не будет брошено никакой ошибки.
       </para>
      </listitem>
     </varlistentry>
