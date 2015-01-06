@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision$ -->
-<!-- EN-Revision: 318298 Maintainer: irker Status: ready -->
+<!-- EN-Revision: 332239 Maintainer: irker Status: ready -->
 <!-- Reviewed: no -->
+<!-- $Revision$ -->
 
 <refentry xml:id="closure.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -12,7 +12,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <methodname>Closure::__construct</methodname>
+   <modifier>private</modifier> <methodname>Closure::__construct</methodname>
    <void />
   </methodsynopsis>
   <para>
