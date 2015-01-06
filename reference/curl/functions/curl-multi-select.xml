@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 316587 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 335159 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
-<!-- $Id -->
 <refentry xml:id="function.curl-multi-select" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>curl_multi_select</refname>
   <refpurpose>Ждет активности на любом curl_multi соединении</refpurpose>
  </refnamediv>
-
+ 
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
@@ -38,13 +37,14 @@
    </variablelist>
   </para>
  </refsect1>
-
+ 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
    В случае успеха, возвращает количество дескрипторов, содержащихся в
-   наборах дескрипторов. В случае неудачи эта функция вернет -1
-   при ошибке выборки или таймаута (из нижележащего системного вызова выборки).
+   наборах дескрипторов. Может вернуть 0, если не было активности 
+   ни на одном декскрипторе. В случае неудачи эта функция вернет -1
+   при ошибке выборки (из нижележащего системного вызова выборки).
   </para>
  </refsect1>
 
