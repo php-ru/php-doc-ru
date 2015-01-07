@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 324459 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 334698 Maintainer: shein Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
  <sect1 xml:id="language.oop5.interfaces" xmlns="http://docbook.org/ns/docbook">
@@ -28,8 +28,10 @@
    </para>
    <note>
     <para>
-     Класс не может реализовать два интерфейса, содержащих одноименную
-     функцию, так как это повлечет за собой неоднозначность.
+     До версии PHP 5.3.9 класс не мог реализовывать два интерфейса,
+     которые описывали метод с одинаковым именем, так как это приводило
+     к неоднозначности. Новые версии PHP позволяют это делать, если
+     методы имеют одинаковую сигнатуру.
     </para>
    </note>
    <note>
