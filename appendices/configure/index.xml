@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 304660 Maintainer: countzero Status: ready -->
+<!-- EN-Revision: 334726 Maintainer: countzero Status: ready -->
 <!-- Reviewed: yes Maintainer: Alex Cooper -->
 <!-- $Revision$ -->
-
 <appendix xml:id="configure" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Опции конфигурации</title>
 
@@ -50,13 +49,6 @@
 
   <sect2 xml:id="configure.options">
    <title>Опции конфигурации в PHP</title>
-   <note>
-    <para>
-     Эти опции используются только в PHP 4.1.0, хотя некоторые их них
-     доступны также и в более поздних версиях. Если вы хотите скомпилировать более позднюю
-     версию, то некоторые опции возможно будут недоступны.
-    </para>
-   </note>
    &appendices.configure.misc;
    &appendices.configure.php;
    &appendices.configure.servers;
