@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 324171 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 335484 Maintainer: shein Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
  <sect1 xml:id="language.oop5.typehinting" xmlns="http://docbook.org/ns/docbook">
@@ -21,7 +21,7 @@
   <para>
    Контроль типа не может быть использован со скалярными типами, такими как <type>int</type> или
    <type>string</type>.
-   <link linkend="language.oop5.traits">Трейты</link> также недопустимы.
+   <link linkend="language.types.resource">Ресурсы</link> и <link linkend="language.oop5.traits">Трейты</link> также недопустимы.
   </para>
   
   <example>
