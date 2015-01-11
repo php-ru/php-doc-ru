@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision$ -->
-<!-- EN-Revision: 305123 Maintainer: das Status: ready -->
+<!-- EN-Revision: 335710 Maintainer: das Status: ready -->
 <!-- Reviewed: no -->
+<!-- $Revision$ -->
 <refentry xml:id="function.mt-getrandmax" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mt_getrandmax</refname>
@@ -21,7 +21,10 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Возвращает максимальное случайное значение, возвращаемое <function>mt_rand</function>
+   Возвращает максимальное случайное значение, возвращаемое <function>mt_rand</function>,
+   вызыванного без аргументов. Т.е. максимальное значение, которое можно передать
+   в параметр <function>max</function>, так чтобы результат не округлился и,
+   соответсвенно, не уменьшалась случайность.
   </para>
  </refsect1>
  <refsect1 role="examples">
