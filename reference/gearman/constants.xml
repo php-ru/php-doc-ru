@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 323624 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 335959 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 
@@ -348,6 +348,17 @@
  </para>
  <para>
   <variablelist>
+   <varlistentry xml:id="constant.gearman-client-generate-unique">
+    <term>
+     <constant>GEARMAN_CLIENT_GENERATE_UNIQUE</constant>
+     (<type>integer</type>)
+    </term>
+    <listitem>
+     <simpara>
+      Создавать уникальный id (UUID) для каждой задачи.
+     </simpara>
+    </listitem>
+   </varlistentry>
    <varlistentry xml:id="constant.gearman-client-non-blocking">
     <term>
      <constant>GEARMAN_CLIENT_NON_BLOCKING</constant>

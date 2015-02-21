@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- EN-Revision: 335962 Maintainer: mch Status: ready -->
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: mch Status: ready -->
 <!-- Reviewed: no -->
 <sect1 xml:id="install.windows.apache2" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Apache 2.x on Microsoft Windows</title>
@@ -21,7 +21,6 @@
    Пользователям Apache 2.2 следует обратить внимание на то, что DLL файл для Apache 2.2 называется
    <filename>php5apache2_2.dll</filename>, а не <filename>php5apache2.dll</filename>
    и он доступен только для PHP 5.2.0 и более поздних версий.
-   Смотрите также <link xlink:href="&url.php.snapshots;">&url.php.snapshots;</link>
   </para>
  </note>
  
