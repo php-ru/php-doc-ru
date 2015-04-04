@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 334762 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 336244 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="pdo.errorcode" xmlns="http://docbook.org/ns/docbook">
@@ -56,8 +56,7 @@
 /* Спровоцируем ошибку -- таблицы BONES не существует */
 $dbh->exec("INSERT INTO bones(skull) VALUES ('lucy')");
 
-echo "\nPDO::errorCode(): ";
-print $dbh->errorCode();
+echo "\nPDO::errorCode(): ", $dbh->errorCode();
 ?>
 ]]>
     </programlisting>
