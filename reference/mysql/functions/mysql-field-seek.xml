@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 328734 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 336002 Maintainer: shein Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="function.mysql-field-seek" xmlns="http://docbook.org/ns/docbook">
@@ -13,8 +13,11 @@
    &mysql.alternative.note;
    <simplelist role="alternatives">
     <member><function>mysqli_field_seek</function></member>
-    <!-- @TODO Expand on the following -->
-    <member><methodname>PDOStatement::fetch</methodname> используя необязательный параметр</member>
+    <member>
+     <methodname>PDOStatement::fetch</methodname> с использованием
+     параметров <parameter>cursor_orientation</parameter> и
+     <parameter>offset</parameter>
+    </member>
    </simplelist>
   </warning>
  </refsynopsisdiv>

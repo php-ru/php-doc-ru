@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 335710 Maintainer: das Status: ready -->
+<!-- EN-Revision: 336046 Maintainer: das Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="function.mt-getrandmax" xmlns="http://docbook.org/ns/docbook">
@@ -23,7 +23,7 @@
   <para>
    Возвращает максимальное случайное значение, возвращаемое <function>mt_rand</function>,
    вызыванного без аргументов. Т.е. максимальное значение, которое можно передать
-   в параметр <function>max</function>, так чтобы результат не округлился и,
+   в параметр <parameter>max</parameter>, так чтобы результат не округлился и,
    соответсвенно, не уменьшалась случайность.
   </para>
  </refsect1>

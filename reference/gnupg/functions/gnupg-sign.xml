@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 317502 Maintainer: bfl Status: ready -->
+<!-- EN-Revision: 336243 Maintainer: bfl Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.gnupg-sign">
@@ -76,8 +76,8 @@ echo $signed;
 <![CDATA[
 <?php
 $gpg = new gnupg();
-$gpg -> setsignkey("8660281B6051D071D94B5B230549F9DC851566DC","test");
-$signed = $gpg -> sign("просто тест");
+$gpg->addsignkey("8660281B6051D071D94B5B230549F9DC851566DC","test");
+$signed = $gpg->sign("just a test");
 echo $signed;
 ?>
 ]]>
