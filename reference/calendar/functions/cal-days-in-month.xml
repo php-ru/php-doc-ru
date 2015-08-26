@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 335457 Maintainer: aur Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 336260 Maintainer: aur Status: ready -->
+<!-- Reviewed: yes Maintainer: tmn -->
 <!-- $Revision$ -->
 <refentry xml:id="function.cal-days-in-month" xmlns="http://docbook.org/ns/docbook"> 
  <refnamediv>
@@ -17,7 +17,7 @@
    <methodparam><type>int</type><parameter>year</parameter></methodparam>
   </methodsynopsis>
   <para>
-   Эта функция возвратит количество дней в месяце
+   Эта функция возвращает количество дней в месяце
    <parameter>month</parameter> года <parameter>year</parameter> для
    заданного календаря <parameter>calendar</parameter>.
   </para>

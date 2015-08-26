@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 334762 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 336889 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="function.frenchtojd" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>FrenchToJD</refname>
+  <refname>frenchtojd</refname>
   <refpurpose>
    Преобразует дату Французского республиканского календаря в количество 
    дней в Юлианском летоисчислении
