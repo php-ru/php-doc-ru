@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 334306 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 336886 Maintainer: shein Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <appendix xml:id="resource" xmlns="http://docbook.org/ns/docbook">
@@ -1717,10 +1717,10 @@
      <entry>
        <function>OCI-Lob::free</function>
      </entry>
-     <entry>Oracle long objects</entry>
+     <entry>Большие объекты Oracle</entry>
    </row>
    <row>
-    <entry>oci8 statement</entry>
+    <entry>oci8 выражения</entry>
     <entry>
      <function>oci_parse</function>,
      <function>oci_new_cursor</function>
