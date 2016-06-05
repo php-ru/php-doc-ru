@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 334762 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 339251 Maintainer: kyaniv Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
-<sect1 xml:id="install.windows.building" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+<sect1 xml:id="install.windows.legacy.building" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Сборка из исходников</title>
  <para>
   В данной главе рассматривается процесс сборки PHP из исходников на Windows,
