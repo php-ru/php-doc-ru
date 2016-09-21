@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 312956 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 336516 Maintainer: mch Status: ready -->
 <!-- $Revision$ -->
-<!-- Reviewed: no -->
+<!-- Reviewed: yes -->
 
 <phpdoc:varentry xmlns:phpdoc="http://php.net/ns/phpdoc" xml:id="reserved.variables.post" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -13,8 +13,9 @@
  <refsect1 role="description">
   &reftitle.description;
   <para>
-   Ассоциативный массив данных, переданных скрипту через
-   HTTP метод POST.
+   Ассоциативный массив данных, переданных скрипту через HTTP метод POST
+   в случае использования в запросе в качестве HTTP Content-Type 
+   <literal>application/x-www-form-urlencoded</literal> или <literal>multipart/form-data</literal> .
   </para>
 
   <simpara>

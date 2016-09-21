@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 305489 Maintainer: aur Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 336766 Maintainer: aur Status: ready -->
+<!-- Reviewed: yes -->
 <!-- $Revision$ -->
 
 <refentry xml:id="arrayaccess.offsetset" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>ArrayAccess::offsetSet</refname>
-  <refpurpose>Устанавливает заданное смещение (ключ)</refpurpose>
+  <refpurpose>Присваивает значение заданному смещению</refpurpose>
  </refnamediv>
  
  <refsect1 role="description">

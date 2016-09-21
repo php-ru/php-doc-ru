@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 326728 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 339703 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="function.array-search" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>array_search</refname>
   <refpurpose>Осуществляет поиск данного значения в массиве и возвращает
-   соответствующий ключ в случае удачи</refpurpose>
+   ключ первого найденого элемента в случае удачи</refpurpose>
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;

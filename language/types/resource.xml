@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 321825 Maintainer: irker Status: ready -->
+<!-- EN-Revision: 339952 Maintainer: irker Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <sect1 xml:id="language.types.resource">
@@ -8,7 +8,7 @@
  <para>
   <type>Resource</type> это специальная переменная, содержащая ссылку на внешний ресурс.
   Ресурсы создаются и используются специальными функциями.
-  Полный перечень этих функций и соответствующих типов ресурсов
+  Полный перечень этих функций и соответствующих типов ресурсов(<type>resource</type>)
   смотрите в <link linkend="resource">приложении</link>.
  </para>
 
