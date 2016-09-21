@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 334762 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 339953 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <appendix xml:id="dir.constants" xmlns="http://docbook.org/ns/docbook">
  &reftitle.constants;
- &extension.constants;
- <variablelist>
+  <variablelist>
   <varlistentry xml:id="constant.directory-separator">
    <term>
     <constant>DIRECTORY_SEPARATOR</constant>
@@ -24,7 +23,7 @@
    </term>
    <listitem>
     <simpara>
-     Доступна начиная с версии PHP 4.3.0. Точка с запятой в Windows, двоеточие в других системах.
+     Точка с запятой в Windows, двоеточие в других системах.
     </simpara>
    </listitem>
   </varlistentry>

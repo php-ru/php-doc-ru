@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 330340 Maintainer: aur Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 339459 Maintainer: aur Status: ready -->
+<!-- Reviewed: yes Maintainer: rjhdby -->
 <!-- $Revision$ -->
  
 <book xml:id="book.datetime" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -40,6 +40,7 @@
  
  &reference.datetime.setup;
  &reference.datetime.constants;
+ &reference.datetime.examples;
  
  &reference.datetime.datetime;
  &reference.datetime.datetimeimmutable;
