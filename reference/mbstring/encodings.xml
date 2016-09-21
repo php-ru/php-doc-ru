@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 334762 Maintainer: tmn Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 339803 Maintainer: tmn Status: ready -->
+<!-- Reviewed: yes -->
 <!-- $Revision$ -->
  <chapter xml:id="mbstring.encodings" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>Краткий список поддерживаемых кодировок</title>
@@ -343,6 +343,12 @@
     <seg></seg>
    </seglistitem>
    <seglistitem>
+    <seg>ISO-8859-16</seg>
+    <seg></seg>
+    <seg></seg>
+    <seg></seg>
+   </seglistitem>
+   <seglistitem>
     <seg>byte2be</seg>
     <seg></seg>
     <seg></seg>
@@ -464,6 +470,12 @@
    </seglistitem>
    <seglistitem>
     <seg>KOI8-R</seg>
+    <seg></seg>
+    <seg></seg>
+    <seg></seg>
+   </seglistitem>
+   <seglistitem>
+    <seg>KOI8-U</seg>
     <seg></seg>
     <seg></seg>
     <seg></seg>
