@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 317663 Maintainer: mch Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 338501 Maintainer: mch Status: ready -->
+<!-- Reviewed: yes -->
 <!-- $Revision$ -->
 
 <refentry xml:id="gearmanclient.setcreatedcallback" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">

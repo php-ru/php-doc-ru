@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 335780 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 336953 Maintainer: tmn Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <appendix xml:id="libxml.constants" xmlns="http://docbook.org/ns/docbook">
  &reftitle.constants;
  &extension.constants;
  <variablelist>
+  <varlistentry xml:id="constant.libxml-biglines">
+   <term>
+    <constant>LIBXML_BIGLINES</constant>
+     (<type>integer</type>)
+   </term>
+   <listitem>
+    <simpara>
+     Позволяет корректно сообщать о номерах строк больше 65535.
+    </simpara>
+    <note>
+     <para>
+      Доступно начиная с PHP 7.0.0 с Libxml &gt;= 2.9.0
+     </para>
+    </note>
+   </listitem>
+  </varlistentry>
   <varlistentry xml:id="constant.libxml-compact">
    <term>
     <constant>LIBXML_COMPACT</constant>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 336004 Maintainer: shein Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 338412 Maintainer: shein Status: ready -->
+<!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="function.mysql-list-tables" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -12,7 +12,7 @@
   <warning>
    &mysql.alternative.note.4-3-0;
    <simplelist role="alternatives">
-    <member>SQL запрос: <literal>SHOW TABLES FROM sometable</literal></member>
+    <member>SQL запрос: <literal>SHOW TABLES FROM dbname</literal></member>
    </simplelist>
   </warning>
  </refsynopsisdiv>

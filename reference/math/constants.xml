@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 323628 Maintainer: shein Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 338283 Maintainer: shein Status: ready -->
+<!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <appendix xml:id="math.constants" xmlns="http://docbook.org/ns/docbook">
  &reftitle.constants;
@@ -161,7 +161,7 @@
   </table>
  </para>
  <para>
-  Все константы без указания версии PHP доступны начиная с PHP 4.0.0.
+  Все константы без указания версии PHP доступны начиная с PHP 5.0.0.
  </para>
 </appendix>
 
