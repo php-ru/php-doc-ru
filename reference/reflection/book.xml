@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 330340 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 337576 Maintainer: aur Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 
@@ -38,6 +38,8 @@
  &reference.reflection.reflectionobject;
  &reference.reflection.reflectionparameter;
  &reference.reflection.reflectionproperty;
+ &reference.reflection.reflectiontype;
+ &reference.reflection.reflectiongenerator;
  &reference.reflection.reflector;
  &reference.reflection.reflectionexception;
 
