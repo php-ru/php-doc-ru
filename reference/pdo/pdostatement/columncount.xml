@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 330543 Maintainer: tmn Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 339522 Maintainer: tmn Status: ready -->
+<!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="pdostatement.columncount" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -36,7 +36,7 @@
   &reftitle.returnvalues;
   <para>
    Возвращает количество столбцов в результирующем наборе запроса
-   PDOStatement. Если результирующего набора нет, 
+   PDOStatement, даже если он пуст. Если результирующего набора нет, 
    <function>PDOStatement::columnCount</function> возвращает <literal>0</literal>.
   </para>
  </refsect1>

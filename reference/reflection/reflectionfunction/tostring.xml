@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 322136 Maintainer: tmn Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 338501 Maintainer: tmn Status: ready -->
+<!-- Reviewed: yes -->
 <!-- $Revision$ -->
 
 <refentry xml:id="reflectionfunction.tostring" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -55,11 +55,11 @@ echo new ReflectionFunction('title');
     &example.outputs.similar;
     <screen>
 <![CDATA[
-Function [ <user> function person ] {
+Function [ <user> function title ] {
   @@ Command line code 1 - 1
 
   - Parameters [2] {
-    Parameter #0 [ <required> $prefix ]
+    Parameter #0 [ <required> $title ]
     Parameter #1 [ <required> $name ]
   }
 }

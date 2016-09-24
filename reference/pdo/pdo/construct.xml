@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 334762 Maintainer: mch Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 339618 Maintainer: mch Status: ready -->
+<!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="pdo.construct" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -131,7 +131,7 @@
     <programlisting role="php">
 <![CDATA[
 <?php
-/* Подключение к базе данных ODBC, используя вызов драйвера */
+/* Подключение к базе данных MySQL, используя вызов драйвера */
 $dsn = 'mysql:dbname=testdb;host=127.0.0.1';
 $user = 'dbuser';
 $password = 'dbpass';

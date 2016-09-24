@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 330543 Maintainer: tmn Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 339520 Maintainer: tmn Status: ready -->
+<!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="pdostatement.fetchobject" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -23,7 +23,10 @@
    параметром <constant>PDO::FETCH_CLASS</constant> или
    <constant>PDO::FETCH_OBJ</constant>.
   </para>
-
+  <para>
+   Когда объект извлечен, его свойства наполняются значениями соответствующих
+   столбцов, и, после этого, вызывается его конструктор.
+  </para>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
