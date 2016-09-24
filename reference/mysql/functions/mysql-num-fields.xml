@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 328734 Maintainer: shein Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 337656 Maintainer: shein Status: ready -->
+<!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="function.mysql-num-fields" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -12,7 +12,7 @@
   <warning>
    &mysql.alternative.note;
    <simplelist role="alternatives">
-    <member><function>mysqli_field_count</function></member>
+    <member><function>mysqli_num_fields</function></member>
     <member><methodname>PDOStatement::columnCount</methodname></member>
    </simplelist>
   </warning>
