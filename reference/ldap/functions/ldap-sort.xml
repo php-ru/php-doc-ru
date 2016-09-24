@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 333548 Maintainer: mch Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 338697 Maintainer: mch Status: ready -->
+<!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id='function.ldap-sort' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -20,6 +20,12 @@
    Сортирует результат запроса LDAP, возвращаемый функцией
    <function>ldap_search</function>.
   </para>
+  <para>
+   Так как эта функция сортирует результат на клиентской стороне, вы можете получить
+   не те результаты, которые ожидали в случае, если был превышен лимит <parameter>sizelimit</parameter>
+   на стороне сервера либо указанный в <function>ldap_search</function>.
+  </para>
+  &warn.deprecated.feature-7-0-0;
  </refsect1>
 
  <refsect1 role="parameters">

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: das Status: ready -->
+<!-- EN-Revision: 339348 Maintainer: das Status: ready -->
 <!-- Reviewed: yes -->
+<!-- $Revision$ -->
 <refentry xml:id="function.lcg-value" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>lcg_value</refname>
