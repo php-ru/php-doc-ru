@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 339251 Maintainer: kyaniv Status: ready -->
+<!-- EN-Revision: 339715 Maintainer: rjhdby Status: ready -->
+<!-- Reviewed: no --> 
 <!-- $Revision$ -->
-<!-- Reviewed: no -->
 
 <chapter xml:id="install.pecl" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Установка расширений PECL</title>
@@ -92,8 +92,7 @@ $ svn checkout http://svn.php.net/repository/pecl/extname/trunk extname
     </simpara>
     <simpara>
      На данный момент проект PHP не компилирует бинарные файлы Windows
-     для расширений PECL. Для компиляции PHP под Windows прочитайте
-     <link linkend="install.windows.legacy.building">соответствующий раздел</link>.
+     для расширений PECL.
     </simpara>
    </listitem>
   </itemizedlist>
