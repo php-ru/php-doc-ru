@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 288721 Maintainer: tmn Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 337084 Maintainer: tmn Status: ready -->
+<!-- Reviewed: yes -->
 <!-- $Revision$ -->
 
 <refentry xml:id="streamwrapper.stream-flush" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -16,7 +16,8 @@
    <void />
   </methodsynopsis>
   <para>
-   Этот метод вызывается в результате вызова <function>fflush</function>.
+   Этот метод вызывается в результате вызова <function>fflush</function>, если поток
+   закрывается имея несброшенные данные записанные в него ранее.
   </para>
   <para>
    Если в потоке есть кэшированные и еще неиспользованные данные, в этом методе

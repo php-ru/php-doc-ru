@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 329623 Maintainer: tmn Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 339492 Maintainer: tmn Status: ready -->
+<!-- Reviewed: yes -->
 <!-- $Revision$ -->
 
 <refentry xml:id="streamwrapper.stream-metadata" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>streamWrapper::stream_metadata</refname>
-  <refpurpose>Изменяет настройки потока</refpurpose>
+  <refpurpose>Изменяет метаданные потока</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
@@ -29,9 +29,6 @@
   Следует помнить, что некоторые из этих операций могут быть
   недоступны в Вашей системе.
   </para>
- <note>
-  <simpara>Функция доступна, начиная с версии PHP 5.4.0.</simpara>
- </note>
  </refsect1>
 
  <refsect1 role="parameters">
