@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- EN-Revision: 338908 Maintainer: countzero Status: ready -->
+<!-- Reviewed: yes -->
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: countzero Status: ready -->
-<!-- Reviewed: no -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.socket-shutdown">
  <refnamediv>
   <refname>socket_shutdown</refname>
@@ -20,6 +20,11 @@
    поступающих, исходящих или всех данных (по умолчанию) через сокет
    <parameter>socket</parameter>
   </para>
+  <note>
+   <para>
+    Ассоциированный буфер, или буфферы, могут быть освобождены, а могут и нет.
+   </para>
+  </note>
  </refsect1>
 
  <refsect1 role="parameters">
