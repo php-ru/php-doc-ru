@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 333301 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 338306 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="mysqli.store-result" xmlns="http://docbook.org/ns/docbook">
