@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 297028 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 339912 Maintainer: mch Status: ready -->
 <!-- $Revision$ -->
 <!-- Reviewed: no -->
 <refentry xml:id="function.stream-copy-to-stream" xmlns="http://docbook.org/ns/docbook">
@@ -69,7 +69,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Возвращает общее количество скопированных байт.
+   Возвращает общее количество скопированных байт, &return.falseforfailure;.
   </para>
  </refsect1>
 
