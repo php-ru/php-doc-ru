@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 332240 Maintainer: mch Status: ready -->
-<!-- $Revision$ -->
+<!-- EN-Revision: 340237 Maintainer: mch Status: ready -->
 <!-- Reviewed: no -->
-
+<!-- $Revision$ -->
 <refentry xml:id="context.socket" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" role="noversion">
  <refnamediv>
   <refname>Контекстные опции сокета</refname>
@@ -72,13 +71,13 @@
       <row>
        <entry>5.3.3</entry>
        <entry>
-        Добавлено <literal>backlog</literal>.
+        Добавлено <parameter>backlog</parameter>.
        </entry>
       </row>
       <row>
        <entry>5.1.0</entry>
        <entry>
-        Добавлено <literal>bindto</literal>.
+        Добавлено <parameter>bindto</parameter>.
        </entry>
       </row>
      </tbody>
