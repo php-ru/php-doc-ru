@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 334762 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 339877 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="function.imageconvolution" xmlns="http://docbook.org/ns/docbook">
@@ -120,7 +120,9 @@ imagepng($image, null, 9);
  </refsect1>
  <refsect1 role="notes">
   &reftitle.notes;
-  &note.bundled.gd;
+  <para>
+   Эта функция требует GD 2.1.0 или выше.
+  </para>
  </refsect1>
  <refsect1 role="seealso">
   &reftitle.seealso;

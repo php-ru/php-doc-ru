@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 334762 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 336904 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="function.imagefilter" xmlns="http://docbook.org/ns/docbook">
@@ -49,7 +49,7 @@
          <simpara>
           <constant>IMG_FILTER_BRIGHTNESS</constant>: Изменяет яркость изображения.
           Используйте аргумент <parameter>arg1</parameter> для задания уровня
-          яркости.
+          яркости. Диапазон яркостей от -255 до 255.
          </simpara>
         </listitem>
         <listitem>
