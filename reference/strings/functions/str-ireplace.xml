@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 334621 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 338513 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.str-ireplace">
@@ -112,6 +112,7 @@
 <![CDATA[
 <?php
 $bodytag = str_ireplace("%body%", "black", "<body text=%BODY%>");
+echo $bodytag; // <body text=black>
 ?>
 ]]>
     </programlisting>
