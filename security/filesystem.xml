@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 297645 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 336910 Maintainer: shein Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <!-- splitted from ./index.xml, last change in rev 1.66 -->
@@ -71,7 +71,7 @@ echo "Файл был удален!";
 ]]>
      </programlisting>
     </example>
-    Существуют две важные меры, которые можно предпринять для предотвращения
+    Cуществуют две важные меры, которые можно предпринять для предотвращения
     описанной проблемы.
     <itemizedlist>
      <listitem>
@@ -86,7 +86,7 @@ echo "Файл был удален!";
       </simpara>
      </listitem>
     </itemizedlist>
-    Вот улучшенный вариант кода:
+    Вот улучшеный вариант кода:
     <example>
      <title>Более безопасная проверка имени файла</title>
      <programlisting role="php">
