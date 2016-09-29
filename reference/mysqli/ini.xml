@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- EN-Revision: 337727 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 340248 Maintainer: shein Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <section xml:id="mysqli.configuration" xmlns="http://docbook.org/ns/docbook">
@@ -256,6 +256,9 @@
      <para>
      Автоматически восстанавливать соединение при его потере.
      </para>
+     <note>
+     <simpara>Эта настройка игнорируется драйвером "mysqlnd".</simpara>
+    </note>
     </listitem>
    </varlistentry>
 

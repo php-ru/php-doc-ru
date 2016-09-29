@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 339175 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 340248 Maintainer: rjhdby Status: ready -->
 <!-- $Revision$ -->
 <!-- Reviewed: no -->
 
@@ -500,6 +500,11 @@ $ ./configure --with-mysqli=/path/to/mysql_config --with-pdo-mysql=/path/to/mysq
        <entry>Прозрачная манипуляция запросами (т.е., auto-EXPLAIN или мониторинг)</entry>
        <entry>Да, с плагином</entry>
        <entry>Нет</entry>
+      </row>
+      <row>
+       <entry>Автоматическое переподключение</entry>
+       <entry>нет</entry>
+       <entry>опционально</entry>
       </row>
      </tbody>
     </tgroup>

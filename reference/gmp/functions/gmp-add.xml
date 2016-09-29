@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 333674 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 340233 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.gmp-add">
@@ -28,7 +28,7 @@
      <term><parameter>a</parameter></term>
      <listitem>
       <para>
-       Второе слагаемое.
+       Первое слагаемое.
       </para>
       &gmp.parameter; 
      </listitem>

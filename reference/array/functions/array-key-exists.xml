@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 340229 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 340230 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.array-key-exists">
@@ -52,12 +52,12 @@
   <para>
    &return.success;
   </para>
-  <caution>
+  <note>
    <para>
     <function>array_key_exists</function> ищет ключи только на первом уровне массива.
     Внутренние ключи в многомерных массивах найдены не будут.
    </para>
-  </caution>
+  </note>
  </refsect1>
 
  <refsect1 role="examples">

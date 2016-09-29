@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 340029 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 340248 Maintainer: tmn Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="mysqli.ping" xmlns="http://docbook.org/ns/docbook">
@@ -30,6 +30,12 @@
    linkend="ini.mysqli.reconnect">mysqli.reconnect</link> включена, PHP попытается
    автоматически переподключиться.
   </para>
+  <note>
+   <simpara>
+    Настройка &php.ini; mysqli.reconnect игнорируется драйвером "mysqlnd", так что 
+    автоматического переподключения не произойдет.
+   </simpara>
+  </note>
   <para>
    Эта функция может использоваться клиентами, которые простаивают без дела долгое
    время, чтобы проверить, что сервер их не отключил, и переподключиться в
