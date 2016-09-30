@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 334762 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 336468 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
+
+<!-- Уникальный файл. Обновлять только EN-Revision -->
 
  <info xmlns="http://docbook.org/ns/docbook" xml:id="bookinfo">
   &frontpage.authors;
