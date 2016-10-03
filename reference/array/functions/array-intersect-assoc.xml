@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 331477 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 338914 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.array-intersect-assoc">
@@ -20,7 +20,7 @@
    Функция <function>array_intersect_assoc</function> возвращает массив,
    содержащий все значения массива <parameter>array1</parameter>,
    которые содержатся во всех указанных аргументах.
-   Обратите внимание, что при сравнении используются ключи, в отличии
+   Обратите внимание, что при сравнении используются ключи, в отличие
    от функции <function>array_intersect</function>.
   </simpara>
  </refsect1>

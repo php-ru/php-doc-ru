@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 339665 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 340274 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <appendix xml:id="image.constants" xmlns="http://docbook.org/ns/docbook">
@@ -425,6 +425,17 @@
     <simpara>
      Эффект сглаживания цветов, используемый функцией 
      <function>imagelayereffect</function>.
+    </simpara>
+   </listitem>
+  </varlistentry>
+  <varlistentry xml:id="constant.img-effect-multiply">
+   <term>
+    <constant>IMG_EFFECT_MULTIPLY</constant> 
+    (<type>integer</type>)
+   </term>
+   <listitem>
+    <simpara>
+     Эффект альфа-смешения, используется йункцией <function>imagelayereffect</function>.
     </simpara>
    </listitem>
   </varlistentry>
