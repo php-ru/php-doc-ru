@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision$ -->
-<!-- EN-Revision: 322122 Maintainer: bfl Status: ready -->
+<!-- EN-Revision: 340334 Maintainer: bfl Status: ready -->
 <!-- Reviewed: no -->
-
+<!-- $Revision$ -->
 <refentry xml:id="soapclient.getlastrequestheaders" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>SoapClient::__getLastRequestHeaders</refname>
@@ -42,7 +41,7 @@
   &reftitle.examples;
   <para>
    <example>
-    <title>Пример использования SoapClient::__getLastRequest()</title>
+    <title>Пример использования SoapClient::__getLastRequestHeaders()</title>
     <programlisting role="php">
 <![CDATA[
 <?php

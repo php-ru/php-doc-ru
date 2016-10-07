@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 334758 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 340323 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <section xml:id="mysql.installation" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.install;
 
+ <warning>
+  &mysql.alternative.note;
+ </warning>
+ 
  <para xml:id="mysql.configure">
   Для компиляции просто используйте опцию конфигурации
   <option role="configure">--with-mysql[=DIR]</option>,
