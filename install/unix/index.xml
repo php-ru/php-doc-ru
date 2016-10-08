@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 340035 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 340348 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes Maintainer: rjhdby -->
 <!-- $Revision$ -->
   <chapter xml:id="install.unix" xmlns="http://docbook.org/ns/docbook">
@@ -144,6 +144,7 @@
    &install.unix.nginx;
    &install.unix.lighttpd-14;
    &install.unix.sun;
+   &install.unix.litespeed;
    &install.unix.commandline;
    <!-- operating system specific nodes -->
    &install.unix.hpux;

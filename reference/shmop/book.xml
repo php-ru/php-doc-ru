@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 330340 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 340357 Maintainer: aur Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
  
@@ -19,12 +19,6 @@
    <simpara>
     Версии Windows, предшествующие Windows 2000, не поддерживают 
     разделяемую память.
-   </simpara>
-  </note>
-  <note>
-   <simpara>
-    В PHP версии 4.0.3 эти функции имели префикс <literal>shm</literal>,
-    а не <literal>shmop</literal>.
    </simpara>
   </note>
  </preface>

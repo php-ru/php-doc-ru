@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 339759 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 340367 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <appendix xml:id="resource" xmlns="http://docbook.org/ns/docbook">
@@ -2271,7 +2271,7 @@
     <entry>
      <function>shmop_close</function>
     </entry>
-    <entry></entry>
+    <entry>Управление блоком рязделяемой памяти (С версии PHP 7.0.0)</entry>
    </row>
    <row>
     <entry>sockets file descriptor set</entry>
