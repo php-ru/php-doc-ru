@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 338385 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 340563 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <appendix xml:id="types.comparisons" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -43,7 +43,7 @@
    с каким-либо другим, включая его самого, вернет &false; (т.е.
    <literal>NAN != NAN</literal> и <literal>NAN !== NAN</literal>).
    Примерами операций, возвращающих <constant>NAN</constant>, являются
-   <literal>sqrt(-1)</literal>, <literal>asin(2)</literal> и <literal>asinh(0)</literal>.
+   <literal>sqrt(-1)</literal>, <literal>asin(2)</literal> и <literal>acosh(0)</literal>.
   </para>
  </note>
  <para>
