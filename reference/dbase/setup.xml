@@ -1,36 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 288721 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 340755 Maintainer: aur Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 
 <chapter xml:id="dbase.setup" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.setup;
-
+ 
  <!-- {{{ Requirements -->
  <section xml:id="dbase.requirements">
   &reftitle.required;
   &no.requirement;
  </section>
  <!-- }}} -->
-
+ 
  <!-- {{{ Installation -->
  &reference.dbase.configure;
  <!-- }}} -->
-
+ 
  <!-- {{{ Configuration -->
  <section xml:id="dbase.configuration">
   &reftitle.runtime;
   &no.config;
  </section>
  <!-- }}} -->
-
+ 
  <!-- {{{ Resources -->
  <section xml:id="dbase.resources">
   &reftitle.resources;
-  &no.resource;
+  <para>
+   В dbase 7.0.0 определен ресурс <literal>dbase</literal>,
+   который возвращается функциями <function>dbase_open</function> и
+   <function>dbase_create</function>.
+  </para>
  </section>
  <!-- }}} -->
-
+ 
 </chapter>
 
 <!-- Keep this comment at the end of the file
