@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 340849 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 340859 Maintainer: aur Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 
@@ -76,7 +76,7 @@
        <entry><literal>T</literal></entry>
        <entry>DateTime</entry>
        <entry><literal>YYYYMMDDhhmmss.uuu</literal></entry>
-       <entry>Проверка на корректность не производится. Доступно с dbase 7.0.0.</entry>
+       <entry>(FoxPro) Проверка на корректность не производится. Доступно с dbase 7.0.0.</entry>
       </row>
       <row>
        <entry><literal>N</literal></entry>
