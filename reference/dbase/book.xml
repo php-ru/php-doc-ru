@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 340859 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 340884 Maintainer: aur Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 
@@ -119,6 +119,15 @@
     </tgroup>
    </table>
   </para>
+  <note>
+   <para>
+    Начиная с dbase 7.0.0 поддерживаются обнуляемые поля 
+    для баз данных <constant>DBASE_TYPE_FOXPRO</constant>. Если поле
+    обнуляемое. При передаче &null; будет установлен 
+    соответствующий флаг и, при дальней шем извлечении
+    поля, будет возвращено значение &null;.
+   </para>
+  </note>
   <note>
    <para>
     Поддержки для индексов и memo-полей нет.
