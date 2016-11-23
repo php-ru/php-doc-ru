@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- EN-Revision: 328544 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
-<!-- $Revision: $ -->
+<!-- $Revision$ -->
 <refentry xml:id="mongocollection.distinct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>MongoCollection::distinct</refname>
-  <refpurpose>Возвращает список уникальных значений для данного ключа в коллекции.</refpurpose>
+  <refpurpose>Возвращает список уникальных значений для данного ключа в коллекции</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
