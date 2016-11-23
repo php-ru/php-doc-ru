@@ -2,21 +2,24 @@
 <!-- EN-Revision: 297028 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
-<refentry xml:id="function.dbplus-runlink" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="function.dbplus-rquery" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>dbplus_runlink</refname>
-  <refpurpose>Удалить файл отношения</refpurpose>
+  <refname>dbplus_rquery</refname>
+  <refpurpose>Выполнить локальный (сырой) AQL запрос</refpurpose>
  </refnamediv>
  
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>int</type><methodname>dbplus_runlink</methodname>
-   <methodparam><type>resource</type><parameter>relation</parameter></methodparam>
+   <type>resource</type><methodname>dbplus_rquery</methodname>
+   <methodparam><type>string</type><parameter>query</parameter></methodparam>
+   <methodparam choice="opt"><type>string</type><parameter>dbpath</parameter></methodparam>
   </methodsynopsis>
   <para>
-   <function>dbplus_runlink</function> закрывает и удаляет отношение
-   <parameter>relation</parameter>.
+   <function>dbplus_rquery</function> выполняет локальный (сырой) AQL
+   запрос, используя встроенный в клиентскую библиотеку db++ интерпритатор AQL. 
+   Функция <function>dbplus_rquery</function> работает быстрее чем
+   <function>dbplus_aql</function>, но только с локальными данными.
   </para>
  </refsect1>
  
@@ -25,10 +28,16 @@
   <para>
    <variablelist>
     <varlistentry>
-     <term><parameter>relation</parameter></term>
+     <term><parameter>query</parameter></term>
      <listitem>
       <para>
-       Отношение, открытое с помощью <function>dbplus_open</function>.
+      </para>
+     </listitem>
+    </varlistentry>
+    <varlistentry>
+     <term><parameter>dbpath</parameter></term>
+     <listitem>
+      <para>
       </para>
      </listitem>
     </varlistentry>
