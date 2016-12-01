@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 337779 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 341231 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="intlchar.charmirror" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -63,7 +63,7 @@ var_dump(IntlChar::charMirror("("));
    &example.outputs;
    <screen>
 <![CDATA[
-string(1) "E"
+string(1) "A"
 string(1) ">"
 string(2) ")"
 ]]>
