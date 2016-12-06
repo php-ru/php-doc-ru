@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 341260 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 341284 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 
@@ -2956,7 +2956,7 @@
       </entry>
       <entry>"5"</entry>
       <entry>PHP_INI_ALL</entry>
-      <entry>Доступно с PHP 5.0.0. Удалено в PHP 7.1.0</entry>
+      <entry>Удалено в PHP 7.1.0</entry>
      </row>
      <row>
       <entry>
@@ -2964,7 +2964,7 @@
       </entry>
       <entry>"0"</entry>
       <entry>PHP_INI_ALL</entry>
-      <entry>Доступно с PHP 5.0.0. Удалено в PHP 7.1.0</entry>
+      <entry>Удалено в PHP 7.1.0</entry>
      </row>
      <row>
       <entry>

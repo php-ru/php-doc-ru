@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 334762 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 341282 Maintainer: mch Status: ready -->
 <!-- $Revision$ -->
 <!-- Reviewed: no -->
 <refentry xml:id="tidynode.ishtml" xmlns="http://docbook.org/ns/docbook">
@@ -24,7 +24,7 @@
    Возвращает &true;, если узел является частью HTML-документа, &false; - в противном случае.
   </para>
  </refsect1>
-
+ 
  <refsect1 role="examples">
   &reftitle.examples;
   <para>
@@ -169,16 +169,6 @@ function get_nodes($node) {
     </screen>
    </example>
   </para>
- </refsect1>
- 
- <refsect1 role="notes">
-  &reftitle.notes;
-  <note>
-   <para>
-    Эта функция называлась <function>tidy_node::is_html</function> в
-    PHP 4/Tidy 1.
-   </para>
-  </note>
  </refsect1>
 </refentry>
 

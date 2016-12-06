@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 297028 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 341282 Maintainer: aur Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <section xml:id="ldap.installation" xmlns="http://docbook.org/ns/docbook">
@@ -18,9 +18,6 @@
    &ext.windows.path.dll;
    <filename>libeay32.dll</filename> и <filename>ssleay32.dll</filename>
   </para>
-  <simpara>
-   Версии до PHP 4.3.0 дополнительно требуют <filename>libsasl.dll</filename>.
-  </simpara>
  </note>
  <para>
   Для того чтобы использовать библиотеки Oracle LDAP, должны быть 
