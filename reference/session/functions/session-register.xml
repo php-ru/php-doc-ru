@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 341282 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 341344 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.session-register">
@@ -106,8 +106,7 @@ $_SESSION["zim"] = "An invader from another planet.";
   </caution>
   <caution>
    <para>
-    Если вы используете <varname>$_SESSION</varname>
-    (или <varname>$HTTP_SESSION_VARS</varname>), не используйте
+    Если вы используете <varname>$_SESSION</varname>, не используйте
     <function>session_register</function>,
     <function>session_is_registered</function>, и
     <function>session_unregister</function>.
