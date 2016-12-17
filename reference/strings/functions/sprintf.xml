@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 341282 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 341385 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.sprintf">
@@ -317,7 +317,7 @@ echo sprintf($format, $num, $location);
         Попытка использовать спецификатор позиции, больший чем
         <constant>PHP_INT_MAX</constant>, приведет к генерации
         предупреждения функцией <function>sprintf</function>.
-             </para>
+       </para>
       </note>
       <warning>
        <para>
@@ -348,7 +348,7 @@ echo sprintf($format, $num, $location);
   &reftitle.returnvalues;
   <para>
    Возвращает строку, отформатированную в соответствии со строкой
-   <parameter>format</parameter>.
+   <parameter>format</parameter>, &return.falseforfailure;.
   </para>
  </refsect1>
  
