@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 341536 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 341675 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <chapter xml:id="mysqlnd.stats" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -398,7 +398,7 @@ $res->close();
      <entry>Количество запросов, по которым не был создан результирующий набор. 
       Пример запросов, не создающих результирующий набор:
       <literal>INSERT</literal>, <literal>UPDATE</literal>,
-      <literal>LOAD DATA</literal>, <literal>SHOW</literal>. 
+      <literal>LOAD DATA</literal>. 
       Статистика не будет увеличиваться в случае ошибки чтения заголовочного
       пакета результирующего набора.</entry>
      <entry>Вы можете использовать эту метрику, как опосредованный счетчик выполненых запросов,
