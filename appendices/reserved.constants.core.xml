@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 340776 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 341754 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <sect2 xml:id="reserved.constants.core" xmlns="http://docbook.org/ns/docbook">
@@ -130,7 +130,7 @@
    </term>
    <listitem>
     <simpara>
-     
+     Операционная система, под которую собирался PHP
     </simpara>
    </listitem>
   </varlistentry>
