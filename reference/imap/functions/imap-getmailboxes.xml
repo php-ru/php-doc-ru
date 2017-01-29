@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- EN-Revision: 341804 Maintainer: rjhdby Status: ready -->
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.imap-getmailboxes" xmlns="http://docbook.org/ns/docbook">
@@ -65,7 +65,7 @@
      <para>
       <constant>LATT_NOSELECT</constant> - это только контейнер, а не почтовый ящик.
       Вы не можете его открыть.
-    </para>
+     </para>
     </listitem>
     <listitem>
      <para>
