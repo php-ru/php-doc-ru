@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- EN-Revision: 341871 Maintainer: alien Status: ready -->
 <!-- $Revision$ -->
-<!-- EN-Revision: 322115 Maintainer: alien Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getimagecolorspace">
@@ -16,7 +16,8 @@
    <void/>
   </methodsynopsis>
   <para>
-   Возвращает цветовую палитру изображения.
+   Возвращает целое число, соответствующее значению одной из
+   <link linkend="imagick.constants.colorspace">COLORSPACE констант</link>.
   </para>
  </refsect1>
 
