@@ -1,25 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 330340 Maintainer: irker Status: ready -->
+<!-- EN-Revision: 341950 Maintainer: irker Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 
 <book xml:id="book.geoip" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Geo IP Location</title>
  <titleabbrev>GeoIP</titleabbrev>
-
+ 
  <preface xml:id="intro.geoip">
   &reftitle.intro;
   <para>
-    Расширение GeoIP позволяет найти местоположение по IP-адресу. С помощью GeoIP можно
-    получить такую информацию как город, государство, страна, долгота и широта, а также
-    можно узнать, интернет-провайдера и тип соединения.
+   Расширение GeoIP позволяет найти местоположение по IP-адресу. С помощью GeoIP можно
+   получить такую информацию как город, государство, страна, долгота и широта, а также
+   можно узнать, интернет-провайдера и тип соединения.
   </para>
+  <warning>
+   <para>
+    Это расширение не поддерживает базу данных "GeoIP2" от MaxMind, а только
+    файлы базы "GeoIP legacy".
+   </para>
+  </warning>
  </preface>
-
+ 
  &reference.geoip.setup;
  &reference.geoip.constants;
  &reference.geoip.reference;
-
+ 
 </book>
 <!-- Keep this comment at the end of the file
 Local variables:
