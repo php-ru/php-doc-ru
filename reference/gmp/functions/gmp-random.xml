@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 333674 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 342126 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.gmp-random">
@@ -7,6 +7,10 @@
   <refname>gmp_random</refname>
   <refpurpose>Случайное число</refpurpose>
  </refnamediv>
+ 
+ <refsynopsisdiv>
+  &warn.deprecated.function-7-2-0;
+ </refsynopsisdiv>
  
  <refsect1 role="description">
   &reftitle.description;
