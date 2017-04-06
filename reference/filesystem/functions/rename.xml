@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 341874 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 342252 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.rename">
@@ -19,7 +19,9 @@
   <para>
    Пытается переименовать <parameter>oldname</parameter> в
    <parameter>newname</parameter>, перенося файл между директориями, если необходимо.
-   Если <parameter>newname</parameter> существует, то он будет перезаписан.
+   Если <parameter>newname</parameter> существует, то он будет перезаписан. В случае 
+   если переименовывается директория и <parameter>newname</parameter> уже 
+   существует, будет выведено предупреждение.
   </para>
  </refsect1>
  
