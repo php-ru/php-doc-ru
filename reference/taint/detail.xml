@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 342262 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 342279 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 
 <chapter xml:id="taint.detail" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -210,6 +210,14 @@
       <row>
        <entry>PDO::prepare</entry>
        <entry>0.3.0</entry>
+      </row>
+      <row>
+       <entry>SQLite3::query</entry>
+       <entry>2.0.1</entry>
+      </row>
+      <row>
+       <entry>SQLite3::prepare</entry>
+       <entry>2.0.1</entry>
       </row>
       <!-- end database -->
       <row>
