@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330612 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 342418 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 
 <appendix xml:id="password.constants" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -35,7 +35,8 @@
        <para>
         Если не задано, то для каждого хэшируемого пароля будет создана случайная соль 
         с помощью функции <function>password_hash</function>. Является 
-        предпочтительным способом.
+        предпочтительным способом, кроме того, с PHP 7.0.0, опция salt объявлена
+        устаревшей.
        </para>
       </listitem>
       <listitem>
