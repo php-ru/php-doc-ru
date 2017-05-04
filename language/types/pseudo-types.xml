@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 341438 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 342445 Maintainer: shein Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <sect1 xml:id="language.pseudo-types">
@@ -12,7 +12,7 @@
  </para>
  <sect2 xml:id="language.types.mixed">
   <title>mixed</title>
- 
+  
   <para>
    <literal>mixed</literal> говорит о том, что параметр может принимать много
    (но необязательно все) типов.
