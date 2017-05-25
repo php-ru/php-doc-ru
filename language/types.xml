@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 342265 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 342500 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <chapter xml:id="language.types" xmlns="http://docbook.org/ns/docbook">
@@ -9,7 +9,7 @@
   <title>Введение</title>
   
   <simpara>
-   PHP поддерживает девять простых типов.
+   PHP поддерживает десять простых типов.
   </simpara>
   
   <para>
@@ -71,7 +71,7 @@
    <listitem>
     <simpara>
      <type>iterable</type>
-       </simpara>
+    </simpara>
    </listitem>
    
   </itemizedlist>
