@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 342185 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 342600 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <sect2 xml:id="reserved.constants.core" xmlns="http://docbook.org/ns/docbook">
@@ -135,21 +135,21 @@
    </listitem>
   </varlistentry>
   <varlistentry xml:id="constant.php-os-family">
-     <term>
-      <constant>PHP_OS_FAMILY</constant> 
-      (<type>string</type>)
-     </term>
-     <listitem>
-      <simpara>
-       Семейство операционных систем, для которых собран PHP.
-       Одна из
-       <literal>'Windows'</literal>, <literal>'BSD'</literal>,
-       <literal>'OSX'</literal>, <literal>'Solaris'</literal>,
-       <literal>'Linux'</literal> или <literal>'unknown'</literal>.
-       Доступно с PHP 7.2.0.
-      </simpara>
-     </listitem>
-    </varlistentry>
+   <term>
+    <constant>PHP_OS_FAMILY</constant> 
+    (<type>string</type>)
+   </term>
+   <listitem>
+    <simpara>
+     Семейство операционных систем, для которых собран PHP.
+     Одна из
+     <literal>'Windows'</literal>, <literal>'BSD'</literal>,
+     <literal>'Darwin'</literal>, <literal>'Solaris'</literal>,
+     <literal>'Linux'</literal> или <literal>'unknown'</literal>.
+     Доступно с PHP 7.2.0.
+    </simpara>
+   </listitem>
+  </varlistentry>
   <varlistentry xml:id="constant.php-sapi">
    <term>
     <constant>PHP_SAPI</constant> 
