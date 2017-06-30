@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 342585 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 342623 Maintainer: aur Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 
@@ -37,7 +37,12 @@
  <!-- {{{ Resources -->
  <section xml:id="openssl.resources">
   &reftitle.resources;
-  &no.resource;
+  <para>
+   В модуле OpenSSL определены три типа ресурсов. 
+   Первый - идентификатор pkey (публичный или приватный ключ).
+   Второй - один из идентификаторов сертификата X509.
+   Третий - идентификатор CSR (запрос подписи сертификата).
+  </para>
  </section>
  <!-- }}} -->
  
