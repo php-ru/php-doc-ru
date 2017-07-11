@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 323624 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 342647 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <appendix xml:id="exif.constants" xmlns="http://docbook.org/ns/docbook">
@@ -14,7 +14,8 @@
     </term>
     <listitem>
      <simpara>
-     
+      Эта константа равна <literal>1</literal> если разрешено 
+      <link linkend="ref.mbstring">mbstring</link>, или <literal>0</literal>, если нет.
      </simpara>
     </listitem>
    </varlistentry>
