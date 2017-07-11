@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 309893 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 342647 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <!-- splitted from ./en/functions/image.xml, last change in rev 1.78 -->
@@ -154,7 +154,7 @@
        <literal>THUMBNAIL</literal> и <literal>COMMENT</literal> всегда
        делаются массивами, так как они могут содержать значения, имена которых
        будут конфликтовать с именами в других разделах.
-       </para>
+      </para>
      </listitem>
     </varlistentry>
     <varlistentry>
