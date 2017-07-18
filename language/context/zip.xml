@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 340564 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 342676 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="context.zip" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" role="noversion">
@@ -74,7 +74,7 @@ $opts = array(
 $context = stream_context_create($opts);
 
 // ...and use it to fetch the data
-echo file_get_contents('zip://test.zip#test.txt", false, $ctx);
+echo file_get_contents('zip://test.zip#test.txt', false, $ctx);
 
 ?>
 ]]>
