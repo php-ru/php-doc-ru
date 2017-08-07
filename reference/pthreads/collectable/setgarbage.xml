@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334854 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 342788 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="collectable.setgarbage" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -8,6 +8,14 @@
   <refname>Collectable::setGarbage</refname>
   <refpurpose>Пометить объект как мусор</refpurpose>
  </refnamediv>
+ 
+ <refsynopsisdiv>
+  <warning>
+   <para>
+    Этот метод был удален в pthreads v3.
+   </para>
+   </warning>
+ </refsynopsisdiv>
  
  <refsect1 role="description">
   &reftitle.description;
