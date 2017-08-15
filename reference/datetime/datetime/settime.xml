@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 342846 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 342854 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no Maintainer: tmn -->
 <!-- $Revision$ -->
 
@@ -92,6 +92,10 @@
      </row>
     </thead>
     <tbody>
+     <row>
+      <entry>7.1.0</entry>
+      <entry>Добавлен параметр <parameter>microseconds</parameter>.</entry>
+     </row>
      &date.datetime.retval.changelog;
     </tbody>
    </tgroup>
