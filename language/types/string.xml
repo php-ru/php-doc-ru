@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 342556 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 342905 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <sect1 xml:id="language.types.string">
@@ -303,7 +303,7 @@ class foo
     var $foo;
     var $bar;
 
-    function foo()
+    function __construct()
     {
         $this->foo = 'Foo';
         $this->bar = array('Bar1', 'Bar2', 'Bar3');
@@ -441,7 +441,7 @@ class foo
     public $foo;
     public $bar;
 
-    function foo()
+    function __construct()
     {
         $this->foo = 'Foo';
         $this->bar = array('Bar1', 'Bar2', 'Bar3');
