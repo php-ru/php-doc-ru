@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 342950 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 342962 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <!-- Keep 'em sorted -->
@@ -362,7 +362,23 @@ xmlns="http://docbook.org/ns/docbook"><simpara>Эта функция
  </para>
 </listitem>
 </varlistentry>'>
+<!ENTITY openssl.param.csr '<varlistentry xmlns="http://docbook.org/ns/docbook">
+<term><parameter>csr</parameter></term>
+<listitem>
+ <para>
+  Список допустимых значений смотри: <link linkend="openssl.certparams">параметры CSR</link>.
+ </para>
+</listitem>
+</varlistentry>'>
 
+<!ENTITY openssl.param.key '<varlistentry xmlns="http://docbook.org/ns/docbook">
+<term><parameter>key</parameter></term>
+<listitem>
+ <para>
+  Список допустимых значений смотри: <link linkend="openssl.certparams">параметры публичного/приватного ключа</link>.
+ </para>
+</listitem>
+</varlistentry>'>
 <!-- Image (GD) Notes -->
 <!ENTITY note.config.t1lib '<note xmlns="http://docbook.org/ns/docbook"><simpara>Эта функция доступна только в
 случае, если PHP был скомпилирован с опцией <option role="configure">--with-t1lib[=DIR]</option>.</simpara></note>'>

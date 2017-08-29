@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 341282 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 342962 Maintainer: aur Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 
@@ -28,6 +28,31 @@
       <listitem>
        <simpara>
         Строка, в которой находится содержимое сертификата/ключа, формат PEM
+       </simpara>
+      </listitem>
+     </orderedlist>
+    </para>
+   </listitem>
+   
+   <listitem>
+    <para>
+     Запросы подписи сертификата (Certificate Signing Requests или CSRs)
+     <orderedlist>
+      <listitem>
+       <simpara>
+        Ресурс CSR, полученный из
+        <function>openssl_csr_new</function>
+       </simpara>
+      </listitem>
+      <listitem>
+       <simpara>Строка вида
+        <filename>file://path/to/csr.pem</filename>; указанный файл должен содержать CSR
+        в формате PEM
+       </simpara>
+      </listitem>
+      <listitem>
+       <simpara>
+        Строка с CSR кодированная в формате PEM должна начинаться с -----BEGIN CERTIFICATE REQUEST-----
        </simpara>
       </listitem>
      </orderedlist>
