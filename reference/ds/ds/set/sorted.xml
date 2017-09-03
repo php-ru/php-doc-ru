@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 339749 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 342988 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="ds-set.sorted" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -35,9 +35,9 @@
       <para>
        <emphasis>Не целое</emphasis> значение возвращенное из функции сравнения,
        такого как <type>float</type>, будет приведено к целому. Так что значения типа
-        0.99 и 0.1 будут приведены к 0, что будет означать равенство сравниваемых значений.
-       </para>
-      </caution>
+       0.99 и 0.1 будут приведены к 0, что будет означать равенство сравниваемых значений.
+      </para>
+     </caution>
     </listitem>
    </varlistentry>
   </variablelist>
