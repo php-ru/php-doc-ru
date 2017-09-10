@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 341002 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 343021 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <sect1 xml:id="migration71.new-functions">
@@ -64,6 +64,18 @@
     </simpara>
    </listitem>
   </itemizedlist>
+ </sect2>
+ 
+ <sect2 xml:id="migration71.new-functions.openssl">
+  <title><link linkend="book.openssl">OpenSSL</link></title>
+   
+   <itemizedlist>
+    <listitem>
+     <simpara>
+      <function>openssl_get_curve_names</function>
+     </simpara>
+    </listitem>
+   </itemizedlist>
  </sect2>
  
  <sect2 xml:id="migration71.new-functions.session">
