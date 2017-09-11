@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 342758 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 343010 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 <refentry xml:id="function.stats-dens-logistic" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -18,7 +18,7 @@
   <para>
    Возвращает плотность вероятности для <parameter>x</parameter>, где
    <parameter>ave</parameter> и <parameter>stdev</parameter> являются коэффициэнтом 
- сдвига и параметром формы соответственно.
+   сдвига и логистическим распределением соответственно.
   </para>
  </refsect1>
  <refsect1 role="parameters">
