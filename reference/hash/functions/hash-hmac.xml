@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 342106 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 343152 Maintainer: aur Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="function.hash-hmac" xmlns="http://docbook.org/ns/docbook">
@@ -27,7 +27,7 @@
      <listitem>
       <para>
        Имя выбранного алгоритма хеширования (например, "md5", "sha256", "haval160,4" и т.д.)
-       Смотрите <function>hash_algos</function> для получения списка поддерживаемых алгоритмов.
+       Смотрите <function>hash_hmac_algos</function> для получения списка поддерживаемых алгоритмов.
       </para>
      </listitem>
     </varlistentry>
@@ -121,7 +121,7 @@ b95d4abec7c27ec87fb54da1621f9942948879e4
   <para>
    <simplelist>
     <member><function>hash</function></member>
-    <member><function>hash_algos</function></member>
+    <member><function>hash_hmac_algos</function></member>
     <member><function>hash_init</function></member>
     <member><function>hash_hmac_file</function></member>
    </simplelist>
