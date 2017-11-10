@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- EN-Revision: 324122 Maintainer: northcat Status: ready -->
-<!-- Reviewed: no -->
+<!-- Reviewed: yes -->
 
 <refentry xml:id="function.iterator-apply" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -64,7 +64,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Returns the iteration count.
+   Возвращает количество итерацтй.
   </para>
  </refsect1>
 
