@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- EN-Revision: 310770 Maintainer: tmn Status: ready -->
-<!-- Reviewed: no -->
+<!-- Reviewed: yes -->
 <!-- $Revision$ -->
   <refentry xml:id="function.debug-print-backtrace" xmlns="http://docbook.org/ns/docbook">
    <refnamediv>
