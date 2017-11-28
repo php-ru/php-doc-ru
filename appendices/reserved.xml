@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 341921 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 343458 Maintainer: mch Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
 <appendix xml:id="reserved" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -563,7 +563,7 @@
         iterable (с PHP 7.1)
        </entry>
        <entry>
-        object (с PHP 7)
+        object (с PHP 7.2)
        </entry>
       </row>
      </tbody>
