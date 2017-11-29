@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 342184 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 343482 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <article xml:id="reference.pcre.pattern.modifiers" xmlns="http://docbook.org/ns/docbook">
@@ -158,7 +158,7 @@ $html = preg_replace_callback(
     $html
 );
 ]]>
-         </programlisting>
+        </programlisting>
        </informalexample>
       </caution>
       <note>
@@ -255,6 +255,7 @@ $html = preg_replace_callback(
        Модификатор (?J) меняет значение локальной опции
        <literal>PCRE_DUPNAMES</literal> - подшаблоны могут
        иметь одинаковые имена.
+       Модификатор <literal>J</literal> поддерживается с версии PHP 7.2.0.
       </simpara>
      </listitem>
     </varlistentry>
