@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 342601 Maintainer: bfl Status: ready -->
+<!-- EN-Revision: 343500 Maintainer: bfl Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="function.pack" xmlns="http://docbook.org/ns/docbook">
@@ -214,6 +214,12 @@
       </row>
      </thead>
      <tbody>
+      <row>
+       <entry>7.2.0</entry>
+       <entry>
+        Типы <type>float</type> и <type>double</type> поддерживают как обратный, так и прямой порядок передачи байтов.
+       </entry>
+      </row>
       <row>
        <entry>7.0.15,7.1.1</entry>
        <entry>
