@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 343501 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 343532 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 
 
@@ -12,18 +12,24 @@
  <preface xml:id="intro.mcrypt">
   &reftitle.intro;
   <warning>
-   <simpara>
-    Это расширение использует старую, неподдерживаемую библиотеку. Вместо него 
-    используйте расширения <link linkend="book.sodium">Libsodium</link> 
-    (доступно с PHP 7.2.0)  или <link linkend="book.openssl">OpenSSL</link>.
-   </simpara>
+   &warn.deprecated.feature.7-1-0.removed.7-2-0.alternatives;
+   <simplelist role="alternatives">
+    <member>
+     <link linkend="book.sodium">Sodium</link>
+     (available as of PHP 7.2.0)
+    </member>
+    <member>
+     <link linkend="book.openssl">OpenSSL</link>
+    </member>
+   </simplelist>
   </warning>
-  <warning>
-   <simpara>
-    Это расширение объявлено устаревшим в PHP 7.1.0 и
-    перемещено в PECL в PHP 7.2.0.
-   </simpara>
-  </warning>
+  
+  <note>
+   <para>
+    &pecl.moved-ver;7.2.0.
+   </para>
+  </note>
+  
   <para>
    Это интерфейс к библиотеке mcrypt, которая 
    поддерживает широкий спектр блочных алгоритмов, таких 
