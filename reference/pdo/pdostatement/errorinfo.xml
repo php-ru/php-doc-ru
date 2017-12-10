@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- EN-Revision: 334762 Maintainer: tmn Status: ready -->
-<!-- Reviewed: no -->
+<!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
 <refentry xml:id="pdostatement.errorinfo" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -47,7 +47,7 @@
       </row>
       <row>
        <entry>2</entry>
-       <entry>Сообщение об ошибке, выданное драйвером.</entry>
+       <entry>Сообщение об ошибке, возвращаемое драйвером.</entry>
       </row>
      </tbody>
     </tgroup>
