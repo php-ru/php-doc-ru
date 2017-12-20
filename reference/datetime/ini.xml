@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- EN-Revision: 323642 Maintainer: tmn Status: ready -->
-<!-- Reviewed: no -->
+<!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
 <section xml:id="datetime.configuration" xmlns="http://docbook.org/ns/docbook">
  &reftitle.runtime;
