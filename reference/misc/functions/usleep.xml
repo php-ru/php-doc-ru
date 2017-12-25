@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- EN-Revision: 335234 Maintainer: aur Status: ready -->
-<!-- Reviewed: no -->
+<!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
 <refentry xml:id="function.usleep" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>usleep</refname>
-  <refpurpose>Откладывает выполнение на микросекунды</refpurpose>
+  <refpurpose>Задержка выполнения в микросекундах</refpurpose>
  </refnamediv>
  
  <refsect1 role="description">
