@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- EN-Revision: 288721 Maintainer: tmn Status: ready -->
-<!-- Reviewed: no -->
+<!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
 
 <refentry xml:id="splfileinfo.getpathname" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>SplFileInfo::getPathname</refname>
   <refpurpose>
-   Определение пути к файлу
+   Получает путь к файлу
   </refpurpose>
  </refnamediv>
 
