@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 343175 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 343774 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes Maintainer: rjhdby -->
 <!-- $Revision$ -->
 <chapter xml:id="install.unix" xmlns="http://docbook.org/ns/docbook">
@@ -60,7 +60,7 @@
   <itemizedlist>
    <listitem>
     <simpara>
-     autoconf: 2.13+ (для PHP &lt; 5.4.0), 2.59+ (для PHP &gt;= 5.4.0)
+     autoconf: 2.13+ (для PHP &lt; 5.4.0), 2.59+ (для PHP &gt;= 5.4.0), 2.64+ (для PHP &gt;= 7.2.0)
     </simpara>
    </listitem>
    <listitem>
