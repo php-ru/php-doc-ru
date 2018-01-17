@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 336340 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 343841 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="function.imagecreatefromgif" xmlns="http://docbook.org/ns/docbook">
@@ -17,6 +17,13 @@
    <function>imagecreatefromgif</function> возвращает идентификатор изображения,
    представляющего изображение полученное из файла с заданным именем.
   </para>
+  <caution>
+   <para>
+    При чтении анимированных файлов GIF в память, возвращается указатель 
+    на ресурс изображения только для первого фрейма. Размер изображения не
+    обязательно будет соответствует тому, что вернет функция <function>getimagesize</function>.
+     </para>
+  </caution>
   &tip.fopen-wrapper;
  </refsect1>
  <refsect1 role="parameters">
@@ -94,12 +101,6 @@ imagedestroy($img);
     Поддержка GIF была убрана из GD библиотеки в версии 1.6,
     и добавлена обратно в версии 2.0.28. Эта функция недоступна в промежуточных
     версиях.
-   </para>
-  </note>
-  <note>
-   <para>
-    При чтении анимированных файлов GIF в память, возвращается указатель 
-    на ресурс изображения только для первого фрейма.
    </para>
   </note>
  </refsect1>
