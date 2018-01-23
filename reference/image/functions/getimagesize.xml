@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 343841 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 343854 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://docbook.org/ns/docbook" xml:id="function.getimagesize">
@@ -74,7 +74,7 @@
        Этот аргумент задает файл, сведения о котором будут извлекаться.
        Это может быть локальный или удаленный (зависит от конфигурации) файл.
        Передача данных удаленного файла должна осуществляться одним из 
-       поддерживаемых потоков.
+       <link linkend="wrappers">поддерживаемых потоков</link>.
       </para>
      </listitem>
     </varlistentry>
