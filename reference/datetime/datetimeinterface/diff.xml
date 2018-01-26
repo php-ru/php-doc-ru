@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 330270 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: tmn Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
 
@@ -18,7 +18,7 @@
   <methodsynopsis role="oop">
    <modifier>public</modifier> <type>DateInterval</type><methodname>DateTime::diff</methodname>
    <methodparam><type>DateTimeInterface</type><parameter>datetime2</parameter></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>absolute</parameter><initializer>false</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>absolute</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
   <methodsynopsis role="DateTimeImmutable">
    <modifier>public</modifier> <type>DateInterval</type><methodname>DateTimeImmutable::diff</methodname>

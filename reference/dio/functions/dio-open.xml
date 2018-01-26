@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 336715 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 343888 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="function.dio-open" xmlns="http://docbook.org/ns/docbook">
@@ -7,7 +7,7 @@
   <refname>dio_open</refname>
   <refpurpose>
    Открывает файл (по необходимости создает) на более низком уровне нежели
-   потоковые функции ввода/вывода языка C.
+   потоковые функции ввода/вывода языка C
   </refpurpose>
  </refnamediv>
  <refsect1 role="description">

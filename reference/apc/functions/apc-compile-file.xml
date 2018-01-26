@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 308219 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="function.apc-compile-file" xmlns="http://docbook.org/ns/docbook">
@@ -14,7 +14,7 @@
   <methodsynopsis>
    <type>mixed</type><methodname>apc_compile_file</methodname>
    <methodparam><type>string</type><parameter>filename</parameter></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>atomic</parameter><initializer>true</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>atomic</parameter><initializer>&true;</initializer></methodparam>
   </methodsynopsis>
   <para>
    Сохранить файл в кэше байт-кода, не обращая внимания на фильтры.
