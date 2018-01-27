@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 340641 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="function.filter-var-array" xmlns="http://docbook.org/ns/docbook">
@@ -13,7 +13,7 @@
    <type>mixed</type><methodname>filter_var_array</methodname>
    <methodparam><type>array</type><parameter>data</parameter></methodparam>
    <methodparam choice="opt"><type>mixed</type><parameter>definition</parameter></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>add_empty</parameter><initializer>true</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>add_empty</parameter><initializer>&true;</initializer></methodparam>
   </methodsynopsis>
   <para>
    Эта функция полезна для получения множества переменных без

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 326324 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 343888 Maintainer: aur Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.eio-fchmod" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
