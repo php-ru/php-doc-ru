@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 322005 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 343941 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="mysqli-result.free" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysqli_result::free</refname>
+  <refname>mysqli_result::close</refname>
+  <refname>mysqli_result::free_result</refname>
   <refname>mysqli_free_result</refname>
   <refpurpose>
    Освобождает память, занятую результатами запроса
