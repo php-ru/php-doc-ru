@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 297028 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 343898 Maintainer: mch Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>int</type><methodname>xmlrpc_server_destroy</methodname>
+   <type>bool</type><methodname>xmlrpc_server_destroy</methodname>
    <methodparam><type>resource</type><parameter>server</parameter></methodparam>
   </methodsynopsis>
   &warn.experimental.func;
