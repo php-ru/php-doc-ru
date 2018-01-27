@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 308252 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="gmagick.writeimage" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -14,7 +14,7 @@
   <methodsynopsis>
    <modifier>public</modifier> <type>Gmagick</type><methodname>Gmagick::writeimage</methodname>
    <methodparam><type>string</type><parameter>filename</parameter></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>all_frames</parameter><initializer>false</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>all_frames</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
   <para>
    Записывает изображение в указанный файл. Если в качестве имени

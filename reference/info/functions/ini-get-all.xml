@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 337776 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: tmn Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="function.ini-get-all" xmlns="http://docbook.org/ns/docbook">
@@ -13,7 +13,7 @@
   <methodsynopsis>
    <type>array</type><methodname>ini_get_all</methodname>
    <methodparam choice="opt"><type>string</type><parameter>extension</parameter></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>details</parameter><initializer>true</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>details</parameter><initializer>&true;</initializer></methodparam>
   </methodsynopsis>
   <para>
    Возвращает все зарегистрированные настройки конфигурации.

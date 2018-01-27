@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322115 Maintainer: alien Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: alien Status: ready -->
 <!-- Reviewed: no -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.appendimages">
  <refnamediv>
@@ -12,7 +12,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type>Imagick</type><methodname>Imagick::appendImages</methodname>
-   <methodparam><type>bool</type><parameter>stack</parameter><initializer>false</initializer></methodparam>
+   <methodparam><type>bool</type><parameter>stack</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
   <para>
    Объединяет набор изображений в одно большое изображение.
