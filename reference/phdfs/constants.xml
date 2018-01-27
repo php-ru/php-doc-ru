@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334906 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 343880 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 
 <appendix xml:id="phdfs.constants" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -8,7 +8,7 @@
  &extension.constants;
  <para>
   <variablelist>
-   <varlistentry xml:id="constant.o-wronly">
+   <varlistentry xml:id="constant.phdfs.o-wronly">
     <term>
      <constant>O_WRONLY</constant>
      (<type>integer</type>)
@@ -18,7 +18,7 @@
      </simpara>
     </listitem>
    </varlistentry>
-   <varlistentry xml:id="constant.o-creat">
+   <varlistentry xml:id="constant.phdfs.o-creat">
     <term>
      <constant>O_CREAT</constant>
      (<type>integer</type>)
@@ -28,7 +28,7 @@
      </simpara>
     </listitem>
    </varlistentry>
-   <varlistentry xml:id="constant.o-append">
+   <varlistentry xml:id="constant.phdfs.o-append">
     <term>
      <constant>O_APPEND</constant>
      (<type>integer</type>)

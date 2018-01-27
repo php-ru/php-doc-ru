@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334906 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 343880 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 
 <chapter xml:id="phdfs.setup" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -31,7 +31,7 @@
  </section>
  
  <section xml:id="phdfs.configuration">
-  Это расширение не требует настройки через php.ini.
+  &no.config;
  </section>
  
  <section xml:id="phdfs.resources">
