@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 308253 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id='function.com-load-typelib' xmlns="http://docbook.org/ns/docbook">
@@ -12,7 +12,7 @@
   <methodsynopsis>
    <type>bool</type><methodname>com_load_typelib</methodname>
    <methodparam><type>string</type><parameter>typelib_name</parameter></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>case_insensitive</parameter><initializer>true</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>case_insensitive</parameter><initializer>&true;</initializer></methodparam>
   </methodsynopsis>
   <para>
    Загружает библиотеку типов и регистрирует ее константы таким образом,

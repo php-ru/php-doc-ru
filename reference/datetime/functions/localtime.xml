@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 311354 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="function.localtime" xmlns="http://docbook.org/ns/docbook">
@@ -13,7 +13,7 @@
   <methodsynopsis>
    <type>array</type><methodname>localtime</methodname>
    <methodparam choice="opt"><type>int</type><parameter>timestamp</parameter><initializer>time()</initializer></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>is_associative</parameter><initializer>false</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>is_associative</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
   <para>
    Функция <function>localtime</function> возвращает массив,

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 331354 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="function.cubrid-connect-with-url" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -15,7 +15,7 @@
    <methodparam><type>string</type><parameter>conn_url</parameter></methodparam>  
    <methodparam choice="opt"><type>string</type><parameter>userid</parameter></methodparam>  
    <methodparam choice="opt"><type>string</type><parameter>passwd</parameter></methodparam>  
-   <methodparam choice="opt"><type>bool</type><parameter>new_link</parameter><initializer>false</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>new_link</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
   <para>
    Функция <function>cubrid_connect_with_url</function> используется для создания

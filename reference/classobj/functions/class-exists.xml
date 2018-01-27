@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 334621 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="function.class-exists" xmlns="http://docbook.org/ns/docbook">
@@ -12,7 +12,7 @@
   <methodsynopsis>
    <type>bool</type><methodname>class_exists</methodname>
    <methodparam><type>string</type><parameter>class_name</parameter></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>autoload</parameter><initializer>true</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>autoload</parameter><initializer>&true;</initializer></methodparam>
   </methodsynopsis>
   <para>
    Эта функция проверяет, был ли объявлен указанный класс или нет.

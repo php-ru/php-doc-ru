@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 343382 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 343919 Maintainer: tmn Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
 <refentry xml:id='domnodelist.item' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>DOMNodelist::item</refname>
+  <refname>DOMNodeList::item</refname>
   <refpurpose>
    Получает узел с заданным индексом
   </refpurpose>
@@ -12,7 +12,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>DOMNode</type><methodname>DOMNodelist::item</methodname>
+   <type>DOMNode</type><methodname>DOMNodeList::item</methodname>
    <methodparam><type>int</type><parameter>index</parameter></methodparam>
   </methodsynopsis>
   <para>
