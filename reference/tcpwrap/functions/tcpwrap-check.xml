@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 334762 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="function.tcpwrap-check" xmlns="http://docbook.org/ns/docbook">
@@ -14,7 +14,7 @@
    <methodparam><type>string</type><parameter>daemon</parameter></methodparam>
    <methodparam><type>string</type><parameter>address</parameter></methodparam>
    <methodparam choice="opt"><type>string</type><parameter>user</parameter></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>nodns</parameter><initializer>false</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>nodns</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
   <para>
    Функция сверяется с файлами <filename>/etc/hosts.allow</filename> и
