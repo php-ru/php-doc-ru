@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.openssl-x509-parse">
@@ -14,7 +14,7 @@
   <methodsynopsis>
    <type>array</type><methodname>openssl_x509_parse</methodname>
    <methodparam><type>mixed</type><parameter>x509cert</parameter></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>shortnames</parameter><initializer>true</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>shortnames</parameter><initializer>&true;</initializer></methodparam>
   </methodsynopsis>
   <para>
    <function>openssl_x509_parse</function> возвращает информацию сертификате

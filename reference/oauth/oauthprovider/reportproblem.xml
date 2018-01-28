@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 308250 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="oauthprovider.reportproblem" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -14,7 +14,7 @@
   <methodsynopsis>
    <modifier>final</modifier> <modifier>public</modifier> <modifier>static</modifier> <type>string</type><methodname>OAuthProvider::reportProblem</methodname>
    <methodparam><type>string</type><parameter>oauthexception</parameter></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>send_headers</parameter><initializer>true</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>send_headers</parameter><initializer>&true;</initializer></methodparam>
   </methodsynopsis>
   <para>
    Передать проблему в виде исключения <classname>OAuthException</classname>.

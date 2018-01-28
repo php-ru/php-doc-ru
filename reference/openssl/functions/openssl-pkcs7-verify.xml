@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 343898 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.openssl-pkcs7-verify">
@@ -19,6 +19,7 @@
    <methodparam choice="opt"><type>array</type><parameter>cainfo</parameter></methodparam>
    <methodparam choice="opt"><type>string</type><parameter>extracerts</parameter></methodparam>
    <methodparam choice="opt"><type>string</type><parameter>content</parameter></methodparam>
+   <methodparam choice="opt"><type>string</type><parameter>p7bfilename</parameter></methodparam>
   </methodsynopsis>
   <para>
    <function>openssl_pkcs7_verify</function> читает S/MIME сообщение 
