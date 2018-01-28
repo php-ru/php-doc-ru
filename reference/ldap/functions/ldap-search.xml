@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 338522 Maintainer: bfl Status: ready -->
+<!-- EN-Revision: 343898 Maintainer: bfl Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="function.ldap-search" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -20,6 +20,7 @@
    <methodparam choice="opt"><type>int</type><parameter>sizelimit</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>timelimit</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>deref</parameter></methodparam>
+   <methodparam choice="opt"><type>array</type><parameter>serverctrls</parameter></methodparam>
   </methodsynopsis>
   <para>
    Выполняет поиск для указанного фильтра в директории с границами

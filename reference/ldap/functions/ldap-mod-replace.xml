@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 343425 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 343898 Maintainer: mch Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 
@@ -16,6 +16,7 @@
    <methodparam><type>resource</type><parameter>link_identifier</parameter></methodparam>
    <methodparam><type>string</type><parameter>dn</parameter></methodparam>
    <methodparam><type>array</type><parameter>entry</parameter></methodparam>
+   <methodparam choice="opt"><type>array</type><parameter>serverctrls</parameter></methodparam>
   </methodsynopsis>
   <para>
    Заменяет один или более атрибутов из указанного <parameter>dn</parameter>.

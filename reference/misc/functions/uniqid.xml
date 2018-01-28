@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 340020 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes  -->
 <!-- $Revision$ -->
 <refentry xml:id="function.uniqid" xmlns="http://docbook.org/ns/docbook">
@@ -13,7 +13,7 @@
   <methodsynopsis>
    <type>string</type><methodname>uniqid</methodname>
    <methodparam choice="opt"><type>string</type><parameter>prefix</parameter><initializer>""</initializer></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>more_entropy</parameter><initializer>false</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>more_entropy</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
   <para>
    Получает уникальный идентификатор с префиксом, основанный на текущем

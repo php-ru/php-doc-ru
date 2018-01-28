@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 318950 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: tmn Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
 <refentry xml:id="function.libxml-use-internal-errors" xmlns="http://docbook.org/ns/docbook">
@@ -14,7 +14,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type>bool</type><methodname>libxml_use_internal_errors</methodname>
-   <methodparam choice="opt"><type>bool</type><parameter>use_errors</parameter><initializer>false</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>use_errors</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
   <para>
    <function>libxml_use_internal_errors</function> позволяет отключить

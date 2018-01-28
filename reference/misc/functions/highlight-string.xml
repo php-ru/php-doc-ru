@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 341282 Maintainer: bfl Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: bfl Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
 <refentry xml:id="function.highlight-string" xmlns="http://docbook.org/ns/docbook">
@@ -13,7 +13,7 @@
   <methodsynopsis>
    <type>mixed</type><methodname>highlight_string</methodname>
    <methodparam><type>string</type><parameter>str</parameter></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>return</parameter><initializer>false</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>return</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
   <simpara>
    Выводит или возвращает код PHP с html-разметкой c подсвеченным синтаксисом, используя

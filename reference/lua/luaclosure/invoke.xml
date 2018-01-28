@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 322129 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 343887 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="luaclosure.invoke" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>LuaClosure::__invoke</refname>
-  <refpurpose>вызов замыкания Lua</refpurpose>
+  <refpurpose>Вызов замыкания Lua</refpurpose>
  </refnamediv>
  
  <refsect1 role="description">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 330543 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="locale.filtermatches">
@@ -21,7 +21,7 @@
    <methodname>Locale::filterMatches</methodname>
    <methodparam><type>string</type><parameter>langtag</parameter></methodparam>
    <methodparam><type>string</type><parameter>locale</parameter></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>canonicalize</parameter><initializer>false</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>canonicalize</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
   <para>
    &style.procedural;
@@ -31,7 +31,7 @@
    <methodname>locale_filter_matches</methodname>
    <methodparam><type>string</type><parameter>langtag</parameter></methodparam>
    <methodparam><type>string</type><parameter>locale</parameter></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>canonicalize</parameter><initializer>false</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>canonicalize</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
   <para>
    Проверить, соответствует ли фильтр $langtag локали $locale руководствуясь базовыми
