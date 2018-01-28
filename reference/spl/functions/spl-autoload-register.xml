@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 334917 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: tmn Status: ready -->
 <!-- $Revision$ -->
 <!-- Reviewed: yes Maintainer: rjhdby -->
 <refentry xml:id="function.spl-autoload-register" xmlns="http://docbook.org/ns/docbook">
@@ -14,8 +14,8 @@
   <methodsynopsis>
    <type>bool</type><methodname>spl_autoload_register</methodname>
    <methodparam choice="opt"><type>callable</type><parameter>autoload_function</parameter></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>throw</parameter><initializer>true</initializer></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>prepend</parameter><initializer>false</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>throw</parameter><initializer>&true;</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>prepend</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
   <para>
    Регистрирует функцию __autoload в предоставляемой SPL очереди. В результате очередь будет

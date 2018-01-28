@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 334762 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: tmn Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="function.class-uses" xmlns="http://docbook.org/ns/docbook">
@@ -14,7 +14,7 @@
   <methodsynopsis>
    <type>array</type><methodname>class_uses</methodname>
    <methodparam><type>mixed</type><parameter>class</parameter></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>autoload</parameter><initializer>true</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>autoload</parameter><initializer>&true;</initializer></methodparam>
   </methodsynopsis>
   <para>
    Эта функция возвращает массив с именами трейтов, которые использует заданный

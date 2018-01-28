@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 291313 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: mch Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="sphinxclient.setfilter" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -15,7 +15,7 @@
    <modifier>public</modifier> <type>bool</type><methodname>SphinxClient::setFilter</methodname>
    <methodparam><type>string</type><parameter>attribute</parameter></methodparam>
    <methodparam><type>array</type><parameter>values</parameter></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>exclude</parameter><initializer>false</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>exclude</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
   <para>
    Добавляет новый фильтр по типу поля integer к имеющемуся списку фильтров.

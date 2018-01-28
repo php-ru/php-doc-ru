@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 325878 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: aur Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 
@@ -14,7 +14,7 @@
   <methodsynopsis>
    <modifier>public</modifier> <modifier>static</modifier> <type>string</type><methodname>ReflectionClass::export</methodname>
    <methodparam><type>mixed</type><parameter>argument</parameter></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>return</parameter><initializer>false</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>return</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
   <para>
    Экспортирует reflected (отражённый) класс.
