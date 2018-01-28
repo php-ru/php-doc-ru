@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 342782 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="function.stats-standard-deviation" xmlns="http://docbook.org/ns/docbook">
@@ -12,7 +12,7 @@
   <methodsynopsis>
    <type>float</type><methodname>stats_standard_deviation</methodname>
    <methodparam><type>array</type><parameter>a</parameter></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>sample</parameter><initializer>false</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>sample</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
   <para>
    Возвращает стандартное отклонение для массива значений <parameter>a</parameter>.

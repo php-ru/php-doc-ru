@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 337793 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <!-- splitted from ./en/functions/var.xml, last change in rev 1.6 -->
@@ -14,7 +14,7 @@
   <methodsynopsis>
    <type>mixed</type><methodname>var_export</methodname>
    <methodparam><type>mixed</type><parameter>expression</parameter></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>return</parameter><initializer>false</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>return</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
   <simpara>
    <function>var_export</function> возвращает структурированную информацию о

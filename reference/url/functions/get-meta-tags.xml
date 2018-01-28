@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 334592 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="function.get-meta-tags" xmlns="http://docbook.org/ns/docbook">
@@ -13,7 +13,7 @@
   <methodsynopsis>
    <type>array</type><methodname>get_meta_tags</methodname>
    <methodparam><type>string</type><parameter>filename</parameter></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>use_include_path</parameter><initializer>false</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>use_include_path</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
   <para>
    Открывает <parameter>filename</parameter> и разбирает его по строкам 

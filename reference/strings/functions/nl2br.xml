@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 339241 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.nl2br">
@@ -13,7 +13,7 @@
   <methodsynopsis>
    <type>string</type><methodname>nl2br</methodname>
    <methodparam><type>string</type><parameter>string</parameter></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>is_xhtml</parameter><initializer>true</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>is_xhtml</parameter><initializer>&true;</initializer></methodparam>
   </methodsynopsis>
   <para>
    Возвращает строку <parameter>string</parameter>, в которой перед каждым
