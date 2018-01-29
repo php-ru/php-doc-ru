@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 340864 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 344009 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <book xml:id="book.intl" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -124,6 +124,7 @@
  &reference.intl.normalizer;
  &reference.intl.messageformatter;
  &reference.intl.intlcalendar;
+ &reference.intl.intlgregoriancalendar;
  &reference.intl.intltimezone;
  &reference.intl.dateformatter;
  &reference.intl.resourcebundle;

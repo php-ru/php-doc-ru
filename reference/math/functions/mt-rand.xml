@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 343522 Maintainer: das Status: ready -->
+<!-- EN-Revision: 344025 Maintainer: das Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="function.mt-rand" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -91,7 +91,7 @@
       <row>
        <entry>7.1.0</entry>
        <entry>
-        <link linkend="migration71.incompatible.rand-srand-aliases"><function>rand</function> теперь является псевдонимом <function>mt_rand</function>.</link>
+        <function>rand</function> <link linkend="migration71.incompatible.rand-srand-aliases">теперь является</link> псевдонимом для <function>mt_rand</function>.
        </entry>
       </row>
       <row>
