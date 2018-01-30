@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 343899 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 344088 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="phar.extractto" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -46,7 +46,7 @@
      <term><parameter>files</parameter></term>
      <listitem>
       <para>
-       Имя файла или директории, которые надо извлечь. Либо архив с именами файлов/директорий
+       Имя файла или директории, которые надо извлечь или архив с именами файлов/директорий. &null; для пропуска этого параметра.
       </para>
      </listitem>
     </varlistentry>
