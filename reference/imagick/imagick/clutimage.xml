@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322115 Maintainer: alien Status: ready -->
+<!-- EN-Revision: 344121 Maintainer: alien Status: ready -->
 <!-- Reviewed: no -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.clutimage">
  <refnamediv>
@@ -13,7 +13,7 @@
   <methodsynopsis>
    <type>bool</type><methodname>Imagick::clutImage</methodname>
    <methodparam><type>Imagick</type><parameter>lookup_table</parameter></methodparam>
-   <methodparam choice="opt"><type>float</type><parameter>channel</parameter><initializer>Imagick::CHANNEL_DEFAULT</initializer></methodparam>
+   <methodparam choice="opt"><type>int</type><parameter>channel</parameter><initializer>Imagick::CHANNEL_DEFAULT</initializer></methodparam>
   </methodsynopsis>
 
   <para>
