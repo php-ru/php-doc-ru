@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 344124 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 344182 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.openssl-pkcs7-verify">
@@ -88,6 +88,14 @@
       </para>
      </listitem>
     </varlistentry>
+    <varlistentry>
+     <term><parameter>p7bfilename</parameter></term>
+     <listitem>
+      <para>
+       
+      </para>
+     </listitem>
+    </varlistentry> 
    </variablelist>
   </para>
  </refsect1>
@@ -112,15 +120,15 @@
      </thead>
      <tbody>
       <row>
-       <entry>5.1.0</entry>
-       <entry>
-        Добавлен параметр <parameter>content</parameter>.
-       </entry>
-      </row>
-      <row>
        <entry>7.2.0</entry>
        <entry>
         Добавлен параметр <parameter>p7bfilename</parameter>.
+       </entry>
+      </row>
+      <row>
+       <entry>5.1.0</entry>
+       <entry>
+        Добавлен параметр <parameter>content</parameter>.
        </entry>
       </row>
      </tbody>
