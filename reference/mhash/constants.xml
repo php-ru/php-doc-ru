@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- EN-Revision: 307148 Maintainer: rjhdby Status: ready -->
-<!-- Reviewed: no -->
+<!-- Reviewed: yes Maintainer: lex -->
 
 <appendix xml:id="mhash.constants" xmlns="http://docbook.org/ns/docbook">
  &reftitle.constants;
  &extension.constants;
  <para>
   Здесь представлен список поддерживаемых mhash хешей.
-  Если хэш отсутствует в этом списке, но есть в документации по mhash,
+  Если хеш отсутствует в этом списке, но есть в документации по mhash,
   то вы можете смело считать, что он есть.
   <itemizedlist>
    <listitem>

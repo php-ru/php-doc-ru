@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- EN-Revision: 307148 Maintainer: rjhdby Status: ready -->
-<!-- Reviewed: no -->
+<!-- Reviewed: yes Maintainer: lex -->
 
 <refentry xml:id="function.mhash-get-block-size" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -28,7 +28,7 @@
      <term><parameter>hash</parameter></term>
      <listitem>
       <para>
-       ID хеша. Одна из констант <constant>MHASH_hashname</constant>.
+       Идентификатор хеша. Одна из констант <constant>MHASH_hashname</constant>.
       </para>
      </listitem>
     </varlistentry>
