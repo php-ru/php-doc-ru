@@ -4,6 +4,10 @@ general:
     only:
      - cirlce-ci
 
+test:
+  override:
+    - echo "done"  
+
 jobs:
   sync:
     docker:
