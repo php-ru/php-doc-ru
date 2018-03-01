@@ -12,9 +12,9 @@ jobs:
   sync:
     docker:
       - image: circleci/node:7.10
-    # branches:
-    #   only:
-    #     - cirlce-ci  
+    branches:
+      only:
+        - cirlce-ci
     steps:
       - checkout
       - run:
@@ -39,6 +39,5 @@ workflows:
             branches:
               only:
                 - circle-ci
-
     jobs:
       - sync
