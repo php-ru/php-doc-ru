@@ -28,3 +28,6 @@ workflows:
     triggers:
       - schedule:
           cron: "*/30 * * * *"
+
+    jobs:
+      - sync
