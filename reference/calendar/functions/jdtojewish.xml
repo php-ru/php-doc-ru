@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 343899 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 344404 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no Maintainer: tmn -->
 <!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.jdtojewish">
@@ -41,7 +41,7 @@
      <listitem>
       <para>
        Если аргумент <parameter>hebrew</parameter> установлен в &true;,
-       дата будет возвращена в виде строки в Иудейском формате заданном 
+       дата будет возвращена в виде закодированной строки ISO-8859-8 в Иудейском формате, заданном 
        аргументом <parameter>fl</parameter>.
       </para>
      </listitem>
