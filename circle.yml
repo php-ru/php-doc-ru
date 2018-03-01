@@ -1,8 +1,4 @@
 version: 2
-general:
-  branches:
-    only:
-     - circle-ci
 
 test:
   override:
@@ -13,8 +9,8 @@ jobs:
     docker:
       - image: circleci/node:7.10
     branches:
-      only:
-        - cirlce-ci
+      ignore:
+        - master
     steps:
       - checkout
       - run:
@@ -28,9 +24,6 @@ jobs:
 
 workflows:
   version: 2
-  all:
-    jobs:
-      - sync
   scheduled-workflow:
     triggers:
       - schedule:
