@@ -4,7 +4,7 @@ if [ "$TRAVIS_EVENT_TYPE" != "cron" ]; then
     exit 0
 fi
 
-git clone git@github.com:lex111/php-doc-ru.git doc
+git clone https://github.com/lex111/php-doc-ru.git doc
 cd doc
 git config svn.authorsfile "./svn-authors.txt"
 git remote set-url origin https://lex111:${GITHUB_TOKEN}@github.com/lex111/php-doc-ru
