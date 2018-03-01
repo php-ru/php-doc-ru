@@ -1,0 +1,9 @@
+dist: trusty
+sudo: required
+ 
+before_script:
+  - sudo apt-get -qq update
+  - sudo apt-get install -y git git-svn
+ 
+script:
+  - bash ./sync.sh
