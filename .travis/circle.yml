@@ -1,4 +1,9 @@
 version: 2
+general:
+  branches:
+    only:
+     - cirlce-ci
+
 jobs:
   build:
     docker:
@@ -11,3 +16,10 @@ jobs:
       - run:
           name: Print the Current Time
           command: date
+
+
+workflows:
+  version: 2
+  all:
+    jobs:
+      - build
