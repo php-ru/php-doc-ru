@@ -12,9 +12,7 @@ jobs:
       - checkout
       - run:
           name: Setup
-          command: |
-            sudo apt-get -qq update
-            sudo apt-get install -y git git-svn
+          command: sudo apt-get -qq update && sudo apt-get install -y git git-svn
       - run:
           name: Sync
           command: ./sync.sh
