@@ -5,21 +5,26 @@ general:
      - cirlce-ci
 
 jobs:
-  build:
+  sync:
     docker:
       - image: debian:stretch
     steps:
       - checkout
       - run:
-          name: Greeting
-          command: echo Hello, world.
+          name: Setup
+          command: |
+            sudo apt-get -qq update
+            sudo apt-get install -y git git-svn
       - run:
-          name: Print the Current Time
-          command: date
-
+          name: Sync
+          command: ./sync.sh
 
 workflows:
   version: 2
   all:
     jobs:
-      - build
+      - sync
+  scheduled:
+    triggers:
+      - schedule:
+          cron: "*/30 * * * *"
