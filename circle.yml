@@ -28,6 +28,9 @@ workflows:
     triggers:
       - schedule:
           cron: "*/30 * * * *"
-
+          filters:
+            branches:
+              only:
+                - cirlce-ci
     jobs:
       - sync
