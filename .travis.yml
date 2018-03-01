@@ -1,0 +1,8 @@
+script:
+  - if [ "$TRAVIS_EVENT_TYPE" = "cron" ]; then
+      git svn rebase
+      git push origin --all
+    fi
+env:
+  global:
+    secure: wjg/6Poczs4yEaRFoVl0/631aKYSEmQtajxnwwKZr2NywNprxXweJeJXwfXym+m+PUKkrcXSL2vXF2rt0KMqaj6BxiGGJ1uiU7sX7i+3QyJLNG7onsxllPAKBBEM+ejLT+cuZ/XxG8dNFlZn+rLNmQRLmf1h4jqpmqWuucsZjvEgyW2VCpRBhTVnghA4Sp6trKcjLn4x4UAQZHNVMkdo8HIeXz8jTXTLnDgp4aB4PbiYP32+yrAjZdSFsctBsqBLWHsl0NEYe+HnECjwYaiqB7gUwOxXJtDnJXRAFIt15JkCzKchTf5DFMaLsFDYUwj2Z/tz3w67Fjj6F/+f/Wy4AmTH2FMvqw2Dt1ilPvfq+leeP8U6JOfGPkl7D9VPS3daTvLam2sMIWB5Ye7Jdu82czIPzildUnbns4AxQ4dJY2GJY2pItewlXl7llOZr6jGt2WlGSw8sc5/WTJcuZI1OyV9gUL3ZQrJysIZH9nlwkkEBWmoSyYM90y8MZHkEjXphklJ7xPj7pu7Qjr98jEERfbYqDlpfwqWJZaMEWPGBTodhD2FyTzD3QcKrEDPOdtxXjq1Q3bS9qp6UX5gDKQ2S00f2MM2kXaKjZbtXlVOGmu+CZ4pmn6+Z4Fzw/hFPrxoFhsjTbmxKz6XlHCM4q9XW6xGDC2UoVjf6/IT20UhXky8=
