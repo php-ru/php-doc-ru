@@ -8,9 +8,6 @@ jobs:
   sync:
     docker:
       - image: circleci/node:7.10
-    branches:
-      ignore:
-        - master
     steps:
       - checkout
       - run:
