@@ -12,4 +12,3 @@ git svn init https://svn.php.net/repository/phpdoc/ru/trunk
 git update-ref refs/remotes/git-svn refs/remotes/origin/master
 git svn rebase
 git push origin --all
-
