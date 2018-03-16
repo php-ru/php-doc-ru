@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 341282 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 344518 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <sect1 xml:id="language.types.integer">
@@ -78,7 +78,7 @@ $a = 0b11111111; // двоичное число (эквивалентно 255 в
 
 восьмеричные      : 0[0-7]+
 
-двоичные          : 0b[01]+
+двоичные          : 0[bB][01]+
 
 целые             : [+-]?десятичные
                   | [+-]?шестнадцатеричные
@@ -230,7 +230,7 @@ var_dump(round(25/7));  // float(4)
     <para>
      В PHP 7.0.0, NaN и Infinity при приведении к <type>integer</type> становятся равны нулю, 
      вместо неопределенного значения в зависимости от платформы.
-     </para>
+    </para>
    </note>
    <warning>
     <para>
