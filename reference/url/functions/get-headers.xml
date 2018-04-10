@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 344130 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 344567 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="function.get-headers" xmlns="http://docbook.org/ns/docbook">
@@ -44,6 +44,15 @@
       </para>
      </listitem>
     </varlistentry>
+    <varlistentry>
+     <term><parameter>context</parameter></term>
+     <listitem>
+      <para>
+       Корректный контекст ресурса, созданный с помощью
+       <function>stream_context_create</function>.
+      </para>
+     </listitem>
+    </varlistentry>
    </variablelist>
   </para>
  </refsect1>
@@ -69,17 +78,17 @@
      </thead>
      <tbody>
       <row>
+       <entry>7.1.0</entry>
+       <entry>
+        Добавлен параметр <parameter>context</parameter>.
+       </entry>
+      </row>
+      <row>
        <entry>5.1.3</entry>
        <entry>
         Эта функция теперь использует stream context по умолчанию, 
         который может быть установлен или изменен при помощи функции 
         <function>stream_context_set_default</function>.
-       </entry>
-      </row>
-      <row>
-       <entry>7.1.0</entry>
-       <entry>
-        Добавлен параметр <parameter>context</parameter>.
        </entry>
       </row>
      </tbody>

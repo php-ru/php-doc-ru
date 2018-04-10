@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 317663 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 344554 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <chapter xml:id="yaf.setup" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -23,7 +23,7 @@
    <link xlink:href="&url.pecl.package;yaf">&url.pecl.package;yaf</link>.
   </para>
   <para>
-   &pecl.windows.download;
+   &pecl.windows.download.avail;
   </para>
  </section>
  <!-- }}} -->
