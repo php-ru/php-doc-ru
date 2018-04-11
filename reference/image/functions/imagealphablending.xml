@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 339875 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 344561 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="function.imagealphablending" xmlns="http://docbook.org/ns/docbook">
@@ -71,7 +71,7 @@ imagealphablending($im, true);
 imagefilledrectangle($im, 30, 30, 70, 70, imagecolorallocate($im, 255, 0, 0));
 
 // Вывод
-header('Content-type: image/png');
+header('Content-Type: image/png');
 
 imagepng($im);
 imagedestroy($im);

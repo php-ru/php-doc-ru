@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 297028 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 344594 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="function.imagerectangle" xmlns="http://docbook.org/ns/docbook">
@@ -65,8 +65,7 @@
      <term><parameter>color</parameter></term>
      <listitem>
       <para>
-       Идентификатор цвета, созданный функцией
-       <function>imagecolorallocate</function>.
+       &gd.identifier.color;
       </para>
      </listitem>
     </varlistentry>
