@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 342577 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 344619 Maintainer: mch Status: ready -->
 <!-- $Revision$ -->
 <!-- Reviewed: no -->
 <refentry xml:id="function.ldap-get-option" xmlns="http://docbook.org/ns/docbook">
@@ -78,6 +78,11 @@
            <entry>integer</entry>
            <entry></entry>
           </row>
+          <row>
+           <entry><constant>LDAP_OPT_DIAGNOSTIC_MESSAGE</constant></entry>
+                     <entry>integer</entry>
+                     <entry></entry>
+          </row> 
           <row>
            <entry><constant>LDAP_OPT_REFERRALS</constant></entry>
            <entry>bool</entry>

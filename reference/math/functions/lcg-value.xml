@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 339348 Maintainer: das Status: ready -->
+<!-- EN-Revision: 344574 Maintainer: das Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="function.lcg-value" xmlns="http://docbook.org/ns/docbook">
@@ -9,10 +9,10 @@
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
-   <methodsynopsis>
-    <type>float</type><methodname>lcg_value</methodname>
-    <void/>
-   </methodsynopsis>
+  <methodsynopsis>
+   <type>float</type><methodname>lcg_value</methodname>
+   <void/>
+  </methodsynopsis>
   <para>
    <function>lcg_value</function> возвращает псевдослучайное значение
    в диапазоне (0, 1).  Функция комбинирует два КГ с периодами
@@ -24,7 +24,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Псевдослучайное число с плавающей точкой в диапазоне (0, 1)
+   Псевдослучайное число с плавающей точкой в диапазоне от 0.0 до 1.0 включительно.
   </para>
  </refsect1>
  <refsect1 role="seealso">

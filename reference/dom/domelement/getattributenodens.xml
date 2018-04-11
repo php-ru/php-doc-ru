@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 341824 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 344565 Maintainer: tmn Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
 <refentry xml:id='domelement.getattributenodens' xmlns="http://docbook.org/ns/docbook">
@@ -49,7 +49,7 @@
   <para>
    Узел атрибута. Обратите внимание, что для деклараций пространств имен XML
    (атрибуты <literal>xmlns</literal> и <literal>xmlns:*</literal>) возвращается экземпляр
-   <classname>DOMNameSpaceNode</classname>, а не <classname>DOMAttr</classname>.
+   <classname>DOMNameSpaceNode</classname>, а не объект <classname>DOMAttr</classname>.
   </para>
  </refsect1>
  <refsect1 role="seealso">
