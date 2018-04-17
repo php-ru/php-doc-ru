@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- EN-Revision: 317663 Maintainer: tmn Status: ready -->
-<!-- Reviewed: no -->
+<!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
 
 <refentry xml:id="gearmantask.returncode" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>GearmanTask::returnCode</refname>
   <refpurpose>
-   Получение последнего кода возврата
+   Получить последний код возврата
   </refpurpose>
  </refnamediv>
 
@@ -18,7 +18,7 @@
    <void />
   </methodsynopsis>
   <para>
-   Возвращает последний код возврата для этого задания.
+   Возвращает последний код возврата для этой задачи.
   </para>
  </refsect1>
 
