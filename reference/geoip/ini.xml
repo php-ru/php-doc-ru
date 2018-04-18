@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 342988 Maintainer: rjhdby Status: ready --><!-- Reviewed: no -->
+<!-- EN-Revision: 342988 Maintainer: rjhdby Status: ready -->
+<!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
 <section xml:id="geoip.configuration" xmlns="http://docbook.org/ns/docbook">
   &reftitle.runtime;
   &extension.runtime;
   <para>
     <table>
-      <title>GeoIP &ConfigureOptions;</title>
+      <title>&ConfigureOptions; GeoIP</title>
       <tgroup cols="4">
         <thead>
           <row>
@@ -39,8 +40,8 @@
         </term>
         <listitem>
           <para>
-           По умолчанию пустая, но может быть установлена для принудительного использования
-           другого пути к базе данных, нежели указанного в библиотеке.
+           По умолчанию пустая, но может быть установлена для принудительного
+           использования другого пути к базе данных, нежели указанного в библиотеке.
           </para>
         </listitem>
       </varlistentry>
