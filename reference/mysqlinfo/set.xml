@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 340248 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 344726 Maintainer: rjhdby Status: ready -->
 <!-- $Revision$ -->
 <!-- Reviewed: no -->
 
@@ -516,6 +516,7 @@ $ ./configure --with-mysqli=/path/to/mysql_config --with-pdo-mysql=/path/to/mysq
  </book>
 
  &reference.mysqli.book;
+ &reference.mysql-xdevapi.book;
  &reference.mysql.book;
  &reference.mysqlnd.book;
  &reference.mysqlnd-ms.book;
