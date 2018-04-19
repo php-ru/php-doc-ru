@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- EN-Revision: 338330 Maintainer: lex Status: ready -->
+<!-- Reviewed: no -->
 <!-- $Revision$ -->
+
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.socket-get-option">
  <refnamediv>
   <refname>socket_get_option</refname>
