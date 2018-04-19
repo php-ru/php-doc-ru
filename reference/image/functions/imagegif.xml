@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 341282 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 344720 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="function.imagegif" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -45,6 +45,7 @@
   <para>
    &return.success;
   </para>
+  &gd.return.trueonerror;
  </refsect1>
  
  <refsect1 role="changelog">

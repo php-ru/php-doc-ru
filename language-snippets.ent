@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 344602 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 344720 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 
@@ -475,6 +475,8 @@ $font = 'SomeFont';
 ">
 
 <!ENTITY gd.return.identifier 'Возвращает ресурс изображения в случае успеха, или &false; в случае ошибки.'>
+
+<!ENTITY gd.return.trueonerror '<caution xmlns="http://docbook.org/ns/docbook"><simpara>Однако, если libgd не может вывести изображения, эта функция вернет &true;.</simpara></caution>'>
 
 <!ENTITY gd.identifier.color "Идентификатор цвета, созданный функцией <function xmlns='http://docbook.org/ns/docbook'>imagecolorallocate</function>.">
 
