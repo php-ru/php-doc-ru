@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 341597 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 344866 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
 <refentry xml:id="function.get-defined-functions" xmlns="http://docbook.org/ns/docbook">
@@ -56,7 +56,7 @@
     </thead>
     <tbody>
      <row>
-      <entry>PHP 7.0.15, PHP 7.1.1</entry>
+      <entry>7.0.15, 7.1.1</entry>
       <entry>
        Добавлен параметр <parameter>exclude_disabled</parameter>.
       </entry>
