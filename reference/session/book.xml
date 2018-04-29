@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 344082 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 344870 Maintainer: aur Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <book xml:id="book.session" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
- <?phpdoc extension-membership="core" ?>
+ <?phpdoc extension-membership="bundled" ?>
  <title>Управление сессиями</title>
  <titleabbrev>Сессии</titleabbrev>
  
