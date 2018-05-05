@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 297028 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 344962 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.convert-cyr-string">
@@ -98,6 +98,16 @@
  <refsect1 role="notes">
   &reftitle.notes;
   &note.bin-safe;
+ </refsect1>
+ 
+ <refsect1 role="seealso">
+  &reftitle.seealso;
+  <para>
+   <simplelist>
+    <member><function>mb_convert_encoding</function></member>
+    <member><function>iconv</function></member>
+   </simplelist>
+  </para>
  </refsect1>
 
 </refentry>
