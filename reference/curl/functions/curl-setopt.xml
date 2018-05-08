@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 342670 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 344978 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="function.curl-setopt" xmlns="http://docbook.org/ns/docbook">

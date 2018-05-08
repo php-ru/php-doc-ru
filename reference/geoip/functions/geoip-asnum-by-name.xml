@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 342988 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 344977 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 
 <refentry xml:id="function.geoip-asnum-by-name" xmlns="http://docbook.org/ns/docbook">
@@ -58,7 +58,7 @@
 $asn = geoip_asnum_by_name('www.example.com');
 
 if ($asn) {
-    echo 'ASN равен: ' $asn;
+    echo 'ASN равен: '. $asn;
 }
 ?>
 ]]>
