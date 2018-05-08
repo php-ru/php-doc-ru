@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 333209 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 344989 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <appendix xml:id="mcrypt.constants" xmlns="http://docbook.org/ns/docbook">
@@ -68,7 +68,7 @@
    </listitem> 
   </itemizedlist>
  </para>
- <!--
+ 
  <para>
   Mcrypt поддерживает некоторые другие режимы работы
   для которых нет предопределенных констант. Их можно
@@ -89,7 +89,7 @@
    </listitem>
   </itemizedlist>
  </para>
- -->
+ 
  <para>
   Некоторые другие режимы и константы генераторов случайных чисел:
   <variablelist>
