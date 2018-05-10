@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 342244 Maintainer: irker Status: ready -->
+<!-- EN-Revision: 344995 Maintainer: irker Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <appendix xml:id="zip.constants" xmlns="http://docbook.org/ns/docbook">
@@ -33,7 +33,8 @@
    </term>
    <listitem>
     <simpara>
-     Всегда создавать новый архив, этот режим перезаписывает файлы, если они существуют.
+     Если архив существует, то игнорировать текущее его содержимое.
+     Другими словами, обработать его так же, как и пустой архив.
     </simpara>
    </listitem>
   </varlistentry>

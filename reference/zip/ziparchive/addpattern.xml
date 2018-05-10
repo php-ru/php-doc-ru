@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333317 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 344995 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 
 <refentry xml:id="ziparchive.addpattern" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -72,7 +72,7 @@
 <![CDATA[
 <?php
 $zip = new ZipArchive();
-$ret = $zip->open('application.zip', ZipArchive::OVERWRITE);
+$ret = $zip->open('application.zip', ZipArchive::CREATE | ZipArchive::OVERWRITE);
 if ($ret !== TRUE) {
     printf('Ошибка с кодом %d', $ret);
 } else {
