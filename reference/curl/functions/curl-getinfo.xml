@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 339608 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 345002 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id='function.curl-getinfo' xmlns="http://docbook.org/ns/docbook">
@@ -38,7 +38,9 @@
         </listitem>
         <listitem>
          <simpara>
-          <constant>CURLINFO_HTTP_CODE</constant> - Последний полученный HTTP-код
+          <constant>CURLINFO_HTTP_CODE</constant> - Последний код ответа.
+          Начиная с PHP 5.5.0 и cURL 7.10.8, это устаревший псевдоним
+          <constant>CURLINFO_RESPONSE_CODE</constant>
          </simpara>
         </listitem>
         <listitem>
