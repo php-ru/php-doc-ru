@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 345004 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 345093 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <sect1 xml:id="install.fpm.configuration" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -373,7 +373,7 @@
      </para>
     </listitem>
    </varlistentry>
-   <varlistentry xml:id="pm.max-chidlren">
+   <varlistentry xml:id="pm.max-children">
     <term>
      <parameter>pm.max_children</parameter>
      <type>int</type>

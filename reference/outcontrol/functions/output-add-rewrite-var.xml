@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 340036 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 345087 Maintainer: mch Status: ready -->
 <!-- $Revision$ -->
 <!-- Reviewed: yes Maintainer: lex -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.output-add-rewrite-var">
@@ -80,8 +80,8 @@
       <row>
        <entry>7.1.0</entry>
        <entry>
-        До PHP 7.1.0 переменные перезаписи установленные функцией
-        <function>output_add_rewrite_var</function> используют тот же 
+        До PHP 7.1.0 переменные перезаписи, установленные функцией
+        <function>output_add_rewrite_var</function>, используют тот же 
         буфер модуля сессии "trans sid". Начиная с PHP 7.1.0, используется отдельный буфер, 
         <link linkend="ini.url-rewriter.tags">url_rewriter.tags</link> используется только для
         функций вывода, добавлен <link linkend="ini.url-rewriter.tags">url_rewriter.hosts</link>.
