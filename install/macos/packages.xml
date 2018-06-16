@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 332886 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 345139 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <sect1 xml:id="install.macosx.packages" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Using Packages</title>
  <simpara>
   Существуют несколько предварительно упакованных и предварительно скомпилированных 
-  версий PHP для Mac OS X. Это может помочь в создании стандартных конфигураций, но если
+  версий PHP для macOS. Это может помочь в создании стандартных конфигураций, но если
   вам нужены специфические функции (например, безопасный сервер, или другой драйвер базы
   данных), вы можете установить PHP и/или веб-сервер самостоятельно. Если вы не знакомы
   с процессом сборки и компиляции программного обеспечения, стоит

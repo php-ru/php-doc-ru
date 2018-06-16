@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 330340 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 345139 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <!-- State: experimental -->
@@ -42,7 +42,7 @@
     <listitem><simpara>GNU/Linux</simpara></listitem>
     <listitem><simpara>HPUX</simpara></listitem>
     <listitem><simpara>IRIX64</simpara></listitem>
-    <listitem><simpara>Mac OS X</simpara></listitem>
+    <listitem><simpara>macOS</simpara></listitem>
     <listitem><simpara>OS/2</simpara></listitem>
     <listitem><simpara>QNX</simpara></listitem>
     <listitem><simpara>SCO OpenServer</simpara></listitem>
