@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 321901 Maintainer: northcat Status: ready -->
+<!-- EN-Revision: 345155 Maintainer: northcat Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 
 <refentry xml:id="splfileinfo.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -11,10 +11,10 @@
 
  <refsect1 role="description">
   &reftitle.description;
-  <methodsynopsis>
+  <constructorsynopsis>
    <modifier>public</modifier> <methodname>SplFileInfo::__construct</methodname>
    <methodparam><type>string</type><parameter>file_name</parameter></methodparam>
-  </methodsynopsis>
+  </constructorsynopsis>
   <para>
    Создаёт новый объект SplFileInfo для указанного имени файла. 
    Файл не обязательно должен существовать или быть доступным для чтения.
