@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 321886 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 345164 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 
@@ -17,7 +17,7 @@
   </methodsynopsis>
   <para>
    Аналогично функции <function>readdir</function>, но <parameter>
-   параметр dir_handle</parameter> по умолчанию <varname>$this</varname>.
+   параметр dir_handle</parameter> по умолчанию <varname>$this->handle</varname>.
   </para>
  </refsect1>
 
