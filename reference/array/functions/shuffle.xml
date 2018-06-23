@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 344693 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 345180 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="function.shuffle" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -18,7 +18,6 @@
    Используется псевдослучайный генератор случайных чисел, следовательно
    данная функция не подходит для задач криптографии.
   </para>
-  &note.sort-unstable;
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
