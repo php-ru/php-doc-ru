@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 344522 Maintainer: lex Status: ready -->
+<!-- EN-Revision: 345271 Maintainer: lex Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.uopz-unset-mock" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -67,7 +67,7 @@ A::who();
 ?>
 ]]>
    </programlisting>
-   &example.outputs.similar;
+   &example.outputs;
    <screen>
 <![CDATA[
 A

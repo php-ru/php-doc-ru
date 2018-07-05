@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 344100 Maintainer: lex Status: ready -->
+<!-- EN-Revision: 345271 Maintainer: lex Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.uopz-rename" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -105,7 +105,7 @@ echo My::original_strlen("Hello World");
 ?>
 ]]>
    </programlisting>
-   &example.outputs.similar;
+   &example.outputs;
    <screen>
 <![CDATA[
 11
