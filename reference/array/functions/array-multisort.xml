@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 340377 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 345315 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="function.array-multisort" xmlns="http://docbook.org/ns/docbook">
@@ -298,6 +298,10 @@ foreach ($data as $key => $row) {
     $volume[$key]  = $row['volume'];
     $edition[$key] = $row['edition'];
 }
+
+// Начиная с PHP 5.5.0 вы можете использовать array_column() вместо вышеуказанного кода
+$volume  = array_column($data, 'volume');
+$edition = array_column($data, 'edition');
 
 // Сортируем данные по volume по убыванию и по edition по возрастанию
 // Добавляем $data в качестве последнего параметра, для сортировки по общему ключу
