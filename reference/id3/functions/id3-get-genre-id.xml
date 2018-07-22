@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- EN-Revision: 315468 Maintainer: aur Status: ready -->
-<!-- Reviewed: no -->
+<!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
 <refentry xml:id="function.id3-get-genre-id" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -25,7 +25,7 @@
      <term><parameter>genre</parameter></term>
      <listitem>
       <para>
-       Название жанра в виде строки (string)
+       Название жанра в виде строки
       </para>
      </listitem>
     </varlistentry>
