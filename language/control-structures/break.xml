@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 345105 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 345401 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 
@@ -24,7 +24,7 @@
 <![CDATA[
 <?php
 $arr = array('один', 'два', 'три', 'четыре', 'стоп', 'пять');
-while (list(, $val) = each($arr)) {
+foreach ($arr as $val) {
     if ($val == 'стоп') {
         break;    /* Тут можно было написать 'break 1;'. */
     }
