@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 288721 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 345437 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 
@@ -13,6 +13,7 @@
    Этот модуль использует библиотеку <link xlink:href="&url.zlib;">zlib</link>, 
    написанную Jean-loup Gailly и Mark Adler. 
    Требуется zlib версии &gt;= 1.0.9.
+   Начиная с PHP 5.4.0, требуется zlib версии &gt;= 1.2.0.4.
   </para>
  </section>
  <!-- }}} -->
