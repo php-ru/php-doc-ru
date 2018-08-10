@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 330340 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 345440 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <book xml:id="book.password" xmlns="http://docbook.org/ns/docbook">
@@ -10,7 +10,7 @@
   &reftitle.intro;
   <para>
    API хеширования паролей предоставляет простую в использовании обертку
-   функции <function>crypt</function> и некоторых других алгоритмов хеширования пароля,
+   функции <function>crypt</function> и некоторых других алгоритмов хеширования пароля
    для легкого создания и управления паролями.
   </para>
   <para>
