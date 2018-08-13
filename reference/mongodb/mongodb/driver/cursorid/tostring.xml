@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 342970 Maintainer: lex Status: ready -->
+<!-- EN-Revision: 345185 Maintainer: lex Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="mongodb-driver-cursorid.tostring" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -31,14 +31,6 @@
    Возвращает идентификатор курсора в виде строки (<type>string</type>).
   </para>
  </refsect1>
-
- <refsect1 role="errors">
-  &reftitle.errors;
-  <simplelist>
-   &mongodb.throws.argumentparsing;
-  </simplelist>
- </refsect1>
-
 
  <refsect1 role="examples">
   &reftitle.examples;
