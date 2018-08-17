@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 344991 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 345523 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <sect1 xml:id="install.windows.recommended" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -21,7 +21,7 @@
 <![CDATA[
 zend_extension=php_opcache.dll
 opcache.enable=On
-opcache.cli_enable=On
+opcache.enable_cli=On
 ]]>
     </screen>
    </example>
