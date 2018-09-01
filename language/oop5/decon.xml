@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 344091 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 345581 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <sect1 xml:id="language.oop5.decon" xmlns="http://docbook.org/ns/docbook">
@@ -134,19 +134,19 @@ class Bar {
    <programlisting role="php">
 <![CDATA[
 <?php
-class MyDestructableClass {
+class MyDestructableClass
+{
    function __construct() {
        print "Конструктор\n";
-       $this->name = "MyDestructableClass";
    }
 
    function __destruct() {
-       print "Уничтожается " . $this->name . "\n";
+       print "Уничтожается " . __CLASS__  . "\n";
    }
 }
 
 $obj = new MyDestructableClass();
-?> 
+
 ]]>
     </programlisting>
    </example>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 345214 Maintainer: lex Status: ready -->
+<!-- EN-Revision: 345580 Maintainer: lex Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="mongodb-driver-manager.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -13,7 +13,7 @@
   &reftitle.description;
   <methodsynopsis>
    <modifier>final</modifier> <modifier>public</modifier> <methodname>MongoDB\Driver\Manager::__construct</methodname>
-   <methodparam choice="opt"><type>string</type><parameter>uri</parameter><initializer>"mongodb://127.0.0.1/</initializer></methodparam>
+   <methodparam choice="opt"><type>string</type><parameter>uri</parameter><initializer>"mongodb://127.0.0.1/"</initializer></methodparam>
    <methodparam choice="opt"><type>array</type><parameter>uriOptions</parameter><initializer>array()</initializer></methodparam>
    <methodparam choice="opt"><type>array</type><parameter>driverOptions</parameter><initializer>array()</initializer></methodparam>
   </methodsynopsis>
