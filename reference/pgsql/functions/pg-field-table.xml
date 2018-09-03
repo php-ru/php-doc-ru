@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- EN-Revision: 343899 Maintainer: mch Status: ready -->
-<!-- Reviewed: no -->
+<!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
 <refentry xml:id="function.pg-field-table" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -74,7 +74,7 @@
     <programlisting role="php">
 <![CDATA[
 <?php
-$dbconn = pg_connect("dbname=publisher") or die("Невозможно соединиться с базой");
+$dbconn = pg_connect("dbname=publisher") or die("Не удалось соединиться с базой");
 
 $res = pg_query($dbconn, "SELECT bar FROM foo");
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- EN-Revision: 343899 Maintainer: mch Status: ready -->
-<!-- Reviewed: no -->
+<!-- Reviewed: yes Maintainer: lex  -->
 <!-- $Revision$ -->
 <!-- splitted from ./en/functions/pgsql.xml, last change in rev 1.80 -->
 <refentry xml:id='function.pg-meta-data' xmlns="http://docbook.org/ns/docbook">
@@ -72,7 +72,7 @@
     <programlisting role="php">
 <![CDATA[
 <?php
-  $dbconn = pg_connect("dbname=publisher") or die("Невозможно соединиться с сервером");
+  $dbconn = pg_connect("dbname=publisher") or die("Не удалось соединиться с сервером");
 
   $meta = pg_meta_data($dbconn, 'authors');
   if (is_array($meta)) {
