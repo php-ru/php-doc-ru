@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 323628 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 345593 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <appendix xml:id="iconv.constants" xmlns="http://docbook.org/ns/docbook">
  &reftitle.constants;
  <para>
-  Начиная с <application>PHP</application> 4.3.0 возможно узнать во время 
+  Возможно узнать во время 
   выполнения, какая реализация <literal>iconv</literal> используется расширением.
   <table>
-   <title>Константы <literal>iconv</literal></title>
+   <title>Константы реализации <literal>iconv</literal></title>
    <tgroup cols="3">
     <thead>
      <row>
@@ -38,9 +38,9 @@
   </para>
  </note>
  <para>
-  Начиная с <application>PHP</application> 5.0.0, доступны также следующие константы:
+  Доступны также следующие константы:
   <table>
-   <title>Константы <literal>iconv</literal>, доступные с PHP 5.0.0</title>
+   <title>Другие константы <literal>iconv</literal></title>
    <tgroup cols="3">
     <thead>
      <row>
