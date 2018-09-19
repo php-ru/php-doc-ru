@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 345622 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 345631 Maintainer: mch Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="arrayiterator.offsetexists" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -13,7 +13,7 @@
   &reftitle.description;
   <methodsynopsis>
    <modifier>public</modifier> <type>bool</type><methodname>ArrayIterator::offsetExists</methodname>
-   <methodparam><type>string</type><parameter>index</parameter></methodparam>
+   <methodparam><type>mixed</type><parameter>index</parameter></methodparam>
   </methodsynopsis>
   <para>
    Проверяет существует ли смещение.
