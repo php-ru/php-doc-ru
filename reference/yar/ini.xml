@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- EN-Revision: 343013 Maintainer: rjhdby Status: ready -->
-<!-- Reviewed: no -->
+<!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
 <section xml:id="yar.configuration" xmlns="http://docbook.org/ns/docbook">
  &reftitle.runtime;
@@ -86,7 +86,7 @@
     </term>
     <listitem>
      <para>
-      таймаут соединения в миллисекундах
+      тайм-аут соединения в миллисекундах
      </para>
     </listitem>
    </varlistentry>
@@ -97,7 +97,7 @@
     </term>
     <listitem>
      <para>
-      таймаут в миллисекундах
+      тайм-аут в миллисекундах
      </para>
     </listitem>
    </varlistentry>
