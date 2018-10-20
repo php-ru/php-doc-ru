@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 345073 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 345850 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <sect1 xml:id="language.types.integer">
@@ -264,6 +264,14 @@ echo (int) ( (0.1+0.7) * 10 ); // выводит 7!
     Смотрите <link linkend="language.types.string.conversion">Преобразование строк в числа</link>
    </simpara>
   </sect3>
+
+  <sect3 xml:id="language.types.integer.casting-from-null">
+   <title>Из <type>NULL</type></title>
+
+   <simpara>
+    Значение &null; всегда преобразуется в ноль (<literal>0</literal>).
+   </simpara>
+  </sect3>  
   
   <sect3 xml:id="language.types.integer.casting.from-other">
    <title>Из других типов</title>
