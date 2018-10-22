@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 345836 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 345872 Maintainer: mch Status: ready -->
 <!-- $Revision$ -->
 <!-- Reviewed: no -->
 <refentry xml:id="tidy.root" xmlns="http://docbook.org/ns/docbook">
@@ -12,7 +12,7 @@
   &reftitle.description;
   <para>&style.oop;</para>
   <methodsynopsis>
-   <type>tidyNode</type><methodname>tidy::root</methodname>
+   <modifier>public</modifier> <type>tidyNode</type><methodname>tidy::root</methodname>
    <void />
   </methodsynopsis>
   <para>&style.procedural;</para>
