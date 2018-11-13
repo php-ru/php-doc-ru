@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 345447 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 345964 Maintainer: shein Status: ready -->
 <!-- $Revision$ -->
 <!-- Reviewed: yes -->
 <chapter xml:id="language.operators" xmlns="http://docbook.org/ns/docbook">
@@ -2159,11 +2159,11 @@ array(3) {
 
 Объединение $a += $b:
 array(3) {
-  'a' =>
+  ["a"]=>
   string(5) "apple"
-  'b' =>
+  ["b"]=>
   string(6) "banana"
-  'c' =>
+  ["c"]=>
   string(6) "cherry"
 }
 ]]>
