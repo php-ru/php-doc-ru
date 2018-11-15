@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 345954 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 345983 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <chapter xml:id="language.constants" xmlns="http://docbook.org/ns/docbook">
@@ -281,7 +281,7 @@ echo ANIMALS[1]; // выводит "cat"
       <row xml:id="constant.function">
        <entry><constant>__FUNCTION__</constant></entry>
        <entry>
-        Имя функции.
+        Имя функции или <literal>{closure}</literal> в случае анонимной функции.
        </entry>
       </row>
       <row xml:id="constant.class">
