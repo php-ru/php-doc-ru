@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 344964 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 346027 Maintainer: rjhdby Status: ready -->
 <!-- $Revision$ -->
 <!-- Reviewed: yes Maintainer: lex -->
 
@@ -31,6 +31,7 @@
       <para>
        <parameter>ref</parameter> обычно должен быть только специфицикацией сервера, как описано в <function>imap_open</function>
       </para>
+      &imap.mailboxname.insecure;
      </listitem>
     </varlistentry>
     <varlistentry>
