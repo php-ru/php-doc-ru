@@ -4,30 +4,23 @@
 <!-- Reviewed: no -->
 
 <!-- splitted from ./en/functions/paradox.xml, last change in rev  -->
-<refentry xml:id="function.px-delete-record" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="function.px-set-value" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>px_delete_record</refname>
-  <refpurpose>Удаляет запись из базы данных paradox</refpurpose>
+  <refname>px_set_value</refname>
+  <refpurpose>Устанавливает значение</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>bool</type><methodname>px_delete_record</methodname>
+   <type>bool</type><methodname>px_set_value</methodname>
    <methodparam><type>resource</type><parameter>pxdoc</parameter></methodparam>
-   <methodparam><type>int</type><parameter>num</parameter></methodparam>
+   <methodparam><type>string</type><parameter>name</parameter></methodparam>
+   <methodparam><type>float</type><parameter>value</parameter></methodparam>
   </methodsynopsis>
-
   <para>
-   Эта функция удаляет запись из базы данных.
-   Она не освобождает место в файле базы данных, а просто помечает его как удаленное.
-   После вставки новой записи пространство будет использовано повторно.
+   Устанавливает различные значения.
   </para>
-  <note>
-   <para>
-    Данная функция доступна только в том случае, если используется библиотека pxlib &gt;= 0.6.0.
-   </para>
-  </note>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -45,11 +38,27 @@
      </listitem>
     </varlistentry>
     <varlistentry>
-     <term><parameter>num</parameter></term>
+     <term><parameter>name</parameter></term>
      <listitem>
       <para>
-       Номер записи - это искусственное число, подсчитывающее записи в том порядке, в котором они хранятся в базе данных.
-       Первая запись имеет номер 0.
+       <parameter>name</parameter> может быть одним из следующих.</para>
+       <variablelist>
+        <varlistentry>
+         <term>numprimkeys</term>
+         <listitem>
+          <para>
+           Количество первичных ключей. Базы данных paradox всегда используют первые
+           поля <option>numprimkeys</option> для первичного индекса.
+          </para>
+         </listitem>
+        </varlistentry>
+       </variablelist>
+     </listitem>
+    </varlistentry>
+    <varlistentry>
+     <term><parameter>value</parameter></term>
+     <listitem>
+      <para>
       </para>
      </listitem>
     </varlistentry>
@@ -59,12 +68,17 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   &return.success;
-  </para>
+  <para>&return.success;</para>
  </refsect1>
 
+ <refsect1 role="seealso">
+  &reftitle.seealso;
+  <para>
+    <function>px_set_parameter</function>
+  </para>
+ </refsect1>
 </refentry>
+
 
 <!-- Keep this comment at the end of the file
 Local variables:
