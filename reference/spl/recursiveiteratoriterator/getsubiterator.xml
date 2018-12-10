@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 334762 -->
-<!-- Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 334762 Maintainer: tmn Status: ready -->
+<!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
+
 <refentry xml:id="recursiveiteratoriterator.getsubiterator" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>RecursiveIteratorIterator::getSubIterator</refname>
