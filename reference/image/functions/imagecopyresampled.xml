@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 324459 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 346311 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="function.imagecopyresampled" xmlns="http://docbook.org/ns/docbook">
@@ -246,6 +246,7 @@ imagejpeg($image_p, null, 100);
   &reftitle.seealso;
   <para>
    <function>imagecopyresized</function>
+   <function>imagescale</function>
   </para>
  </refsect1>
 </refentry>
