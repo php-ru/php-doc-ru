@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 346166 Maintainer: lex Status: ready -->
+<!-- EN-Revision: 346395 Maintainer: lex Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.ldap-add-ext" xmlns="http://docbook.org/ns/docbook">
