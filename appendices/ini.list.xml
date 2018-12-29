@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 345671 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 346421 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 
@@ -3323,6 +3323,24 @@
       <entry>"0"</entry>
       <entry>PHP_INI_ALL</entry>
       <entry></entry>
+     </row>
+     <row>
+      <entry><link linkend="ini.syslog.facility">syslog.facility</link></entry>
+      <entry>"LOG_USER"</entry>
+      <entry>PHP_INI_SYSTEM</entry>
+      <entry>Доступно с PHP 7.3.0.</entry>
+     </row>
+     <row>
+      <entry><link linkend="ini.syslog.filter">syslog.filter</link></entry>
+      <entry>"no-ctrl"</entry>
+      <entry>PHP_INI_ALL</entry>
+      <entry>Доступно с PHP 7.3.0.</entry>
+     </row>
+     <row>
+      <entry><link linkend="ini.syslog.ident">syslog.ident</link></entry>
+      <entry>"php"</entry>
+      <entry>PHP_INI_SYSTEM</entry>
+      <entry>Доступно с PHP 7.3.0.</entry>
      </row>
      <row>
       <entry>sys_temp_dir</entry>
