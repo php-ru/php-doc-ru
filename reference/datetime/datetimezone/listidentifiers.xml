@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 330580 Maintainer: das Status: ready -->
+<!-- EN-Revision: 346614 Maintainer: das Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 
@@ -33,7 +33,7 @@
      <term><parameter>what</parameter></term>
      <listitem>
       <para>
-       Одна из констант класса <classname>DateTimeZone</classname>.
+       Одна из констант класса <classname>DateTimeZone</classname> (или комбинация из них).
       </para>
      </listitem>
     </varlistentry>
