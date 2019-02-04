@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 328297 Maintainer: northcat Status: ready -->
+<!-- EN-Revision: 346694 Maintainer: northcat Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="iteratoriterator.key" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>public</modifier> <type>scalar</type><methodname>IteratorIterator::key</methodname>
+   <modifier>public</modifier> <type>mixed</type><methodname>IteratorIterator::key</methodname>
    <void/>
   </methodsynopsis>
   <para>
