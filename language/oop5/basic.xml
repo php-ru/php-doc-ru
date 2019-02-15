@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 344469 Maintainer: irker Status: ready -->
+<!-- EN-Revision: 346784 Maintainer: irker Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 
@@ -139,6 +139,14 @@ $this не определена.
    содержащая имя класса, то будет создан новый экземпляр этого класса. Если
    имя находится в пространстве имен, то оно должно быть задано полностью.
   </para>
+  
+   <note>
+    <para>
+     В случае отсутствия аргументов в конструктор класса,
+     круглые скобки после названия класса можно опустить.
+    </para>
+   </note>
+  
   <example>
    <title>Создание экземпляра класса</title>
    <programlisting role="php">

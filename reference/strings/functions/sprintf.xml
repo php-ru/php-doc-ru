@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 346102 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 346810 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.sprintf">
@@ -134,7 +134,7 @@
            </member>
            <member>
             <literal>G</literal> - выбирает самую краткую запись из <literal>%E</literal> и
-            <literal>%f</literal>.
+            <literal>%F</literal>.
            </member>
            <member>
             <literal>o</literal> - аргумент трактуется как целое и выводится

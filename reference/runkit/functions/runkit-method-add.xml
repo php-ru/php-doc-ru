@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 341329 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 346815 Maintainer: mch Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="function.runkit-method-add" xmlns="http://docbook.org/ns/docbook">
@@ -82,12 +82,6 @@
        <constant>RUNKIT_ACC_PRIVATE</constant> опционально в комбинации через побитовое ИЛИ с
        <constant>RUNKIT_ACC_STATIC</constant> (начиная с версии 1.0.1)
       </para>
-      <note>
-       <para>
-        Этот параметр используется только в PHP 5, потому что в предыдущих
-        версиях все методы являлись публичными.
-       </para>
-      </note>
      </listitem>
     </varlistentry>
     <varlistentry>
