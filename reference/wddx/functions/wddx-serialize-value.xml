@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: lex Status: ready -->
+<!-- EN-Revision: 346817 Maintainer: lex Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.wddx-serialize-value" xmlns="http://docbook.org/ns/docbook">
@@ -8,7 +8,11 @@
   <refname>wddx_serialize_value</refname>
   <refpurpose>Сериализует одно значение внутри пакета WDDX</refpurpose>
  </refnamediv>
- 
+  
+ <refsynopsisdiv>
+  &warn.deprecated.function-7-4-0;
+ </refsynopsisdiv>
+
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
