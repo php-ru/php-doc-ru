@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 337181 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 346933 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="function.curl-multi-close" xmlns="http://docbook.org/ns/docbook">
@@ -64,11 +64,13 @@ $mh = curl_multi_init();
 curl_multi_add_handle($mh,$ch1);
 curl_multi_add_handle($mh,$ch2);
 
-$running=null;
-//запускаем дескрипторы
+//запускаем множественный обработчик
 do {
-    curl_multi_exec($mh,$running);
-} while ($running > 0);
+    $status = curl_multi_exec($mh, $active);
+    if ($active) {
+        curl_multi_select($mh);
+    }
+} while ($active && $status == CURLM_OK);
 
 //закрываем все дескрипторы
 curl_multi_remove_handle($mh, $ch1);

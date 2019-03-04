@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 331331 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 346933 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
 <refentry xml:id="function.curl-multi-strerror" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -63,12 +63,16 @@ curl_multi_add_handle($mh, $ch2);
 // Запускаем множественный обработчик
 do {
     $status = curl_multi_exec($mh, $active);
-    // Проверяем на ошибки
-    if($status > 0) {
-        // Выводим сообщение об ошибке
-        echo "ОШИБКА!\n " . curl_multi_strerror($status);
+    if ($active) {
+        curl_multi_select($mh);
     }
-} while ($status === CURLM_CALL_MULTI_PERFORM || $active);
+} while ($active && $status === CURLM_OK);
+
+// Проверяем на ошибки
+if ($status != CURLM_OK) {
+    // Выводим ошибку
+    echo "ОШИБКА!\n " . curl_multi_strerror($status);
+}
 ?>
 ]]>
     </programlisting>
