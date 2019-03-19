@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 345092 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 347018 Maintainer: tmn Status: ready -->
 <!-- Reviewed: yes Maintainer: rjhdby -->
 <!-- $Revision$ -->
 
@@ -121,7 +121,9 @@
      <term><varname>recurrences</varname></term>
      <listitem>
       <para>
-       Число повторов.
+       Число повторов, если объект <classname>DatePeriod</classname>
+       создавался с явным указанием <literal>$recurrences</literal>.
+       См. <methodname>DatePeriod::getRecurrences</methodname>.
       </para>
      </listitem>
     </varlistentry>
