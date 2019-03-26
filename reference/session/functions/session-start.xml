@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 346848 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 347043 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.session-start">
@@ -106,15 +106,6 @@
        <entry>
         Если сессия не смогла стартовать, то возвращается &false;.
         Раньше возвращалось &true;.
-       </entry>
-      </row>
-      <row>
-       <entry>4.3.3</entry>
-       <entry>
-        С версии PHP 4.3.3, вызов <function>session_start</function>
-        после того, как сессия уже стартована, выдает ошибку
-        уровня <constant>E_NOTICE</constant>.  А также, повторный
-        старт сессии будет проигнорирован.
        </entry>
       </row>
      </tbody>

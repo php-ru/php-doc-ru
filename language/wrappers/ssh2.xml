@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 342073 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 347043 Maintainer: mch Status: ready -->
 <!-- $Revision$ -->
 <!-- Reviewed: yes -->
 
@@ -17,7 +17,7 @@
    <filename>ssh2.tunnel://</filename>
    <filename>ssh2.sftp://</filename>
    <filename>ssh2.scp://</filename>
-   PHP 4.3.0 и более поздние (PECL)
+   (PECL)
   </para>
   
   <note>
