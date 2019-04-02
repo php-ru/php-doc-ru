@@ -13,8 +13,8 @@ jobs:
       - run:
           name: Setup
           command: |
-            echo "deb [check-valid-until=no] http://archive.debian.org/debian jessie-backports main" > /etc/apt/sources.list.d/jessie-backports.list
-            sed -i '/deb http:\/\/deb.debian.org\/debian jessie-updates main/d' /etc/apt/sources.list
+            echo 'deb [check-valid-until=no] http://archive.debian.org/debian jessie-backports main' | sudo tee /etc/apt/sources.list.d/jessie-backports.list > /dev/null
+            sudo sed -i '/deb http:\/\/deb.debian.org\/debian jessie-updates main/d' /etc/apt/sources.list
             sudo apt-get -o Acquire::Check-Valid-Until=false update
             sudo apt-get -qq update
             sudo apt-get install -y git git-svn
