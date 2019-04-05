@@ -13,9 +13,7 @@ jobs:
       - run:
           name: Setup
           command: |
-            echo "deb http://ftp.debian.org/debian stretch-backports main" | sudo tee -a /etc/apt/sources.list
-            sudo apt-get update
-            sudo apt-get -t stretch-backports install -y git git-svn
+            sudo apt-get install -y git git-svn
       - run:
           name: Sync
           command: ./sync.sh
