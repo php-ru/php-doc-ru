@@ -7,7 +7,7 @@ test:
 jobs:
   sync:
     docker:
-      - image: circleci/node:7.10
+      - image: circleci/node:latest
     steps:
       - checkout
       - run:
