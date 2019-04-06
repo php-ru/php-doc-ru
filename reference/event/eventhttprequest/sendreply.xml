@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334955 Maintainer: Sergey Panteleev Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 334955 Maintainer: lex Status: ready -->
+<!-- Reviewed: yes Maintainer: lex -->
 
 <refentry xml:id="eventhttprequest.sendreply" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>EventHttpRequest::sendReply</refname>
-  <refpurpose>Отправляет HTML ответ клиенту</refpurpose>
+  <refpurpose>Отправляет HTML-ответ клиенту</refpurpose>
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
@@ -28,7 +28,7 @@
    </methodparam>
   </methodsynopsis>
   <para>
-   Отправляет HTML ответ клиенту.
+   Отправляет HTML0ответ клиенту.
    Тело ответа состоит из данных в необязательном параметре <parameter>buf</parameter>.
   </para>
  </refsect1>
