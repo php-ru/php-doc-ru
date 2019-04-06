@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334826 Maintainer: Sergey Panteleev Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 334826 Maintainer: lex Status: ready -->
+<!-- Reviewed: yes Maintainer: lex -->
 
 <chapter xml:id="mongo.writes" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Запись</title>
@@ -31,7 +31,7 @@
 ]]>
    </programlisting>
 
-   Чтобы изменить внутреннее поле, 
+   Для изменения внутреннего поля, 
    мы используем $set (чтобы все остальные поля не были удалены!) с индексом комментария для изменения:
 
    <programlisting role="php">
