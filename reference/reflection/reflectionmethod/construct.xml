@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 330272 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 347166 Maintainer: tmn Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
 <refentry xml:id="reflectionmethod.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -126,11 +126,11 @@ printf(
 );
 
 // Вывод doc-комментария
-printf("---> Комментарий:\n %s\n", var_export($method->getDocComment(), 1));
+printf("---> Комментарий:\n %s\n", var_export($method->getDocComment(), true));
 
 // Вывод статических переменных, если есть
 if ($statics= $method->getStaticVariables()) {
-    printf("---> Статические переменные: %s\n", var_export($statics, 1));
+    printf("---> Статические переменные: %s\n", var_export($statics, true));
 }
 
 // Вызов метода
