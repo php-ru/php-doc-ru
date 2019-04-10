@@ -50,3 +50,4 @@ tronic = tronic <tronic>
 vrana = vrana <vrana>
 yannick = yannick <yannick>
 young = young <young>
+sergey = sergey <sergey@s-panteleev.ru>
