@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 346167 Maintainer: mch Status: ready -->
-<!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
+<!-- EN-Revision: 347261 Maintainer: sergey Status: ready -->
+<!-- Reviewed: no -->
 
 <refentry xml:id="function.ldap-bind" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -16,6 +16,7 @@
    <methodparam><type>resource</type><parameter>link_identifier</parameter></methodparam>
    <methodparam choice="opt"><type>string</type><parameter>bind_rdn</parameter><initializer>&null;</initializer></methodparam>
    <methodparam choice="opt"><type>string</type><parameter>bind_password</parameter><initializer>&null;</initializer></methodparam>
+   <methodparam choice="opt"><type>array</type><parameter>serverctrls</parameter><initializer>array()</initializer></methodparam>
   </methodsynopsis>
   <para>
    Связывает с LDAP-директорией с указанным RDN и паролем.
@@ -45,6 +46,14 @@
      <term><parameter>bind_password</parameter></term>
      <listitem>
       <para>
+      </para>
+     </listitem>
+    </varlistentry>
+    <varlistentry>
+     <term><parameter>serverctrls</parameter></term>
+     <listitem>
+      <para>
+       Массив <link linkend="ldap.controls">элементов управления LDAP</link> для отправки вместе с запросом.
       </para>
      </listitem>
     </varlistentry>

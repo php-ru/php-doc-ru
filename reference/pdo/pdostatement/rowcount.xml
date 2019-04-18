@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 345535 Maintainer: tmn Status: ready -->
-<!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
+<!-- EN-Revision: 347255 Maintainer: sergey Status: ready -->
+<!-- Reviewed: no -->
+
 <refentry xml:id="pdostatement.rowcount" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>PDOStatement::rowCount</refname>
@@ -29,6 +30,12 @@
    метода не гарантируется для всех баз данных, и это нужно учитывать при
    проектировании приложений.
   </para>
+  <note>
+     <para>
+      Этот метод всегда возвращает "0" (ноль) с драйвером SQLite, 
+      а с драйвером PostgreSQL только при установке атрибута оператора <constant>PDO::ATTR_CURSOR</constant> равным <constant>PDO::CURSOR_SCROLL</constant>.
+     </para>
+  </note>
  </refsect1>
  
   <refsect1 role="returnvalues">
