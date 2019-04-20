@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 334605 Maintainer: shein Status: ready -->
-<!-- Reviewed: yes -->
 <!-- $Revision$ -->
+<!-- EN-Revision: 347286 Maintainer: sergey Status: ready -->
+<!-- Reviewed: no -->
+
 <refentry xml:id="function.get-class-methods" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>get_class_methods</refname>
@@ -51,7 +52,7 @@
 
 class myclass {
     // конструктор
-    function myclass()
+    function __construct()
     {
         return(true);
     }
