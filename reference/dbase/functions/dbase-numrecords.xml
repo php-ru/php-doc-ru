@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 340755 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 347306 Maintainer: aur Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="function.dbase-numrecords" xmlns="http://docbook.org/ns/docbook">
@@ -16,6 +16,11 @@
   <para>
    Получает количество записей (строк) в указанной базе данных.
   </para>
+  <note>
+   <para>
+    Записи, помеченные как удаленные, также учитываются.
+   </para>
+  </note>
   <note>
    <para>
     Записи базы данных нумеруются от 1 <literal>dbase_numrecords($db)</literal>,
