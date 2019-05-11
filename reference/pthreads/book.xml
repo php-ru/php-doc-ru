@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 343452 Maintainer:rjhdby  Status: ready -->
+<!-- EN-Revision: 347374 Maintainer:rjhdby  Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 
 <book xml:id="book.pthreads" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -13,6 +13,11 @@
    pthreads предоставляет объектно-ориентированый API для работы с многопоточностью в PHP.
    Приложения на PHP могут создавать, читать, записывать, запускать и выполнять синхронизацию с объектами Threads, Workers и Threaded.
   </para>
+    <tip>
+   <simpara>
+    Попробуйте вместо этого использовать <link linkend="book.parallel">parallel</link>.
+   </simpara>
+  </tip>
   <warning>
    <para>
     Это расширение доступно только для CLI-приложений.
