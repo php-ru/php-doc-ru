@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 347421 Maintainer: sergey Status: ready -->
+<!-- EN-Revision: 347430 Maintainer: sergey Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.array-filter" xmlns="http://docbook.org/ns/docbook">
@@ -21,7 +21,7 @@
    Обходит каждое значение массива <parameter>array</parameter>,
    передавая его в <parameter>callback</parameter>-функцию. Если
    <parameter>callback</parameter>-функция возвращает &true;, данное
-   значение из <parameter>array</parameter> возвращается в результирующий <type>array</type>.
+   значение из <parameter>array</parameter> возвращается в результирующий &array;.
    Ключи массива сохраняются.
   </para>
  </refsect1>
