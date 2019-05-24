@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 347407 Maintainer: irker Status: ready -->
+<!-- EN-Revision: 347475 Maintainer: irker Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 
@@ -8,7 +8,8 @@
  &extension.constants;
  <para>
   Следующие константы указывают на тип ошибки, возвращенной функцией
-  <function>json_last_error</function>.
+  <function>json_last_error</function> или хранящейся, как <varname>code</varname> 
+  в <classname>JsonException</classname>.
  </para>
  <variablelist>
   <varlistentry xml:id="constant.json-error-none">

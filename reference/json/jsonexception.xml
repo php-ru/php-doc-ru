@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 345726 Maintainer: lex Status: ready -->
+<!-- EN-Revision: 347475 Maintainer: lex Status: ready -->
 <!-- Reviewed: no -->
 
 <phpdoc:exceptionref xml:id="class.jsonexception"
@@ -19,7 +19,8 @@
    <para>
     Данное исключение выбрасывается, если опция <constant>JSON_THROW_ON_ERROR</constant>
     установлена для функции <function>json_encode</function> или
-    <function>json_decode</function>.
+    <function>json_decode</function>. <varname>code</varname> содержит тип 
+    ошибки, смотрите возможные значения <function>json_last_error</function>.
    </para>
   </section>
 <!-- }}} -->
