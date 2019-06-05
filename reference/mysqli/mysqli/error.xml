@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324930 Maintainer: irker Status: ready -->
+<!-- EN-Revision: 347542 Maintainer: irker Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 <refentry xml:id="mysqli.error" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
