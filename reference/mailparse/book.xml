@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330340 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 347555 Maintainer: mch Status: ready -->
 <!-- Reviewed: no -->
  
 <book xml:id="book.mailparse" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -24,9 +24,6 @@
     , и оно должно быть загружено перед mailparse.
    </para>
   </note>
-  <para>
-   &pecl.moved-ver;4.2.0.
-  </para>
  </preface>
  <!-- }}} -->
  

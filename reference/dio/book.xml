@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 330340 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 347555 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 
@@ -23,9 +23,6 @@
     &pecl.moved-ver;5.1.0.
    </para>
   </note>
-  <para>
-   Для Windows данные функции доступны только с PHP 5.0.0
-  </para>
  </preface>
  <!-- }}} -->
  

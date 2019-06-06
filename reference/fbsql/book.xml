@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 330340 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 347555 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 
@@ -18,9 +18,6 @@
   <simpara>
    Документация на FrontBase лежит тут <link
    xlink:href="&url.fbsql.docs;">&url.fbsql.docs;</link>.
-  </simpara>
-  <simpara>
-   Поддержка Frontbase добавлена в PHP 4.0.6.
   </simpara>
   <note>
    <para>
