@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 334605 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 347576 Maintainer: shein Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="function.mysql-pconnect" xmlns="http://docbook.org/ns/docbook">
@@ -166,13 +166,6 @@
     число дозволенных соединений в MySQL.
    </para>
   </warning>
-  <note>
-   <para>
-    Можно подавить сообщение об ошибке при неудачном соединении
-    поставив перед вызовом функции оператор
-    <link linkend="language.operators.errorcontrol">@</link>.
-   </para>
-  </note>
  </refsect1>
 
  <refsect1 role="seealso">

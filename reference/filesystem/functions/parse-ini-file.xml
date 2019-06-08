@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 343899 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 347578 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.parse-ini-file">
@@ -121,19 +121,6 @@
         <link linkend="language.types.integer">целые числа</link>.
         Поэтому числа, начинающиеся с 0 будут считаться восьмеричными,
         а начинающиеся с 0x - шестнадцатеричными.
-       </entry>
-      </row>
-      <row>
-       <entry>5.0.0</entry>
-       <entry>
-        Значения, заключенные в двойные кавычки, могут содержать переводы строк.
-       </entry>
-      </row>
-      <row>
-       <entry>4.2.1</entry>
-       <entry>
-        На поведение этой функции теперь влияет &safemode; и
-        <link linkend="ini.open-basedir">open_basedir</link>.
        </entry>
       </row>
      </tbody>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 343899 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 347576 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="function.mysql-connect" xmlns="http://docbook.org/ns/docbook">
@@ -242,13 +242,6 @@ mysql_close($link);
     Соединение с сервером будет закрыто при завершении исполнения
     скрипта, если только до этого оно не было закрыто с помощью
     функции <function>mysql_close</function>.
-   </para>
-  </note>
-  <note>
-   <para>
-    Подавить вывод ошибок можно добавив
-    <link linkend="language.operators.errorcontrol">@</link> в начало
-    названия функции.
    </para>
   </note>
   <note>
