@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 340357 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 347589 Maintainer: aur Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
  
@@ -15,12 +15,6 @@
    операции чтения, записи, резервирования и удаления сегментов 
    разделяемой памяти Unix.
   </para>
-  <note>
-   <simpara>
-    Версии Windows, предшествующие Windows 2000, не поддерживают 
-    разделяемую память.
-   </simpara>
-  </note>
  </preface>
  <!-- }}} -->
  

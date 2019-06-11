@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 346407 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 347589 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 
@@ -21,7 +21,7 @@
    форматам. Поддержка <acronym>GIF</acronym> включена в версии gd-2.0.28.
    <note>
     <simpara>
-     С версии PHP 5.0 требуется libgd-2.0.4 или выше.
+     Требуется libgd-2.0.4 или выше.
      С версии PHP 5.5 требуется libgd-2.1.0 или выше. 
      Либо же используйте библиотеку <acronym>GD</acronym> входящую в дистрибутив PHP.
     </simpara>
