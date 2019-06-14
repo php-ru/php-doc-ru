@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 346020 Maintainer: sergey Status: ready -->
+<!-- EN-Revision: 345637 Maintainer: sergey Status: ready -->
 <!-- Reviewed: no -->
 
-<refentry xml:id="mysql-xdevapi-tableupdate.execute" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+<refentry xml:id="mysql-xdevapi-tableinsert.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
-  <refname>TableUpdate::execute</refname>
-  <refpurpose>Выполняет запрос на обновление</refpurpose>
+  <refname>TableInsert::__construct</refname>
+  <refpurpose>Конструктор класса TableInsert</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
   &reftitle.description;
-  <methodsynopsis>
-   <modifier>public</modifier> <type>mysql_xdevapi\TableUpdate</type><methodname>mysql_xdevapi\TableUpdate::execute</methodname>
+  <constructorsynopsis>
+   <modifier>private</modifier> <methodname>mysql_xdevapi\TableInsert::__construct</methodname>
    <void />
-  </methodsynopsis>
+  </constructorsynopsis>
   <para>
-   Выполняет утверждение обновления.
+   Инициируется с помощью метода insert().
   </para>
 
  </refsect1>
@@ -26,32 +26,27 @@
   &no.function.parameters;
  </refsect1>
 
- <refsect1 role="returnvalues">
-  &reftitle.returnvalues;
-  <para>
-   Объект TableUpdate.
-  </para>
- </refsect1>
-
  <refsect1 role="examples">
   &reftitle.examples;
   <example>
-   <title>Пример использования <function>mysql_xdevapi\TableUpdate::execute</function></title>
+   <title>Пример использования <function>mysql_xdevapi\TableInsert::__construct</function></title>
    <programlisting role="php">
 <![CDATA[
 <?php
 $session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
 
+$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
+$session->sql("CREATE TABLE addressbook.names(name text, age int)")->execute();
+$session->sql("INSERT INTO addressbook.names values ('John', 42), ('Sam', 33)")->execute();
+
 $schema = $session->getSchema("addressbook");
 $table  = $schema->getTable("names");
 
-$res = $table->update()
-  ->set('level', 3)
-  ->where('age > 15 and age < 22')
-  ->limit(4)
-  ->orderby(['age asc','name desc'])
+$table
+  ->insert("name", "age")
+  ->values(["Suzanne", 31],["Julie", 43])
   ->execute();
-
 ?>
 ]]>
    </programlisting>
