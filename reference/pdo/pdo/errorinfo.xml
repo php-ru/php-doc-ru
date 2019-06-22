@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 334762 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 347629 Maintainer: tmn Status: ready -->
 <!-- Reviewed: yes Maintaner: lex -->
 <!-- $Revision$ -->
 <refentry xml:id="pdo.errorinfo" xmlns="http://docbook.org/ns/docbook">
@@ -24,7 +24,7 @@
   <para>
    <function>PDO::errorInfo</function> возвращает массив с информацией об ошибке,
    произошедшей в ходе выполнения последней операции с базой данных. Массив
-   содержит следующие поля:
+   содержит как минимум следующие поля:
    <informaltable>
     <tgroup cols="2">
      <thead>
