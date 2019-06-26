@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 343899 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 347670 Maintainer: tmn Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 
@@ -79,6 +79,9 @@
   <para>
    Выбрасывает исключение <classname>RuntimeException</classname>, если файл
    <parameter>filename</parameter> невозможно открыть.
+  </para>
+  <para>
+   Выбрасывает исключение <classname>LogicException</classname>, если <parameter>filename</parameter> является каталогом.
   </para>
  </refsect1>
  
