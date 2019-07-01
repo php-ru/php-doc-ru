@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 346759 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 347693 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <chapter xml:id="com.setup" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -12,7 +12,7 @@
    Функции COM доступны только в PHP под Windows.
   </para>
   <para>
-   Для поддержка .Net требуется PHP 5 и библиотеки времени исполнения .Net.
+   Для поддержки .Net требуется библиотеки времени исполнения .Net.
   </para> 
  </section>
  <!-- }}} -->
