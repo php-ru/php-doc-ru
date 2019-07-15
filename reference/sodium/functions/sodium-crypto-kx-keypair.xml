@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 345250 Maintainer: lex Status: ready -->
+<!-- EN-Revision: 347749 Maintainer: lex Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.sodium-crypto-kx-keypair" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 338426 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 347730 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 
@@ -15,9 +15,9 @@
   <warning>
    &warn.removed.feature.7-0-0.alternatives;
    <simplelist role="alternatives">
-    <member><link linkend="ref.pdo-sqlsrv">PDO_SQLSRV</link> (только Windows)</member>
+    <member><link linkend="ref.pdo-sqlsrv">PDO_SQLSRV</link></member>
     <member><link linkend="ref.pdo-odbc">PDO_ODBC</link></member>
-    <member><link linkend="book.sqlsrv">SQLSRV</link> (только Windows)</member>
+    <member><link linkend="book.sqlsrv">SQLSRV</link></member>
     <member><link linkend="book.uodbc">Унифицированное ODBC API</link></member>
    </simplelist>
   </warning>
