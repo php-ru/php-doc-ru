@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 288721 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 347808 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <chapter xml:id="gmagick.examples" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -16,11 +16,11 @@
 $image = new Gmagick('example.jpg');
 
 // Создаем уменьшенную копию изображения. 0 для сохранения пропорций.
-$image->thumbnailImage(100, 0);
+$image->thumbnailimage(100, 0);
 
 // Создаем рамку вокруг изображения, после чего накладываем эффект масляной краски
 // Обратите внимание на цепочки преобразующих методов, поддерживаемых в gmagick
-$image->borderImage("yellow", 8, 8)->oilPaintImage(0.3);
+$image->borderimage("yellow", 8, 8)->oilpaintimage(0.3);
 
 // Записываем полученное изображение в файл
 $image->write('example_thumbnail.jpg');
