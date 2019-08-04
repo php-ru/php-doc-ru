@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 346307 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 347819 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.gmp-lcm" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>gmp_lcm</refname>
-  <refpurpose>Вычислить наибольший общий делитель</refpurpose>
+  <refpurpose>Вычисляет наименьшее общее кратное</refpurpose>
  </refnamediv>
  
  <refsect1 role="description">
@@ -17,7 +17,7 @@
    <methodparam><type>mixed</type><parameter>b</parameter></methodparam>
   </methodsynopsis>
   <para>
-   Функция вычисляет наибольший общий делитель для заданных
+   Функция вычисляет наименьшее общее кратное для заданных
    <parameter>a</parameter> и <parameter>b</parameter>.
   </para>
  </refsect1>
