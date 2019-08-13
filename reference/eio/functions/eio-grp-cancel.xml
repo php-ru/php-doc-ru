@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 318016 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 347831 Maintainer: aur Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.eio-grp-cancel" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -46,8 +46,8 @@
  <refsect1 role="seealso">
   &reftitle.seealso;
   <simplelist>
-   <member>eio_grp</member>
-   <member>eio_grp_add</member>
+   <member><function>eio_grp</function></member>
+   <member><function>eio_grp_add</function></member>
   </simplelist>
  </refsect1>
 

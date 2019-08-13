@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 326324 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 347831 Maintainer: aur Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.eio-ftruncate" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -82,7 +82,7 @@
  <refsect1 role="seealso">
   &reftitle.seealso;
   <simplelist>
-   <member>eio_truncate</member>
+   <member><function>eio_truncate</function></member>
   </simplelist>
  </refsect1>
 

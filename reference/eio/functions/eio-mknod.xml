@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 343888 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 347831 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 
@@ -203,7 +203,7 @@ eio_mknod_ok
  <refsect1 role="seealso">
   &reftitle.seealso;
   <simplelist>
-   <member>eio_open</member>
+   <member><function>eio_open</function></member>
   </simplelist>
  </refsect1>
 

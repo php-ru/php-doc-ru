@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324122 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 347831 Maintainer: aur Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.eio-stat" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -137,8 +137,8 @@ array(12) {
  <refsect1 role="seealso">
   &reftitle.seealso;
   <simplelist>
-   <member>eio_lstat</member>
-   <member>eio_fstat</member>
+   <member><function>eio_lstat</function></member>
+   <member><function>eio_fstat</function></member>
   </simplelist>
  </refsect1>
 

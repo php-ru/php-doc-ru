@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 318016 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 347831 Maintainer: aur Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.eio-nthreads" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -37,9 +37,9 @@
  <refsect1 role="seealso">
   &reftitle.seealso;
   <simplelist>
-   <member>eio_npending</member>
-   <member>eio_nready</member>
-   <member>eio_nreqs</member>
+   <member><function>eio_npending</function></member>
+   <member><function>eio_nready</function></member>
+   <member><function>eio_nreqs</function></member>
   </simplelist>
  </refsect1>
 

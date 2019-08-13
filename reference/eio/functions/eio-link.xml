@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324122 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 347831 Maintainer: aur Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.eio-link" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -137,7 +137,7 @@ string(%d) "%ssymlink.dat"
  <refsect1 role="seealso">
   &reftitle.seealso;
   <simplelist>
-   <member>eio_symlink</member>
+   <member><function>eio_symlink</function></member>
   </simplelist>
  </refsect1>
 
