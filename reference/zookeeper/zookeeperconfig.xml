@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- EN-Revision: 346395 Maintainer: lex Status: ready -->
-<!-- Reviewed: no -->
+<!-- Reviewed: yes Maintainer: sergey -->
 
 <phpdoc:classref xml:id="class.zookeeperconfig"
 xmlns:phpdoc="http://php.net/ns/phpdoc"
