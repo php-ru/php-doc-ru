@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 343899 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 347869 Maintainer: tmn Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="function.ini-get-all" xmlns="http://docbook.org/ns/docbook">
@@ -50,6 +50,9 @@
   &reftitle.returnvalues;
   <para>
    Возвращает ассоциативный массив с именами директив в качестве ключей.
+   Возвращает &false; и вызывает ошибку 
+   уровня <constant>E_WARNING</constant>, 
+   если <parameter>extension</parameter> не существует.
   </para>
   <para>
    Если <parameter>details</parameter> равен &true; (по умолчанию), в массиве будут
