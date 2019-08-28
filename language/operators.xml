@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 347764 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 347901 Maintainer: shein Status: ready -->
 <!-- $Revision$ -->
 <!-- Reviewed: yes -->
 <chapter xml:id="language.operators" xmlns="http://docbook.org/ns/docbook">
@@ -80,11 +80,6 @@
         <literal>new</literal>
        </entry>
        <entry><link linkend="language.oop5.cloning">clone</link> и <link linkend="language.oop5.basic.new">new</link></entry>
-      </row>
-      <row>
-       <entry>левая</entry>
-       <entry>[</entry>
-       <entry><function>array</function></entry>
       </row>
       <row>
        <entry>правая</entry>
