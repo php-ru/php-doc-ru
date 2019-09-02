@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- EN-Revision: 317663 Maintainer: lex Status: ready -->
-<!-- Reviewed: no -->
+<!-- Reviewed: yes Maintainer: sergey -->
 
 <refentry xml:id="function.cairo-scaled-font-get-font-face" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -50,7 +50,7 @@
  <refsect1 role="errors">
   &reftitle.errors;
   <para>
-    Когда эта функция генерирует ошибки уровня E_ * и/или выбрасывает исключения.
+    Когда эта функция генерирует ошибки уровня E_* и/или выбрасывает исключения.
   </para>
  </refsect1>
 
