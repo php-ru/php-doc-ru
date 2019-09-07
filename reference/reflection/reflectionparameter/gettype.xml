@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 346839 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 347954 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
 <refentry xml:id="reflectionparameter.gettype" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -40,7 +40,7 @@
     <simpara>
      Начиная с PHP 7.1.0, метод <methodname>ReflectionType::__toString</methodname> 
          объявлен устаревшим. Метод
-         <methodname>ReflectionParamater::getType</methodname> <emphasis>может</emphasis> 
+         <methodname>ReflectionParameter::getType</methodname> <emphasis>может</emphasis> 
          возвратить экземпляр <classname>ReflectionNamedType</classname>. Для получения имени
          типа параметра доступен метод <methodname>ReflectionNamedType</methodname>.
     </simpara>
