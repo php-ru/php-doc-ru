@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- EN-Revision: 323624 Maintainer: rjhdby Status: ready -->
-<!-- Reviewed: no -->
+<!-- Reviewed: yes Maintainer: sergey -->
 <!-- $Revision$ -->
 <appendix xml:id="nis.constants" xmlns="http://docbook.org/ns/docbook">
  &reftitle.constants;
@@ -167,7 +167,7 @@
    </term>
    <listitem>
     <simpara>
-     невозможно связаться с ypserv
+     Невозможно связаться с ypserv
     </simpara>
    </listitem>
   </varlistentry>
