@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 345134 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 347996 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <sect2 xml:id="reserved.constants.core" xmlns="http://docbook.org/ns/docbook">
@@ -142,7 +142,7 @@
    <listitem>
     <simpara>
      Семейство операционных систем, для которых собран PHP.
-     Одна из
+     Любая из
      <literal>'Windows'</literal>, <literal>'BSD'</literal>,
      <literal>'Darwin'</literal>, <literal>'Solaris'</literal>,
      <literal>'Linux'</literal> или <literal>'unknown'</literal>.
