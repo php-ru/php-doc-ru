@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 347571 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 348032 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="function.apcu-inc" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -15,6 +15,7 @@
    <methodparam><type>string</type><parameter>key</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>step</parameter><initializer>1</initializer></methodparam>
    <methodparam choice="opt"><type>bool</type><parameter role="reference">success</parameter></methodparam>
+   <methodparam choice="opt"><type>int</type><parameter>ttl</parameter><initializer>0</initializer></methodparam>
   </methodsynopsis>
   <para>
    Увеличивает сохраненное число.
