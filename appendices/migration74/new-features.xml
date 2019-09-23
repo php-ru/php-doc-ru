@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 348018 Maintainer: lex Status: ready -->
+<!-- EN-Revision: 348037 Maintainer: lex Status: ready -->
 <!-- Reviewed: no -->
 
 <sect1 xml:id="migration74.new-features" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -335,7 +335,7 @@ public function __unserialize(array $data): void;
   </sect3>
   
   <sect3 xml:id="migration74.new-features.standard.proc-open">
-   <title><function>proc_open</function></title>
+   <title>Функция <function>proc_open</function></title>
    <para>
     <function>proc_open</function> теперь принимает массив вместо
     строки для выполнения команды. В этом случае процесс будет открыт
