@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- EN-Revision: 331257 Maintainer: rjhdby Status: ready -->
-<!-- Reviewed: no -->
+<!-- Reviewed: yes Maintainer: sergey -->
 <!-- $Revision$ -->
 <book xml:id="book.fpm" xmlns="http://docbook.org/ns/docbook">
  <?phpdoc extension-membership="core" ?>

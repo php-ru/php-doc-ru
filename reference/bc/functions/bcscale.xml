@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- EN-Revision: 346739 Maintainer: tmn Status: ready -->
-<!-- Reviewed: no -->
+<!-- Reviewed: yes Maintainer: sergey -->
 <!-- $Revision$ -->
 <refentry xml:id="function.bcscale" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -70,7 +70,7 @@
       <entry>
        <function>bcscale</function> теперь может быть использована для получения
        текущего масштаба; при установке нового значения, возвратит старое
-       значение масштаба. Раньше  <parameter>scale</parameter> был обязательным,
+       значение масштаба. Раньше <parameter>scale</parameter> был обязательным,
        и <function>bcscale</function> всегда возвращал &true;.
       </entry>
      </row>
