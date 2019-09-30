@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- EN-Revision: 345139 Maintainer: rjhdby Status: ready -->
-<!-- Reviewed: no Maintainer: sergey -->
+<!-- Reviewed: yes Maintainer: sergey -->
 <!-- $Revision$ -->
 <sect1 xml:id="install.macosx.packages" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Использование пакетов</title>
