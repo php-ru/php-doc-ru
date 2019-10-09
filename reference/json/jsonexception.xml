@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- EN-Revision: 347475 Maintainer: lex Status: ready -->
-<!-- Reviewed: no -->
+<!-- Reviewed: yes Maintainer: sergey -->
 
 <phpdoc:exceptionref xml:id="class.jsonexception"
  xmlns:phpdoc="http://php.net/ns/phpdoc"
