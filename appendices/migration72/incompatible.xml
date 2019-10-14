@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 345783 Maintainer: lex Status: ready -->
+<!-- EN-Revision: 348153 Maintainer: lex Status: ready -->
 <!-- Reviewed: yes Maintainer: sergey -->
 
 <sect1 xml:id="migration72.incompatible">
@@ -325,11 +325,12 @@ int(2)
  </sect2>
  
  <sect2 xml:id="migration72.incompatible.date_parse_from_format">
-  <title>Изменения в <function>date_parse_from_format</function></title>
+  <title>Изменения в <function>date_parse</function> и <function>date_parse_from_format</function></title>
   
   <para>
-   Элемент массива <literal>zone</literal>, возвращаемого функцией
-   <function>date_parse_from_format</function> теперь отображает секунды вместо
+   Элемент массива <literal>zone</literal>, возвращаемого функциями
+   <function>date_parse_from_format</function> и 
+   <function>date_parse</function> теперь отображает секунды вместо
    минут, а его знак инвертируется. Например, <literal>-120</literal>
    теперь будет <literal>7200</literal>.
   </para>
