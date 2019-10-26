@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 347919 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 348210 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes Maintainer: sergey -->
 <!-- $Revision$ -->
 
@@ -319,7 +319,7 @@
       </entry>
       <entry>"0"</entry>
       <entry>PHP_INI_PERDIR</entry>
-      <entry></entry>
+      <entry>Удалено в PHP 7.0.0.</entry>
      </row>
      <row>
       <entry>
