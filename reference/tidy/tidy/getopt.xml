@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- EN-Revision: 345872 Maintainer: mch Status: ready -->
 <!-- $Revision$ -->
-<!-- Reviewed: no -->
+<!-- Reviewed: yes Maintainer: sergey -->
 <refentry xml:id="tidy.getopt" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>tidy::getOpt</refname>
@@ -64,7 +64,7 @@
   &reftitle.examples;
   <para>
    <example>
-    <title>Пример использования функции <function>tidy_getopt</function></title>
+    <title>Пример использования <function>tidy_getopt</function></title>
     <programlisting role="php">
 <![CDATA[
 <?php
