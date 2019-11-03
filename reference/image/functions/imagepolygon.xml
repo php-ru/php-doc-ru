@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 344594 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 348252 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="function.imagepolygon" xmlns="http://docbook.org/ns/docbook">
@@ -60,7 +60,7 @@
      <term><parameter>num_points</parameter></term>
      <listitem>
       <para>
-       Общее число точек (вершин).
+       Общее число точек (вершин), должно быть не меньше 3.
       </para>
      </listitem>
     </varlistentry>
