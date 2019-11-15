@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 347996 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 348296 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <sect2 xml:id="reserved.constants.core" xmlns="http://docbook.org/ns/docbook">
@@ -244,7 +244,8 @@
    </term>
    <listitem>
     <simpara>
-     Наименьшее возможное число типа <type>float</type>.
+     Наименьшее возможное <emphasis>положительное</emphasis> число типа <type>float</type>.
+     Если вам нужно наименьшее возможное число типа <type>float</type>, используйте <literal>- PHP_FLOAT_MAX</literal>.
      Доступно с PHP 7.2.0.
     </simpara>
    </listitem>

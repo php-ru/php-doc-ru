@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 345714 Maintainer: mch Status: ready -->
-<!-- Reviewed: yes -->
+<!-- EN-Revision: 348297 Maintainer: mch Status: ready -->
+<!-- Reviewed: yes Maintainer: sergey -->
 <appendix xml:id="mbstring.constants" xmlns="http://docbook.org/ns/docbook">
  &reftitle.constants;
  &extension.constants;
@@ -87,6 +87,17 @@
   <varlistentry xml:id="constant.mb-case-lower-simple">
    <term>
     <constant>MB_CASE_LOWER_SIMPLE</constant> 
+    (<type>integer</type>)
+   </term>
+   <listitem>
+    <simpara>
+     Доступно с PHP 7.3.
+    </simpara>
+   </listitem>
+  </varlistentry>
+  <varlistentry xml:id="constant.mb-case-upper-simple">
+   <term>
+    <constant>MB_CASE_UPPER_SIMPLE</constant> 
     (<type>integer</type>)
    </term>
    <listitem>
