@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 347555 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 348463 Maintainer: mch Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ob-start">
@@ -86,7 +86,7 @@
          <term><parameter>phase</parameter></term>
          <listitem>
           <simpara>
-           Битовая маска констант <constant>PHP_OUTPUT_HANDLER_*</constant>.
+           Битовая маска констант <link linkend="outcontrol.constants"><constant>PHP_OUTPUT_HANDLER_*</constant></link>.
           </simpara>
          </listitem>
         </varlistentry>
