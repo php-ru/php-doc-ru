@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 337321 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 348487 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.substr">
@@ -31,7 +31,7 @@
      <term><parameter>string</parameter></term>
      <listitem>
       <para>
-       Входная строка. Должна содержать хотя бы один символ.
+       Входная строка.
       </para>
      </listitem>
     </varlistentry>
