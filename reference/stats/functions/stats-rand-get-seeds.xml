@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- EN-Revision: 342783 Maintainer: rjhdby Status: ready -->
-<!-- Reviewed: no -->
+<!-- Reviewed: yes Maintainer: sergey -->
+
 <refentry xml:id="function.stats-rand-get-seeds" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>stats_rand_get_seeds</refname>
