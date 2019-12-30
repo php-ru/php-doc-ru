@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- EN-Revision: 334762 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 348726 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <appendix xmlns="http://docbook.org/ns/docbook" xml:id="imagick.constants">
@@ -1996,6 +1996,7 @@
    </term>
    <listitem>
     <simpara>
+     Доступно только для ImageMagick &lt; 7.
     </simpara>
    </listitem>
   </varlistentry>
