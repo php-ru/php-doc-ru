@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 346902 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 348964 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 <!-- $Id -->
 <refentry xml:id="function.unregister-tick-function" xmlns="http://docbook.org/ns/docbook">
@@ -26,7 +26,7 @@
   <para>
    <variablelist>
     <varlistentry>
-     <term><parameter>function_name</parameter></term>
+     <term><parameter>function</parameter></term>
      <listitem>
       <para>
        Удаляемая функция.
