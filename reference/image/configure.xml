@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- EN-Revision: 347892 Maintainer: aur Status: ready -->
-<!-- Reviewed: no -->
+<!-- Reviewed: yes Maintainer: sergey -->
 <!-- $Revision$ -->
 <section xml:id="image.installation" xmlns="http://docbook.org/ns/docbook">
  &reftitle.install;
  <para>
   Чтобы включить поддержку GD сконфигурируйте PHP с опцией
-  <option role="configure">--with-gd[=DIR]</option>, где DIR -- это директория 
+  <option role="configure">--with-gd[=DIR]</option>, где DIR — это директория 
   установки GD. Чтобы использовать рекомендованную разработчиками встроенную версию
   библиотеки GD, используйте опцию конфигурации 
   <option role="configure">--with-gd</option>.
