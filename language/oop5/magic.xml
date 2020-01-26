@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 346507 Maintainer: irker Status: ready -->
+<!-- EN-Revision: 349020 Maintainer: irker Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <sect1 xml:id="language.oop5.magic" xmlns="http://docbook.org/ns/docbook">
@@ -147,8 +147,7 @@ class Connection
    </para>
    <warning>
     <simpara>
-     Нельзя выбросить исключение из метода <link linkend="object.tostring">__toString()</link>.
-     Это приведет к фатальной ошибке.
+     Нельзя выбросить исключение из метода <link linkend="object.tostring">__toString()</link> до PHP 7.4.0. Это приведет к фатальной ошибке.
     </simpara>
    </warning>
    <example>
