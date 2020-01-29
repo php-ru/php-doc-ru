@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 347939 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 349039 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes Maintainer: sergey -->
 <!-- $Revision$ -->
 <book xml:id="book.mongodb" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -11,6 +11,7 @@
  &reference.mongodb.mongodb.driver.query;
  &reference.mongodb.mongodb.driver.bulkwrite;
  &reference.mongodb.mongodb.driver.session;
+ &reference.mongodb.mongodb.driver.clientencryption;
  
  &reference.mongodb.mongodb.driver.writeconcern;
  &reference.mongodb.mongodb.driver.readpreference;
