@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- EN-Revision: 331921 Maintainer: alien Status: ready -->
-<!-- Reviewed: no -->
+<!-- Reviewed: yes Maintainer: sergey -->
 <!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getimagesize">
  <refnamediv>
   <refname>Imagick::getImageSize</refname>
-  <refpurpose>Возвращает размер (длину) изображения в байтах</refpurpose>
+  <refpurpose>Возвращает размер изображения в байтах</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
@@ -15,7 +15,7 @@
    <void/>
   </methodsynopsis>
   <para>
-   Возвращает размер (длину) изображения в байтах.
+   Возвращает размер изображения в байтах.
    Этот метод устарел и следует использовать <link linkend="imagick.getimagelength">Imagick::getImageLength()</link>.
   </para>
  </refsect1>
