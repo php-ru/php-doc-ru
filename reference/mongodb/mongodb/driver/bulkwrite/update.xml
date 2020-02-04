@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 349044 Maintainer: lex Status: ready -->
+<!-- EN-Revision: 349110 Maintainer: lex Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="mongodb-driver-bulkwrite.update" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -72,6 +72,17 @@
           </entry>
          </row>
          &mongodb.option.collation;
+         <row>
+          <entry>hint</entry>
+          <entry><type>string|array|object</type></entry>
+          <entry>
+           <para>
+            Индекс спецификации. Укажите либо имя индекса в виде строки, 
+            либо шаблон ключа индекса. Если указано, то система запросов будет рассматривать 
+            планы только с использованием индекса подсказок.
+           </para>
+          </entry>
+         </row>
          <row>
           <entry>multi</entry>
           <entry><type>boolean</type></entry>
