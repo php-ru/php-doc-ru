@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 347749 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 349152 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.socket-wsaprotocol-info-export" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -23,6 +23,11 @@
    Этот идентификатор пригоден только для использования в процессе
    с PID указанным в <parameter>target_pid</parameter>.
   </para>
+  <note>
+   <simpara>
+    Функция доступна только в Windows.
+    </simpara>
+  </note>
  </refsect1>
  
  <refsect1 role="parameters">
