@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 343888 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 349241 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
 <refentry xml:id="ds-map.values" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -48,7 +48,7 @@ var_dump($map->values());
    &example.outputs.similar;
    <screen>
 <![CDATA[
-object(Ds\Map)#2 (3) {
+object(Ds\Vector)#2 (3) {
   [0]=>
   int(1)
   [1]=>

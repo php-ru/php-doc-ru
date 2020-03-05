@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 347691 Maintainer: mch Status: ready-->
+<!-- EN-Revision: 349255 Maintainer: mch Status: ready-->
 <!-- $Revision$ -->
 <!-- Reviewed: yes Maintainer: sergey -->
 
@@ -54,6 +54,7 @@
  &reference.com.com;
  &reference.com.dotnet;
  &reference.com.variant;
+ &reference.com.compersisthelper;
  &reference.com.com-exception;
  &reference.com.reference;
  

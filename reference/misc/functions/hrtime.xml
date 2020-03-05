@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 346582 Maintainer: lex Status: ready -->
+<!-- EN-Revision: 349239 Maintainer: lex Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://docbook.org/ns/docbook" xml:id="function.hrtime">
@@ -77,7 +77,8 @@ Array
   <refsect1 role="seealso">
   &reftitle.seealso;
   <simplelist>
-   <member>Расширение <link linkend="book.hrtime">Время высокого разрешения</link></member>
+   <member>Модуль <link linkend="book.hrtime">Время высокого разрешения</link></member>
+   <member><function>microtime</function></member>
   </simplelist>
  </refsect1>
 
