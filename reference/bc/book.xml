@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 347753 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 349317 Maintainer: tmn Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
 
@@ -12,8 +12,7 @@
  <preface xml:id="intro.bc">
   &reftitle.intro;
   <para>
-   Для вычислений с произвольной точностью PHP предоставляет двоичный
-   калькулятор, который поддерживает числа любого размера и точности, вплоть до
+   Для вычислений с произвольной точностью PHP предоставляет BCMath, который поддерживает числа любого размера и точности, вплоть до
    <literal>2147483647</literal> (или <literal>0x7FFFFFFF</literal>) десятичных знаков,
    если хватит памяти, представленных в виде строк.
   </para>

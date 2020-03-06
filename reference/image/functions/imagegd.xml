@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 344720 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 349322 Maintainer: aur Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id='function.imagegd' xmlns="http://docbook.org/ns/docbook">
@@ -126,6 +126,7 @@ imagedestroy($im);
     Заметим, что формат GD используется только в GD-совместимых приложениях.
    </para>
   </note>
+  &gd.deprecated.gd-formats;
  </refsect1>
  <refsect1 role="seealso">
   &reftitle.seealso;
