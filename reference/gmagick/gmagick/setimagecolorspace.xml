@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 343888 Maintainer: sergey Status: ready -->
+<!-- EN-Revision: 308252 Maintainer: sergey Status: ready -->
 <!-- Reviewed: no -->
 
-<refentry xml:id="gmagick.setimagewhitepoint" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+<refentry xml:id="gmagick.setimagecolorspace" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
-  <refname>Gmagick::setimagewhitepoint</refname>
-  <refpurpose>Устанавливает цветность изображения белой точкой</refpurpose>
+  <refname>Gmagick::setimagecolorspace</refname>
+  <refpurpose>Устанавливает цветовое пространство изображения</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>public</modifier> <type>Gmagick</type><methodname>Gmagick::setimagewhitepoint</methodname>
-   <methodparam><type>float</type><parameter>x</parameter></methodparam>
-   <methodparam><type>float</type><parameter>y</parameter></methodparam>
+   <modifier>public</modifier> <type>Gmagick</type><methodname>Gmagick::setimagecolorspace</methodname>
+   <methodparam><type>int</type><parameter>colorspace</parameter></methodparam>
   </methodsynopsis>
   <para>
-   Устанавливает цветность изображения белой точкой. 
+   Устанавливает цветовое пространство изображения. 
   </para>
 
    
@@ -29,18 +28,10 @@
   <para>
    <variablelist>
     <varlistentry>
-     <term><parameter>x</parameter></term>
+     <term><parameter>colorspace</parameter></term>
      <listitem>
       <para>
-       X-координата белой основной точки.
-      </para>
-     </listitem>
-    </varlistentry>
-    <varlistentry>
-     <term><parameter>y</parameter></term>
-     <listitem>
-      <para>
-       Y-координата белой основной точки.
+       Цветовое пространство изображения: UndefinedColorspace, RGBColorspace, GRAYColorspace, TransparentColorspace, OHTAColorspace, XYZColorspace, YCbCrColorspace, YCCColorspace, YIQColorspace, YPbPrColorspace, YPbPrColorspace, YUVColorspace, CMYKColorspace, sRGBColorspace, HSLColorspace или HWBColorspace.
       </para>
      </listitem>
     </varlistentry>
@@ -51,7 +42,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Объект Gmagick в случае успешного выполнения.
+   Объект Gmagick в случае успешного выполнения
   </para>
  </refsect1>
 
