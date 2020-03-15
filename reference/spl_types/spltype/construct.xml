@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 312848 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 349445 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes -->
-<!-- $Revision: $ -->
+<!-- $Revision$ -->
 <refentry xml:id="spltype.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>SplType::__construct</refname>

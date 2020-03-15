@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 343899 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 349428 Maintainer: mch Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="simplexmlelement.construct" xmlns="http://docbook.org/ns/docbook">
@@ -42,7 +42,7 @@
      <listitem>
       <para>
        Необязательный параметр, используется для указания
-       <link linkend="libxml.constants">дополнительных параметров Libxml</link>.
+       <link linkend="libxml.constants">дополнительных параметров Libxml</link>, которые влияют на чтение документов XML. Параметры, которые влияют на вывод документов XML (например, <constant>LIBXML_NOEMPTYTAG</constant>), игнорируются.
       </para>
       <note>
        <para>
