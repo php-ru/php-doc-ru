@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 349246 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 349498 Maintainer: tmn Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
 <!-- splitted from ./en/functions/exec.xml, last change in rev 1.28 -->
@@ -164,6 +164,9 @@
          <literal>create_process_group</literal> (только для Windows): разрешить 
          дочернему процессу обрабатывать <literal>CTRL</literal> события, если установлено значение &true;
         </member>
+        <member>
+         <literal>create_new_console</literal> (только для Windows): новый процесс использует новую консоль, а не наследует консоль своего родителя
+        </member>
        </simplelist>
       </para>
      </listitem>
@@ -193,6 +196,13 @@
       </row>
      </thead>
      <tbody>
+      <row>
+       <entry>7.4.4</entry>
+       <entry>
+        Добавлена опция <literal>create_new_console</literal> oв 
+        параметр <parameter>other_options</parameter>.
+       </entry>
+      </row>
       <row>
        <entry>7.4.0</entry>
        <entry>
