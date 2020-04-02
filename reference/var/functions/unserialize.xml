@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 344075 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 349581 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="function.unserialize" xmlns="http://docbook.org/ns/docbook">
@@ -210,7 +210,7 @@ if (!odbc_execute($stmt, $sqldata) || !odbc_fetch_into($stmt, $tmp)) {
 <?php
 $serialized_object='O:1:"a":1:{s:5:"value";s:3:"100";}';
 
-ini_set('unserialize_callback_func', 'mycallback'); // определяем свою функцию обратного вызова
+ini_set('unserialize_callback_func', 'mycallback'); // определяем свою callback-функцию
 
 function mycallback($classname) 
 {

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 347018 Maintainer: lex Status: ready -->
+<!-- EN-Revision: 349588 Maintainer: lex Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 
 <refentry xml:id="dateperiod.getrecurrences" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -13,7 +13,7 @@
   &reftitle.description;
   <para>&style.oop;</para>
   <methodsynopsis role="oop">
-   <type>int</type><methodname>DatePeriod::getRecurrences</methodname>
+   <modifier>public</modifier> <type>int</type><methodname>DatePeriod::getRecurrences</methodname>
    <void />
   </methodsynopsis>
   <para>
