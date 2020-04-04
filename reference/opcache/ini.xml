@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 349015 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 349606 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 
 <sect1 xml:id="opcache.configuration" xmlns="http://docbook.org/ns/docbook">
@@ -204,7 +204,7 @@
       <entry><link linkend="ini.opcache.opt_debug_level">opcache.opt_debug_level</link></entry>
       <entry>"0"</entry>
       <entry>PHP_INI_SYSTEM</entry>
-      <entry></entry>
+      <entry>Доступно с PHP 7.1.0</entry>
      </row>
      <row>
       <entry><link linkend="ini.opcache.file-cache">opcache.file_cache</link></entry>
