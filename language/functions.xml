@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 347269 Maintainer: sergey Status: ready -->
+<!-- EN-Revision: 349655 Maintainer: sergey Status: ready -->
 <!-- Reviewed: no -->
 
 <chapter xml:id="language.functions" xmlns="http://docbook.org/ns/docbook">
@@ -129,7 +129,7 @@ bar();
   </simpara>
   <note>
    <simpara>
-    Имена функций регистронезависимы, тем не менее, более предпочтительно
+    Имена функций регистронезависимы для символов ASCII от <literal>A</literal> до <literal>Z</literal>, тем не менее, предпочтительнее
     вызывать функции так, как они были объявлены.
    </simpara>
   </note>   
