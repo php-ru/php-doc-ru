@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 312947 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 349746 Maintainer: mch Status: ready -->
 <!-- $Revision$ -->
 <!-- Reviewed: yes Maintainer: lex -->
 <sect1 xml:id="control-structures.while" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -26,7 +26,7 @@ while (expr)
   каждый раз перед началом цикла, поэтому даже если значение выражения
   изменится в процессе выполнения вложенных выражений в цикле, выполнение
   не прекратится до конца итерации (каждый раз, когда PHP выполняет
-  выражения в цикле - это одна итерация). В том случае, если
+  выражения в цикле - это одна итерация). Если
   выражение <literal>while</literal> равно
   &false; с самого начала, вложенные
   выражения ни разу не будут выполнены.

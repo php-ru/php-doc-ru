@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 347965 Maintainer: sergey Status: ready -->
+<!-- EN-Revision: 349748 Maintainer: sergey Status: ready -->
 <!-- Reviewed: no -->
 
 <chapter xml:id="mysql-xdevapi.setup" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -32,7 +32,7 @@
   <programlisting>
 <![CDATA[
 // Зависимости
-$ apt install build-essential libprotobuf-dev libboost-dev openssl protobuf-compiler
+$ apt install build-essential libprotobuf-dev libboost-dev openssl protobuf-compiler liblz4-tool zstd
 
 // PHP с нужными модулями; php7.2-dev, необходимым для компиляции
 $ apt install php7.2-cli php7.2-dev php7.2-mysql php7.2-pdo php7.2-xml
