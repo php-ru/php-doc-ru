@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 297028 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 349950 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes Maintainer: sergey -->
 <!-- $Revision$ -->
 <section xml:id="msql.installation" xmlns="http://docbook.org/ns/docbook">
  &reftitle.install;
+ <para>
+  Модуль больше не входит в состав PHP начиная с PHP 5.3.
+  Модуль считается необслуживаемым и мертвым.
+ </para>
  <para>
   Для работы с этими функциями PHP должен быть скомпилирован с поддержкой msql при помощи
   опции <option role="configure">--with-msql[=DIR]</option>, где DIR -

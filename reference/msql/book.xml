@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 330340 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 349950 Maintainer: mch Status: ready -->
 <!-- $Revision$ -->
 <!-- Reviewed: yes Maintainer: sergey -->
  
@@ -15,6 +15,11 @@
    Более подробную информацию о mSQL можно найти по адресу 
    <link xlink:href="&url.msql;">&url.msql;</link>.
   </para>
+  <note>
+   <para>
+    Модуль больше не входит в состав PHP начиная с PHP 5.3.
+   </para>
+  </note>
  </preface>
  <!-- }}} -->
  

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333290 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 349951 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes Maintainer: sergey -->
 
 
@@ -34,6 +34,9 @@
    читайте тут <link xlink:href="&url.firebird;">&url.firebird;</link>.
   </para>
   <note>
+   <para>
+    &pecl.moved-ver;7.4.0
+   </para>
    <para>
     Модуль поддерживает InterBase версии 6 и выше и Firebird версии 2.0 и выше.
    </para>
