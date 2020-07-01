@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 348373 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 350020 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
 <section xml:id="filesystem.configuration" xmlns="http://docbook.org/ns/docbook">
@@ -126,6 +126,7 @@
     <listitem>
      <para>
       Значение тайм-аута по умолчанию (в секундах) для потоков, использующих сокеты.
+      Отрицательное значения означает бесконечное время ожидания.
      </para>
     </listitem>
    </varlistentry>

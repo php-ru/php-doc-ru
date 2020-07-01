@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 308588 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 350045 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <!-- splitted from ./en/functions/dir.xml, last change in rev 1.11 -->
@@ -75,6 +75,7 @@ echo getcwd();
  <refsect1 role="notes">
   &reftitle.notes;
   &note.no-windows;
+  &note.no-zts;
  </refsect1>
 </refentry>
 

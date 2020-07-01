@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317502 Maintainer: bfl Status: ready -->
+<!-- EN-Revision: 350048 Maintainer: bfl Status: ready -->
 <!-- Reviewed: yes -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.gnupg-decrypt">
  <refnamediv>
@@ -68,7 +68,7 @@ echo $plain;
     </programlisting>
    </example>
    <example>
-    <title>Объектно-ориентированный пример использования <function>gnupg_encrypt</function></title>
+    <title>Объектно-ориентированный пример использования <function>gnupg_decrypt</function></title>
     <programlisting role="php">
 <![CDATA[
 <?php

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 321150 Maintainer: northcat Status: ready -->
+<!-- EN-Revision: 350079 Maintainer: northcat Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 
 <refentry xml:id="splfileobject.setmaxlinelen" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -99,7 +99,7 @@ consequat.
   &reftitle.seealso;
   <para>
    <simplelist>
-    <member><methodname>Classname::Method</methodname></member>
+    <member><methodname>SplFileObject::getMaxLineLen</methodname></member>
    </simplelist>
   </para>
  </refsect1>
