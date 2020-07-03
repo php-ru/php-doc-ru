@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 350041 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes Maintainer: rjhdby -->
 
 <chapter xml:id="phar.fileformat" xmlns="http://docbook.org/ns/docbook">
@@ -437,7 +437,7 @@ __HALT_COMPILER();
   <para>
    В содержащих подпись phar-архивах подпись всегда присоединена
    к концу Phar-архива после загрузчика, манифеста и содержимого файлов.
-   В настоящее время поддерживаются два формата подписи: MD5 и SHA1.
+   В настоящее время поддерживаются следующие форматы подписи: MD5, SHA1, SHA256 и SHA512.
   </para>
   <para>
    <table>
