@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 338306 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 350059 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="mysqli.store-result" xmlns="http://docbook.org/ns/docbook">
@@ -15,7 +15,7 @@
   &reftitle.description;
   <para>&style.oop;</para>
   <methodsynopsis role="oop">
-   <type>mysqli_result</type><methodname>mysqli::store_result</methodname>
+   <modifier>public</modifier> <type>mysqli_result</type><methodname>mysqli::store_result</methodname>
    <methodparam choice="opt"><type>int</type><parameter>option</parameter></methodparam>
   </methodsynopsis>
   <para>&style.procedural;</para>

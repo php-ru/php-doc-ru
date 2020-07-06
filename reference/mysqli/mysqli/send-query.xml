@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322005 Maintainer: irker Status: ready -->
+<!-- EN-Revision: 350059 Maintainer: irker Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 <refentry xml:id="mysqli.send-query" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -13,7 +13,7 @@
   &reftitle.description;
   <para>&style.oop;</para>
   <methodsynopsis role="oop">
-   <type>bool</type><methodname>mysqli::send_query</methodname>
+   <modifier>public</modifier> <type>bool</type><methodname>mysqli::send_query</methodname>
    <methodparam><type>string</type><parameter>query</parameter></methodparam>
   </methodsynopsis>
   <para>&style.procedural;</para>
