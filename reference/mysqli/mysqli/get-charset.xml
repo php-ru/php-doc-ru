@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 338264 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 350059 Maintainer: tmn Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="mysqli.get-charset" xmlns="http://docbook.org/ns/docbook">
@@ -13,7 +13,7 @@
   &reftitle.description;
   <para>&style.oop;</para>
   <methodsynopsis role="oop">
-   <type>object</type><methodname>mysqli::get_charset</methodname>
+   <modifier>public</modifier> <type>object</type><methodname>mysqli::get_charset</methodname>
    <void />
   </methodsynopsis>
   <para>&style.procedural;</para>
