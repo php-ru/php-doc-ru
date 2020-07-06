@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 335248 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 350066 Maintainer: tmn Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ --> 
 
@@ -14,8 +14,8 @@
 
  <refsect1 role="description">
   &reftitle.description;
-  <para>&style.oop; (method):</para>
-   <methodsynopsis>
+  <para>&style.oop;</para>
+   <methodsynopsis role="oop">
    <modifier>public</modifier> <type>bool</type><methodname>mysqli_stmt::next_result</methodname>
    <void />
    </methodsynopsis>

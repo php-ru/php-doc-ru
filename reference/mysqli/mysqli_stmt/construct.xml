@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 336014 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 350065 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
 
@@ -12,7 +12,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <constructorsynopsis>
-   <methodname>mysqli_stmt::__construct</methodname>
+   <modifier>public</modifier> <methodname>mysqli_stmt::__construct</methodname>
    <methodparam><type>mysqli</type><parameter>link</parameter></methodparam>
    <methodparam choice="opt"><type>string</type><parameter>query</parameter></methodparam>
   </constructorsynopsis>

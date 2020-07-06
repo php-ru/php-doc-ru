@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322005 Maintainer: bfl Status: ready -->
+<!-- EN-Revision: 350065 Maintainer: bfl Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 <refentry xml:id="mysqli-stmt.close" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -13,7 +13,7 @@
   &reftitle.description;
   <para>&style.oop;</para>
   <methodsynopsis role="oop">
-   <type>bool</type><methodname>mysqli_stmt::close</methodname>
+   <modifier>public</modifier> <type>bool</type><methodname>mysqli_stmt::close</methodname>
    <void />
   </methodsynopsis>
   <para>&style.procedural;</para>
