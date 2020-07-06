@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 336954 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 350084 Maintainer: aur Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="ziparchive.getfromname" xmlns="http://docbook.org/ns/docbook">
@@ -10,7 +10,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>string</type><methodname>ZipArchive::getFromName</methodname>
+   <modifier>public</modifier> <type>string</type><methodname>ZipArchive::getFromName</methodname>
    <methodparam><type>string</type><parameter>name</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>length</parameter><initializer>0</initializer></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>flags</parameter></methodparam>
