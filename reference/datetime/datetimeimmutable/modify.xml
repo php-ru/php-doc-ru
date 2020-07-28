@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 334116 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 350219 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
 
@@ -13,7 +13,7 @@
   &reftitle.description;
   <methodsynopsis role="oop">
    <modifier>public</modifier> <type>DateTimeImmutable</type><methodname>DateTimeImmutable::modify</methodname>
-   <methodparam><type>string</type><parameter>modify</parameter></methodparam>
+   <methodparam><type>string</type><parameter>modifier</parameter></methodparam>
   </methodsynopsis>
   <para>
    Создает новый объект <type>DateTimeImmutable</type> с измененной временной меткой.
@@ -26,7 +26,7 @@
   <variablelist>
    &date.datetime.description.modified;
    <varlistentry>
-    <term><parameter>modify</parameter></term>
+    <term><parameter>modifier</parameter></term>
     <listitem>
      <para>&date.formats.parameter;</para>
     </listitem>
