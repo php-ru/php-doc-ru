@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 330685 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 350245 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <book xml:id="book.opcache" xmlns="http://docbook.org/ns/docbook">
@@ -21,6 +21,7 @@
  </preface>
  
  &reference.opcache.setup;
+ &reference.opcache.preload;
  &reference.opcache.reference;
  
 </book>
