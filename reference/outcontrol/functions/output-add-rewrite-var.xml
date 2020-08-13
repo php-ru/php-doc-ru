@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 345087 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 350300 Maintainer: mch Status: ready -->
 <!-- $Revision$ -->
 <!-- Reviewed: yes Maintainer: lex -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.output-add-rewrite-var">
@@ -25,6 +25,9 @@
   <para>
    Поведение этой функции контролируется параметрами &php.ini; <link
     linkend="ini.url-rewriter.tags">url_rewriter.tags</link> и <link linkend="ini.url-rewriter.hosts">url_rewriter.hosts</link>.
+  </para>
+  <para>
+   Обратите внимание, что функция может быть успешно вызвана не более одного раза за запрос.
   </para>
   <note>
    <simpara>
