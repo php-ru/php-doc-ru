@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 345271 Maintainer: lex Status: ready -->
+<!-- EN-Revision: 350358 Maintainer: lex Status: ready -->
 <!-- Reviewed: yes Maintainer: sergey -->
 
 <refentry xml:id="function.uopz-implement" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -49,6 +49,15 @@
   <para>
    &return.success;
   </para>
+ </refsect1>
+ 
+ <refsect1 role="errors">
+  &reftitle.errors;
+  <simpara>
+   Начиная с PHP 7.4.0, <function>uopz_implements</function> выбрасывает <classname>RuntimeException</classname>, 
+   если <link linkend="book.opcache">OPcache</link> включен 
+   и запись класса <parameter>class</parameter> неизменна.
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
