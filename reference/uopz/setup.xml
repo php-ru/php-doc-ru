@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 350312 Maintainer: lex Status: ready -->
+<!-- EN-Revision: 350365 Maintainer: lex Status: ready -->
 <!-- Reviewed: yes Maintainer: sergey -->
 
 <chapter xml:id="uopz.setup" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -112,6 +112,14 @@
     </varlistentry>
    </variablelist>
   </para>
+  
+  <note>
+   <simpara>
+    При работе с включенным OPcache может потребоваться отключить все 
+    <link linkend="ini.opcache.optimization-level">оптимизации OPcache</link>
+    (<code>opcache.optimization_level=0</code>).
+   </simpara>
+  </note>
  </section>
  
  <section xml:id="uopz.resources">
