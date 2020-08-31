@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 350369 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 350428 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 
@@ -1498,6 +1498,8 @@ xmlwriter</parameter></term><listitem><para>Только для процедур
 <!ENTITY imagick.method.available.0x657 'Этот метод доступен, если Imagick был скомпилирован с версией ImageMagick 6.5.7 или старше.'>
 
 <!ENTITY imagick.constant.available 'Эта константа доступна, если Imagick был скомпилирован с версией ImageMagick '>
+
+<!ENTITY imagick.deprecated.function-3-4-4 '<warning xmlns="http://docbook.org/ns/docbook"><simpara>Функция объявлена <emphasis>УСТАРЕВШЕЙ</emphasis> в Imagick 3.4.4. Полагаться на эту функцию крайне не рекомендуется.</simpara></warning>'>
 
 <!-- Imagick default channel information -->
 <!ENTITY imagick.default.channel.info 'По умолчанию равно <constant xmlns="http://docbook.org/ns/docbook">Imagick::CHANNEL_DEFAULT</constant>.

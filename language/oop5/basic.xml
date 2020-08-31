@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 347269 Maintainer: sergey Status: ready -->
+<!-- EN-Revision: 350429 Maintainer: sergey Status: ready -->
 <!-- Reviewed: no -->
 
 <sect1 xml:id="language.oop5.basic" xmlns="http://docbook.org/ns/docbook">
@@ -266,6 +266,13 @@ echo (new DateTime())->format('Y');
 ]]>
     </screen>
    </example>
+  
+  <note>
+    <simpara>
+     До PHP 7.1 аргументы не имели значения, если 
+     не определена функция конструктора.
+    </simpara>
+   </note>
  </sect2>
  <sect2 xml:id="language.oop5.basic.properties-methods">
   <title>Свойства и методы</title>

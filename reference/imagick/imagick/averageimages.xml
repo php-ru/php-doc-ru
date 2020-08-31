@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322115 Maintainer: alien Status: ready -->
+<!-- EN-Revision: 350428 Maintainer: alien Status: ready -->
 <!-- Reviewed: yes Maintainer: sergey -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.averageimages">
  <refnamediv>
   <refname>Imagick::averageImages</refname>
   <refpurpose>Усредняет набор изображений</refpurpose>
  </refnamediv>
-
+ 
+ <refsynopsisdiv>
+  &imagick.deprecated.function-3-4-4;
+ </refsynopsisdiv>
+ 
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
@@ -18,7 +22,7 @@
    Усредняет набор изображений.
   </para>
  </refsect1>
-
+ 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
