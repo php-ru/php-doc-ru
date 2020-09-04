@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 334550 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 350501 Maintainer: tmn Status: ready -->
 <!-- Reviewed: yes Maintainer: sergey -->
 <!-- $Revision$ -->
 
@@ -8,6 +8,10 @@
   <refname>Reflector::export</refname>
   <refpurpose>Экспорт</refpurpose>
  </refnamediv>
+ 
+ <refsynopsisdiv>
+   &warn.deprecated.function-7-4-0;
+ </refsynopsisdiv> 
 
  <refsect1 role="description">
   &reftitle.description;
