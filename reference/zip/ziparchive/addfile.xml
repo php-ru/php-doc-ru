@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 350084 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 350617 Maintainer: aur Status: ready -->
 <!-- Reviewed: yes Maintainer: sergey -->
 <!-- $Revision$ -->
 <refentry xml:id="ziparchive.addfile" xmlns="http://docbook.org/ns/docbook">
@@ -12,7 +12,7 @@
   <methodsynopsis>
    <modifier>public</modifier> <type>bool</type><methodname>ZipArchive::addFile</methodname>
    <methodparam><type>string</type><parameter>filename</parameter></methodparam>
-   <methodparam choice="opt"><type>string</type><parameter>localname</parameter><initializer>&null;</initializer></methodparam>
+   <methodparam choice="opt"><type>string</type><parameter>entryname</parameter><initializer>&null;</initializer></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>start</parameter><initializer>0</initializer></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>length</parameter><initializer>0</initializer></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>flags</parameter><initializer>ZipArchive::FL_OVERWRITE</initializer></methodparam>
@@ -35,7 +35,7 @@
      </listitem>
     </varlistentry>
     <varlistentry>
-     <term><parameter>localname</parameter></term>
+     <term><parameter>entryname</parameter></term>
      <listitem>
       <para>
        Имя файла внутри ZIP-архива. Если указано, то переопределит <parameter>filename</parameter>.
