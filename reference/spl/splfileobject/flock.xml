@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 350338 Maintainer: northcat Status: ready -->
+<!-- EN-Revision: 350655 Maintainer: northcat Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 
 <refentry xml:id="splfileobject.flock" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -94,37 +94,6 @@ if ($file->flock(LOCK_EX)) { // выполняем эксклюзивную бл
 ]]>
     </programlisting>
    </example>
-  </para>
- </refsect1>
- 
- <refsect1 role="changelog">
-  &reftitle.changelog;
-  <para>
-   <informaltable>
-    <tgroup cols="2">
-     <thead>
-      <row>
-       <entry>&Version;</entry>
-       <entry>&Description;</entry>
-      </row>
-     </thead>
-     <tbody>
-      <row>
-       <entry>5.5.22, 5.6.6</entry>
-       <entry>
-        Добавлена поддержка параметра <parameter>wouldblock</parameter> в Windows.
-       </entry>
-      </row>      
-      <row>
-       <entry>5.3.2</entry>
-       <entry>
-        Удалена автоматическая разблокировка при закрытии ресурса обработчика файла.
-        Теперь разблокировку всегда придется делать самостоятельно.
-       </entry>
-      </row>
-     </tbody>
-    </tgroup>
-   </informaltable>
   </para>
  </refsect1>
  

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 345591 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 350645 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <!-- splitted from ./en/functions/strings.xml, last change in rev 1.27 -->
@@ -100,13 +100,6 @@
         Добавлена поддержка отрицательных значений <parameter>offset</parameter>
         и <parameter>length</parameter>.
         <parameter>length</parameter> теперь также может быть <literal>0</literal>.
-       </entry>
-      </row>
-      <row>
-       <entry>5.1.0</entry>
-       <entry>
-        Добавлены параметры <parameter>offset</parameter>
-        и <parameter>length</parameter>
        </entry>
       </row>
      </tbody>

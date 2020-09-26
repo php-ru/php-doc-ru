@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 343899 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 350645 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://docbook.org/ns/docbook" xml:id="function.sha1-file">
@@ -75,31 +75,6 @@ foreach(glob('/home/Kalle/myproject/*.php') as $ent)
 ]]>
     </programlisting>
    </example>
-  </para>
- </refsect1>
- <refsect1 role="changelog">
-  &reftitle.changelog;
-  <para>
-   <informaltable>
-    <tgroup cols="2">
-     <thead>
-      <row>
-       <entry>&Version;</entry>
-       <entry>&Description;</entry>
-      </row>
-     </thead>
-     <tbody>
-      <row>
-       <entry>5.1.0</entry>
-       <entry>
-        Функция теперь работает с потоковым API. Это означает, что ее
-        можно использовать с обертками, например,
-        <literal>sha1_file('http://example.com/..')</literal>
-       </entry>
-      </row>
-     </tbody>
-    </tgroup>
-   </informaltable>
   </para>
  </refsect1>
 
