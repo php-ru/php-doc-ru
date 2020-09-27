@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 347079 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 350661 Maintainer: mch Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
 
@@ -295,12 +295,6 @@
       <simpara>
        Принимает непустое значение, если запрос был произведен через протокол HTTPS.
       </simpara>
-      <note>
-       <simpara>
-        Обратите внимание, что при использовании ISAPI с IIS значение будет
-        <literal>off</literal>, если запрос не был произведен через протокол HTTPS.
-       </simpara>
-      </note>
      </listitem>
     </varlistentry>
     
