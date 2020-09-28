@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 340755 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 350685 Maintainer: aur Status: ready -->
 <!-- Reviewed: yes Maintainer: sergey -->
 <!-- $Revision$ -->
 <!-- Необходимо проверить работоспособность кода в примере -->
@@ -12,7 +12,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type>int</type><methodname>dbase_numfields</methodname>
-   <methodparam><type>resource</type><parameter>dbase_identifier</parameter></methodparam>
+   <methodparam><type>resource</type><parameter>database</parameter></methodparam>
   </methodsynopsis>
   <para>
    Получает количество полей (колонок) в указанной базе данных. 
@@ -29,10 +29,10 @@
   <para>
    <variablelist>
     <varlistentry>
-     <term><parameter>dbase_identifier</parameter></term>
+     <term><parameter>database</parameter></term>
      <listitem>
       <para>
-       Идентификатор базы данных, возвращаемый функцией <function>dbase_open</function>
+       Ресурс базы данных, возвращаемый функцией <function>dbase_open</function>
        или <function>dbase_create</function>.
       </para>
      </listitem>
@@ -61,7 +61,7 @@
      <row>
       <entry>dbase 7.0.0</entry>
       <entry>
-       Параметр <parameter>dbase_identifier</parameter> теперь имеет тип
+       Параметр <parameter>database</parameter> теперь имеет тип
        <type>resource</type>, а не <type>int</type>.
       </entry>
      </row>
