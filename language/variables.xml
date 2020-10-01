@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 350707 Maintainer: sergey Status: ready -->
+<!-- EN-Revision: 350719 Maintainer: sergey Status: ready -->
 <!-- Reviewed: no -->
 
 <chapter xml:id="language.variables" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -34,6 +34,8 @@
    <simpara>
     <literal>$this</literal> - это специальная переменная, которой
     нельзя ничего присваивать.
+    До PHP 7.1.0 было возможно косвенное присвоение (например, с использованием 
+    <link linkend="language.variables.variable">переменных переменных</link>)).
    </simpara>
   </note>
   
