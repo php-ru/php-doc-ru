@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 344003 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 350770 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="function.unpack" xmlns="http://docbook.org/ns/docbook">
@@ -65,7 +65,7 @@
   &reftitle.returnvalues;
   <para>
    Возвращает ассоциативный массив, содержащий распакованные элементы
-   бинарной строки.
+   бинарной строки, &return.falseforfailure;.
   </para>
  </refsect1>
  
