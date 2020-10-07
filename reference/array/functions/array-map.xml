@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 350490 Maintainer: sergey Status: ready -->
+<!-- EN-Revision: 350788 Maintainer: sergey Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.array-map">
@@ -382,7 +382,6 @@ array(1) {
     <member><function>array_filter</function></member>
     <member><function>array_reduce</function></member>
     <member><function>array_walk</function></member>
-    <member>&seealso.callback;</member>
    </simplelist>
   </para>
  </refsect1>
