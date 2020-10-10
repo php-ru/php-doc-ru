@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 344594 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 350828 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="function.imagefilledellipse" xmlns="http://docbook.org/ns/docbook">
@@ -125,12 +125,10 @@ imagepng($image);
  </refsect1>
  <refsect1 role="seealso">
   &reftitle.seealso;
-  <para>
-   <simplelist>
-    <member><function>imageellipse</function></member>
-    <member><function>imagefilledarc</function></member>
-   </simplelist>
-  </para>
+  <simplelist>
+   <member><function>imageellipse</function></member>
+   <member><function>imagefilledarc</function></member>
+  </simplelist>
  </refsect1>
 </refentry>
 

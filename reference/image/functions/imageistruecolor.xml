@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 339875 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 350828 Maintainer: tmn Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="function.imageistruecolor" xmlns="http://docbook.org/ns/docbook">
@@ -74,12 +74,10 @@ if(!imageistruecolor($im))
 
  <refsect1 role="seealso">
   &reftitle.seealso;
-  <para>
-   <simplelist>
-    <member><function>imagecreatetruecolor</function></member>
-    <member><function>imagepalettetotruecolor</function></member>
-   </simplelist>
-  </para>
+  <simplelist>
+   <member><function>imagecreatetruecolor</function></member>
+   <member><function>imagepalettetotruecolor</function></member>
+  </simplelist>
  </refsect1>
 </refentry>
 

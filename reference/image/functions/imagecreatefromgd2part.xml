@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 349322 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 350826 Maintainer: tmn Status: ready -->
 <!-- Reviewed: yes Maintainer: sergey -->
 <!-- $Revision$ -->
 <refentry xml:id='function.imagecreatefromgd2part' xmlns="http://docbook.org/ns/docbook">
@@ -86,7 +86,6 @@ $image = getimagesize('./test.gd2');
 $im = imagecreatefromgd2part('./test.gd2', 4, 4, ($image[0] / 2) - 6, ($image[1] / 2) - 6);
 
 // Добавим рельеф на изображение
-// Работает в PHP 5+
 if(function_exists('imagefilter'))
 {
     imagefilter($im, IMG_FILTER_EMBOSS);
