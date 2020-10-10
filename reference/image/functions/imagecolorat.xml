@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 344604 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 350828 Maintainer: tmn Status: ready -->
 <!-- Reviewed: yes Maintainer: sergey -->
 <!-- $Revision$ -->
 <refentry xml:id="function.imagecolorat" xmlns="http://docbook.org/ns/docbook">
@@ -121,13 +121,11 @@ array(4) {
  </refsect1>
  <refsect1 role="seealso">
   &reftitle.seealso;
-  <para>
-   <simplelist>
-    <member><function>imagecolorset</function></member>
-    <member><function>imagecolorsforindex</function></member>
-    <member><function>imagesetpixel</function></member>
-   </simplelist>
-  </para>
+  <simplelist>
+   <member><function>imagecolorset</function></member>
+   <member><function>imagecolorsforindex</function></member>
+   <member><function>imagesetpixel</function></member>
+  </simplelist>
  </refsect1>
 </refentry>
 
