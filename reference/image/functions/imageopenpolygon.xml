@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 348252 Maintainer: lex Status: ready -->
+<!-- EN-Revision: 350828 Maintainer: lex Status: ready -->
 <!-- Reviewed: yes Maintainer: sergey -->
 
 <refentry xml:id="function.imageopenpolygon" xmlns="http://docbook.org/ns/docbook">
@@ -130,11 +130,9 @@ imagedestroy($image);
  
  <refsect1 role="seealso">
   &reftitle.seealso;
-  <para>
-   <simplelist>
-    <member><function>imagepolygon</function></member>
-   </simplelist>
-  </para>
+  <simplelist>
+   <member><function>imagepolygon</function></member>
+  </simplelist>
  </refsect1>
  
 </refentry>

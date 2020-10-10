@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331331 Maintainer: lex Status: ready -->
+<!-- EN-Revision: 350828 Maintainer: lex Status: ready -->
 <!-- Reviewed: yes Maintainer: sergey -->
 
 <refentry xml:id="function.imagepalettetotruecolor" xmlns="http://docbook.org/ns/docbook">
@@ -102,12 +102,10 @@ typeof($im) = true color
 
  <refsect1 role="seealso">
   &reftitle.seealso;
-  <para>
-   <simplelist>
-    <member><function>imagecreatetruecolor</function></member>
-    <member><function>imageistruecolor</function></member>
-   </simplelist>
-  </para>
+  <simplelist>
+   <member><function>imagecreatetruecolor</function></member>
+   <member><function>imageistruecolor</function></member>
+  </simplelist>
  </refsect1>
 </refentry>
 
