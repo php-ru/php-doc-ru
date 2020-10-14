@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 350871 Maintainer: mch Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 
  <reference xml:id="ref.exec" xmlns="http://docbook.org/ns/docbook">
@@ -23,8 +23,6 @@
     <para>
      Эти функции также тесно связаны с оператором
      <link linkend="language.operators.execution">обратные кавычки (``)</link>.
-     Примите во внимание, что в режиме "&safemode;" вам необходимо учитывать директиву 
-     <link linkend="ini.safe-mode-exec-dir">safe_mode_exec_dir</link>.
     </para>
    </section>
 

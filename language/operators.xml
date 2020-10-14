@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 350797 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 350871 Maintainer: shein Status: ready -->
 <!-- $Revision$ -->
 <!-- Reviewed: yes -->
 <chapter xml:id="language.operators" xmlns="http://docbook.org/ns/docbook">
@@ -1902,7 +1902,7 @@ echo "<pre>$output</pre>";
   </para>
   <note>
    <para>
-    Обратные кавычки недоступны, в случае, если включен &safemode; или
+    Обратные кавычки недоступны, в случае, если 
     отключена функция <function>shell_exec</function>.
    </para>
   </note>

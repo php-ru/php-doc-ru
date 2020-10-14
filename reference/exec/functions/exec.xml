@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 342231 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 350871 Maintainer: aur Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
 <!-- splitted from ./en/functions/exec.xml, last change in rev 1.2 -->
@@ -99,8 +99,6 @@ echo exec('whoami');
   &warn.escapeshell;
   &note.exec-bg;
   &note.exec-bypass-shell;
-  &note.exec-path;
-  &warn.sm.exec;
  </refsect1>
  
  <refsect1 role="seealso">

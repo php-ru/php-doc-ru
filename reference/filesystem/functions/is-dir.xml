@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 321886 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 350871 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.is-dir">
@@ -31,7 +31,7 @@
        относительным именем, он будет проверяться относительно текущей
        рабочей директории. Если <parameter>filename</parameter> является
        символической или жесткой ссылкой, то ссылка будет раскрыта и
-       проверена. При включенном безопасном режиме или
+       проверена. При включенном
        <link linkend="ini.open-basedir">open_basedir</link> могут применяться
        дальнейшие ограничения.
       </para>

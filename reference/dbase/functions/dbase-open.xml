@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 350757 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 350871 Maintainer: aur Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="function.dbase-open" xmlns="http://docbook.org/ns/docbook">
@@ -18,7 +18,6 @@
    <function>dbase_open</function> открывает базу данных dBase с заданным 
    режимом доступа.   
   </para>
-  &note.sm.uidcheck;
   &note.open-basedir.func;
  </refsect1>
  <refsect1 role="parameters">

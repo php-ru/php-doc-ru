@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 337670 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 350866 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 
 <refentry xml:id="function.imap-sort" xmlns="http://docbook.org/ns/docbook">
@@ -126,7 +126,7 @@
   &reftitle.returnvalues;
   <para>
    Возвращает массив номеров сообщений, отсортированных в соответствии с заданными
-   параметрами.
+   параметрами, &return.falseforfailure;.
   </para>
  </refsect1>
 </refentry>
