@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 350405 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 350957 Maintainer: mch Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 
@@ -152,12 +152,6 @@ include 'file.php?foo=1&bar=2';
 
 // Сработает.
 include 'http://www.example.com/file.php?foo=1&bar=2';
-
-$foo = 1;
-$bar = 2;
-include 'file.txt';  // Сработает.
-include 'file.php';  // Сработает.
-
 ?>
 ]]>
    </programlisting>
