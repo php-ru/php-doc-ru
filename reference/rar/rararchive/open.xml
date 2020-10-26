@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324122 Maintainer: irker Status: ready -->
+<!-- EN-Revision: 350988 Maintainer: irker Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 
 <refentry xml:id="rararchive.open" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -111,7 +111,7 @@
      </thead>
      <tbody>
       <row>
-       <entry>3.0.0</entry>
+       <entry>PECL rar 3.0.0</entry>
        <entry>
         Был добавлен <parameter>volume_callback</parameter>.
        </entry>

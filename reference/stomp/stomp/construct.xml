@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 322055 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 350988 Maintainer: aur Status: ready -->
 <!-- Reviewed: yes Maintainer: sergey -->
 <!-- $Revision$ -->
 
@@ -84,7 +84,7 @@
      </thead>
      <tbody>
       <row>
-       <entry>1.0.1</entry>
+       <entry>PECL stomp 1.0.1</entry>
        <entry>
         Добавлен параметр <parameter>headers</parameter>
        </entry>

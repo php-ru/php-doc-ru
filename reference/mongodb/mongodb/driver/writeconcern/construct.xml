@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 349110 Maintainer: lex Status: ready -->
+<!-- EN-Revision: 350988 Maintainer: lex Status: ready -->
 <!-- Reviewed: yes Maintainer: sergey -->
 
 <refentry xml:id="mongodb-driver-writeconcern.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -169,7 +169,7 @@
      </thead>
      <tbody>
       <row>
-       <entry>1.7.0</entry>
+       <entry>PECL mongodb 1.7.0</entry>
        <entry>
         Параметр <parameter>wTimeout</parameter> теперь принимает 64-битные значения.
        </entry>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 344035 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 350988 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="mongodb-driver-command.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -108,7 +108,7 @@
      </thead>
      <tbody>
       <row>
-       <entry>1.4.0</entry>
+       <entry>PECL mongodb 1.4.0</entry>
        <entry>
         <para>
          Добавлен второй аргумент <parameter>commandOptions</parameter>,

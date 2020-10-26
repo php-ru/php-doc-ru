@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 350988 Maintainer: mch Status: ready -->
 <!-- Reviewed: yes Maintainer: sergey -->
 
 <refentry xml:id="sphinxclient.setoverride" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -70,7 +70,7 @@
      </thead>
      <tbody>
       <row>
-       <entry>1.0.3</entry>
+       <entry>PECL sphinx 1.0.3</entry>
        <entry>
         Добавлен метод SphinxClient::setOverride(), доступен только если модуль скомпилирован с версией
         libsphinxclient >= 0.9.9.

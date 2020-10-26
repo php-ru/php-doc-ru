@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 345032 Maintainer: lex Status: ready -->
+<!-- EN-Revision: 350988 Maintainer: lex Status: ready -->
 <!-- Reviewed: yes Maintainer: sergey -->
 
 <refentry xml:id="mongodb-driver-manager.executequery" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -82,7 +82,7 @@
      </thead>
      <tbody>
       <row>
-       <entry>1.4.0</entry>
+       <entry>PECL mongodb 1.4.0</entry>
        <entry>
         Третий параметр теперь представляет собой массив <parameter>options</parameter>. 
         Для обратной совместимости этот параметр все равно примет объект <classname>MongoDB\Driver\ReadPreference</classname>.

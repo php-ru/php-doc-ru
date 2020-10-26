@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 350258 Maintainer: lex Status: ready -->
+<!-- EN-Revision: 350988 Maintainer: lex Status: ready -->
 <!-- Reviewed: yes Maintainer: sergey -->
 
 <refentry xml:id="mongodb-driver-readpreference.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -206,13 +206,13 @@
      </thead>
      <tbody>
       <row>
-       <entry>1.8.0</entry>
+       <entry>PECL mongodb 1.8.0</entry>
        <entry>
         Добавлен параметр <literal>"hedge"</literal>.
        </entry>
       </row>
       <row>
-       <entry>1.3.0</entry>
+       <entry>PECL mongodb 1.3.0</entry>
        <entry>
         <para>
          Аргумент <parameter>mode</parameter> теперь принимает строковое значение,
@@ -222,7 +222,7 @@
        </entry>
       </row>
       <row>
-       <entry>1.2.0</entry>
+       <entry>PECL mongodb 1.2.0</entry>
        <entry>
         <para>
          Добавлен третий аргумент <parameter>options</parameter>, который поддерживает

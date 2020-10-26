@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 300966 Maintainer: irker Status: ready -->
+<!-- EN-Revision: 350988 Maintainer: irker Status: ready -->
 <!-- Reviewed: yes Maintainer: sergey -->
 
 <refentry xml:id="rarentry.getname" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -46,7 +46,7 @@
      </thead>
      <tbody>
       <row>
-       <entry>2.0.0</entry>
+       <entry>PECL rar 2.0.0</entry>
        <entry>
         Начиная с версии 2.0.0 возвращается строка в кодировке 
         Unicode/UTF-8.

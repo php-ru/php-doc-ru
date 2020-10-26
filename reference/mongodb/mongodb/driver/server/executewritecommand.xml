@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 348233 Maintainer: sergey Status: ready -->
+<!-- EN-Revision: 350988 Maintainer: sergey Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="mongodb-driver-server.executewritecommand" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -100,7 +100,7 @@
      </thead>
      <tbody>
       <row>
-       <entry>1.4.4</entry>
+       <entry>PECL mongodb 1.4.4</entry>
        <entry>
 Будет выброшено        <classname>MongoDB\Driver\Exception\InvalidArgumentException</classname>, если опция <literal>"session"</literal> 
         используется в сочетании с неподтвержденной записью.

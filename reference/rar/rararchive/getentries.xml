@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 338500 Maintainer: irker Status: ready -->
+<!-- EN-Revision: 350988 Maintainer: irker Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="rararchive.getentries" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -75,7 +75,7 @@
      </thead>
      <tbody>
       <row>
-       <entry>3.0.0</entry>
+       <entry>PECL rar 3.0.0</entry>
        <entry>
         Исправлена поддержка RAR архивов с повторяющимися именами
         элементов.

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 343899 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 350988 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
 <refentry xml:id="function.yaml-emit" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -78,7 +78,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Возвращает YAML-закодированную строку (<type>string</type>) при успешной обработке.
+   Возвращает YAML-закодированную строку (<type>string</type>) в случае успешного выполнения.
   </para>
  </refsect1>
  
@@ -95,7 +95,7 @@
      </thead>
      <tbody>
       <row>
-       <entry>1.1.0</entry>
+       <entry>PECL yaml 1.1.0</entry>
        <entry>
         Добавлен параметр <parameter>callbacks</parameter>.
        </entry>

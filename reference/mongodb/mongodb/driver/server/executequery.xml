@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 344127 Maintainer: sergey Status: ready -->
+<!-- EN-Revision: 350988 Maintainer: sergey Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="mongodb-driver-server.executequery" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -90,7 +90,7 @@
      </thead>
      <tbody>
       <row>
-       <entry>1.4.0</entry>
+       <entry>PECL mongodb 1.4.0</entry>
        <entry>
         Третий параметр теперь является массивом <parameter>options</parameter>. 
         Для обратной совместимости этот параметр будет по-прежнему принимать 
