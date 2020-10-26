@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 341282 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 350986 Maintainer: tmn Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
 <refentry xml:id="function.restore-include-path" xmlns="http://docbook.org/ns/docbook">
@@ -9,6 +9,10 @@
    Восстанавливает изначальное значение настройки конфигурации include_path
   </refpurpose>
  </refnamediv>
+ 
+ <refsynopsisdiv>
+   &warn.deprecated.function-7-4-0;
+ </refsynopsisdiv>
  
  <refsect1 role="description">
   &reftitle.description;

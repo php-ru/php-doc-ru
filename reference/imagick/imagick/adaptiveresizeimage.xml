@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 344121 Maintainer: alien Status: ready -->
+<!-- EN-Revision: 350988 Maintainer: alien Status: ready -->
 <!-- Reviewed: yes Maintainer: sergey -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.adaptiveresizeimage">
  <refnamediv>
@@ -86,11 +86,11 @@
      </thead>
      <tbody>
       <row>
-       <entry>2.1.0</entry>
+       <entry>PECL imagick 2.1.0</entry>
        <entry>Добавлен необязательный параметр подгонки.</entry>
       </row>
       <row>
-       <entry>2.1.0</entry>
+       <entry>PECL imagick 2.1.0</entry>
        <entry>
         Метод теперь поддерживает пропорциональное масштабирование.
         Для этого нужно передать 0 одному из параметров.

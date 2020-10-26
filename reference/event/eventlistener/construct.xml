@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334955 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 350988 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes Maintainer: sergey -->
 
 <refentry xml:id="eventlistener.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -151,7 +151,7 @@
      </thead>
      <tbody>
       <row>
-       <entry>1.5.0</entry>
+       <entry>PECL event 1.5.0</entry>
        <entry>
         Добавлена поддержка сокетов домена UNIX.
        </entry>

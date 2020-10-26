@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 342643 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 350988 Maintainer: shein Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 
@@ -89,7 +89,7 @@
      </thead>
      <tbody>
       <row>
-       <entry>3.0.0</entry>
+       <entry>PECL memcached 3.0.0</entry>
        <entry>
         Удален параметр <parameter role="reference">cas_token</parameter>.
         Вместо недо добавлен параметр <parameter>flags</parameter>, в который можно

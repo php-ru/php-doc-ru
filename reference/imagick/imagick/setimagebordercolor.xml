@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322115 Maintainer: sergey Status: ready -->
+<!-- EN-Revision: 350988 Maintainer: sergey Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.setimagebordercolor">
@@ -63,7 +63,7 @@
      </thead>
      <tbody>
       <row>
-       <entry>2.1.0</entry>
+       <entry>PECL imagick 2.1.0</entry>
        <entry>
         Теперь разрешается передавать строку, представляющую цвет в качестве параметра.
         Предыдущие версии допускают только объект ImagickPixel.
