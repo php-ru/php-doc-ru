@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 341282 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 351015 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
 <section xml:id="mail.configuration" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -146,7 +146,7 @@
     <listitem>
      <para>
       Адрес, который будет использоваться в заголовке <literal>"From:"</literal> в
-      письмах, посылаемых PHP в Windows.
+      письмах, отправляемых напрямую через SMTP (только для Windows).
       Эта директива также устанавливает заголовок <literal>"Return-Path:"</literal>.
      </para>
     </listitem>
