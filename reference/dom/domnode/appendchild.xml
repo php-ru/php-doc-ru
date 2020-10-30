@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 343366 Maintainer: das Status: ready -->
+<!-- EN-Revision: 351088 Maintainer: das Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id='domnode.appendchild' xmlns="http://docbook.org/ns/docbook">
@@ -22,6 +22,9 @@
    <methodname>DOMDocument::createElement</methodname>,
    <methodname>DOMDocument::createTextNode</methodname> и т.д.,
    или может быть использован любой другой узел.
+  </para>
+  <para>
+   При использовании существующего узла он будет перемещен.
   </para>
  </refsect1>
  <refsect1 role="parameters">

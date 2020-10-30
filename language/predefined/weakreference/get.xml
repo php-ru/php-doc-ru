@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 347473 Maintainer: sergey Status: ready -->
+<!-- EN-Revision: 351076 Maintainer: sergey Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="weakreference.get" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -12,7 +12,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>public</modifier> <type>?object</type><methodname>WeakReference::get</methodname>
+   <modifier>public</modifier> <type class="union"><type>object</type><type>null</type></type><methodname>WeakReference::get</methodname>
    <void />
   </methodsynopsis>
   <para>

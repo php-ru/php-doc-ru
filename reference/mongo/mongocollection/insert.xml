@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 350988 Maintainer: sergey Status: ready -->
+<!-- EN-Revision: 351075 Maintainer: sergey Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="mongocollection.insert" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -12,8 +12,8 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>public</modifier> <type>bool|array</type><methodname>MongoCollection::insert</methodname>
-   <methodparam><type>array|object</type><parameter>document</parameter></methodparam>
+   <modifier>public</modifier> <type class="union"><type>bool</type><type>array</type></type><methodname>MongoCollection::insert</methodname>
+   <methodparam><type class="union"><type>array</type><type>object</type></type><parameter>document</parameter></methodparam>
    <methodparam choice="opt"><type>array</type><parameter>options</parameter><initializer>array()</initializer></methodparam>
   </methodsynopsis>
   <para>
