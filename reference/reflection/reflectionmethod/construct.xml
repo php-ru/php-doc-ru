@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 347166 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 351060 Maintainer: tmn Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
 <refentry xml:id="reflectionmethod.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -12,7 +12,7 @@
   &reftitle.description;
   <methodsynopsis>
    <modifier>public</modifier> <methodname>ReflectionMethod::__construct</methodname>
-   <methodparam><type>mixed</type><parameter>class</parameter></methodparam>
+   <methodparam><type class="union"><type>string</type><type>object</type></type><parameter>class</parameter></methodparam>
    <methodparam><type>string</type><parameter>name</parameter></methodparam>
   </methodsynopsis>
   <methodsynopsis>
