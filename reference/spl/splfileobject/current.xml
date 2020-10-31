@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 317663 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 351075 Maintainer: tmn Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
 
@@ -14,7 +14,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>public</modifier> <type>string|array</type><methodname>SplFileObject::current</methodname>
+   <modifier>public</modifier> <type class="union"><type>string</type><type>array</type></type><methodname>SplFileObject::current</methodname>
    <void />
   </methodsynopsis>
   <para>
