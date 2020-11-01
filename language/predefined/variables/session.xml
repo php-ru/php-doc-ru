@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 347043 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 351112 Maintainer: aur Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
 
 <phpdoc:varentry xmlns:phpdoc="http://php.net/ns/phpdoc" xml:id="reserved.variables.session" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>$_SESSION</refname>
-  <refname>$HTTP_SESSION_VARS [устарело]</refname>
   <refpurpose>Переменные сессии</refpurpose>
  </refnamediv>
  
@@ -18,14 +17,6 @@
    <link linkend="ref.session">функциям сессии</link> для получения 
    дополнительной информации.
   </para>
-  
-  <simpara>
-   <varname>$HTTP_SESSION_VARS</varname> первоначально содержит ту же 
-   информацию, но она не является 
-   <link linkend="language.variables.superglobals">суперглобальной переменной</link>.
-   (Обратите внимание, что <varname>$HTTP_SESSION_VARS</varname> и <varname>$_SESSION</varname>
-   являются различными переменными и в таковом качестве обрабатываются PHP).
-  </simpara>
  </refsect1>
  
  <refsect1 role="notes">
