@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 350655 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 351112 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="function.func-get-arg" xmlns="http://docbook.org/ns/docbook">
@@ -191,7 +191,7 @@ byRef($arg);
   &reftitle.seealso;
   <para>
    <simplelist>
-    <member><link linkend="functions.variable-arg-list.new">Синтаксис <literal>...</literal> в PHP 5.6+</link></member>
+    <member><link linkend="functions.variable-arg-list">Синтаксис <literal>...</literal> в PHP 5.6+</link></member>
     <member><function>func_get_args</function></member>
     <member><function>func_num_args</function></member>
    </simplelist>

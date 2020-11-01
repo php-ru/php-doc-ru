@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 330316 Maintainer: das Status: ready -->
+<!-- EN-Revision: 351112 Maintainer: das Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 
@@ -12,8 +12,9 @@
  <refsect1 role="description"><!-- {{{ -->
   &reftitle.description;
   <para>
+   <!-- TODO Proper description -->
    <filename>data:</filename> (<link xlink:href="&url.rfc;2397">RFC
-   2397</link>) - это обертка потоков, доступная с PHP 5.2.0.
+   2397</link>) - это обертка потоков.
   </para>
  </refsect1><!-- }}} -->
 
