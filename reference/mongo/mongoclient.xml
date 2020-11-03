@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 345085 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 351133 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 
@@ -113,7 +113,7 @@ $db = $m->foo; // получаем базу данных "foo"
     <classsynopsisinfo role="comment">&Properties;</classsynopsisinfo>
     <fieldsynopsis>
      <modifier>public</modifier>
-     <type>boolean</type>
+     <type>bool</type>
      <varname linkend="mongoclient.props.connected">connected</varname>
      <initializer>&false;</initializer>
     </fieldsynopsis>
@@ -131,7 +131,7 @@ $db = $m->foo; // получаем базу данных "foo"
     </fieldsynopsis>
     <fieldsynopsis>
      <modifier>protected</modifier>
-     <type>boolean</type>
+     <type>bool</type>
      <varname>persistent</varname>
      <initializer>&null;</initializer>
     </fieldsynopsis>

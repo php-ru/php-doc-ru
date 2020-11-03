@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 350988 Maintainer: sergey Status: ready -->
+<!-- EN-Revision: 351129 Maintainer: sergey Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="mongocollection.aggregate" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -19,8 +19,7 @@
   <methodsynopsis>
    <modifier>public</modifier> <type>array</type><methodname>MongoCollection::aggregate</methodname>
    <methodparam><type>array</type><parameter>op</parameter></methodparam>
-   <methodparam choice="opt"><type>array</type><parameter>op</parameter></methodparam>
-   <methodparam choice="opt"><type>array</type><parameter>...</parameter></methodparam>
+   <methodparam rep="repeat"><type>array</type><parameter>ops</parameter></methodparam>
   </methodsynopsis>
   <para>
    <link xlink:href="&url.mongodb.docs.aggregation;">Платформа агрегации</link> MongoDB 
@@ -86,15 +85,7 @@
     </listitem>
    </varlistentry>
    <varlistentry>
-    <term><parameter>op</parameter></term>
-    <listitem>
-     <para>
-      Второй оператор конвейера.
-     </para>
-    </listitem>
-   </varlistentry>
-   <varlistentry>
-    <term><parameter>...</parameter></term>
+    <term><parameter>ops</parameter></term>
     <listitem>
      <para>
       Дополнительные операторы конвейера.

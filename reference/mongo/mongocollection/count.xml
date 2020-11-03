@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 350988 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 351133 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 
@@ -63,12 +63,12 @@
           </row>
           <row>
            <entry><varname>limit</varname></entry>
-           <entry><type>integer</type></entry>
+           <entry><type>int</type></entry>
            <entry>Максимальное количество возвращаемых документов</entry>
           </row>
           <row>
            <entry><varname>maxTimeMS</varname></entry>
-           <entry><type>integer</type></entry>
+           <entry><type>int</type></entry>
            <entry>
             <para>
              Определяет совокупный лимит врмени в миллисекундах для выполнения операций (не включает в себя
@@ -80,7 +80,7 @@
           </row>
           <row>
            <entry><varname>skip</varname></entry>
-           <entry><type>integer</type></entry>
+           <entry><type>int</type></entry>
            <entry>Количество документов которые нужно пропустить перед посчетом возвращаемого
             результата</entry>
           </row>

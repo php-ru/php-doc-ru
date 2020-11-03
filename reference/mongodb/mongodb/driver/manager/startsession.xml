@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 350988 Maintainer: sergey Status: ready -->
+<!-- EN-Revision: 351133 Maintainer: sergey Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="mongodb-driver-manager.startsession" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -49,7 +49,7 @@
         <tbody>
          <row>
           <entry>causalConsistency</entry>
-          <entry><type>boolean</type></entry>
+          <entry><type>bool</type></entry>
           <entry>
            <para>
             Настраивает причинную согласованность в сеансе. Если &true;, каждая операция 

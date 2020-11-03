@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 335760 Maintainer: lex Status: ready -->
+<!-- EN-Revision: 351133 Maintainer: lex Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 
 <phpdoc:classref xml:id="class.mongocursor" xmlns:phpdoc="http://php.net/ns/phpdoc" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2001/XInclude">
@@ -129,13 +129,13 @@ $cursor->skip(4);
     <classsynopsisinfo role="comment">Статичные поля</classsynopsisinfo>
     <fieldsynopsis>
      <modifier>static</modifier>
-     <type>boolean</type>
+     <type>bool</type>
      <varname linkend="mongocursor.props.slaveokay">slaveOkay</varname>
      <initializer>&false;</initializer>
     </fieldsynopsis>
     <fieldsynopsis>
      <modifier>static</modifier>
-     <type>integer</type>
+     <type>int</type>
      <varname linkend="mongocursor.props.timeout">timeout</varname>
      <initializer>30000</initializer>
     </fieldsynopsis>
