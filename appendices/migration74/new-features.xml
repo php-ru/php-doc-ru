@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 350263 Maintainer: lex Status: ready -->
+<!-- EN-Revision: 351133 Maintainer: lex Status: ready -->
 <!-- Reviewed: yes Maintainer: sergey -->
 
 <sect1 xml:id="migration74.new-features" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -27,7 +27,7 @@ class User {
      </programlisting>
     </informalexample>
     В приведенном примере выше показано, что <literal>$user->id</literal> можно
-    присвоить только значения типа <type>integer</type>, когда как <literal>$user->name</literal>
+    присвоить только значения типа <type>int</type>, когда как <literal>$user->name</literal>
     - исключительно значения типа <type>string</type>.
    </para>
   </sect3>

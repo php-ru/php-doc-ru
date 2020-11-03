@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 351027 Maintainer: irker Status: ready -->
+<!-- EN-Revision: 351135 Maintainer: irker Status: ready -->
 <!-- Reviewed: yes -->
 <refentry xml:id="ziparchive.locatename" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -10,7 +10,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>public</modifier> <type>int</type><methodname>ZipArchive::locateName</methodname>
+   <modifier>public</modifier> <type class="union"><type>int</type><type>false</type></type><methodname>ZipArchive::locateName</methodname>
    <methodparam><type>string</type><parameter>name</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>flags</parameter></methodparam>
   </methodsynopsis>
