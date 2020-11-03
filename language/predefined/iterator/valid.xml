@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!-- EN-Revision: 343889 Maintainer: das Status: ready -->
+<!-- EN-Revision: 351133 Maintainer: das Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
 
@@ -31,7 +31,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Возвращаемое значение будет приведено к типу <type>boolean</type> и затем использовано.
+   Возвращаемое значение будет приведено к типу <type>bool</type> и затем использовано.
    &return.success;
   </para>
  </refsect1>

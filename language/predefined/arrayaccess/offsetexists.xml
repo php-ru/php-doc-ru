@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 343889 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 351133 Maintainer: aur Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
 
@@ -55,7 +55,7 @@
   </para>
   <note>
    <para>
-    Возвращаемое значение будет приведено к <type>логическому типу</type>, если возвращаемое
+    Возвращаемое значение будет приведено к логическому типу (<type>bool</type>), если возвращаемое
     значение не является логическим.
    </para>
   </note>
