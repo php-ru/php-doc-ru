@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 350645 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 351133 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="function.curl-setopt" xmlns="http://docbook.org/ns/docbook">
@@ -614,7 +614,7 @@
       <para>
        Для следующих значений параметра <parameter>option</parameter>,
        параметр <parameter>value</parameter> должен быть типа
-       <type>integer</type>:
+       <type>int</type>:
        <informaltable>
         <tgroup cols="3">
          <thead>

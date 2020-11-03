@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 330505 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 351135 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
 <refentry xml:id="function.curl-unescape" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>string</type><methodname>curl_unescape</methodname>
+   <type class="union"><type>string</type><type>false</type></type><methodname>curl_unescape</methodname>
    <methodparam><type>resource</type><parameter>ch</parameter></methodparam>
    <methodparam><type>string</type><parameter>str</parameter></methodparam>
   </methodsynopsis>
