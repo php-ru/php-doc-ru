@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 347061 Maintainer: lex Status: ready -->
+<!-- EN-Revision: 351129 Maintainer: lex Status: ready -->
 <!-- Reviewed: yes Maintainer: sergey -->
 
 <refentry xml:id="function.wddx-serialize-vars" xmlns="http://docbook.org/ns/docbook">
@@ -18,7 +18,7 @@
   <methodsynopsis>
    <type>string</type><methodname>wddx_serialize_vars</methodname>
    <methodparam><type>mixed</type><parameter>var_name</parameter></methodparam>
-   <methodparam choice="opt"><type>mixed</type><parameter>...</parameter></methodparam>
+   <methodparam rep="repeat"><type>mixed</type><parameter>var_names</parameter></methodparam>
   </methodsynopsis>
   <para>
    Создает пакет WDDX со структурой, которая содержит сериализованное
@@ -41,7 +41,7 @@
      </listitem>
     </varlistentry>
     <varlistentry>
-     <term><parameter>...</parameter></term>
+     <term><parameter>var_names</parameter></term>
      <listitem>
       <para>
       </para>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323624 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 351133 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes Maintainer: sergey -->
 
 <appendix xml:id="xdiff.constants" xmlns="http://docbook.org/ns/docbook">
@@ -10,7 +10,7 @@
   <varlistentry xml:id="constant.xdiff-patch-normal">
    <term>
     <constant>XDIFF_PATCH_NORMAL</constant> 
-    (<type>integer</type>)
+    (<type>int</type>)
    </term>
    <listitem>
     <simpara>
@@ -24,7 +24,7 @@
   <varlistentry xml:id="constant.xdiff-patch-reverse">
    <term>
     <constant>XDIFF_PATCH_REVERSE</constant> 
-    (<type>integer</type>)
+    (<type>int</type>)
    </term>
    <listitem>
     <simpara>
