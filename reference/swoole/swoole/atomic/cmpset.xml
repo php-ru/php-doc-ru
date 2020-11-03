@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 344522 Maintainer: sergey Status: ready -->
+<!-- EN-Revision: 351133 Maintainer: sergey Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="swoole-atomic.cmpset" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -12,9 +12,9 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>public</modifier> <type>integer</type><methodname>Swoole\Atomic::cmpset</methodname>
-   <methodparam><type>integer</type><parameter>cmp_value</parameter></methodparam>
-   <methodparam><type>integer</type><parameter>new_value</parameter></methodparam>
+   <modifier>public</modifier> <type>int</type><methodname>Swoole\Atomic::cmpset</methodname>
+   <methodparam><type>int</type><parameter>cmp_value</parameter></methodparam>
+   <methodparam><type>int</type><parameter>new_value</parameter></methodparam>
   </methodsynopsis>
   <para>
 

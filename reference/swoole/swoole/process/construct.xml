@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 344522 Maintainer: sergey Status: ready -->
+<!-- EN-Revision: 351133 Maintainer: sergey Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="swoole-process.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -14,8 +14,8 @@
   <constructorsynopsis>
    <modifier>public</modifier> <methodname>Swoole\Process::__construct</methodname>
    <methodparam><type>callable</type><parameter>callback</parameter></methodparam>
-   <methodparam choice="opt"><type>boolean</type><parameter>redirect_stdin_and_stdout</parameter></methodparam>
-   <methodparam choice="opt"><type>integer</type><parameter>pipe_type</parameter></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>redirect_stdin_and_stdout</parameter></methodparam>
+   <methodparam choice="opt"><type>int</type><parameter>pipe_type</parameter></methodparam>
   </constructorsynopsis>
   <para>
    
