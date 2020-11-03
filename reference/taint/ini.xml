@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 343012 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 351133 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 
 <section xml:id="taint.configuration" xmlns="http://docbook.org/ns/docbook">
@@ -43,7 +43,7 @@
    <varlistentry xml:id="ini.taint.enable">
     <term>
      <parameter>taint.enable</parameter>
-     <type>integer</type>
+     <type>int</type>
     </term>
     <listitem>
      <para>
@@ -54,7 +54,7 @@
    <varlistentry xml:id="ini.taint.error-level">
     <term>
      <parameter>taint.error_level</parameter>
-     <type>integer</type>
+     <type>int</type>
     </term>
     <listitem>
      <para>

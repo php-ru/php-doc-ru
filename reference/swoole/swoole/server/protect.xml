@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 344522 Maintainer: sergey Status: ready -->
+<!-- EN-Revision: 351133 Maintainer: sergey Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="swoole-server.protect" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -13,8 +13,8 @@
   &reftitle.description;
   <methodsynopsis>
    <modifier>public</modifier> <type>void</type><methodname>Swoole\Server::protect</methodname>
-   <methodparam><type>integer</type><parameter>fd</parameter></methodparam>
-   <methodparam choice="opt"><type>boolean</type><parameter>is_protected</parameter></methodparam>
+   <methodparam><type>int</type><parameter>fd</parameter></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>is_protected</parameter></methodparam>
   </methodsynopsis>
   <para>
 
