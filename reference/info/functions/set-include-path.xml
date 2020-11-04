@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 341282 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 351135 Maintainer: tmn Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
 <refentry xml:id="function.set-include-path" xmlns="http://docbook.org/ns/docbook">
@@ -13,7 +13,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>string</type><methodname>set_include_path</methodname>
+   <type class="union"><type>string</type><type>false</type></type><methodname>set_include_path</methodname>
    <methodparam><type>string</type><parameter>new_include_path</parameter></methodparam>
   </methodsynopsis>
   <para>

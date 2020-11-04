@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 350866 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 351135 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 
 <refentry xml:id="function.imap-sort" xmlns="http://docbook.org/ns/docbook">
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>array</type><methodname>imap_sort</methodname>
+   <type class="union"><type>array</type><type>false</type></type><methodname>imap_sort</methodname>
    <methodparam><type>resource</type><parameter>imap_stream</parameter></methodparam>
    <methodparam><type>int</type><parameter>criteria</parameter></methodparam>
    <methodparam><type>int</type><parameter>reverse</parameter></methodparam>

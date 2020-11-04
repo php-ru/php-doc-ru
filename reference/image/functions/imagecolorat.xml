@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 350828 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 351135 Maintainer: tmn Status: ready -->
 <!-- Reviewed: yes Maintainer: sergey -->
 <!-- $Revision$ -->
 <refentry xml:id="function.imagecolorat" xmlns="http://docbook.org/ns/docbook">
@@ -10,7 +10,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>int</type><methodname>imagecolorat</methodname>
+   <type class="union"><type>int</type><type>false</type></type><methodname>imagecolorat</methodname>
    <methodparam><type>resource</type><parameter>image</parameter></methodparam>
    <methodparam><type>int</type><parameter>x</parameter></methodparam>
    <methodparam><type>int</type><parameter>y</parameter></methodparam>

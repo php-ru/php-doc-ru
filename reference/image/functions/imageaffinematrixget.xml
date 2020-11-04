@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 350828 Maintainer: sergey Status: ready -->
+<!-- EN-Revision: 351135 Maintainer: sergey Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.imageaffinematrixget" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -12,7 +12,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>array</type><methodname>imageaffinematrixget</methodname>
+   <type class="union"><type>array</type><type>false</type></type><methodname>imageaffinematrixget</methodname>
    <methodparam><type>int</type><parameter>type</parameter></methodparam>
    <methodparam choice="opt"><type>mixed</type><parameter>options</parameter></methodparam>
   </methodsynopsis>

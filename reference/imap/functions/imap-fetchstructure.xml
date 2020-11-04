@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 350824 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 351135 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 <refentry xml:id="function.imap-fetchstructure" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -10,7 +10,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>object</type><methodname>imap_fetchstructure</methodname>
+   <type class="union"><type>object</type><type>false</type></type><methodname>imap_fetchstructure</methodname>
    <methodparam><type>resource</type><parameter>imap_stream</parameter></methodparam>
    <methodparam><type>int</type><parameter>msg_number</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>options</parameter><initializer>0</initializer></methodparam>
