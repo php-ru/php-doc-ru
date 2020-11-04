@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 334762 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 351135 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ssh2-publickey-init">
@@ -13,7 +13,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>resource</type><methodname>ssh2_publickey_init</methodname>
+   <type class="union"><type>resource</type><type>false</type></type><methodname>ssh2_publickey_init</methodname>
    <methodparam><type>resource</type><parameter>session</parameter></methodparam>
   </methodsynopsis>
   <para>
