@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 337656 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 351135 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="function.mysql-num-fields" xmlns="http://docbook.org/ns/docbook">
@@ -21,7 +21,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>int</type><methodname>mysql_num_fields</methodname>
+   <type class="union"><type>int</type><type>false</type></type><methodname>mysql_num_fields</methodname>
    <methodparam><type>resource</type><parameter>result</parameter></methodparam>
   </methodsynopsis>
   <para>

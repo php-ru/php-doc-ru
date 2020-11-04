@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 328734 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 351135 Maintainer: shein Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="function.mysql-fetch-lengths" xmlns="http://docbook.org/ns/docbook">
@@ -21,7 +21,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>array</type><methodname>mysql_fetch_lengths</methodname>
+   <type class="union"><type>array</type><type>false</type></type><methodname>mysql_fetch_lengths</methodname>
    <methodparam><type>resource</type><parameter>result</parameter></methodparam>
   </methodsynopsis>
   <para>
