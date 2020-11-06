@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 323642 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 351133 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
 <section xml:id="pdo-mysql.configuration" xmlns="http://docbook.org/ns/docbook">
@@ -52,7 +52,7 @@
    <varlistentry xml:id="ini.pdo-mysql.debug">
     <term>
      <parameter>pdo_mysql.debug</parameter>
-     <type>boolean</type>
+     <type>bool</type>
     </term>
     <listitem>
      <para>

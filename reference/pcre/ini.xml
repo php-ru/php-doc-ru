@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 337221 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 351133 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <section xml:id="pcre.configuration" xmlns="http://docbook.org/ns/docbook">
@@ -49,7 +49,7 @@
    <varlistentry xml:id="ini.pcre.backtrack-limit">
     <term>
      <parameter>pcre.backtrack_limit</parameter>
-     <type>integer</type>
+     <type>int</type>
     </term>
     <listitem>
      <para>
@@ -60,7 +60,7 @@
    <varlistentry xml:id="ini.pcre.recursion-limit">
     <term>
      <parameter>pcre.recursion_limit</parameter>
-     <type>integer</type>
+     <type>int</type>
     </term>
     <listitem>
      <para>
@@ -74,7 +74,7 @@
    <varlistentry xml:id="ini.pcre.jit">
     <term>
      <parameter>pcre.jit</parameter>
-     <type>boolean</type>
+     <type>bool</type>
     </term>
     <listitem>
      <para>

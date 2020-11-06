@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 344522 Maintainer: sergey Status: ready -->
+<!-- EN-Revision: 351133 Maintainer: sergey Status: ready -->
 <!-- Reviewed: no -->
 
 <appendix xml:id="parle.constants" xmlns="http://docbook.org/ns/docbook">
@@ -10,7 +10,7 @@
   <varlistentry xml:id="parle.constant.utf32">
    <term>
     <constant>Parle\INTERNAL_UTF32</constant>
-     <type>boolean</type>
+     <type>bool</type>
    </term>
    <listitem>
     <simpara>
