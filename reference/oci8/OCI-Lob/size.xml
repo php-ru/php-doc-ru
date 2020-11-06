@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 331733 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 351135 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes Maintainer: sergey -->
 <!-- $Revision$ -->
 <refentry xml:id="oci-lob.size" xmlns="http://docbook.org/ns/docbook">
@@ -11,8 +11,8 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis role="oop">
-   <type>int</type><methodname>OCI-Lob::size</methodname>
-   <void/>
+   <type class="union"><type>int</type><type>false</type></type><methodname>OCI-Lob::size</methodname>
+   <void />
   </methodsynopsis>
   <para>
    Возвращает размер объекта LOB

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 347493 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 351133 Maintainer: shein Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <section xml:id="oci8.configuration" xmlns="http://docbook.org/ns/docbook">
@@ -170,7 +170,7 @@
       <varlistentry xml:id="ini.oci8.events">
        <term>
         <parameter>oci8.events</parameter>
-        <type>boolean</type>
+        <type>bool</type>
        </term>
        <listitem>
         <para>
@@ -215,7 +215,7 @@
       <varlistentry xml:id="ini.oci8.old-oci-close-semantics">
        <term>
         <parameter>oci8.old_oci_close_semantics</parameter>
-        <type>boolean</type>
+        <type>bool</type>
        </term>
        <listitem>
         <para>
@@ -300,7 +300,7 @@
       <varlistentry xml:id="ini.oci8.privileged-connect">
        <term>
         <parameter>oci8.privileged_connect</parameter>
-        <type>boolean</type>
+        <type>bool</type>
        </term>
        <listitem>
         <para>
