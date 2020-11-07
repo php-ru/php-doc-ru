@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328862 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 351133 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes Maintainer: sergey -->
 
 <appendix xml:id="mysqlnd-memcache.constants" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -90,7 +90,7 @@
    <varlistentry xml:id="constant.mysqlnd-memcache-version-id">
     <term>
      <constant>MYSQLND_MEMCACHE_VERSION_ID</constant>
-     (<type>integer</type>)
+     (<type>int</type>)
     </term>
     <listitem>
      <simpara>

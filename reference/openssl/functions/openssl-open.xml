@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 350655 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 351266 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.openssl-open">
@@ -71,6 +71,12 @@
      <listitem>
       <para>
        Метод шифрования.
+       <caution>
+        <simpara>
+         Значение по умолчанию (<literal>'RC4'</literal>) считается небезопасным.
+         Настоятельно рекомендуется явно указывать метод безопасного шифрования.
+        </simpara>
+       </caution>
       </para>
      </listitem>
     </varlistentry>
