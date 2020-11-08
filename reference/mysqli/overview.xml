@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 329924 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 351293 Maintainer: tmn Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
 <chapter xml:id="mysqli.overview" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -189,15 +189,15 @@
 
   <para>
     <emphasis role="bold">
-     Что такое PHP-расширение mysqli?
+     Что такое PHP-модуль mysqli?
     </emphasis>
   </para>
 
   <para>
-    Расширение <literal>mysqli</literal>, или как его еще называют
-    <emphasis>улучшенное (improved)</emphasis> расширение MySQL, было разработано,
+    Модуль <literal>mysqli</literal>, или как его еще называют
+    <emphasis>улучшенный (improved)</emphasis> модуль MySQL, был разработан,
     чтобы дать возможность программистам в полной мере воспользоваться
-    функционалом MySQL-сервера версий 4.1.3 и выше. Расширение
+    функционалом MySQL-сервера версий 4.1.3 и выше. Модуль
     <literal>mysqli</literal> включается в поставку PHP версий 5 и выше.
   </para>
 
@@ -234,12 +234,6 @@
       <listitem>
         <para>
           Улучшенные возможности отладки
-        </para>
-      </listitem>
-
-      <listitem>
-        <para>
-          Поддержка встроенного сервера
         </para>
       </listitem>
 
