@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 337779 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 351133 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 <!-- $Revision$ -->
 <refentry xml:id="intlchar.enumchartypes" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -35,9 +35,9 @@
       Функция, которая будет вызвана для каждой непрерывной последовательности с одинаковой категорией.
       В нее будут переданы следующие параметры:
       <simplelist>
-       <member><type>integer</type> <literal>$start</literal> - Начальный символ диапазона</member>
-       <member><type>integer</type> <literal>$end</literal> - Конечный символ диапазона</member>
-       <member><type>integer</type> <literal>$name</literal> - Категория символов (одна из констант <literal>IntlChar::CHAR_CATEGORY_*</literal>)</member>
+       <member><type>int</type> <literal>$start</literal> - Начальный символ диапазона</member>
+       <member><type>int</type> <literal>$end</literal> - Конечный символ диапазона</member>
+       <member><type>int</type> <literal>$name</literal> - Категория символов (одна из констант <literal>IntlChar::CHAR_CATEGORY_*</literal>)</member>
       </simplelist>
      </para>
     </listitem>

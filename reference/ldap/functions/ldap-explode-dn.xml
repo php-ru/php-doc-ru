@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 339913 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 351135 Maintainer: mch Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 
@@ -12,7 +12,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>array</type><methodname>ldap_explode_dn</methodname>
+   <type class="union"><type>array</type><type>false</type></type><methodname>ldap_explode_dn</methodname>
    <methodparam><type>string</type><parameter>dn</parameter></methodparam>
    <methodparam><type>int</type><parameter>with_attrib</parameter></methodparam>
   </methodsynopsis>
