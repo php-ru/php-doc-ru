@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 350305 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 351133 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="function.current" xmlns="http://docbook.org/ns/docbook">
@@ -101,7 +101,7 @@ var_dump(current($arr)); // array(0) { }
    <simpara>
     Результаты вызова <function>current</function> на пустом массиве
     и на массиве, внутренний указатель которого указывает на конец элементов,
-    неотличимы от элемента массива типа <type>boolean</type>
+    неотличимы от элемента массива типа <type>bool</type>
     со значением &false;. Для корректного обхода массива, который
     может содержать &false;, используйте функцию <function>foreach</function>.
    </simpara>
