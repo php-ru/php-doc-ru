@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 342074 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 351133 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <chapter xml:id="language.expressions" xmlns="http://docbook.org/ns/docbook">
@@ -54,8 +54,8 @@ function foo ()
   <simpara>
    Разумеется, значения в PHP не обязаны быть целочисленными, и очень
    часто ими не являются. PHP поддерживает четыре типа скалярных значений:
-   целочисленные (<type>integer</type>), с плавающей точкой (<type>float</type>),
-   строковые значения (<type>string</type>) и булевы (<type>boolean</type>)
+   целочисленные (<type>int</type>), с плавающей точкой (<type>float</type>),
+   строковые значения (<type>string</type>) и булевы (<type>bool</type>)
    значения (скалярными являются значения, которые вы не можете 'разбить' на
    меньшие части, в отличие, например, от массивов). PHP поддерживает также два
    комбинированных (не скалярных) типа: массивы и объекты. Любое значение такого
