@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 351133 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 351365 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <chapter xml:id="language.types" xmlns="http://docbook.org/ns/docbook">
@@ -199,6 +199,7 @@ if (is_string($a_bool)) {
  &language.types.resource;
  &language.types.null;
  &language.types.callable;
+ &language.types.declarations;
  &language.types.pseudo-types;
  &language.types.type-juggling;
  
