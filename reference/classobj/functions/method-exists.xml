@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 308016 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 351409 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="function.method-exists" xmlns="http://docbook.org/ns/docbook">
@@ -11,7 +11,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type>bool</type><methodname>method_exists</methodname>
-   <methodparam><type>mixed</type><parameter>object</parameter></methodparam>
+   <methodparam><type class="union"><type>string</type><type>object</type></type><parameter>object</parameter></methodparam>
    <methodparam><type>string</type><parameter>method_name</parameter></methodparam>
   </methodsynopsis>
   <para>
