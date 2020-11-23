@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 351506 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 351512 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <appendix xml:id="resource" xmlns="http://docbook.org/ns/docbook">
@@ -2168,6 +2168,23 @@
        <function>sybase_free_result</function>
       </entry>
       <entry>Результат запроса базы данных Sybase с помощью библиотеки CT</entry>
+     </row>
+     <row>
+      <entry>sysvmsg queue</entry>
+      <entry>
+       <function>msg_get_queue</function>
+      </entry>
+      <entry>
+       <function>msg_queue_exists</function>,
+       <function>msg_receive</function>,
+       <function>msg_send</function>,
+       <function>msg_set_queue</function>,
+       <function>msg_stat_queue</function>
+      </entry>
+      <entry>
+       <function>msg_remove_queue</function>
+      </entry>
+      <entry>Очередь сообщений System V</entry>
      </row>
      <row>
       <entry>sysvsem</entry>
