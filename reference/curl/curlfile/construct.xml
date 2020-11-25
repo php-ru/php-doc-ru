@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 351621 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 351642 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="curlfile.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -19,7 +19,7 @@
    <methodparam choice="opt"><type class="union"><type>string</type><type>null</type></type><parameter>posted_filename</parameter><initializer>&null;</initializer></methodparam>
   </constructorsynopsis>
   <para>&style.procedural;</para>
-  <methodsynopsis>
+  <methodsynopsis role="procedural">
    <type>CURLFile</type><methodname>curl_file_create</methodname>
    <methodparam><type>string</type><parameter>filename</parameter></methodparam>
    <methodparam choice="opt"><type class="union"><type>string</type><type>null</type></type><parameter>mime_type</parameter><initializer>&null;</initializer></methodparam>
