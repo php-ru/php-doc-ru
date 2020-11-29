@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 351112 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 351735 Maintainer: aur Status: ready -->
 <!-- Reviewed: yes Maintainer: rjhdby -->
 <!-- $Revision$ -->
 
@@ -575,6 +575,11 @@
     <row>
      <entry><constant>T_OBJECT_OPERATOR</constant></entry>
      <entry>-&gt;</entry>
+     <entry><link linkend="language.oop5">классы и объекты</link></entry>
+    </row>
+    <row>
+     <entry><constant>T_NULLSAFE_OBJECT_OPERATOR</constant></entry>
+     <entry>?-&gt;</entry>
      <entry><link linkend="language.oop5">классы и объекты</link></entry>
     </row>
     <row>
