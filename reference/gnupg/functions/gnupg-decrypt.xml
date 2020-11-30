@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 350048 Maintainer: bfl Status: ready -->
+<!-- EN-Revision: 351730 Maintainer: bfl Status: ready -->
 <!-- Reviewed: yes -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.gnupg-decrypt">
  <refnamediv>
