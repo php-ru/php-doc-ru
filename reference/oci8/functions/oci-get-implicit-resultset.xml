@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 351562 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 351730 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.oci-get-implicit-resultset" xmlns="http://docbook.org/ns/docbook">

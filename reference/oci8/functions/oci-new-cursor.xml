@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 333046 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 351730 Maintainer: aur Status: ready -->
 <!-- Reviewed: yes Maintainer: sergey -->
 <!-- $Revision$ -->
 <refentry xml:id="function.oci-new-cursor" xmlns="http://docbook.org/ns/docbook">
