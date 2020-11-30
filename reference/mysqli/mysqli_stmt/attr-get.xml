@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 350065 Maintainer: bfl Status: ready -->
+<!-- EN-Revision: 351730 Maintainer: bfl Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 
 <refentry xml:id="mysqli-stmt.attr-get" xmlns="http://docbook.org/ns/docbook">
