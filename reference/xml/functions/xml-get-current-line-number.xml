@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 351730 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 351792 Maintainer: mch Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="function.xml-get-current-line-number" xmlns="http://docbook.org/ns/docbook">
@@ -12,7 +12,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type>int</type><methodname>xml_get_current_line_number</methodname>
-   <methodparam><type>XmlParser</type><parameter>parser</parameter></methodparam>
+   <methodparam><type>XMLParser</type><parameter>parser</parameter></methodparam>
   </methodsynopsis>
   <para>
    Получает номер текущей строки для заданного XML-анализатора.
