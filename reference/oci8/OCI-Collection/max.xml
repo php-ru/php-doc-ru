@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 331733 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 351730 Maintainer: aur Status: ready -->
 <!-- Reviewed: yes Maintainer: sergey -->
 <!-- $Revision$ -->
 <refentry xml:id="oci-collection.max" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>OCI-Collection::max</refname>
+  <refname>OCICollection::max</refname>
   <refpurpose>Возвращает максимальное количество элементов в коллекции</refpurpose>
  </refnamediv>
  
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis role="oop">
-   <type>int</type><methodname>OCI-Collection::max</methodname>
-   <void/>
+   <type>int</type><methodname>OCICollection::max</methodname>
+   <void />
   </methodsynopsis>
   <para>
    Возвращает максимальное количество элементов в коллекции.
@@ -27,6 +27,29 @@
   <para>
    Если будет возвращен 0, то количество элементов не ограничено.
   </para>
+ </refsect1>
+ 
+ <refsect1 role="changelog">
+  &reftitle.changelog;
+  <informaltable>
+   <tgroup cols="2">
+    <thead>
+     <row>
+      <entry>&Version;</entry>
+      <entry>&Description;</entry>
+     </row>
+    </thead>
+    <tbody>
+     <row>
+      <entry>8.0.0, PECL OCI8 3.0.0</entry>
+      <entry>
+       Класс <classname>OCI-Collection</classname> переименован в
+       <classname>OCICollection</classname> в соответствии со стандартами именования PHP.
+      </entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </informaltable>
  </refsect1>
 
  <refsect1 role="seealso">
