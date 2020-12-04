@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 339398 Maintainer: alien Status: ready -->
+<!-- EN-Revision: 351855 Maintainer: alien Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickpixel.getcolorcount">
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>int</type><methodname>ImagickPixel::getColorCount</methodname>
+   <modifier>public</modifier> <type>int</type><methodname>ImagickPixel::getColorCount</methodname>
    <void/>
   </methodsynopsis>
   <para>
