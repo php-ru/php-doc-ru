@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322115 Maintainer: alien Status: ready -->
+<!-- EN-Revision: 351855 Maintainer: alien Status: ready -->
 <!-- Reviewed: yes Maintainer: sergey -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickpixeliterator.destroy">
  <refnamediv>
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>bool</type><methodname>ImagickPixelIterator::destroy</methodname>
+   <modifier>public</modifier> <type>bool</type><methodname>ImagickPixelIterator::destroy</methodname>
    <void/>
   </methodsynopsis>
   &warn.undocumented.func;
