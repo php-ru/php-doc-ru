@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 336315 Maintainer: alien Status: ready -->
+<!-- EN-Revision: 351852 Maintainer: alien Status: ready -->
 <!-- Reviewed: yes Maintainer: sergey -->
 <!-- $Revision$ -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.cropimage">
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>bool</type><methodname>Imagick::cropImage</methodname>
+   <modifier>public</modifier> <type>bool</type><methodname>Imagick::cropImage</methodname>
    <methodparam><type>int</type><parameter>width</parameter></methodparam>
    <methodparam><type>int</type><parameter>height</parameter></methodparam>
    <methodparam><type>int</type><parameter>x</parameter></methodparam>

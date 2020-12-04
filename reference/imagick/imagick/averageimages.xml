@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 350428 Maintainer: alien Status: ready -->
+<!-- EN-Revision: 351852 Maintainer: alien Status: ready -->
 <!-- Reviewed: yes Maintainer: sergey -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.averageimages">
  <refnamediv>
@@ -15,7 +15,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>Imagick</type><methodname>Imagick::averageImages</methodname>
+   <modifier>public</modifier> <type>Imagick</type><methodname>Imagick::averageImages</methodname>
    <void/>
   </methodsynopsis>
   <para>
