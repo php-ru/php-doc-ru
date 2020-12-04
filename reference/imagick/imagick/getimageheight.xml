@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322115 Maintainer: alien Status: ready -->
+<!-- EN-Revision: 351852 Maintainer: alien Status: ready -->
 <!-- Reviewed: yes Maintainer: sergey -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getimageheight">
@@ -12,7 +12,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>int</type><methodname>Imagick::getImageHeight</methodname>
+   <modifier>public</modifier> <type>int</type><methodname>Imagick::getImageHeight</methodname>
    <void/>
   </methodsynopsis>
   <para>
