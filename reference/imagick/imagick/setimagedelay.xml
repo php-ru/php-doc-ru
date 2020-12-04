@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331913 Maintainer: sergey Status: ready -->
+<!-- EN-Revision: 351852 Maintainer: sergey Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.setimagedelay">
@@ -12,7 +12,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>bool</type><methodname>Imagick::setImageDelay</methodname>
+   <modifier>public</modifier> <type>bool</type><methodname>Imagick::setImageDelay</methodname>
    <methodparam><type>int</type><parameter>delay</parameter></methodparam>
   </methodsynopsis>
   <para>

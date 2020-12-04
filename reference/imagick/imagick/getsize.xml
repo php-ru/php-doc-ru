@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 342293 Maintainer: alien Status: ready -->
+<!-- EN-Revision: 351852 Maintainer: alien Status: ready -->
 <!-- Reviewed: yes Maintainer: sergey -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getsize">
  <refnamediv>
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>array</type><methodname>Imagick::getSize</methodname>
+   <modifier>public</modifier> <type>array</type><methodname>Imagick::getSize</methodname>
    <void/>
   </methodsynopsis>
   <para>

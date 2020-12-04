@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322115 Maintainer: sergey Status: ready -->
+<!-- EN-Revision: 351852 Maintainer: sergey Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.setimagegreenprimary">
@@ -12,7 +12,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>bool</type><methodname>Imagick::setImageGreenPrimary</methodname>
+   <modifier>public</modifier> <type>bool</type><methodname>Imagick::setImageGreenPrimary</methodname>
    <methodparam><type>float</type><parameter>x</parameter></methodparam>
    <methodparam><type>float</type><parameter>y</parameter></methodparam>
   </methodsynopsis>
