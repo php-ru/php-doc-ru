@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 351133 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 351869 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="function.unserialize" xmlns="http://docbook.org/ns/docbook">
@@ -126,6 +126,13 @@
   <para>
    В случае, если переданная строка не поддается десериализации, возвращается &false; и
    генерируется <constant>E_NOTICE</constant>.
+  </para>
+ </refsect1>
+ 
+ <refsect1 role="errors">
+  &reftitle.errors;
+  <para>
+   Объекты могут выбрасывать <classname>Throwable</classname> в своих обработчиках десериализации.
   </para>
  </refsect1>
  
