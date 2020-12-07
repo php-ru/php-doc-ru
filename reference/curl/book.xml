@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 341282 Maintainer: shein Status: ready -->
+<!-- EN-Revision: 351932 Maintainer: shein Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 
@@ -29,6 +29,10 @@
  &reference.curl.constants;
  &reference.curl.examples;
  &reference.curl.reference;
+ &reference.curl.curlhandle;
+ &reference.curl.curlmultihandle;
+ &reference.curl.curlsharehandle;
+ &reference.curl.curlfile;
  
 </book>
 

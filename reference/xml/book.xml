@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 330340 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 351932 Maintainer: mch Status: ready -->
 <!-- $Revision$ -->
 <!-- Reviewed: yes -->
 
@@ -45,6 +45,7 @@
  &reference.xml.encoding;
  &reference.xml.examples;
  &reference.xml.reference;
+ &reference.xml.xmlparser;
  
 </book>
 
