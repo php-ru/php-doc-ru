@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 326845 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 351935 Maintainer: mch Status: ready -->
 <!-- $Revision$ -->
 <!-- Reviewed: yes Maintainer: lex -->
 <sect1 xml:id="control-structures.for" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
- <title><literal>for</literal></title>
+ <title>for</title>
  <?phpdoc print-version-for="for"?>
  <para>
   Цикл <literal>for</literal> самый сложный цикл в PHP.

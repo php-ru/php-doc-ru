@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 351112 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 351935 Maintainer: mch Status: ready -->
 <!-- $Revision$ -->
 <!-- Reviewed: yes -->
 
 <sect1 xml:id="control-structures.continue" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
- <title><literal>continue</literal></title>
+ <title>continue</title>
  <?phpdoc print-version-for="continue"?>
  <simpara>
   <literal>continue</literal> используется внутри циклических структур для
