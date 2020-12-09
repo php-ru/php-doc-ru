@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 350871 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 351975 Maintainer: aur Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
 <!-- splitted from ./en/functions/exec.xml, last change in rev 1.2 -->
@@ -86,10 +86,24 @@
 <?php
 // выводит имя пользователя, от имени которого запущен процесс php/httpd
 // (применимо к системам с командой "whoami" в системном пути)
-echo exec('whoami');
+$output=null;
+$retval=null;
+exec('whoami', $output, $retval);
+echo "Вернет статус $retval и значение:\n";
+print_r($output);
 ?>
 ]]>
     </programlisting>
+    &example.outputs.similar;
+    <screen>
+<![CDATA[
+Вернет статус 0 и значение:
+Array
+(
+    [0] => cmb
+)
+]]>
+    </screen>
    </example>
   </para>
  </refsect1>

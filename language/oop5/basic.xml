@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 351735 Maintainer: sergey Status: ready -->
+<!-- EN-Revision: 351963 Maintainer: sergey Status: ready -->
 <!-- Reviewed: no -->
 
 <sect1 xml:id="language.oop5.basic" xmlns="http://docbook.org/ns/docbook">
@@ -445,14 +445,14 @@ NS\ClassName
      <programlisting role="php">
 <![CDATA[
 <?php
-print Some\Class\DoesNot\Exist::class;
+print Does\Not\Exist::class;
 ?>
 ]]>
      </programlisting>
      &example.outputs;
      <screen>
 <![CDATA[
-Some\Class\Does\Not\Exist
+Does\Not\Exist
 ]]>
      </screen>
     </example>

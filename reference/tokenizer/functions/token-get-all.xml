@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 351416 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 351961 Maintainer: aur Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="function.token-get-all" xmlns="http://docbook.org/ns/docbook">
@@ -175,6 +175,7 @@ T_LNUMBER
   &reftitle.seealso;
   <para>
    <simplelist>
+    <member><function>PhpToken::tokenize</function></member>
     <member><function>token_name</function></member>
    </simplelist>
   </para>
