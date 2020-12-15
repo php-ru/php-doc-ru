@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 290998 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 352077 Maintainer: aur Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 
@@ -52,7 +52,7 @@ var_dump($ext->getClasses());
 <![CDATA[
 array(1) {
   ["XMLWriter"]=>
-  &object(ReflectionClass)#2 (1) {
+  object(ReflectionClass)#2 (1) {
     ["name"]=>
     string(9) "XMLWriter"
   }

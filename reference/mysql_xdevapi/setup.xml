@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 350402 Maintainer: sergey Status: ready -->
+<!-- EN-Revision: 352079 Maintainer: sergey Status: ready -->
 <!-- Reviewed: no -->
 
 <chapter xml:id="mysql-xdevapi.setup" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -71,7 +71,7 @@ pdo_mysql
   
   <para>
    &pecl.info;
-   <link xlink:href="&url.pecl.package;apc">&url.pecl.package;mysql_xdevapi</link>.
+   <link xlink:href="&url.pecl.package;mysql_xdevapi">&url.pecl.package;mysql_xdevapi</link>.
   </para>
  </section>
  
