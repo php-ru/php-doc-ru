@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 350656 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 352107 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="phardata.setstub">
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>bool</type><methodname>PharData::setStub</methodname>
+   <modifier>public</modifier> <type>bool</type><methodname>PharData::setStub</methodname>
    <methodparam><type>string</type><parameter>stub</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>len</parameter><initializer>-1</initializer></methodparam>
   </methodsynopsis>
