@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 350084 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 352117 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes Maintainer: sergey -->
 
 <refentry xml:id="ziparchive.setmtimeindex" xmlns="http://docbook.org/ns/docbook">
@@ -74,7 +74,7 @@
 $zip = new ZipArchive();
 if ($zip->open('test.zip', ZipArchive::CREATE) === TRUE) {
     $zip->addFile('text.txt');
-    $zip->setMtimIndex(0, mktime(0,0,0,12,25,2019));
+    $zip->setMtimeIndex(0, mktime(0,0,0,12,25,2019));
     $zip->close();
     echo "Ok\n";
 } else {
