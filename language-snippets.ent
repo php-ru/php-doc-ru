@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 352052 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 352143 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 
@@ -872,7 +872,7 @@ Etc/GMT+n и Etc/GMT-n обратны общепринятым.
 <varlistentry xmlns="http://docbook.org/ns/docbook"><term><parameter>timestamp</parameter></term><listitem><para>
  Необязательный параметр <parameter>timestamp</parameter> представляет собой
  метку времени типа <type>int</type>, по умолчанию равную текущему локальному времени, если <parameter>timestamp</parameter>
- не указан. Другими словами, значение по умолчанию равно результату функции <function>time</function>.
+ не указан или &null;. Другими словами, значение по умолчанию равно результату функции <function>time</function>.
  </para></listitem></varlistentry>'>
 
 <!ENTITY date.datetime.description '<varlistentry xmlns="http://docbook.org/ns/docbook"><term><parameter>object</parameter></term>
