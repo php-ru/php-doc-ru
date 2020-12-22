@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 351951 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 352158 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 
 <chapter xml:id="language.attributes" xmlns="http://docbook.org/ns/docbook">
@@ -334,7 +334,7 @@ class MyAttribute
    </para>
    
    <example>
-    <title>Using IS_REPEATBLE to allow attribute on a declaration multiple times</title>
+    <title>Использование IS_REPEATABLE для разрешения использовать атрибут в объявлении несколько раз</title>
     
     <programlisting role="php">
 <![CDATA[
