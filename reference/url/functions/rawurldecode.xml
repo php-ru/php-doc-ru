@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 322704 Maintainer: aur Status: ready -->
+<!-- EN-Revision: 352191 Maintainer: aur Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <refentry xml:id="function.rawurldecode" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -12,7 +12,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type>string</type><methodname>rawurldecode</methodname>
-   <methodparam><type>string</type><parameter>str</parameter></methodparam>
+   <methodparam><type>string</type><parameter>string</parameter></methodparam>
   </methodsynopsis>
   <para>
    Возвращает строку, в которой последовательность знаков процента
@@ -25,7 +25,7 @@
   <para>
    <variablelist>
     <varlistentry>
-     <term><parameter>str</parameter></term>
+     <term><parameter>string</parameter></term>
      <listitem>
       <para>
        URL, который должен быть декодирован.
@@ -84,7 +84,6 @@ echo rawurldecode('foo%20bar%40baz'); // foo bar@baz
  </refsect1>
 
 </refentry>
-
 <!-- Keep this comment at the end of the file
 Local variables:
 mode: sgml
