@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 347385 Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: 352253 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: yes Maintainer: sergey -->
 
 <refentry xml:id="ffi.arraytype" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -14,12 +14,12 @@
   <methodsynopsis>
    <modifier>public</modifier> <modifier>static</modifier> <type>FFI\CType</type><methodname>FFI::arrayType</methodname>
    <methodparam><type>FFI\CType</type><parameter>type</parameter></methodparam>
-   <methodparam><type>array </type><parameter>dims</parameter></methodparam>
+   <methodparam><type>array </type><parameter>dimensions</parameter></methodparam>
   </methodsynopsis>
   <para>
    Динамически конструирует новый тип С массива с элементами типа
    <parameter>type</parameter> и размерностями, заданными в
-   <parameter>dims</parameter>. В следующем примере
+   <parameter>dimensions</parameter>. В следующем примере
    <code>$t1</code> и <code>$t2</code> определяют массивы
    одинакового типа:
    <informalexample>
@@ -49,7 +49,7 @@ $t2 = FFI::arrayType(FFI::type("int"), [2, 3]);
     </listitem>
    </varlistentry>
    <varlistentry>
-    <term><parameter>dims</parameter></term>
+    <term><parameter>dimensions</parameter></term>
     <listitem>
      <para>
       Массив, определяющий размерность типа.
