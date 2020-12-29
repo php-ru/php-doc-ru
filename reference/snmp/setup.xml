@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 345782 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 352251 Maintainer: mch Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 <chapter xml:id="snmp.setup" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -14,7 +14,7 @@
    доступны только тогда, когда установлен пакет <link xlink:href="&url.openssl;">OpenSSL</link>.
   </para>
   <para>
-   Начиная с версии PHP 5.4.0 для установки на Unix-системах необходим пакет Net-SNMP
+   Для установки на Unix-системах необходим пакет Net-SNMP
    версии 5.3+, а для установки на Windows-системах необходим пакет Net-SNMP версии 5.4+.
   </para>
  </section>

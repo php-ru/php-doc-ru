@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 351933 Maintainer: sergey Status: ready -->
+<!-- EN-Revision: 352241 Maintainer: sergey Status: ready -->
 <!-- Reviewed: yes -->
 
 <chapter xml:id="language.functions" xmlns="http://docbook.org/ns/docbook">
@@ -285,6 +285,10 @@ echo $str;    // выведет 'Это строка, и кое-что еще.'
      </programlisting>
     </example>
    </para>
+   <para>
+    Ошибка передачи значения в качестве аргумента, 
+    которое должно передаваться по ссылке.
+    </para>
   </sect2>
   <sect2 xml:id="functions.arguments.default">
    <title>Значения аргументов по умолчанию</title>

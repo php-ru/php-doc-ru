@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 349317 Maintainer: tmn Status: ready -->
+<!-- EN-Revision: 352240 Maintainer: tmn Status: ready -->
 <!-- Reviewed: yes Maintainer: lex -->
 <!-- $Revision$ -->
 
@@ -15,6 +15,10 @@
    Для вычислений с произвольной точностью PHP предоставляет BCMath, который поддерживает числа любого размера и точности, вплоть до
    <literal>2147483647</literal> (или <literal>0x7FFFFFFF</literal>) десятичных знаков,
    если хватит памяти, представленных в виде строк.
+  </para>
+  <para>
+   Допустимые (также известные как правильно сформированные) числа BCMath - это строки, соответствующие регулярному выражению
+   <literal>/^[+-]?[0]*[1-9]*[.]?[0-9]*$/</literal>.
   </para>
   <caution>
    <para>
