@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 350957 Maintainer: mch Status: ready -->
+<!-- EN-Revision: 352283 Maintainer: mch Status: ready -->
 <!-- Reviewed: yes -->
 <!-- $Revision$ -->
 
@@ -198,7 +198,7 @@ include 'http://www.example.com/file.php?foo=1&bar=2';
    <programlisting role="php">
 <![CDATA[
 <?php
-// не сработает, интерпретируется как include(('vars.php') == TRUE), то есть include('')
+// не сработает, интерпретируется как include(('vars.php') == TRUE), то есть include('1')
 if (include('vars.php') == TRUE) {
     echo 'OK';
 }
